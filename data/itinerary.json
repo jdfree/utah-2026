@@ -23,7 +23,6 @@
     {
       "day": 1,
       "date": "2026-10-12",
-      "weekday": "Monday",
       "title": "Fort Collins → Durango, CO",
       "tags": ["Drive Day", "Wolf Creek Pass"],
       "drive": { "stated": "~3.5 hrs / 220 mi", "flag": "Stated drive time looks wrong — see open questions" },
@@ -62,7 +61,6 @@
     {
       "day": 2,
       "date": "2026-10-13",
-      "weekday": "Tuesday",
       "title": "Durango — Steam Train + Mesa Verde",
       "tags": ["Colorado Gem", "Steam Train!", "Scenic & Easy"],
       "drive": { "stated": "30 mi to Mesa Verde" },
@@ -96,7 +94,6 @@
     {
       "day": 3,
       "date": "2026-10-14",
-      "weekday": "Wednesday",
       "title": "Durango → Monument Valley, AZ/UT",
       "tags": ["Drive Day", "Navajo Nation"],
       "drive": { "stated": "~3 hrs / 195 mi" },
@@ -133,7 +130,6 @@
     {
       "day": 4,
       "date": "2026-10-15",
-      "weekday": "Thursday",
       "title": "Monument Valley → Zion National Park",
       "tags": ["Drive Day", "Navajo Country → Red Rock"],
       "drive": { "stated": "~3.5 hrs / 200 mi" },
@@ -169,7 +165,6 @@
     {
       "day": 5,
       "date": "2026-10-16",
-      "weekday": "Friday",
       "title": "Zion National Park — Full Day",
       "tags": ["National Park", "Waterfalls!", "Varied Difficulty"],
       "drive": { "stated": "All local" },
@@ -197,7 +192,6 @@
     {
       "day": 6,
       "date": "2026-10-17",
-      "weekday": "Saturday",
       "title": "Zion → St. George, UT + Snow Canyon SP",
       "tags": ["Short Drive", "Slot Canyon!", "Easy Terrain"],
       "drive": { "stated": "~45 min / 40 mi" },
@@ -233,7 +227,6 @@
     {
       "day": 7,
       "date": "2026-10-18",
-      "weekday": "Sunday",
       "title": "St. George — Full Sunday",
       "tags": ["Sunday in the Warmth", "Dinosaur Tracks!", "Easy All Day"],
       "drive": { "stated": "All local · ~70°F" },
@@ -263,7 +256,6 @@
     {
       "day": 8,
       "date": "2026-10-19",
-      "weekday": "Monday",
       "title": "St. George → Red Canyon → Bryce Canyon",
       "tags": ["Drive + Arrive", "First Hoodoos"],
       "drive": { "stated": "~1.5 hrs / 85 mi", "flag": "Stated drive time looks short — see open questions" },
@@ -300,7 +292,6 @@
     {
       "day": 9,
       "date": "2026-10-20",
-      "weekday": "Tuesday",
       "title": "Bryce Canyon — Full Day + Stargazing",
       "tags": ["National Park", "Magical Hoodoos", "Rim Trail Easy"],
       "drive": { "stated": "All local" },
@@ -331,7 +322,6 @@
     {
       "day": 10,
       "date": "2026-10-21",
-      "weekday": "Wednesday",
       "title": "Bryce → Byway 12 → Goblin Valley → Capitol Reef",
       "tags": ["Scenic Drive", "Goblin Valley MVP", "Byway 12"],
       "drive": { "stated": "~4.5 hrs total / 165 mi", "flag": "Stop order backtracks — see open questions" },
@@ -373,7 +363,6 @@
     {
       "day": 11,
       "date": "2026-10-22",
-      "weekday": "Thursday",
       "title": "Capitol Reef → Dead Horse Point → Canyonlands → Arches",
       "tags": ["Big View Day", "Balanced Rock!", "Short Walks"],
       "drive": { "stated": "~2.5 hrs driving · short hops once in the Moab area" },
@@ -417,7 +406,6 @@
     {
       "day": 12,
       "date": "2026-10-23",
-      "weekday": "Friday",
       "title": "Moab → Glenwood Canyon → Fort Collins",
       "tags": ["Homeward Bound", "Hot Springs Finale"],
       "drive": { "stated": "~8.5 hrs total with stops" },

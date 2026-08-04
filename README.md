@@ -11,6 +11,9 @@ All content lives in one file: [`data/itinerary.json`](data/itinerary.json). Edi
 commit, push — GitHub Pages redeploys in about a minute. No build step, no dependencies
 to install.
 
+Days of the week are derived from each day's `date`, not stored — change a date and the
+weekday follows automatically everywhere it appears.
+
 ### Marking something as booked
 
 Find the entry in the `bookings` array and change it:

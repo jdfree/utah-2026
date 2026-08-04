@@ -6,10 +6,22 @@ const esc = (s) => String(s ?? '').replace(/[&<>"]/g, (c) =>
   ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
 
 const MONTHS = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+const DOW_LONG = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
+const DOW_SHORT = ['Sun','Mon','Tue','Wed','Thu','Fri','Sat'];
+
+/* Weekday is derived from the date, not read from the file, so it stays
+   correct if the dates in itinerary.json ever shift. Noon avoids any
+   timezone rollover. */
+const dow = (iso, long = false) =>
+  (long ? DOW_LONG : DOW_SHORT)[new Date(`${iso}T12:00:00`).getDay()];
+
 const fmtDate = (iso) => {
-  const [y, m, d] = iso.split('-').map(Number);
+  const [, m, d] = iso.split('-').map(Number);
   return `${MONTHS[m - 1]} ${d}`;
 };
+
+/* "Mon, Oct 12" — used anywhere a date appears outside a day card header */
+const fmtDay = (iso) => `${dow(iso)}, ${fmtDate(iso)}`;
 
 let DATA, map;
 
@@ -50,8 +62,8 @@ function renderHero() {
     [`${DATA.days.length}`, 'Days'],
     [`${t.nights}`, 'Nights'],
     [`${parkCount}`, 'Parks'],
-    [fmtDate(t.start), 'Depart'],
-    [fmtDate(t.end), 'Return'],
+    [fmtDate(t.start), `Depart · ${dow(t.start, true)}`],
+    [fmtDate(t.end), `Return · ${dow(t.end, true)}`],
     [t.shape, 'Route'],
   ];
   $('#trip-stats').innerHTML = stats
@@ -95,7 +107,7 @@ function dayCard(d) {
   <summary>
     <span class="daynum">Day<b>${d.day}</b></span>
     <span>
-      <p class="date">${esc(d.weekday)}, ${esc(fmtDate(d.date))}</p>
+      <p class="date">${esc(dow(d.date, true))} · ${esc(fmtDate(d.date))}, 2026</p>
       <h3>${esc(d.title)}</h3>
       <span class="tags">${d.tags.map((t) => `<span class="tag">${esc(t)}</span>`).join('')}</span>
     </span>
@@ -175,7 +187,7 @@ function renderLodging() {
     .map((d) => {
       const l = d.lodging;
       const dates = l.nights
-        .map((n) => fmtDate(DATA.days[n - 1].date))
+        .map((n) => fmtDay(DATA.days[n - 1].date))
         .join(' – ');
       return `
 <tr>
@@ -250,7 +262,7 @@ ${DATA.openQuestions.map((q) =>
 <h2>Everything Mom wrote</h2>
 ${momAll.map((n) => `
 <div class="qa">
-  <h4><a href="#day-${n.day}" data-goto="${n.day}">Day ${n.day} · ${esc(fmtDate(n.date))}</a> — ${esc(n.title)}</h4>
+  <h4><a href="#day-${n.day}" data-goto="${n.day}">Day ${n.day} · ${esc(fmtDay(n.date))}</a> — ${esc(n.title)}</h4>
   <p><span class="mark">${esc(n.mark)}</span> ${esc(n.text)}</p>
 </div>`).join('')}
 
@@ -305,7 +317,7 @@ function initMap() {
         .addTo(map)
         .bindPopup(`
           <b>${esc(s.name)}</b>
-          <span class="day-ref">Day ${d.day} · ${esc(fmtDate(d.date))}</span>
+          <span class="day-ref">Day ${d.day} · ${esc(fmtDay(d.date))}</span>
           <a href="#day-${d.day}" data-goto="${d.day}">See the day &rarr;</a>`);
     });
   });
