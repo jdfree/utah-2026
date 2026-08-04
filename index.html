@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Utah Canyon Country · October 2026</title>
+<meta name="description" content="Family road trip from Fort Collins through Utah, October 12–23, 2026.">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+      integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<header class="hero">
+  <div class="wrap">
+    <p class="eyebrow">Road Trip · October 2026</p>
+    <h1 id="trip-title">Utah Canyon Country</h1>
+    <p class="tagline" id="trip-subtitle"></p>
+    <dl class="stats" id="trip-stats"></dl>
+  </div>
+</header>
+
+<nav class="tabs wrap" id="tabs">
+  <button data-view="map" class="active">Map</button>
+  <button data-view="itinerary">Day by day</button>
+  <button data-view="lodging">Lodging</button>
+  <button data-view="bookings">Bookings</button>
+  <button data-view="notes">Notes &amp; questions</button>
+</nav>
+
+<main class="wrap">
+
+  <section id="view-map" class="view">
+    <div id="map"></div>
+    <p class="legend">
+      <span class="key overnight"></span> Overnight
+      <span class="key park"></span> Park / major stop
+      <span class="key stop"></span> Stop along the way
+      <span class="key origin"></span> Home
+    </p>
+    <p class="muted">Marker positions are approximate, for orientation only. Each day's card links out to Google Maps for real directions.</p>
+  </section>
+
+  <section id="view-itinerary" class="view" hidden></section>
+
+  <section id="view-lodging" class="view" hidden></section>
+
+  <section id="view-bookings" class="view" hidden>
+    <p class="muted">Booking status lives in <code>data/itinerary.json</code>. Change a <code>status</code> to <code>"booked"</code> and add a confirmation number as reservations come in.</p>
+    <div id="bookings-body"></div>
+  </section>
+
+  <section id="view-notes" class="view" hidden></section>
+
+</main>
+
+<footer class="wrap">
+  <p>Fort Collins departure · October 12–23, 2026 · Built from the cowork plan plus Mom's handwritten notes.</p>
+</footer>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+        integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+<script src="assets/js/app.js"></script>
+</body>
+</html>

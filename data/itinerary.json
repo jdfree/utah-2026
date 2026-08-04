@@ -1,0 +1,491 @@
+{
+  "trip": {
+    "title": "Utah Canyon Country",
+    "subtitle": "From the Rockies into the Red Rock West",
+    "start": "2026-10-12",
+    "end": "2026-10-23",
+    "nights": 11,
+    "origin": "Fort Collins, CO",
+    "shape": "Loop",
+    "milesStated": "~1,700–1,900 (see open questions)"
+  },
+
+  "party": [
+    { "name": "James", "role": "Driver / planner" },
+    { "name": "Wife", "role": "" },
+    { "name": "Mom", "role": "Has America the Beautiful Senior Pass" },
+    { "name": "Dad", "role": "" },
+    { "name": "Toddler (3)", "role": "Carrier + stroller as needed" },
+    { "name": "Newborn", "role": "Feeding / nap stops drive the schedule" }
+  ],
+
+  "days": [
+    {
+      "day": 1,
+      "date": "2026-10-12",
+      "weekday": "Monday",
+      "title": "Fort Collins → Durango, CO",
+      "tags": ["Drive Day", "Wolf Creek Pass"],
+      "drive": { "stated": "~3.5 hrs / 220 mi", "flag": "Stated drive time looks wrong — see open questions" },
+      "lodging": {
+        "city": "Durango, CO",
+        "nights": [1, 2],
+        "chosen": null,
+        "status": "needed",
+        "options": [
+          { "name": "Strater Hotel", "note": "Iconic 1887 Victorian on Main Ave, steps from the D&SNG depot", "mom": "?" },
+          { "name": "DoubleTree by Hilton", "note": "Modern, family-friendly, easy parking, on the river trail" },
+          { "name": "Leland House B&B Suites", "note": "Suites with kitchenettes, excellent breakfast" }
+        ]
+      },
+      "items": [
+        { "time": "7:00–8:00 AM", "title": "Depart Fort Collins", "detail": "US-25 south to Walsenburg, then US-160 west over La Veta Pass and through the Spanish Peaks. Gentler and more scenic than I-70; no tunnel traffic and far less crowded in October.", "gp": null, "toddler": null },
+        { "time": "Midday", "title": "Wolf Creek Pass (10,857 ft)", "detail": "The Continental Divide crossing. Aspens are fading by mid-October but the high alpine scenery is stunning. Stop at the summit pullout. Check CDOT — early snow is possible at elevation.", "gp": null, "toddler": null },
+        { "time": "Afternoon", "title": "Arrive Durango — orientation", "detail": "Victorian mountain town in the Animas River valley. Stroll Main Avenue's historic district, confirm D&SNG tickets at the depot, walk the Animas River Trail.", "gp": 4, "toddler": 4 }
+      ],
+      "tips": [
+        "Leave Fort Collins by 7–8 AM to arrive with a full afternoon.",
+        "D&SNG tickets must be booked well in advance (durangotrain.com).",
+        "Dinner on Main Ave — Ore House or Steamworks Brewing."
+      ],
+      "momNotes": [
+        { "mark": "?", "text": "Question mark next to the Strater Hotel — wants to talk it through before booking." }
+      ],
+      "stops": [
+        { "name": "Fort Collins, CO", "lat": 40.5853, "lng": -105.0844, "type": "origin" },
+        { "name": "Walsenburg, CO", "lat": 37.6242, "lng": -104.7808, "type": "waypoint" },
+        { "name": "Wolf Creek Pass", "lat": 37.4808, "lng": -106.7994, "type": "stop" },
+        { "name": "Durango, CO", "lat": 37.2753, "lng": -107.8801, "type": "overnight" }
+      ]
+    },
+
+    {
+      "day": 2,
+      "date": "2026-10-13",
+      "weekday": "Tuesday",
+      "title": "Durango — Steam Train + Mesa Verde",
+      "tags": ["Colorado Gem", "Steam Train!", "Scenic & Easy"],
+      "drive": { "stated": "30 mi to Mesa Verde" },
+      "lodging": {
+        "city": "Durango, CO",
+        "nights": [1, 2],
+        "chosen": null,
+        "status": "needed",
+        "sameAsDay": 1
+      },
+      "items": [
+        { "time": "8:45 AM", "title": "D&SNG Cascade Canyon Train", "detail": "The crown jewel of Durango. Narrow-gauge steam, 26 miles north through the Animas River Gorge (sheer walls, no road access), back by early afternoon. Victorian open-air cars.", "gp": 5, "toddler": 5 },
+        { "time": "Afternoon", "title": "Mesa Verde National Park", "detail": "Thirty minutes from Durango. Best-preserved Ancestral Puebloan cliff dwellings in North America. Ranger-guided Cliff Palace tour runs a reduced October schedule (recreation.gov). Even without it, the Chapin Mesa Archeological Museum and Spruce Tree House viewpoint are free and fascinating. Allow 2–3 hours.", "gp": 5, "toddler": 3 },
+        { "time": "Late afternoon", "title": "Animas River Trail", "detail": "Flat path along the river through downtown. Toddler can scooter or walk; playgrounds along the way, good coffee, views of the San Juans. Nice wind-down after a big train day.", "gp": 4, "toddler": 5 }
+      ],
+      "tips": [
+        "Book the Cliff Palace tour at recreation.gov ($5/person; fills fast even in October).",
+        "Park entry covered by America the Beautiful / Senior Pass.",
+        "Chapin Mesa Museum is free and excellent — short exhibits, good for all ages.",
+        "Drive the Cliff Palace Loop Road for views even without a guided tour."
+      ],
+      "momNotes": [
+        { "mark": "○", "text": "Circled \"Senior Pass\" — she has one, so park entry is covered. Circled again on Days 5, 9, 11 and the packing list." }
+      ],
+      "stops": [
+        { "name": "Durango, CO", "lat": 37.2753, "lng": -107.8801, "type": "overnight" },
+        { "name": "Mesa Verde National Park", "lat": 37.2309, "lng": -108.4618, "type": "park" }
+      ]
+    },
+
+    {
+      "day": 3,
+      "date": "2026-10-14",
+      "weekday": "Wednesday",
+      "title": "Durango → Monument Valley, AZ/UT",
+      "tags": ["Drive Day", "Navajo Nation"],
+      "drive": { "stated": "~3 hrs / 195 mi" },
+      "lodging": {
+        "city": "Monument Valley, AZ/UT",
+        "nights": [3],
+        "chosen": null,
+        "status": "needed",
+        "options": [
+          { "name": "The View Hotel", "note": "Navajo-owned; rooms face The Mittens directly — sunset and sunrise from your window. Sells out 6+ months ahead.", "mom": "★ top pick" },
+          { "name": "Goulding's Lodge", "note": "Legendary historic lodge nearby, full service, great for families; John Ford filmed here" }
+        ]
+      },
+      "items": [
+        { "time": "9:00 AM", "title": "Depart Durango — US-160 west through Cortez", "detail": "Classic high desert: piñon-juniper mesas, red rock, the Navajo Nation. Shiprock appears dramatically on the southern horizon.", "gp": null, "toddler": null },
+        { "time": "Afternoon", "title": "Monument Valley Navajo Tribal Park", "detail": "The 17-Mile Valley Drive loop in your own vehicle, winding between the mittens, buttes, and spires. Road is dirt and can be washboarded — drive slowly. Entry $20/vehicle (Navajo Tribal Park; NPS passes do not apply).", "gp": 5, "toddler": 4 },
+        { "time": "~6:15 PM", "title": "Sunset at The Mittens", "detail": "East and West Mittens from the View Hotel terrace — one of the most iconic views in the American West. Whole group watches from the paved viewpoint; no hiking required.", "gp": 5, "toddler": 4 }
+      ],
+      "tips": [
+        "Valley Drive is 17 miles of rough dirt; any SUV or sedan handles it at slow speed.",
+        "Guided Jeep tours with Navajo guides reach restricted areas — book at monument-valley.net.",
+        "Bring plenty of water; no services on the loop drive."
+      ],
+      "momNotes": [
+        { "mark": "★", "text": "Star next to The View Hotel — this is her pick for Monument Valley." },
+        { "mark": "?", "text": "Question mark next to the guided Jeep tours — undecided, wants to discuss." }
+      ],
+      "stops": [
+        { "name": "Cortez, CO", "lat": 37.3489, "lng": -108.5859, "type": "waypoint" },
+        { "name": "Monument Valley Navajo Tribal Park", "lat": 36.9834, "lng": -110.1116, "type": "overnight" }
+      ]
+    },
+
+    {
+      "day": 4,
+      "date": "2026-10-15",
+      "weekday": "Thursday",
+      "title": "Monument Valley → Zion National Park",
+      "tags": ["Drive Day", "Navajo Country → Red Rock"],
+      "drive": { "stated": "~3.5 hrs / 200 mi" },
+      "lodging": {
+        "city": "Springdale, UT",
+        "nights": [4, 5],
+        "chosen": "Cable Mountain Lodge",
+        "status": "needed",
+        "options": [
+          { "name": "Cable Mountain Lodge", "note": "Suites on the Virgin River, canyon-wall views; walk to everything in Springdale", "mom": "1st" },
+          { "name": "Desert Pearl Inn", "note": "Pool, river views, excellent for families; very limited rooms", "mom": "2nd" },
+          { "name": "Cliffrose Springdale", "note": "Lush gardens along the Virgin River, lovely setting" }
+        ]
+      },
+      "items": [
+        { "time": "Sunrise", "title": "Sunrise at The Mittens", "detail": "Warm light turns the sandstone deep red-orange. Walk to the viewpoint from the hotel in five minutes; bring coffee.", "gp": 5, "toddler": 5, "flag": "Doc says ~6:15 AM — mid-October sunrise at Monument Valley is closer to 7:30 AM. Verify." },
+        { "time": "Morning", "title": "US-163 north → US-89 north", "detail": "One of the most scenically dramatic drives in the Southwest. US-89 threads between the Vermillion Cliffs, the Grand Staircase, and the Colorado Plateau. \"Big Rock Candy Mountain\" hues near Kanab.", "gp": null, "toddler": null },
+        { "time": "Lunch", "title": "Kanab, UT (optional stop)", "detail": "Excellent restaurants for a small town — good place to break the drive with the kids.", "gp": null, "toddler": null },
+        { "time": "Afternoon", "title": "Arrive Springdale — Pa'rus Trail", "detail": "Zion's most accessible trail: 1.7 miles of paved path along the Virgin River through the canyon floor. Cottonwoods turn gold in October. No elevation change; stroller-friendly.", "gp": 5, "toddler": 5 }
+      ],
+      "tips": [],
+      "momNotes": [
+        { "mark": "★ ☺", "text": "Star and a smiley face next to the Pa'rus Trail — clearly a highlight for her." },
+        { "mark": "1st / 2nd", "text": "Ranked Springdale lodging: Cable Mountain Lodge 1st, Desert Pearl Inn 2nd." }
+      ],
+      "stops": [
+        { "name": "Kanab, UT", "lat": 37.0475, "lng": -112.5263, "type": "waypoint" },
+        { "name": "Springdale, UT", "lat": 37.1889, "lng": -112.9986, "type": "overnight" },
+        { "name": "Pa'rus Trail / Zion Visitor Center", "lat": 37.2, "lng": -112.9871, "type": "stop" }
+      ]
+    },
+
+    {
+      "day": 5,
+      "date": "2026-10-16",
+      "weekday": "Friday",
+      "title": "Zion National Park — Full Day",
+      "tags": ["National Park", "Waterfalls!", "Varied Difficulty"],
+      "drive": { "stated": "All local" },
+      "lodging": { "city": "Springdale, UT", "nights": [4, 5], "chosen": "Cable Mountain Lodge", "status": "needed", "sameAsDay": 4 },
+      "items": [
+        { "time": "Morning", "title": "Canyon Overlook Trail (1 mi RT, moderate)", "detail": "Starts at the east end of the Zion–Mount Carmel Tunnel. Short hike to a magnificent panorama over lower Zion Canyon. Some exposure on one side but well-maintained. The 3-year-old can walk most of it with help on a few rocky steps. Best light in the morning.", "gp": 5, "toddler": 4 },
+        { "time": "Midday", "title": "Weeping Rock & Lower Emerald Pools", "detail": "Weeping Rock (0.4 mi, very easy): a spring seeps through the canyon wall creating a hanging garden with a gentle waterfall. Lower Emerald Pools (1.2 mi, paved, flat): wide paved trail to a pool beneath a dripping overhang that showers mist on everyone below.", "gp": 5, "toddler": 5, "flag": "Weeping Rock trail has been closed since a 2019 rockfall — confirm status with the park before counting on it." },
+        { "time": "Afternoon", "title": "Zion Canyon Scenic Drive", "detail": "Stop at every pullout — Court of the Patriarchs, the Zion Lodge meadow, the Big Bend curves. Drive slowly and let it soak in.", "gp": 5, "toddler": 4, "flag": "Doc assumes the shuttle is discontinued in October and you drive the canyon yourself. The shuttle typically runs into late November — verify, because if it's running, private vehicles are not allowed on the Scenic Drive." }
+      ],
+      "tips": [
+        "The Narrows involves wading in cold water — skip it for this group.",
+        "Park entry by America the Beautiful / Senior Pass.",
+        "Zion Lodge has a casual cafeteria-style restaurant for a mid-day break."
+      ],
+      "momNotes": [
+        { "mark": "○", "text": "Circled \"Senior Pass\" again in the Zion notes." }
+      ],
+      "stops": [
+        { "name": "Canyon Overlook Trailhead", "lat": 37.2131, "lng": -112.9403, "type": "stop" },
+        { "name": "Zion Canyon Scenic Drive", "lat": 37.2506, "lng": -112.9503, "type": "stop" },
+        { "name": "Springdale, UT", "lat": 37.1889, "lng": -112.9986, "type": "overnight" }
+      ]
+    },
+
+    {
+      "day": 6,
+      "date": "2026-10-17",
+      "weekday": "Saturday",
+      "title": "Zion → St. George, UT + Snow Canyon SP",
+      "tags": ["Short Drive", "Slot Canyon!", "Easy Terrain"],
+      "drive": { "stated": "~45 min / 40 mi" },
+      "lodging": {
+        "city": "St. George, UT",
+        "nights": [6, 7],
+        "chosen": null,
+        "status": "needed",
+        "options": [
+          { "name": "Inn on the Cliff", "note": "Dramatic cliff-edge location, sweeping red-rock valley views, serene", "mom": "?" },
+          { "name": "Hilton Garden Inn Entrada", "note": "Near Snow Canyon State Park, modern, pool, family-friendly" },
+          { "name": "SpringHill Suites by Marriott", "note": "Spacious suites with kitchenette, excellent value, quiet" }
+        ]
+      },
+      "items": [
+        { "time": "Morning", "title": "Final Zion morning — optional Pa'rus Trail", "detail": "Gentle walk along the Virgin River before checkout. Autumn cottonwoods at peak gold — walk south toward the visitor center for the best color. Pack up and head for St. George.", "gp": null, "toddler": null },
+        { "time": "Afternoon", "title": "Snow Canyon State Park", "detail": "Twenty minutes from downtown St. George. Red and white Navajo sandstone, lava flows, ancient dunes — a miniature Zion with shorter, more accessible trails. Don't miss Jenny's Canyon (0.4 mi into a narrow slot) and the Petrified Sand Dunes.", "gp": 5, "toddler": 5 },
+        { "time": "Evening", "title": "St. George downtown", "detail": "A city of ~90,000 in a red rock bowl at 2,800 ft. October highs 70–76°F — noticeably warmer than Zion or Bryce. Stroll Ancestor Square, dinner downtown.", "gp": 4, "toddler": 4 }
+      ],
+      "tips": [
+        "Snow Canyon opens at 6 AM; entry $10/vehicle (state park — NPS passes not accepted)."
+      ],
+      "momNotes": [
+        { "mark": "○", "text": "Circled \"70–76°F\" — she's noting St. George as the warm stretch of the trip." },
+        { "mark": "?", "text": "Question mark next to Inn on the Cliff." }
+      ],
+      "stops": [
+        { "name": "Snow Canyon State Park", "lat": 37.2103, "lng": -113.6428, "type": "park" },
+        { "name": "St. George, UT", "lat": 37.0965, "lng": -113.5684, "type": "overnight" }
+      ]
+    },
+
+    {
+      "day": 7,
+      "date": "2026-10-18",
+      "weekday": "Sunday",
+      "title": "St. George — Full Sunday",
+      "tags": ["Sunday in the Warmth", "Dinosaur Tracks!", "Easy All Day"],
+      "drive": { "stated": "All local · ~70°F" },
+      "lodging": { "city": "St. George, UT", "nights": [6, 7], "chosen": null, "status": "needed", "sameAsDay": 6 },
+      "items": [
+        { "time": "Morning", "title": "Snow Canyon State Park (continued)", "detail": "Johnson Arch Trail (0.6 mi, easy — a natural arch visible from a paved path), the Lava Tubes (short walk to an accessible cave-like entrance), and the Butterfly Trail (1.5 mi, easy, gorgeous red and white sandstone walls).", "gp": 5, "toddler": 5 },
+        { "time": "Midday", "title": "St. George Dinosaur Discovery Site at Johnson Farm", "detail": "Over 2,000 actual Jurassic-era dinosaur tracks (~200 million years old) from at least three species, preserved in situ. You walk right among them. Small but high-quality museum. Book at utahdinosaurs.com. Allow 1.5–2 hours.", "gp": 5, "toddler": 5 },
+        { "time": "Afternoon", "title": "Pioneer Park", "detail": "City park atop a massive red lava rock formation downtown. Short paths among volcanic boulders, wide valley views. Easy scrambling for the toddler; benches and shade for the grandparents. Free. Beautiful at sunset.", "gp": 4, "toddler": 5 },
+        { "time": "Evening", "title": "Relaxed Sunday dinner in St. George", "detail": "Let the toddler run on the Town Square grass. Tomorrow the route heads north and the altitude rises — tonight is the last warm night of the trip.", "gp": 5, "toddler": 5 }
+      ],
+      "tips": [
+        "Dinosaur Discovery Site: check hours at utahdinosaurs.com; typically 10 AM–6 PM.",
+        "St. George is ~70°F in mid-October — a welcome warmth between Zion and Bryce."
+      ],
+      "momNotes": [
+        { "mark": "✎", "text": "Wrote \"could skip & 'rest'\" in the margin next to the Sunday afternoon block — she'd like this day kept loose, with room to rest rather than filling every slot." },
+        { "mark": "___", "text": "Underlined \"tonight is the last warm night of the trip.\"" }
+      ],
+      "stops": [
+        { "name": "Snow Canyon State Park", "lat": 37.2103, "lng": -113.6428, "type": "park" },
+        { "name": "St. George Dinosaur Discovery Site", "lat": 37.093, "lng": -113.548, "type": "stop" },
+        { "name": "Pioneer Park, St. George", "lat": 37.1157, "lng": -113.5836, "type": "stop" },
+        { "name": "St. George, UT", "lat": 37.0965, "lng": -113.5684, "type": "overnight" }
+      ]
+    },
+
+    {
+      "day": 8,
+      "date": "2026-10-19",
+      "weekday": "Monday",
+      "title": "St. George → Red Canyon → Bryce Canyon",
+      "tags": ["Drive + Arrive", "First Hoodoos"],
+      "drive": { "stated": "~1.5 hrs / 85 mi", "flag": "Stated drive time looks short — see open questions" },
+      "lodging": {
+        "city": "Bryce Canyon, UT",
+        "nights": [8, 9],
+        "chosen": null,
+        "status": "needed",
+        "options": [
+          { "name": "Bryce Canyon Lodge", "note": "Rustic historic lodge inside the park, incomparable location; open mid-October most years — book early" },
+          { "name": "Ruby's Inn (Best Western)", "note": "Full-service resort just outside the park gate, pools, restaurant, very family-friendly" },
+          { "name": "Bryce Canyon Resort", "note": "Comfortable motel-style, good value, 3 miles from park gate" }
+        ]
+      },
+      "items": [
+        { "time": "Late morning", "title": "Red Canyon (Dixie NF) — en-route stop", "detail": "On US-89 heading north toward Bryce. Free, and spectacular: the road passes through carved red sandstone arches and you can walk among hoodoos nearly identical to Bryce's with almost no crowds. The 0.6-mile Hoodoo Trail is a perfect 30-minute introduction.", "gp": 4, "toddler": 4 },
+        { "time": "Late afternoon", "title": "Arrive Bryce Canyon — Sunset Point", "detail": "Check in, then straight to Sunset Point for late-afternoon light on the amphitheater. October light is warm and low; the pink-orange hoodoos glow as if lit from within. Elevation is 8,000 ft — slow down, drink water, let the grandparents acclimatize.", "gp": 5, "toddler": 4 }
+      ],
+      "tips": [
+        "Bryce rim sits at 8,000–9,100 ft — coming from St. George at 2,800 ft is a big jump.",
+        "Drink lots of water; short walks only on arrival day. Altitude can cause headaches in seniors.",
+        "Temps drop sharply: overnight lows around 28–32°F. Have warm layers ready."
+      ],
+      "momNotes": [
+        { "mark": "○", "text": "Circled the \"28–32°F\" overnight lows — she wants everyone to have real cold-weather layers for Bryce." }
+      ],
+      "stops": [
+        { "name": "Red Canyon (Dixie NF)", "lat": 37.744, "lng": -112.307, "type": "stop" },
+        { "name": "Bryce Canyon — Sunset Point", "lat": 37.6283, "lng": -112.1676, "type": "park" },
+        { "name": "Bryce Canyon City, UT", "lat": 37.6685, "lng": -112.157, "type": "overnight" }
+      ]
+    },
+
+    {
+      "day": 9,
+      "date": "2026-10-20",
+      "weekday": "Tuesday",
+      "title": "Bryce Canyon — Full Day + Stargazing",
+      "tags": ["National Park", "Magical Hoodoos", "Rim Trail Easy"],
+      "drive": { "stated": "All local" },
+      "lodging": { "city": "Bryce Canyon, UT", "nights": [8, 9], "chosen": null, "status": "needed", "sameAsDay": 8 },
+      "items": [
+        { "time": "~7:15 AM", "title": "Sunrise at Sunrise Point", "detail": "Dress warmly — it'll be near freezing. The moment the sun crests the Paunsaugunt Plateau and lights the amphitheater of hoodoos is one of the most breathtaking sights in the American West. Five-minute walk from the parking area.", "gp": 5, "toddler": 4 },
+        { "time": "Morning", "title": "Rim Trail: Sunrise to Sunset Point (1.8 mi, easy)", "detail": "Runs along the canyon edge connecting all the major viewpoints. Minimal elevation change, paved in places, benches throughout. Walk as far as you like and turn back. In October the rim aspens turn gold against the pink hoodoos.", "gp": 5, "toddler": 5 },
+        { "time": "Midday", "title": "Queen's Garden Trail (1.8 mi RT, moderate)", "detail": "The mildest descent into the canyon — about 320 ft down through a forest of hoodoos to a formation that looks exactly like Queen Victoria. Requires comfortable footing on rocky trail but is well-maintained. Toddler in a carrier if she tires.", "gp": 4, "toddler": 4 },
+        { "time": "After dark", "title": "Stargazing at Bryce Point", "detail": "An International Dark Sky Park — one of the best places on Earth to see the Milky Way. Mid-October brings a dark moon window. Bundle up completely (below freezing), drive to Bryce Point, kill the headlights, wait five minutes for your eyes to adjust. The park hosts ranger astronomy programs most evenings in season.", "gp": 5, "toddler": 5 }
+      ],
+      "tips": [
+        "Rim Trail and all main viewpoints are accessible for moderate-fitness seniors.",
+        "Inspiration Point gives the widest panorama of the main amphitheater — don't miss it.",
+        "Park entry by America the Beautiful / Senior Pass.",
+        "Weather changes fast — always bring a warm layer even on sunny afternoon hikes."
+      ],
+      "momNotes": [
+        { "mark": "___", "text": "Underlined \"Weather changes fast\" and \"below freezing.\" Cold is her main concern for the Bryce nights." },
+        { "mark": "○", "text": "Circled \"Senior Pass\" once more." }
+      ],
+      "stops": [
+        { "name": "Bryce Canyon — Sunrise Point", "lat": 37.6325, "lng": -112.1621, "type": "park" },
+        { "name": "Bryce Point", "lat": 37.6047, "lng": -112.1573, "type": "stop" },
+        { "name": "Bryce Canyon City, UT", "lat": 37.6685, "lng": -112.157, "type": "overnight" }
+      ]
+    },
+
+    {
+      "day": 10,
+      "date": "2026-10-21",
+      "weekday": "Wednesday",
+      "title": "Bryce → Byway 12 → Goblin Valley → Capitol Reef",
+      "tags": ["Scenic Drive", "Goblin Valley MVP", "Byway 12"],
+      "drive": { "stated": "~4.5 hrs total / 165 mi", "flag": "Stop order backtracks — see open questions" },
+      "lodging": {
+        "city": "Torrey, UT",
+        "nights": [10],
+        "chosen": null,
+        "status": "needed",
+        "options": [
+          { "name": "Capitol Reef Resort", "note": "Lovely property in Torrey with Western-themed cabins and great views; very limited rooms", "mom": "✓" },
+          { "name": "Entrada Guesthouse", "note": "Intimate B&B, excellent hosts, delicious breakfast", "mom": "?" },
+          { "name": "Austin's Chuckwagon Motel", "note": "Classic Western motel, local institution, Torrey town center", "mom": "✓" }
+        ]
+      },
+      "items": [
+        { "time": "Morning", "title": "Scenic Byway 12", "detail": "East from Bryce on UT-12, consistently rated one of the most scenic drives in the United States. Crosses the backbone of the Aquarius Plateau, passes through Boulder (stop at the Anasazi State Park Museum — 30 min, fascinating artifacts, free for seniors), and winds through Grand Staircase-Escalante's painted desert. Multiple pullouts. Photos at the \"Hogback\" where the road runs along a knife-edge ridge.", "gp": 5, "toddler": 3 },
+        { "time": "Midday", "title": "Goblin Valley State Park", "detail": "The undisputed toddler highlight of the trip. Hundreds of mushroom-shaped sandstone \"goblins\" fill a broad valley like a Dr. Seuss landscape. There are no designated paths in the main valley — you wander freely, climbing, ducking, hiding. The grandparents can sit at the overlook and watch her sprint around.", "gp": 4, "toddler": 5 },
+        { "time": "Late afternoon", "title": "Capitol Reef National Park", "detail": "The Fruita district, a green oasis along the Fremont River. In October the apple orchards may still be in harvest — free pick-your-own fruit in the NPS orchards. Stop at the Gifford Homestead for homemade pies and preserves (get the apple pie). The Hickman Bridge Trail (1 mi RT) leads to a natural arch if energy permits.", "gp": 5, "toddler": 5 }
+      ],
+      "tips": [
+        "Goblin Valley is off UT-24, ~30 min detour from the Byway 12 route — absolutely worth it.",
+        "Goblin Valley entry ~$25/vehicle (state park — not covered by NPS passes).",
+        "The Three Sisters goblins formation is the iconic photo spot.",
+        "Wear closed-toe shoes; the sandstone is rough on bare feet."
+      ],
+      "momNotes": [
+        { "mark": "✎", "text": "Wrote \"Mmm\" next to the Gifford Homestead pies — the apple pie is non-negotiable." },
+        { "mark": "✓ ✓ ?", "text": "Checked Capitol Reef Resort and Austin's Chuckwagon Motel; question mark on Entrada Guesthouse." }
+      ],
+      "stops": [
+        { "name": "Anasazi State Park Museum, Boulder UT", "lat": 37.913, "lng": -111.4213, "type": "stop" },
+        { "name": "Byway 12 — the Hogback", "lat": 37.8517, "lng": -111.42, "type": "stop" },
+        { "name": "Goblin Valley State Park", "lat": 38.5645, "lng": -110.7075, "type": "park" },
+        { "name": "Capitol Reef NP — Fruita / Gifford Homestead", "lat": 38.287, "lng": -111.247, "type": "park" },
+        { "name": "Torrey, UT", "lat": 38.2999, "lng": -111.4191, "type": "overnight" }
+      ]
+    },
+
+    {
+      "day": 11,
+      "date": "2026-10-22",
+      "weekday": "Thursday",
+      "title": "Capitol Reef → Dead Horse Point → Canyonlands → Arches",
+      "tags": ["Big View Day", "Balanced Rock!", "Short Walks"],
+      "drive": { "stated": "~2.5 hrs driving · short hops once in the Moab area" },
+      "lodging": {
+        "city": "Moab, UT",
+        "nights": [11],
+        "chosen": null,
+        "status": "needed",
+        "options": [
+          { "name": "Hyatt Place Moab", "note": "Modern, pool, river views, very comfortable for family groups" },
+          { "name": "Hoodoo Moab, Curio by Hilton", "note": "Stylish, central, walkable to restaurants" },
+          { "name": "Moab Valley Inn", "note": "Reliable, spacious rooms, easy parking, good value" }
+        ]
+      },
+      "items": [
+        { "time": "7:00 AM", "title": "Depart Torrey", "detail": "Long transfer day but the payoff is three of Utah's greatest viewpoints in one afternoon.", "gp": null, "toddler": null },
+        { "time": "~9:00 AM", "title": "Dead Horse Point State Park", "detail": "A peninsula of mesa jutting 2,000 ft above the Colorado River — arguably the finest view in Utah. The 1.3-mile paved rim loop is completely accessible and stroller-friendly in sections. The river's sweeping gooseneck is visible below; potash evaporation ponds add surreal turquoise. Allow 1.5 hours.", "gp": 5, "toddler": 4 },
+        { "time": "~11:00 AM", "title": "Canyonlands NP — Island in the Sky", "detail": "Two overlooks, enormous payoff for minimal effort. Mesa Arch (0.5-mile loop, easy) frames the canyon 1,000 ft below — one of the most-photographed scenes in the Southwest. Grand View Point (end of the road) is a flat walk to the rim revealing the full enormity of Canyonlands. Allow 1.5–2 hours for both. Grandparents can skip Mesa Arch and drive straight to Grand View if energy is limited.", "gp": 5, "toddler": 4 },
+        { "time": "~2:00 PM", "title": "Arches National Park", "detail": "Thirty minutes from Canyonlands. Balanced Rock (0.3-mile loop, flat — the toddler will love the giant wobbly rock), the Windows Section (1-mile loop, easy — two massive arches side by side), and Landscape Arch (1.6 mi RT, flat dirt — the longest natural arch in North America). Allow 2–3 hours.", "gp": 5, "toddler": 5 }
+      ],
+      "tips": [
+        "Leave Torrey by 7 AM — Dead Horse Point by 9, Canyonlands by 11, Arches by 2 PM.",
+        "Dead Horse Point and Canyonlands are 10 minutes apart — don't skip either.",
+        "Pack a full lunch — limited services between Capitol Reef and Moab.",
+        "No timed entry permit required for Arches in late October.",
+        "Arches entry covered by America the Beautiful / Senior Pass."
+      ],
+      "momNotes": [
+        { "mark": "○", "text": "Circled \"Pack a full lunch\" — she's flagging that there is nowhere to buy food on this stretch, which matters with the kids." },
+        { "mark": "○", "text": "Circled \"Senior Pass\" for the Arches entry." }
+      ],
+      "stops": [
+        { "name": "Dead Horse Point State Park", "lat": 38.482, "lng": -109.7402, "type": "park" },
+        { "name": "Canyonlands — Mesa Arch", "lat": 38.3887, "lng": -109.8683, "type": "park" },
+        { "name": "Canyonlands — Grand View Point", "lat": 38.3095, "lng": -109.8567, "type": "stop" },
+        { "name": "Arches NP — Balanced Rock", "lat": 38.7016, "lng": -109.5645, "type": "park" },
+        { "name": "Moab, UT", "lat": 38.5733, "lng": -109.5498, "type": "overnight" }
+      ]
+    },
+
+    {
+      "day": 12,
+      "date": "2026-10-23",
+      "weekday": "Friday",
+      "title": "Moab → Glenwood Canyon → Fort Collins",
+      "tags": ["Homeward Bound", "Hot Springs Finale"],
+      "drive": { "stated": "~8.5 hrs total with stops" },
+      "lodging": { "city": "Home", "nights": [], "chosen": "Home — arrive Fort Collins ~8 PM", "status": "n/a" },
+      "items": [
+        { "time": "8:00 AM", "title": "Depart Moab — I-70 west to Grand Junction (1 hr)", "detail": "Canyon country opening into the Colorado Plateau. Optional quick stop: Colorado National Monument (Rim Rock Drive, 23 miles, ~45 min) just west of Grand Junction — dramatic sandstone monoliths, easy car-window scenery with several pullouts. Covered by the America the Beautiful pass.", "gp": null, "toddler": null },
+        { "time": "~12:30 PM", "title": "Glenwood Caverns Adventure Park", "detail": "A gondola carries you 1,300 ft up Iron Mountain. The King's Row Cave tour (45 min through glittering stalactites and flowstones) is the highlight — accessible, spectacular, and magical for every member of the group. Toddler gets the gondola ride and the cave in one. Book at glenwoodcaverns.com. Allow 2–2.5 hours.", "gp": 5, "toddler": 5, "mom": "1st choice" },
+        { "time": "Early afternoon", "title": "Iron Mountain Hot Springs (alternative)", "detail": "If you have energy for one more stop — or skip Glenwood Caverns and do this instead — sixteen geothermal pools above the Colorado River make a perfect trip-ending soak. Allow 1.5 hours. Book ahead at ironmountainhotsprings.com.", "gp": 5, "toddler": 5 },
+        { "time": "3:30–4:00 PM", "title": "Glenwood Springs → Fort Collins via I-70 east", "detail": "Through Glenwood Canyon (12 miles of dramatic gorge), climbing to the Eisenhower Tunnel and descending to Denver. Arrive Fort Collins ~8 PM.", "gp": null, "toddler": null }
+      ],
+      "tips": [
+        "Leave Moab no later than 8 AM to reach Glenwood with time for activities.",
+        "Pick either Glenwood Caverns OR Iron Mountain Hot Springs — both is tight but doable.",
+        "Glenwood Canyon on I-70 is itself spectacular; stop at the Hanging Lake trailhead pullout just to see the canyon walls.",
+        "Check CDOT.com for Eisenhower Tunnel / I-70 mountain corridor conditions before departure."
+      ],
+      "momNotes": [
+        { "mark": "✎", "text": "Wrote \"1st choice\" next to Glenwood Caverns / King's Row Cave tour — that settles the Caverns-vs-Hot-Springs question in favor of the Caverns." }
+      ],
+      "stops": [
+        { "name": "Colorado National Monument", "lat": 39.0542, "lng": -108.7382, "type": "stop" },
+        { "name": "Glenwood Caverns Adventure Park", "lat": 39.5522, "lng": -107.3245, "type": "stop" },
+        { "name": "Fort Collins, CO", "lat": 40.5853, "lng": -105.0844, "type": "origin" }
+      ]
+    }
+  ],
+
+  "bookings": [
+    { "what": "D&SNG Cascade Canyon steam train (6 seats, Oct 13)", "category": "Activity", "status": "needed", "urgency": "now", "who": "", "url": "https://durangotrain.com", "notes": "October fall runs sell out months ahead. The #1 Durango activity.", "confirmation": "" },
+    { "what": "Durango lodging — nights of Oct 12 & 13", "category": "Lodging", "status": "needed", "urgency": "now", "who": "", "url": "", "notes": "Mom put a \"?\" on the Strater. DoubleTree and Leland House are the alternatives.", "confirmation": "" },
+    { "what": "The View Hotel, Monument Valley — night of Oct 14", "category": "Lodging", "status": "needed", "urgency": "now", "who": "", "url": "https://monumentvalleyview.com", "notes": "Mom's starred pick. Mitten-view rooms sell out 6+ months ahead.", "confirmation": "" },
+    { "what": "Cable Mountain Lodge, Springdale — nights of Oct 15 & 16", "category": "Lodging", "status": "needed", "urgency": "now", "who": "", "url": "https://cablemountainlodge.com", "notes": "Mom's 1st choice. Desert Pearl Inn is her 2nd.", "confirmation": "" },
+    { "what": "St. George lodging — nights of Oct 17 & 18", "category": "Lodging", "status": "needed", "urgency": "soon", "who": "", "url": "", "notes": "Book both nights together; the Oct 17–18 weekend fills. Mom put a \"?\" on Inn on the Cliff.", "confirmation": "" },
+    { "what": "Capitol Reef Resort, Torrey — night of Oct 21", "category": "Lodging", "status": "needed", "urgency": "now", "who": "", "url": "https://capitolreefresort.com", "notes": "Very limited rooms in a tiny town. Mom checked this one and Austin's Chuckwagon.", "confirmation": "" },
+    { "what": "Bryce Canyon lodging — nights of Oct 19 & 20", "category": "Lodging", "status": "needed", "urgency": "by-july", "who": "", "url": "", "notes": "Bryce Canyon Lodge closes for the season in most years around late October — confirm it is open on your dates before counting on it.", "confirmation": "" },
+    { "what": "Moab lodging — night of Oct 22", "category": "Lodging", "status": "needed", "urgency": "by-july", "who": "", "url": "", "notes": "", "confirmation": "" },
+    { "what": "Mesa Verde Cliff Palace ranger tour (Oct 13)", "category": "Activity", "status": "needed", "urgency": "soon", "who": "", "url": "https://recreation.gov", "notes": "$5/person. Reduced October schedule; fills fast.", "confirmation": "" },
+    { "what": "St. George Dinosaur Discovery Site (Oct 18)", "category": "Activity", "status": "needed", "urgency": "later", "who": "", "url": "https://utahdinosaurs.com", "notes": "Check hours — typically 10 AM–6 PM.", "confirmation": "" },
+    { "what": "Glenwood Caverns — King's Row Cave tour (Oct 23)", "category": "Activity", "status": "needed", "urgency": "soon", "who": "", "url": "https://glenwoodcaverns.com", "notes": "Mom's 1st choice for the final day.", "confirmation": "" },
+    { "what": "Monument Valley guided Jeep tour (Oct 14)", "category": "Activity", "status": "optional", "urgency": "soon", "who": "", "url": "https://monument-valley.net", "notes": "Mom put a \"?\" here — decide as a group first.", "confirmation": "" },
+    { "what": "Iron Mountain Hot Springs (Oct 23)", "category": "Activity", "status": "optional", "urgency": "later", "who": "", "url": "https://ironmountainhotsprings.com", "notes": "Alternative to Glenwood Caverns; both in one day is tight.", "confirmation": "" },
+    { "what": "America the Beautiful pass ($80/yr) or Senior Pass", "category": "Pass", "status": "needed", "urgency": "before-trip", "who": "", "url": "https://nps.gov/planyourvisit/passes.htm", "notes": "Mom has a Senior Pass (free lifetime, 62+) — circled it on five separate pages. Covers Arches, Canyonlands, Capitol Reef, Bryce, Zion, Mesa Verde entry. Does NOT cover Monument Valley ($20/vehicle), Snow Canyon ($10/vehicle), Goblin Valley (~$25/vehicle), or Dead Horse Point.", "confirmation": "" },
+    { "what": "Travel insurance", "category": "Other", "status": "optional", "urgency": "later", "who": "", "url": "", "notes": "October mountain weather can delay plans.", "confirmation": "" }
+  ],
+
+  "packing": [
+    "Layers — mornings at Bryce will be near 25°F; evenings in Zion in the 40s",
+    "Waterproof hiking shoes for the whole family (trails can be icy or wet)",
+    "Child's warm hat, mittens, and puffy coat for Bryce",
+    "Sunscreen — the desert sun is still strong in October",
+    "Reusable water bottles (1 liter per person minimum per hike)",
+    "Headlamps for early morning starts",
+    "America the Beautiful pass or Senior Pass",
+    "First aid kit including blister bandages and ibuprofen",
+    "Closed-toe shoes for Goblin Valley — the sandstone is rough",
+    "Carrier for the 3-year-old and a stroller for paved trails (Pa'rus, Rim Trail, Dead Horse Point)"
+  ],
+
+  "openQuestions": [
+    { "topic": "Day 1 drive time", "detail": "The plan lists Fort Collins → Durango as ~3.5 hrs / 220 mi. Via the described route (I-25 to Walsenburg, US-160 over La Veta and Wolf Creek Passes) it is closer to 450–470 miles and 7.5–8 hours. That is a full travel day with a newborn, not a half day — the \"arrive with a full afternoon\" plan for Durango probably does not survive contact with reality.", "status": "open" },
+    { "topic": "Day 8 drive time", "detail": "St. George → Bryce is listed as ~1.5 hrs / 85 mi. It is closer to 2.5 hrs / 125 mi before the Red Canyon stop. Minor, but it moves the Sunset Point arrival.", "status": "open" },
+    { "topic": "Day 10 stop order", "detail": "The day reads Bryce → Byway 12 → Goblin Valley → Capitol Reef, but Byway 12 ends at Torrey (next to Capitol Reef) and Goblin Valley is about an hour further east on UT-24. As written you would pass Capitol Reef, drive to Goblin Valley, then double back. Either reorder to Capitol Reef → Goblin Valley → back to Torrey, or drop one. This is the longest day on paper and the one most likely to break with two small kids.", "status": "open" },
+    { "topic": "Zion shuttle (Day 5)", "detail": "The plan assumes the shuttle is discontinued in October so you can drive Zion Canyon Scenic Drive yourself. The shuttle typically runs into late November, and while it runs, private vehicles are barred from the Scenic Drive. Confirm on nps.gov/zion before planning the afternoon.", "status": "open" },
+    { "topic": "Weeping Rock (Day 5)", "detail": "The Weeping Rock trail has been closed since a 2019 rockfall. Confirm status before promising it — Lower Emerald Pools is the reliable substitute.", "status": "open" },
+    { "topic": "Monument Valley sunrise time (Day 4)", "detail": "Listed as ~6:15 AM. Mid-October sunrise there is closer to 7:30 AM local. Worth pinning down before setting alarms.", "status": "open" },
+    { "topic": "Monument Valley nights", "detail": "The source document labels Monument Valley \"nights 3–4\" and Springdale \"nights 4–5,\" which double-books night 4. Working the dates through, Monument Valley is a single night (Oct 14) and Springdale is Oct 15–16. Confirm you want only one night at Monument Valley.", "status": "open" },
+    { "topic": "Total mileage", "detail": "The header says ~1,900 miles; the footer says 1,700. Neither matches the corrected Day 1 distance. Cosmetic, but worth fixing once the route is final.", "status": "open" },
+    { "topic": "Sunday pace (Day 7)", "detail": "Mom wrote \"could skip & rest\" against the Sunday afternoon block. Decide as a group whether Sunday is a full activity day or a genuine rest day — with a newborn, a rest day somewhere in a 12-day loop is worth protecting.", "status": "open" },
+    { "topic": "Bryce Canyon Lodge season", "detail": "The lodge closes for the season in most years around late October. Confirm it is open Oct 19–20 before building the Bryce nights around it.", "status": "open" }
+  ]
+}
