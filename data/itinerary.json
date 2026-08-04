@@ -7,7 +7,9 @@
     "nights": 11,
     "origin": "Fort Collins, CO",
     "shape": "Loop",
-    "milesStated": "~1,850 driving miles"
+    "milesStated": "~1,850 driving miles",
+    "googleMapEmbed": "https://www.google.com/maps/d/embed?mid=1e3rqyxdEOjtbtPsxmfnKcKxQTT1IG48",
+    "googleMapUrl": "https://www.google.com/maps/d/viewer?mid=1e3rqyxdEOjtbtPsxmfnKcKxQTT1IG48"
   },
   "party": [
     {

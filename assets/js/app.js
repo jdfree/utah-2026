@@ -37,7 +37,7 @@ fetch('data/itinerary.json')
     renderLodging();
     renderBookings();
     renderNotes();
-    initMap();
+    initMapSwitch();
     initTabs();
   })
   .catch((err) => {
@@ -86,6 +86,32 @@ function showView(name) {
   document.querySelectorAll('.view').forEach((v) =>
     (v.hidden = v.id !== `view-${name}`));
   if (name === 'map' && map) map.invalidateSize();
+}
+
+/* ---------- map: Google My Maps vs Leaflet pins ---------- */
+
+function initMapSwitch() {
+  const frame = $('#gmap-frame');
+  frame.src = DATA.trip.googleMapEmbed;
+  $('#gmap-open').href = DATA.trip.googleMapUrl;
+
+  $('#map-switch').addEventListener('click', (e) => {
+    const btn = e.target.closest('button[data-pane]');
+    if (!btn) return;
+    const pane = btn.dataset.pane;
+
+    document.querySelectorAll('#map-switch button').forEach((b) =>
+      b.classList.toggle('active', b === btn));
+    document.querySelectorAll('.mappane').forEach((p) =>
+      (p.hidden = p.id !== `pane-${pane}`));
+
+    /* Leaflet measures the container on init, so it can only be built once
+       its pane is actually visible. */
+    if (pane === 'pins') {
+      if (!map) initMap();
+      else map.invalidateSize();
+    }
+  });
 }
 
 /* ---------- day by day ---------- */

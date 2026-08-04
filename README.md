@@ -68,12 +68,25 @@ python3 -m http.server 8000
 
 Then open http://localhost:8000.
 
-## Map
+## Maps
 
-Leaflet with OpenStreetMap tiles — no API key, no billing account, nothing to expire.
-Marker coordinates in `itinerary.json` are approximate and meant for orientation.
-Each day card has an "Open in Google Maps" link that builds a real directions URL from
-that day's stops, which is what you'd actually navigate with.
+The Map tab has two views, toggled at the top.
+
+**Google map** (default) — an embedded [Google My Maps](https://www.google.com/maps/d/viewer?mid=1e3rqyxdEOjtbtPsxmfnKcKxQTT1IG48)
+with one layer per day, so days can be switched on and off in its legend. It lives in
+james.free@gmail.com's Drive and is set to "anyone with the link can view" (not
+search-indexed). It is a *separate copy* of the route — editing `itinerary.json` does not
+update it. To regenerate, rebuild the KML and re-import it as a new layer in My Maps.
+The embed shows the map owner's name in its title bar; that is Google's behaviour and
+cannot be turned off.
+
+**Trip pins** — Leaflet with OpenStreetMap tiles, no API key. Pins are numbered by day
+and clicking one jumps to that day's card, which the Google embed cannot do. Built lazily
+the first time you open the tab. Coordinates come from `itinerary.json`, so this view
+always matches the data.
+
+Each day card also has an "Open in Google Maps" link that builds a real directions URL
+from that day's stops.
 
 ## Where the content came from
 

@@ -38,14 +38,28 @@
 <main class="wrap">
 
   <section id="view-map" class="view">
-    <div id="map"></div>
-    <p class="legend">
-      <span class="key overnight"></span> Overnight
-      <span class="key park"></span> Park / major stop
-      <span class="key stop"></span> Stop along the way
-      <span class="key origin"></span> Home
-    </p>
-    <p class="muted">Marker positions are approximate, for orientation only. Each day's card links out to Google Maps for real directions.</p>
+    <div class="segmented" id="map-switch">
+      <button data-pane="gmap" class="active">Google map</button>
+      <button data-pane="pins">Trip pins</button>
+    </div>
+
+    <div id="pane-gmap" class="mappane">
+      <iframe id="gmap-frame" title="Utah Canyon Country route on Google My Maps" loading="lazy"></iframe>
+      <p class="muted">One layer per day — open the legend at the top-left of the map to switch days on and
+        off. <a id="gmap-open" href="#" target="_blank" rel="noopener">Open in Google Maps &rarr;</a></p>
+    </div>
+
+    <div id="pane-pins" class="mappane" hidden>
+      <div id="map"></div>
+      <p class="legend">
+        <span class="key overnight"></span> Overnight
+        <span class="key park"></span> Park / major stop
+        <span class="key stop"></span> Stop along the way
+        <span class="key origin"></span> Home
+      </p>
+      <p class="muted">Pins are numbered by day — click one to jump to that day's plan. Positions are
+        approximate, for orientation only; each day's card links out to Google Maps for real directions.</p>
+    </div>
   </section>
 
   <section id="view-itinerary" class="view" hidden></section>
