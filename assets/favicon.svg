@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 104 120" role="img" aria-label="Utah">
+  <clipPath id="ut"><path d="M8 8H62v34h34v70H8Z"/></clipPath>
+  <g clip-path="url(#ut)">
+    <rect width="104" height="120" fill="#f4e3ba"/>
+    <circle cx="52" cy="74" r="30" fill="#eaa92c"/>
+    <path fill="#a85748" fill-rule="evenodd"
+          d="M12 112V70q40-28 80 0v42Z M34 112V88q18-16 36 0v24Z"/>
+    <rect y="102" width="104" height="18" fill="#6b342a"/>
+  </g>
+  <path d="M8 8H62v34h34v70H8Z" fill="none" stroke="#4a241d" stroke-width="9" stroke-linejoin="round"/>
+</svg>
