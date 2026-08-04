@@ -167,11 +167,21 @@ function stayBlock(d) {
   <h5>Where to stay — ${esc(l.city)} · night${l.nights.length > 1 ? 's' : ''} ${l.nights.join(' &amp; ')}</h5>
   <ul>${l.options.map((o) => `
     <li>
-      <span class="${o.name === l.chosen ? 'pick' : ''}">${esc(o.name)}</span>${
+      ${lodgingLink(o, o.name === l.chosen)}${
         o.mom ? `<span class="momtag">Mom: ${esc(o.mom)}</span>` : ''} — ${esc(o.note)}
     </li>`).join('')}
   </ul>
 </div>`;
+}
+
+/* Options carry a verified `url` to the property's own booking page. The one
+   without a link (Entrada Guesthouse) could not be found to exist — see Q11. */
+function lodgingLink(o, isPick) {
+  const cls = isPick ? 'pick' : '';
+  return o.url
+    ? `<a class="${cls}" href="${esc(o.url)}" target="_blank" rel="noopener">${esc(o.name)}</a>`
+    : `<span class="${cls} unverified" title="No booking site found for this property">${
+        esc(o.name)}</span>`;
 }
 
 function gmapsRoute(stops) {
@@ -196,7 +206,8 @@ function renderLodging() {
         l.nights.length > 1 ? 's' : ''}</span></td>
   <td>${l.chosen ? `<b>${esc(l.chosen)}</b>` : '<span class="muted">not decided</span>'}</td>
   <td>${l.options.map((o) =>
-        `${esc(o.name)}${o.mom ? ` <span class="momtag">${esc(o.mom)}</span>` : ''}`).join('<br>')}</td>
+        `${lodgingLink(o, false)}${o.mom ? ` <span class="momtag">${esc(o.mom)}</span>` : ''}`
+      ).join('<br>')}</td>
   <td><span class="pill ${l.status}">${esc(l.status)}</span></td>
 </tr>`;
     })
@@ -255,9 +266,14 @@ function renderNotes() {
 
   $('#view-notes').innerHTML = `
 <h2>Open questions</h2>
-<p class="muted">Things in the printed plan that need a decision or a fact-check before booking.</p>
-${DATA.openQuestions.map((q) =>
-    `<div class="qa"><h4>${esc(q.topic)}</h4><p>${esc(q.detail)}</p></div>`).join('')}
+<p class="muted">Things in the printed plan that need a decision or a fact-check before booking.
+Numbers are fixed — <code>Q4</code> stays <code>Q4</code> even as others get resolved.</p>
+${DATA.openQuestions.map((q) => `
+<div class="qa ${q.status === 'resolved' ? 'resolved' : ''}" id="${esc(q.id)}">
+  <h4><span class="qid">${esc(q.id)}</span> ${esc(q.topic)}${
+    q.status === 'resolved' ? '<span class="pill booked">resolved</span>' : ''}</h4>
+  <p>${esc(q.detail)}</p>
+</div>`).join('')}
 
 <h2>Everything Mom wrote</h2>
 ${momAll.map((n) => `

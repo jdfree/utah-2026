@@ -305,5 +305,22 @@ a { color: var(--rust); }
 .qa { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); padding: 14px 18px; margin-bottom: 12px; box-shadow: var(--shadow); }
 .qa h4 { margin: 0 0 5px; font-size: 15px; }
 .qa p { margin: 0; font-size: 14.5px; color: #3f3a34; }
+.qa.resolved { opacity: .72; }
+.qa.resolved h4 { color: var(--ink-soft); }
+.qid {
+  display: inline-block;
+  min-width: 30px;
+  margin-right: 4px;
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--rust);
+  letter-spacing: .04em;
+}
+.qa h4 .pill { margin-left: 8px; vertical-align: 1px; }
+
+.stay a { text-decoration: none; border-bottom: 1px solid rgba(163,80,43,.35); }
+.stay a:hover { border-bottom-color: var(--rust); }
+.stay a.pick, .stay .pick { font-weight: 700; }
+.unverified { color: var(--ink-soft); text-decoration: underline dotted; cursor: help; }
 
 footer { padding: 30px 20px 50px; color: var(--ink-soft); font-size: 13px; text-align: center; }

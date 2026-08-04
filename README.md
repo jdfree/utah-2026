@@ -1,7 +1,7 @@
 # Utah Canyon Country · October 12–23, 2026
 
-Trip site for a Fort Collins → Utah → Fort Collins loop. Six travelers: James, wife,
-Mom, Dad, a three-year-old, and a newborn.
+Trip site for a Fort Collins → Utah → Fort Collins loop. Six travelers: two parents,
+both grandparents, a three-year-old, and a newborn.
 
 Live site: **https://jdfree.github.io/utah-2026/**
 
@@ -43,6 +43,15 @@ set `status` to `"booked"`:
   "status": "booked"
 }
 ```
+
+## Search engines
+
+`robots.txt` disallows all crawlers and every page carries `noindex, nofollow`. The repo
+and site are public — this keeps them out of search results, it does not make them
+private. Note the two directives pull against each other slightly: a crawler that obeys
+`robots.txt` never fetches the page, so it never sees the `noindex`. If a link to the
+site ever leaks, a search engine can still list the bare URL. Belt and braces is what was
+asked for and what is here.
 
 ### Closing an open question
 
