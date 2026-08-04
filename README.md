@@ -68,25 +68,35 @@ python3 -m http.server 8000
 
 Then open http://localhost:8000.
 
-## Maps
+## Map
 
-The Map tab has two views, toggled at the top.
+Leaflet with OpenStreetMap tiles — no API key, no billing account, nothing to expire.
+Pins are numbered by day and clicking one jumps to that day's card. Coordinates live in
+`itinerary.json` and are approximate, meant for orientation. Each day card also has an
+"Open in Google Maps" link that builds a real directions URL from that day's stops, which
+is what you'd actually navigate with.
 
-**Google map** (default) — an embedded [Google My Maps](https://www.google.com/maps/d/viewer?mid=1e3rqyxdEOjtbtPsxmfnKcKxQTT1IG48)
-with one layer per day, so days can be switched on and off in its legend. It lives in
-james.free@gmail.com's Drive and is set to "anyone with the link can view" (not
-search-indexed). It is a *separate copy* of the route — editing `itinerary.json` does not
-update it. To regenerate, rebuild the KML and re-import it as a new layer in My Maps.
-The embed shows the map owner's name in its title bar; that is Google's behaviour and
-cannot be turned off.
+A Google My Maps version was trialled and dropped: it showed no route line, could not link
+pins to days, and was a separate copy that did not track `itinerary.json`.
 
-**Trip pins** — Leaflet with OpenStreetMap tiles, no API key. Pins are numbered by day
-and clicking one jumps to that day's card, which the Google embed cannot do. Built lazily
-the first time you open the tab. Coordinates come from `itinerary.json`, so this view
-always matches the data.
+## Bookings
 
-Each day card also has an "Open in Google Maps" link that builds a real directions URL
-from that day's stops.
+Two places, deliberately:
+
+- **The Bookings tab on this site** is a read-only snapshot from `itinerary.json`. It only
+  changes when the repo does.
+- **[The shared Bookings Tracker](https://docs.google.com/spreadsheets/d/1N2r62ysrne-hRmPgi4nLXrrivAYXYYo6BxRDGzwjusM/edit)**
+  is the live one. Anyone in the group claims a job by putting their name in *Who's
+  booking*, then fills in *Confirmation #* and *Cost* and flips *Status* to `BOOKED`.
+
+The sheet is set to "anyone with the link can edit". Google does **not** require an
+account to edit under that setting, so treat the link as public — no card numbers, no
+passwords. To lock it down properly, set General access back to Restricted and share it to
+the three travellers' Google addresses instead; that is the only setting that actually
+requires sign-in. Version history (File › Version history) undoes any damage.
+
+When reservations firm up, mirror them into `itinerary.json` so the site snapshot and the
+sheet agree.
 
 ## Where the content came from
 

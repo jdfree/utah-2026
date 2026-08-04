@@ -37,7 +37,7 @@ fetch('data/itinerary.json')
     renderLodging();
     renderBookings();
     renderNotes();
-    initMapSwitch();
+    initMap();
     initTabs();
   })
   .catch((err) => {
@@ -86,32 +86,6 @@ function showView(name) {
   document.querySelectorAll('.view').forEach((v) =>
     (v.hidden = v.id !== `view-${name}`));
   if (name === 'map' && map) map.invalidateSize();
-}
-
-/* ---------- map: Google My Maps vs Leaflet pins ---------- */
-
-function initMapSwitch() {
-  const frame = $('#gmap-frame');
-  frame.src = DATA.trip.googleMapEmbed;
-  $('#gmap-open').href = DATA.trip.googleMapUrl;
-
-  $('#map-switch').addEventListener('click', (e) => {
-    const btn = e.target.closest('button[data-pane]');
-    if (!btn) return;
-    const pane = btn.dataset.pane;
-
-    document.querySelectorAll('#map-switch button').forEach((b) =>
-      b.classList.toggle('active', b === btn));
-    document.querySelectorAll('.mappane').forEach((p) =>
-      (p.hidden = p.id !== `pane-${pane}`));
-
-    /* Leaflet measures the container on init, so it can only be built once
-       its pane is actually visible. */
-    if (pane === 'pins') {
-      if (!map) initMap();
-      else map.invalidateSize();
-    }
-  });
 }
 
 /* ---------- day by day ---------- */
@@ -275,9 +249,28 @@ function renderBookings() {
 
   const counts = DATA.bookings.reduce((a, b) => ((a[b.status] = (a[b.status] || 0) + 1), a), {});
 
+  $('#bookings-cta').innerHTML = `
+<div class="cta">
+  <h3>Claiming a job or marking something booked</h3>
+  <p>The table below is a snapshot. The live version everyone can edit is a Google Sheet:</p>
+  <p><a class="btn" href="${esc(DATA.trip.bookingsSheet)}" target="_blank" rel="noopener">
+    Open the shared Bookings Tracker &rarr;</a></p>
+  <ol>
+    <li>Put your name in <b>Who's booking</b> when you take something on, so two people don't book the same room twice.</li>
+    <li>When it's done, fill in <b>Confirmation #</b> and <b>Cost</b>, and change <b>Status</b> from <code>NEEDED</code> to <code>BOOKED</code>.</li>
+    <li>Use the <b>Notes</b> column for anything the rest of us need to know — cancellation deadline, room type, who's in which bed.</li>
+  </ol>
+  <p class="muted">Anyone with this link can edit, and Google does not require them to sign in first, so
+    treat it as public: no card numbers, no passwords. Edits are logged in the sheet's version history
+    (File &rsaquo; Version history) and anything can be undone.</p>
+</div>`;
+
   $('#bookings-body').innerHTML = `
+<h2>Snapshot</h2>
 <p><b>${counts.booked || 0} booked</b> · ${counts.needed || 0} still to book · ${
     counts.optional || 0} optional</p>
+<p class="muted">This table comes from <code>data/itinerary.json</code> and only changes when the repo does.
+  The sheet above is the one that updates live.</p>
 <div class="tablewrap"><table>
   <thead><tr><th>Status</th><th>What</th><th>Type</th><th>When</th><th>Who</th><th>Conf #</th><th>Notes</th></tr></thead>
   <tbody>${rows}</tbody>
