@@ -554,24 +554,29 @@
     {
       "day": 6,
       "date": "2026-10-17",
-      "title": "Zion → St. George, UT + Snow Canyon SP",
+      "title": "Zion → Kolob Canyons → Snow Canyon → Ivins",
       "tags": [
-        "Short Drive",
         "Kolob Canyons",
-        "Slot Canyon!"
+        "Slot Canyon!",
+        "Resort Nights"
       ],
       "drive": {
-        "stated": "75 mi / ~1 hr 15 min driving"
+        "stated": "91 mi / ~1 hr 40 min driving"
       },
       "lodging": {
-        "city": "St. George, UT",
+        "city": "Ivins / St. George, UT",
         "nights": [
           6,
           7
         ],
-        "chosen": null,
+        "chosen": "Black Desert Resort",
         "status": "needed",
         "options": [
+          {
+            "name": "Black Desert Resort",
+            "note": "Booked with the Chase travel credit. A new luxury resort in Ivins built into black lava flows, five minutes from Snow Canyon — closer to the park than downtown St. George is. Spa, pools, golf, several restaurants on site, and multi-bedroom units. Two nights here is the one genuinely restful stretch of the trip",
+            "url": "https://www.blackdesertresort.com/"
+          },
           {
             "name": "Inn on the Cliff",
             "note": "Dramatic cliff-edge location, sweeping red-rock valley views, serene",
@@ -613,14 +618,14 @@
         {
           "time": "Afternoon",
           "title": "Snow Canyon State Park",
-          "detail": "Twenty minutes from downtown St. George. Red and white Navajo sandstone, lava flows and ancient dunes — a miniature Zion with shorter, more accessible trails. With Sunday now given over to church and friends, do the full circuit today: Jenny's Canyon (0.4 mi into a narrow slot), the Petrified Sand Dunes, Johnson Arch (0.6 mi, easy, arch visible from a paved path) and the Lava Tubes. The Butterfly Trail (1.5 mi) if there is time.",
+          "detail": "Ten minutes from the resort rather than twenty from downtown — Ivins sits right at the park's doorstep. Red and white Navajo sandstone, lava flows and ancient dunes, a miniature Zion with shorter, more accessible trails. With Sunday given over to church and friends, do the full circuit today: Jenny's Canyon (0.4 mi into a narrow slot), the Petrified Sand Dunes, Johnson Arch (0.6 mi, easy, arch visible from a paved path) and the Lava Tubes. The Butterfly Trail (1.5 mi) if there is time.",
           "gp": 5,
           "toddler": 5
         },
         {
           "time": "Evening",
-          "title": "St. George downtown",
-          "detail": "A city of ~90,000 in a red rock bowl at 2,800 ft. October highs 70–76°F — noticeably warmer than Zion or Bryce. Stroll Ancestor Square, dinner downtown.",
+          "title": "Check in at Black Desert, dinner on site or in town",
+          "detail": "Ivins is about 15 minutes northwest of downtown St. George, at 2,800 ft in a red rock bowl. October highs are 70–76°F — noticeably warmer than Zion or Bryce. Eat at the resort on the first night rather than driving back out; there is a steakhouse, a barbecue place and a taqueria. Ancestor Square downtown keeps for tomorrow if anyone wants it.",
           "gp": 4,
           "toddler": 4
         }
@@ -654,9 +659,9 @@
           "type": "park"
         },
         {
-          "name": "St. George, UT",
-          "lat": 37.0965,
-          "lng": -113.5684,
+          "name": "Black Desert Resort, Ivins",
+          "lat": 37.169,
+          "lng": -113.679,
           "type": "overnight"
         }
       ]
@@ -664,7 +669,7 @@
     {
       "day": 7,
       "date": "2026-10-18",
-      "title": "St. George — Church, Friends, and a Slow Sunday",
+      "title": "Ivins — Church, Friends, and a Slow Sunday",
       "tags": [
         "Worship",
         "Friends",
@@ -674,12 +679,12 @@
         "stated": "All local · ~70°F"
       },
       "lodging": {
-        "city": "St. George, UT",
+        "city": "Ivins / St. George, UT",
         "nights": [
           6,
           7
         ],
-        "chosen": null,
+        "chosen": "Black Desert Resort",
         "status": "needed",
         "sameAsDay": 6
       },
@@ -687,7 +692,7 @@
         {
           "time": "10:00 AM",
           "title": "Worship at Redemption Lutheran Church",
-          "detail": "348 North Bluff Street, St. George — about 10 minutes from downtown. Sunday service is at 10:00 AM. Pastor John Raasch is an old friend, so this is the anchor of the day rather than a stop squeezed between hikes. Aim to arrive by 9:45 so there is time to say hello beforehand.",
+          "detail": "348 North Bluff Street, St. George — about 15 minutes from the resort. Sunday service is at 10:00 AM. Pastor John Raasch is an old friend, so this is the anchor of the day rather than a stop squeezed between hikes. Leave Ivins by 9:30 to have time to say hello beforehand.",
           "gp": 5,
           "toddler": 4
         },
@@ -700,22 +705,22 @@
         },
         {
           "time": "Mid-afternoon",
-          "title": "Rest at the hotel — genuinely optional",
-          "detail": "Mom wrote \"could skip & rest\" against this afternoon, and she is right. Day 8 starts the climb to 8,000 ft at Bryce and the two hardest days of the trip follow. A pool afternoon and an early night is a legitimate use of a Sunday. Everything below is optional.",
+          "title": "Back to the resort — the actual rest of the trip",
+          "detail": "Mom wrote \"could skip & rest\" against this afternoon (M13), and now there is somewhere worth resting. Pools, a 15,000 sq ft spa, and pickleball courts if anyone has energy. Day 8 starts the climb to 8,000 ft at Bryce and the two longest days follow. An afternoon by the water and an early night is the best possible use of this Sunday. Everything below is optional.",
           "gp": 5,
           "toddler": 5
         },
         {
           "time": "~4:00 PM",
           "title": "Pioneer Park — if anyone still has energy",
-          "detail": "A city park atop a massive red lava formation right downtown. Short paths among volcanic boulders, wide valley views, easy scrambling for the toddler, benches and shade for the grandparents. Free, five minutes from anywhere in St. George, and beautiful as the lava turns orange-red toward sunset.",
+          "detail": "A city park atop a massive red lava formation downtown, about 15 minutes from the resort. Short paths among volcanic boulders, wide valley views, easy scrambling for the toddler, benches and shade for the grandparents. Free, and beautiful as the lava turns orange-red toward sunset. Snow Canyon is the closer alternative at ten minutes if you would rather not drive in.",
           "gp": 4,
           "toddler": 5
         },
         {
           "time": "Evening",
           "title": "Last warm night of the trip",
-          "detail": "St. George is ~70°F in mid-October. Let the toddler run on the Town Square grass. Tomorrow the route heads north and the altitude rises sharply — Bryce overnight lows are near freezing. Dig the warm layers out of the bags tonight rather than in a cold car park tomorrow.",
+          "detail": "Ivins is around 70°F in mid-October. Tomorrow the route heads north and the altitude rises sharply — Bryce overnight lows are near freezing. Dig the warm layers out of the bags tonight rather than in a cold parking lot tomorrow.",
           "gp": 5,
           "toddler": 5
         }
@@ -752,9 +757,9 @@
           "type": "stop"
         },
         {
-          "name": "St. George, UT",
-          "lat": 37.0965,
-          "lng": -113.5684,
+          "name": "Black Desert Resort, Ivins",
+          "lat": 37.169,
+          "lng": -113.679,
           "type": "overnight"
         }
       ]
@@ -762,13 +767,13 @@
     {
       "day": 8,
       "date": "2026-10-19",
-      "title": "St. George → Red Canyon → Bryce Canyon",
+      "title": "Ivins → Red Canyon → Bryce Canyon",
       "tags": [
         "Drive + Arrive",
         "First Hoodoos"
       ],
       "drive": {
-        "stated": "148 mi / ~2 hrs 15 min driving"
+        "stated": "156 mi / ~2 hrs 30 min driving"
       },
       "lodging": {
         "city": "Bryce Canyon, UT",
@@ -1404,13 +1409,13 @@
     },
     {
       "id": "lodging-st-george",
-      "what": "St. George lodging — nights of Oct 17 & 18",
+      "what": "Black Desert Resort, Ivins — nights of Oct 17 & 18",
       "category": "Lodging",
       "status": "needed",
-      "urgency": "soon",
+      "urgency": "now",
       "who": "",
-      "url": "",
-      "notes": "Book both nights together; the Oct 17–18 weekend fills. Mom put a \"?\" on Inn on the Cliff.",
+      "url": "https://www.blackdesertresort.com/",
+      "notes": "The Chase-credit stay, and the one restful stretch of the trip. Book PREPAID (\"Pay Now\") for both nights in a single transaction through Chase Travel — The Edit needs 2+ nights and pays a maximum of $250 per transaction, so a 2-night stay captures $250, not $500. The card has to pay but the parents can be the named guests. Black Desert is independent, so the separate $250 select-hotels credit (IHG, Minor, Montage, Omni, Pan Pacific, Pendry, Virgin) does NOT apply here. Confirm the resort actually appears in The Edit before relying on it — the public lists I checked showed no Utah properties, though inventory changes. The annual travel credit renews 9/5/2026 and has no brand or night restriction, so it can cover the balance.",
       "confirmation": ""
     },
     {
