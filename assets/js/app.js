@@ -34,9 +34,8 @@ fetch('data/itinerary.json')
     DATA = data;
     renderHero();
     renderItinerary();
-    renderLodging();
     renderBookings();
-    renderNotes();
+    renderPacking();
     initMap();
     initTabs();
     syncBookingStatus();
@@ -192,39 +191,6 @@ function gmapsRoute(stops) {
   return 'https://www.google.com/maps/dir/' + pts.join('/');
 }
 
-/* ---------- lodging ---------- */
-
-function renderLodging() {
-  const rows = DATA.days
-    .filter((d) => d.lodging && !d.lodging.sameAsDay && d.lodging.status !== 'n/a')
-    .map((d) => {
-      const l = d.lodging;
-      const dates = l.nights
-        .map((n) => fmtDay(DATA.days[n - 1].date))
-        .join(' – ');
-      return `
-<tr>
-  <td><a href="#day-${d.day}" data-goto="${d.day}">Day ${d.day}</a></td>
-  <td><b>${esc(l.city)}</b><br><span class="muted">${esc(dates)} · ${l.nights.length} night${
-        l.nights.length > 1 ? 's' : ''}</span></td>
-  <td>${l.chosen ? `<b>${esc(l.chosen)}</b>` : '<span class="muted">not decided</span>'}</td>
-  <td>${l.options.map((o) =>
-        `${lodgingLink(o, false)}${o.mom ? ` <span class="momtag">${esc(o.mom)}</span>` : ''}`
-      ).join('<br>')}</td>
-  <td><span class="pill ${l.status}">${esc(l.status)}</span></td>
-</tr>`;
-    })
-    .join('');
-
-  $('#view-lodging').innerHTML = `
-<h2>Overnights</h2>
-<p class="muted">Eleven nights. Mom ranked Springdale (1st / 2nd) and checked two of the three Torrey options; her question marks are on the Strater and Inn on the Cliff.</p>
-<div class="tablewrap"><table>
-  <thead><tr><th>Day</th><th>Where</th><th>Chosen</th><th>Options</th><th>Status</th></tr></thead>
-  <tbody>${rows}</tbody>
-</table></div>`;
-}
-
 /* ---------- bookings ---------- */
 
 function renderBookings() {
@@ -344,50 +310,24 @@ async function syncBookingStatus() {
   }
 }
 
-/* ---------- notes & questions ---------- */
+/* ---------- packing ---------- */
 
-function renderNotes() {
-  const momAll = DATA.days.flatMap((d) =>
-    (d.momNotes || []).map((n) => ({ ...n, day: d.day, date: d.date, title: d.title })));
+function renderPacking() {
+  const total = DATA.packing.reduce((n, g) => n + g.items.length, 0);
 
-  $('#view-notes').innerHTML = `
-<h2>Open questions</h2>
-${DATA.openQuestions.length ? `
-<p class="muted">Things in the printed plan that need a decision or a fact-check before booking.
-Numbers are fixed — <code>Q4</code> stays <code>Q4</code> even as others get resolved.</p>
-${DATA.openQuestions.map((q) => `
-<div class="qa ${q.status === 'resolved' ? 'resolved' : ''}" id="${esc(q.id)}">
-  <h4><span class="qid">${esc(q.id)}</span> ${esc(q.topic)}${
-    q.status === 'resolved' ? '<span class="pill booked">resolved</span>' : ''}</h4>
-  <p>${esc(q.detail)}</p>
-</div>`).join('')}` : `
-<div class="qa">
-  <h4>Nothing outstanding</h4>
-  <p>Every question raised against the printed plan has been checked and folded into the days
-  themselves — the drive times, the Zion shuttle, the Day 10 route, the sunrise times, the two
-  properties that turned out not to be what the plan claimed. What's left to decide is the
-  optional side trips, which are marked on their own days.</p>
-</div>`}
-
-<h2>Everything Mom wrote</h2>
-<p class="muted">All ${momAll.length} annotations from the printed copy, numbered in trip order so
-they can be referred to — <code>M16</code> is always the pie.</p>
-${momAll.map((n) => `
-<div class="qa" id="${esc(n.id)}">
-  <h4><span class="mid">${esc(n.id)}</span>
-    <a href="#day-${n.day}" data-goto="${n.day}">Day ${n.day} · ${esc(fmtDay(n.date))}</a> — ${esc(n.title)}</h4>
-  <p><span class="mark">${esc(n.mark)}</span> ${esc(n.text)}</p>
-</div>`).join('')}
-
-<h2>Who's coming</h2>
-<ul>${DATA.party.map((p) =>
-    `<li><b>${esc(p.name)}</b>${p.role ? ` — ${esc(p.role)}` : ''}</li>`).join('')}</ul>
-
+  $('#view-packing').innerHTML = `
 <h2>Packing</h2>
-<ul>${DATA.packing.map((p) => `<li>${esc(p)}</li>`).join('')}</ul>`;
+<p class="muted">${total} things, grouped. Built around what this particular trip does to you:
+a 50°F swing between Bryce mornings and St. George afternoons, two small children, long stretches
+with no signal and no shops, and one night standing still in sub-freezing air at Bryce Point.</p>
+${DATA.packing.map((g) => `
+<div class="qa">
+  <h4>${esc(g.group)}</h4>
+  <ul class="packlist">${g.items.map((i) => `<li>${esc(i)}</li>`).join('')}</ul>
+</div>`).join('')}`;
 }
 
-/* jump from a lodging/notes link straight to the open day card */
+/* jump from a map popup straight to the open day card */
 document.addEventListener('click', (e) => {
   const link = e.target.closest('a[data-goto]');
   if (!link) return;

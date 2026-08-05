@@ -11,32 +11,6 @@
     "bookingsSheet": "https://docs.google.com/spreadsheets/d/1N2r62ysrne-hRmPgi4nLXrrivAYXYYo6BxRDGzwjusM/edit",
     "bookingsStatusCsv": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQOmsZgWKqTLTGSf-BDju2c32E_ggpEEOnshW78n6pqnsOU0ACctaO_txCwbYMWJDAkEEDtxmyhCP4l/pub?gid=1542015551&single=true&output=csv"
   },
-  "party": [
-    {
-      "name": "Trip planner",
-      "role": "Driving"
-    },
-    {
-      "name": "Wife",
-      "role": ""
-    },
-    {
-      "name": "Mom",
-      "role": "Has America the Beautiful Senior Pass"
-    },
-    {
-      "name": "Dad",
-      "role": ""
-    },
-    {
-      "name": "Toddler (3)",
-      "role": "Carrier + stroller as needed"
-    },
-    {
-      "name": "Newborn",
-      "role": "Feeding / nap stops drive the schedule"
-    }
-  ],
   "days": [
     {
       "day": 1,
@@ -606,7 +580,7 @@
           },
           {
             "name": "Hilton Garden Inn St. George",
-            "note": "Modern, pool, family-friendly. Note it sits off I-15 by the convention centre, about 20 minutes from Snow Canyon — the printed plan billed it as being next to the park, which it is not",
+            "note": "Modern, pool, family-friendly. Note it sits off I-15 by the convention center, about 20 minutes from Snow Canyon — the printed plan billed it as being next to the park, which it is not",
             "url": "https://www.hilton.com/en/hotels/sgugigi-hilton-garden-inn-st-george/"
           },
           {
@@ -625,14 +599,14 @@
         {
           "time": "Morning",
           "title": "Final Zion morning — optional Pa'rus Trail",
-          "detail": "Gentle walk along the Virgin River before checkout. The Pa'rus Trail starts at the Visitor Center and does not need the shuttle — it is the one canyon-floor trail you can reach on foot from Springdale. Autumn cottonwoods at peak gold; walk south toward the visitor center for the best colour. Then pack up and head for St. George.",
+          "detail": "Gentle walk along the Virgin River before checkout. The Pa'rus Trail starts at the Visitor Center and does not need the shuttle — it is the one canyon-floor trail you can reach on foot from Springdale. Autumn cottonwoods at peak gold; walk south toward the visitor center for the best color. Then pack up and head for St. George.",
           "gp": null,
           "toddler": null
         },
         {
           "time": "~11:00 AM",
           "title": "Kolob Canyons — Zion's other half",
-          "detail": "Zion's northwest corner has its own entrance off I-15 at exit 40, its own visitor centre, and no shuttle — you drive the 5-mile Kolob Canyons Road yourself, stopping wherever you like. Crimson finger canyons 2,000 ft deep, a fraction of the crowds, and it is covered by the same pass you used yesterday. This is the antidote to being shuttled around Zion Canyon. Timber Creek Overlook at the end is a half-mile round trip to a big view. Adds about 25 minutes to the drive.",
+          "detail": "Zion's northwest corner has its own entrance off I-15 at exit 40, its own visitor center, and no shuttle — you drive the 5-mile Kolob Canyons Road yourself, stopping wherever you like. Crimson finger canyons 2,000 ft deep, a fraction of the crowds, and it is covered by the same pass you used yesterday. This is the antidote to being shuttled around Zion Canyon. Timber Creek Overlook at the end is a half-mile round trip to a big view. Adds about 25 minutes to the drive.",
           "gp": 5,
           "toddler": 4
         },
@@ -1202,7 +1176,7 @@
         {
           "time": "2:00 PM",
           "title": "Canyonlands NP — Island in the Sky",
-          "detail": "Two overlooks, enormous payoff for minimal effort. Mesa Arch (0.5-mile loop, easy) frames the canyon 1,000 ft below. Grand View Point at the end of the road is a flat walk to the rim. Add Green River Overlook on the way — five minutes off the park road, arguably the finest view in the park, and a few steps from the car. Shafer Canyon Overlook by the visitor centre is another two-minute stop. Allow 2 hours for the lot, or just do Grand View and Green River.",
+          "detail": "Two overlooks, enormous payoff for minimal effort. Mesa Arch (0.5-mile loop, easy) frames the canyon 1,000 ft below. Grand View Point at the end of the road is a flat walk to the rim. Add Green River Overlook on the way — five minutes off the park road, arguably the finest view in the park, and a few steps from the car. Shafer Canyon Overlook by the visitor center is another two-minute stop. Allow 2 hours for the lot, or just do Grand View and Green River.",
           "gp": 5,
           "toddler": 4
         },
@@ -1559,19 +1533,136 @@
       "url": "https://redemptionsg.com/",
       "confirmation": "",
       "notes": "Worship 10:00 AM at Redemption Lutheran, 348 N Bluff St. Reach out well ahead — Sunday mornings are working time for a pastor."
+    },
+    {
+      "id": "vehicle",
+      "what": "Confirm a vehicle that seats six with two car seats",
+      "category": "Other",
+      "status": "needed",
+      "urgency": "now",
+      "who": "",
+      "url": "",
+      "confirmation": "",
+      "notes": "Four adults, a toddler car seat, an infant seat and twelve days of luggage. A standard five-seat SUV does not do this. If the family car won't take it, a rental needs booking well ahead — October is still busy in Denver."
+    },
+    {
+      "id": "state-park-fees",
+      "what": "Utah state park entry fees — pay at each gate",
+      "category": "Pass",
+      "status": "needed",
+      "urgency": "before-trip",
+      "who": "",
+      "url": "https://stateparks.utah.gov/resources/passes/",
+      "confirmation": "",
+      "notes": "Snow Canyon $10, Goblin Valley ~$25, Dead Horse Point ~$20, plus Goosenecks ~$5 and Kodachrome ~$10 if you take those options. Roughly $55–70 total. A non-resident annual pass runs about $175, so it is NOT worth buying for this route. None of these are covered by the America the Beautiful pass."
+    },
+    {
+      "id": "best-friends",
+      "what": "Best Friends Animal Sanctuary tour, Kanab (Oct 15)",
+      "category": "Activity",
+      "status": "optional",
+      "urgency": "soon",
+      "who": "",
+      "url": "https://bestfriends.org/sanctuary/plan-your-visit",
+      "confirmation": "",
+      "notes": "Free, but the 90-minute bus tours must be reserved ahead and do fill. Only if Day 4 is the day you pick it — see the three optional stops on that day, of which you should do one."
+    },
+    {
+      "id": "moab-giants",
+      "what": "Moab Giants dinosaur park (Oct 22)",
+      "category": "Activity",
+      "status": "optional",
+      "urgency": "later",
+      "who": "",
+      "url": "https://moabgiants.com/",
+      "confirmation": "",
+      "notes": "Ticketed. Check the October closing time — usually 6 PM — because Day 11 only reaches Moab late. She'll have been talking about the Johnson Farm tracks for four days by then."
     }
   ],
   "packing": [
-    "Layers — mornings at Bryce will be near 25°F; evenings in Zion in the 40s",
-    "Waterproof hiking shoes for the whole family (trails can be icy or wet)",
-    "Child's warm hat, mittens, and puffy coat for Bryce",
-    "Sunscreen — the desert sun is still strong in October",
-    "Reusable water bottles (1 liter per person minimum per hike)",
-    "Headlamps for early morning starts",
-    "America the Beautiful pass or Senior Pass",
-    "First aid kit including blister bandages and ibuprofen",
-    "Closed-toe shoes for Goblin Valley — the sandstone is rough",
-    "Carrier for the 3-year-old and a stroller for paved trails (Pa'rus, Rim Trail, Dead Horse Point)"
+    {
+      "group": "Documents and passes",
+      "items": [
+        "America the Beautiful annual pass, or Mom's Senior Pass — covers entry to Zion, Bryce, Capitol Reef, Arches, Canyonlands and Mesa Verde. The Senior Pass holder has to be in the vehicle and show it.",
+        "Cash and a card. Monument Valley Navajo Tribal Park is $20/vehicle and the Utah state park gates vary — a few are cash-only, a few are card-only.",
+        "Printed confirmations for the D&SNG train and any timed tours. Cell signal at the depot and in the parks is unreliable."
+      ]
+    },
+    {
+      "group": "Clothing — the trip swings about 50°F",
+      "items": [
+        "Layers, seriously. Mornings at Bryce are near 25°F; afternoons in St. George are near 75°F.",
+        "Warm hat, gloves and a real coat for every adult. Bryce Point after dark is below freezing and you will be standing still for half an hour.",
+        "Child's warm hat, mittens and puffy coat for the two Bryce days.",
+        "Sun hats and sunglasses for everyone, including the kids.",
+        "Church clothes for Sunday morning at Redemption Lutheran on Oct 18.",
+        "Swimsuits — several of the hotels have pools, and Iron Mountain Hot Springs is an option on the last day.",
+        "More toddler clothes than seems reasonable, plus a complete change kept in the car."
+      ]
+    },
+    {
+      "group": "Footwear",
+      "items": [
+        "Waterproof hiking shoes for the whole family. October trails can be icy in the morning and wet after rain.",
+        "Closed-toe shoes for Goblin Valley and Little Wild Horse Canyon — the sandstone destroys sandals and bare feet.",
+        "A bag or ziplocs for sandy shoes before they go back in the car.",
+        "Trekking poles for the grandparents if they use them; Queen's Garden drops 320 ft on loose rock."
+      ]
+    },
+    {
+      "group": "The newborn",
+      "items": [
+        "Infant carrier or wrap. Most of the best viewpoints are short walks on uneven ground, not stroller terrain.",
+        "Far more diapers and wipes than the trip length suggests. Torrey, Bluff and Monument Valley have almost nowhere to restock.",
+        "Portable changing mat — many trailhead restrooms have no table.",
+        "Feeding supplies and a way to warm a bottle in the car.",
+        "Sun shade for the car window and for the carrier. Sunscreen isn't recommended under six months, so shade and long sleeves do the work.",
+        "Confirm a crib with each hotel rather than assuming, or bring a travel one.",
+        "Saline drops. The air is extremely dry and Bryce sits at 8,000 ft."
+      ]
+    },
+    {
+      "group": "The three-year-old",
+      "items": [
+        "Carrier for when she runs out of steam, which will happen at the furthest point from the car.",
+        "Stroller for the paved stretches: Pa'rus Trail, the Bryce Rim Trail, the Dead Horse Point rim loop.",
+        "Sand toys for Goblin Valley.",
+        "Downloaded shows and audiobooks. There is no signal for most of the driving."
+      ]
+    },
+    {
+      "group": "Water, food and the car",
+      "items": [
+        "Reusable bottles, a liter per person per hike, plus a couple of gallon jugs in the trunk.",
+        "A cooler. Day 1 and Day 11 both have long stretches with nothing open.",
+        "Far more snacks than you think. Mom circled \"pack a full lunch\" for a reason (M18).",
+        "Download offline maps for the whole route before leaving. There is no signal on Byway 12, around Goblin Valley, or through much of the Navajo Nation.",
+        "Phone mounts, car chargers and a power bank.",
+        "Check the spare tire and pressures before departure. Monument Valley's Valley Drive and Valley of the Gods are washboard dirt.",
+        "Motion sickness remedy — Wolf Creek Pass, Byway 12 and the road down to Bryce are all winding.",
+        "Trash bags. Several of these stops have no bins."
+      ]
+    },
+    {
+      "group": "Health, sun and skin",
+      "items": [
+        "Sunscreen. The October desert sun is still strong, more so at 8,000 ft.",
+        "SPF lip balm and a heavy moisturizer. The dryness catches everyone out by about day three.",
+        "First aid kit with blister bandages, ibuprofen and antihistamines.",
+        "Any prescriptions, with a few days spare in case weather delays you.",
+        "Altitude is a real factor for the grandparents: Wolf Creek Pass is 10,857 ft on Day 1 and Bryce is 8,000–9,100 ft for two nights. Drink more water than feels necessary."
+      ]
+    },
+    {
+      "group": "Bryce after dark, and photography",
+      "items": [
+        "Headlamps, ideally with a red-light mode so nobody wrecks everyone's night vision at Bryce Point.",
+        "A blanket each for stargazing. You'll be stationary in sub-freezing air.",
+        "Binoculars — good for the Milky Way at night and the viewpoints by day.",
+        "A star chart or app downloaded in advance; there's no signal at Bryce Point.",
+        "The good camera for the Monument Valley sunset and the Bryce sunrise, plus spare batteries — cold drains them fast."
+      ]
+    }
   ],
   "openQuestions": []
 }

@@ -27,9 +27,14 @@ outcome is reflected in the itinerary.
 
 ### Mom's notes
 
-Every annotation from the printed copy is numbered `M1`–`M20` in trip order, on the day
-it belongs to and collected on the Notes tab, so they can be cited in conversation.
-Numbers come from position, so inserting a note renumbers the ones after it.
+Every annotation from the printed copy is numbered `M1`–`M20` in trip order and shown on
+the day it belongs to, so they can be cited in conversation. Numbers come from position,
+so inserting a note renumbers the ones after it.
+
+### Packing
+
+`packing` is a list of `{ group, items }`. Add a group by adding an object; the count in
+the intro line is computed.
 
 ### Marking something as booked
 
@@ -138,8 +143,8 @@ Bookings tab with that same id in column J. The Public status tab picks it up on
 ## Where the content came from
 
 The cowork-generated plan, plus Mom's handwritten annotations on the printed copy.
-Her notes are preserved verbatim in the `momNotes` field on each day and collected on
-the "Notes & questions" tab, so nothing she wrote gets lost as the plan changes.
+Her notes are preserved verbatim in the `momNotes` field on each day, so nothing she
+wrote gets lost as the plan changes.
 
 The printed plan had real errors — drive times off by hours, the Zion shuttle backwards,
 a Day 10 route that doubled back, two lodgings that were not what they claimed. Those were
