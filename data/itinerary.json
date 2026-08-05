@@ -154,7 +154,7 @@
         {
           "time": "~2:30 PM",
           "title": "Main Avenue and the Animas River Trail",
-          "detail": "What Day 1 was too long to allow. Stroll the historic district, then walk the flat river path through downtown — playgrounds along the way, good coffee, views of the San Juans. The toddler can scooter it. With Mesa Verde moved to tomorrow this afternoon is genuinely free, which after a 7-hour drive and before a 4.5-hour one is worth protecting.",
+          "detail": "Stroll the historic district, then walk the flat river path through downtown — playgrounds along the way, good coffee, views of the San Juans. The toddler can scooter it. The afternoon is deliberately empty: it sits between a seven-hour drive and a four-and-a-half-hour one, and that space is worth protecting.",
           "gp": 4,
           "toddler": 5
         },
@@ -251,7 +251,7 @@
         {
           "time": "Afternoon",
           "title": "Navajo-guided valley tour",
-          "detail": "With the 17-Mile Valley Drive dropped, this is the way to actually get down among the buttes — and it is the better version anyway: a Navajo guide drives the washboard for you and reaches restricted areas the self-drive loop cannot, including Mystery Valley and the arches. Roughly 2–3 hours; book ahead at monument-valley.net. Mom put a question mark against this one (M4), so it is a group decision.",
+          "detail": "The way to get down among the buttes, and the better version of it: a Navajo guide drives the washboard for you and reaches restricted areas closed to private vehicles, including Mystery Valley and the arches. Roughly 2–3 hours; book ahead at monument-valley.net. Mom put a question mark against this one (M4), so it is a group decision.",
           "gp": 4,
           "toddler": 3,
           "optional": true
@@ -274,17 +274,17 @@
         {
           "id": "M2",
           "mark": "○",
-          "text": "Circled \"Senior Pass\" against the Mesa Verde section of the printed plan — she has one, so park entry is covered. She circled it again on Days 5, 9, 11 and the packing list."
+          "text": "Circled \"Senior Pass\" against the Mesa Verde section — she has one, so park entry is covered. She circled it again on Days 5, 9, 11 and the packing list."
         },
         {
           "id": "M3",
           "mark": "★",
-          "text": "Star next to The View Hotel — this is her pick for Monument Valley, and with the Valley Drive dropped the room view is now doing all the work."
+          "text": "Star next to The View Hotel — this is her pick for Monument Valley."
         },
         {
           "id": "M4",
           "mark": "?",
-          "text": "Question mark next to the guided Jeep tours — undecided. Now the only way into the valley itself, so worth settling."
+          "text": "Question mark next to the guided Jeep tours — undecided, and the only way into the valley itself, so worth settling."
         }
       ],
       "stops": [
@@ -318,7 +318,7 @@
       ],
       "drive": {
         "stated": "242 mi / ~4 hrs 20 min driving",
-        "flag": "Longer than the printed plan's 3.5 hrs — and it follows a sunrise start"
+        "flag": "A long drive following a sunrise start — the optional stops below are worth at most one"
       },
       "lodging": {
         "city": "Springdale, UT",
@@ -352,7 +352,7 @@
         {
           "time": "7:27 AM",
           "title": "Sunrise at The Mittens",
-          "detail": "Sunrise on Oct 15 is 7:27 AM MDT — a civilised hour, not the 6:15 the printed plan claimed. Warm light turns the sandstone deep red-orange. Five-minute walk from the hotel; bring coffee. Note the Navajo Nation observes daylight saving even though the rest of Arizona does not, so your phone should show the same time as Utah.",
+          "detail": "Sunrise on Oct 15 is 7:27 AM MDT, a civilised hour. Warm light turns the sandstone deep red-orange. Five-minute walk from the hotel; bring coffee. Note the Navajo Nation observes daylight saving even though the rest of Arizona does not, so your phone should show the same time as Utah.",
           "gp": 5,
           "toddler": 5
         },
@@ -511,7 +511,7 @@
         }
       ],
       "tips": [
-        "The shuttle IS running on your dates — private cars cannot drive Zion Canyon Scenic Drive. The printed plan had this backwards.",
+        "The shuttle runs on your dates, so private cars cannot drive the Zion Canyon Scenic Drive. Park at the Visitor Center and ride.",
         "No ticket or reservation is needed for the shuttle; just queue at the Visitor Center.",
         "Strollers must be folded to board — a carrier is easier for the newborn.",
         "The Narrows involves wading in cold water — skip it for this group.",
@@ -585,7 +585,7 @@
           },
           {
             "name": "Hilton Garden Inn St. George",
-            "note": "Modern, pool, family-friendly. Note it sits off I-15 by the convention center, about 20 minutes from Snow Canyon — the printed plan billed it as being next to the park, which it is not",
+            "note": "Modern, pool, family-friendly. Sits off I-15 by the convention center, about 20 minutes from Snow Canyon",
             "url": "https://www.hilton.com/en/hotels/sgugigi-hilton-garden-inn-st-george/"
           },
           {
@@ -618,7 +618,7 @@
         {
           "time": "Afternoon",
           "title": "Snow Canyon State Park",
-          "detail": "Ten minutes from the resort rather than twenty from downtown — Ivins sits right at the park's doorstep. Red and white Navajo sandstone, lava flows and ancient dunes, a miniature Zion with shorter, more accessible trails. With Sunday given over to church and friends, do the full circuit today: Jenny's Canyon (0.4 mi into a narrow slot), the Petrified Sand Dunes, Johnson Arch (0.6 mi, easy, arch visible from a paved path) and the Lava Tubes. The Butterfly Trail (1.5 mi) if there is time.",
+          "detail": "Ten minutes from the resort — Ivins sits right at the park's doorstep. Red and white Navajo sandstone, lava flows and ancient dunes, a miniature Zion with shorter, more accessible trails. Do the full circuit today: Jenny's Canyon (0.4 mi into a narrow slot), the Petrified Sand Dunes, Johnson Arch (0.6 mi, easy, arch visible from a paved path) and the Lava Tubes. The Butterfly Trail (1.5 mi) if there is time.",
           "gp": 5,
           "toddler": 5
         },
@@ -706,7 +706,7 @@
         {
           "time": "Mid-afternoon",
           "title": "Back to the resort — the actual rest of the trip",
-          "detail": "Mom wrote \"could skip & rest\" against this afternoon (M11), and now there is somewhere worth resting. Pools, a 15,000 sq ft spa, and pickleball courts if anyone has energy. Day 8 starts the climb to 8,000 ft at Bryce and the two longest days follow. An afternoon by the water and an early night is the best possible use of this Sunday. Everything below is optional.",
+          "detail": "Mom wrote \"could skip & rest\" against this afternoon (M11), and this is where to do it. Pools, a 15,000 sq ft spa, and pickleball courts if anyone has energy. Day 8 starts the climb to 8,000 ft at Bryce and the two longest days follow. An afternoon by the water and an early night is the best possible use of this Sunday. Everything below is optional.",
           "gp": 5,
           "toddler": 5
         },
@@ -728,7 +728,7 @@
       "tips": [
         "Confirm the service time on redemptionsg.com closer to the date — small churches move things.",
         "Reach out about lunch weeks ahead, not the week of.",
-        "Snow Canyon moved to Saturday (Day 6) so Sunday stays unhurried; go back Sunday morning only if everyone is up early and keen.",
+        "Snow Canyon is ten minutes away if anyone wants a walk, but Sunday is meant to be unhurried — only go if everyone is up early and keen.",
         "Dinosaur Discovery Site at Johnson Farm is the fallback if the afternoon wants filling — book at utahdinosaurs.com, typically 10 AM–6 PM."
       ],
       "momNotes": [
@@ -918,7 +918,7 @@
         {
           "time": "~2:30 PM",
           "title": "Scenic drive south to Rainbow Point",
-          "detail": "The plan has you in the amphitheatre all day, but the park road runs 18 miles further south to Rainbow Point at 9,115 ft, and almost every viewpoint is a few steps from the car. Natural Bridge is the one to stop for — a genuine arch framing green forest. Agua Canyon and Ponderosa Canyon are worth the pullouts. Allow 1.5-2 hours round trip including stops. Drive to the far end first and work back, so the viewpoints are all on your right.",
+          "detail": "The park road runs 18 miles south of the amphitheater to Rainbow Point at 9,115 ft, and almost every viewpoint is a few steps from the car. Natural Bridge is the one to stop for — a genuine arch framing green forest. Agua Canyon and Ponderosa Canyon are worth the pullouts. Allow 1.5–2 hours round trip including stops. Drive to the far end first and work back, so the viewpoints are all on your right.",
           "gp": 5,
           "toddler": 3
         },
@@ -985,7 +985,7 @@
         "Easy Day"
       ],
       "drive": {
-        "stated": "151 mi / ~3 hrs 15 min driving"
+        "stated": "134 mi / ~2 hrs 40 min driving"
       },
       "lodging": {
         "city": "Torrey, UT",
@@ -1057,7 +1057,7 @@
         }
       ],
       "tips": [
-        "This is now a genuinely relaxed day — 2 hrs 40 min of driving instead of the 5+ hrs the printed plan implied.",
+        "The lightest driving day of the trip, which is why it can absorb Kodachrome Basin (about 35 minutes round trip) without strain.",
         "Gifford Homestead closes in the late afternoon and sells out of pie before that. Go there before Hickman Bridge.",
         "Fill the tank in Escalante or Boulder; services on Byway 12 are thin."
       ],
@@ -1070,7 +1070,7 @@
         {
           "id": "M17",
           "mark": "✓ ✓ ?",
-          "text": "Checked Capitol Reef Resort and Austin's Chuckwagon Motel; question mark on Entrada Guesthouse. Her doubt was well placed — no such property could be found in Torrey, and it has been dropped. Torrey Schoolhouse B&B or Skyridge Inn are real alternatives if you want a third choice."
+          "text": "Checked Capitol Reef Resort and Austin's Chuckwagon Motel. Torrey Schoolhouse B&B and Skyridge Inn are real alternatives if you want a third choice."
         }
       ],
       "stops": [
@@ -1163,7 +1163,7 @@
         {
           "time": "7:30 AM",
           "title": "Depart Torrey — UT-24 east",
-          "detail": "Goblin Valley now sits on the way to Moab rather than being a 3-hour out-and-back from Byway 12. Including it costs about 26 extra miles instead of 137.",
+          "detail": "UT-24 east across the San Rafael Swell. Goblin Valley sits directly on the line to Moab, so it costs about 26 extra miles rather than a detour.",
           "gp": null,
           "toddler": null
         },
@@ -1449,7 +1449,7 @@
       "urgency": "now",
       "who": "",
       "url": "https://www.visitbrycecanyon.com/stay/the-lodge-at-bryce-canyon",
-      "notes": "Confirmed open: the Lodge at Bryce Canyon's Main Lodge and Suites run Mar 1 – Nov 30, 2026, so your dates are in season. It is the only lodging inside the park and books up to a year out — visitbrycecanyon.com.",
+      "notes": "The Lodge at Bryce Canyon's Main Lodge and Suites run Mar 1 – Nov 30, 2026, so your dates are in season. It is the only lodging inside the park and books up to a year out — visitbrycecanyon.com.",
       "confirmation": ""
     },
     {
@@ -1471,7 +1471,7 @@
       "urgency": "soon",
       "who": "",
       "url": "https://recreation.gov",
-      "notes": "$5/person, recreation.gov. Reduced October schedule and it fills fast. Moved from Oct 13 to Oct 14 — Mesa Verde is now on the drive out to Monument Valley rather than crammed in after the steam train. Book a late-morning slot; you should be on site 8:45–11:15.",
+      "notes": "$5/person, recreation.gov. Reduced October schedule and it fills fast. Book a late-morning slot — you are on site 8:45–11:15 on the drive out to Monument Valley.",
       "confirmation": ""
     },
     {
@@ -1608,7 +1608,7 @@
     {
       "group": "Clothing — the trip swings about 50°F",
       "items": [
-        "Layers, seriously. Mornings at Bryce are near 25°F; afternoons in St. George are near 75°F.",
+        "Layers, seriously. Mornings at Bryce are near 25°F; afternoons in the St. George area are near 75°F.",
         "Warm hat, gloves and a real coat for every adult. Bryce Point after dark is below freezing and you will be standing still for half an hour.",
         "Child's warm hat, mittens and puffy coat for the two Bryce days.",
         "Sun hats and sunglasses for everyone, including the kids.",
