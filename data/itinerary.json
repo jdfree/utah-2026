@@ -124,15 +124,14 @@
     {
       "day": 2,
       "date": "2026-10-13",
-      "title": "Durango — Steam Train + Mesa Verde",
+      "title": "Durango — Steam Train Day",
       "tags": [
         "Colorado Gem",
         "Steam Train!",
-        "Scenic & Easy"
+        "Easy Afternoon"
       ],
       "drive": {
-        "stated": "112 mi / ~2 hrs 30 min driving",
-        "flag": "Mesa Verde is 56 miles each way to the cliff dwellings, on top of a morning train — see the schedule warning below"
+        "stated": "All local"
       },
       "lodging": {
         "city": "Durango, CO",
@@ -148,38 +147,30 @@
         {
           "time": "8:45 AM",
           "title": "D&SNG Cascade Canyon Train",
-          "detail": "The crown jewel of Durango. Narrow-gauge steam, 26 miles north through the Animas River Gorge (sheer walls, no road access), back by early afternoon. Victorian open-air cars.",
+          "detail": "The crown jewel of Durango and now the whole of today. Narrow-gauge steam, 26 miles north through the Animas River Gorge — sheer walls, no road access — and back by early afternoon. Victorian open-air cars. Roughly five hours round trip, so do not plan anything that has to start before 2 PM.",
           "gp": 5,
           "toddler": 5
         },
         {
-          "time": "Afternoon",
-          "title": "Mesa Verde National Park",
-          "detail": "The cliff dwellings are at Chapin Mesa, 56 miles and about 1 hr 15 min from Durango — the park entrance is only half way, and the road in is slow and winding. Best-preserved Ancestral Puebloan dwellings in North America. The ranger-guided Cliff Palace tour runs a reduced October schedule (recreation.gov). Even without it, the Chapin Mesa Archeological Museum and the Spruce Tree House viewpoint are free and excellent. Allow 2–3 hours on site plus 2.5 hours of driving.",
-          "gp": 5,
-          "toddler": 3
-        },
-        {
-          "time": "Late afternoon",
-          "title": "Animas River Trail",
-          "detail": "Flat path along the river through downtown. Toddler can scooter or walk; playgrounds along the way, good coffee, views of the San Juans. Nice wind-down after a big train day.",
+          "time": "~2:30 PM",
+          "title": "Main Avenue and the Animas River Trail",
+          "detail": "What Day 1 was too long to allow. Stroll the historic district, then walk the flat river path through downtown — playgrounds along the way, good coffee, views of the San Juans. The toddler can scooter it. With Mesa Verde moved to tomorrow this afternoon is genuinely free, which after a 7-hour drive and before a 4.5-hour one is worth protecting.",
           "gp": 4,
           "toddler": 5
+        },
+        {
+          "time": "Evening",
+          "title": "Dinner on Main Ave",
+          "detail": "Ore House or Steamworks Brewing are the local standbys. Early night — tomorrow starts at 7:30.",
+          "gp": 4,
+          "toddler": 4
         }
       ],
       "tips": [
-        "Book the Cliff Palace tour at recreation.gov ($5/person; fills fast even in October).",
-        "Park entry covered by America the Beautiful / Senior Pass.",
-        "Chapin Mesa Museum is free and excellent — short exhibits, good for all ages.",
-        "Drive the Cliff Palace Loop Road for views even without a guided tour."
+        "The Cascade Canyon round trip is about five hours; check your exact return time when you confirm tickets, since it drives the whole afternoon.",
+        "Pack layers for the train — the open-air cars are cold in the gorge even on a warm day."
       ],
-      "momNotes": [
-        {
-          "id": "M2",
-          "mark": "○",
-          "text": "Circled \"Senior Pass\" — she has one, so park entry is covered. Circled again on Days 5, 9, 11 and the packing list."
-        }
-      ],
+      "momNotes": [],
       "stops": [
         {
           "name": "Durango, CO",
@@ -188,23 +179,24 @@
           "type": "overnight"
         },
         {
-          "name": "Mesa Verde National Park",
-          "lat": 37.2309,
-          "lng": -108.4618,
-          "type": "park"
+          "name": "Cascade Canyon (D&SNG turnaround)",
+          "lat": 37.548,
+          "lng": -107.801,
+          "type": "stop"
         }
       ]
     },
     {
       "day": 3,
       "date": "2026-10-14",
-      "title": "Durango → Monument Valley, AZ/UT",
+      "title": "Durango → Mesa Verde → Monument Valley",
       "tags": [
+        "Cliff Dwellings",
         "Drive Day",
-        "Navajo Nation"
+        "Sunset at The Mittens"
       ],
       "drive": {
-        "stated": "179 mi / ~3 hrs 20 min driving"
+        "stated": "221 mi / ~4 hrs 35 min driving"
       },
       "lodging": {
         "city": "Monument Valley, AZ/UT",
@@ -229,65 +221,78 @@
       },
       "items": [
         {
-          "time": "9:00 AM",
-          "title": "Depart Durango — US-160 west, then north via Bluff",
-          "detail": "Classic high desert: pinon-juniper mesas, red rock, the Navajo Nation. Shiprock appears on the southern horizon. Take the northern approach through Bluff and Mexican Hat rather than the direct line — it costs about 15 minutes and puts the two stops below on your way, plus the stretch of US-163 where Forrest Gump stopped running.",
+          "time": "7:30 AM",
+          "title": "Depart Durango — US-160 west",
+          "detail": "An early start buys a relaxed afternoon at the other end. Mesa Verde is on the way, not a detour.",
           "gp": null,
           "toddler": null
         },
         {
-          "time": "~12:30 PM",
-          "title": "Goosenecks State Park",
-          "detail": "Five minutes off the highway, and one of the best-value stops in Utah. You stand on a rim 1,000 ft above the San Juan River where it doubles back on itself three times in a mile. Paved parking, a railing, no walking required — you are at the view the moment you step out of the car. $5/vehicle.",
+          "time": "~8:45 AM",
+          "title": "Mesa Verde National Park — Chapin Mesa",
+          "detail": "The best-preserved Ancestral Puebloan cliff dwellings in North America. The dwellings are at Chapin Mesa, 56 miles from Durango — the entrance is only halfway and the road in is slow and winding, so allow 1 hr 15 min each way. The ranger-guided Cliff Palace tour runs a reduced October schedule and books at recreation.gov. Even without it, the Chapin Mesa Archeological Museum and the Spruce Tree House viewpoint are free and excellent, and the Cliff Palace Loop Road gives you the views from the car. Allow 2–2.5 hours and leave by 11:15.",
           "gp": 5,
           "toddler": 3
         },
         {
-          "time": "~1:15 PM",
-          "title": "Valley of the Gods",
-          "detail": "A free 17-mile dirt loop through sandstone monoliths — Monument Valley in miniature, with almost nobody in it. Graded dirt, fine for a passenger car in dry weather. Costs about 35 minutes on top of Goosenecks. Skip it if you want the afternoon at Monument Valley proper; the two are similar and you have the real thing ahead of you.",
+          "time": "~1:50 PM",
+          "title": "Goosenecks State Park",
+          "detail": "Five minutes off the highway and straight to the rim: 1,000 ft above the San Juan River where it doubles back on itself three times in a mile. Paved parking, a railing, no walking required. $5/vehicle. Half an hour is plenty.",
+          "gp": 5,
+          "toddler": 3
+        },
+        {
+          "time": "~3:00 PM",
+          "title": "Arrive The View — check in and stop moving",
+          "detail": "You have been in the car for most of two days. The whole point of staying inside the Tribal Park is that the view comes to you: the room faces the Mittens directly, so the afternoon can be spent on the terrace rather than on another dirt road. Nearly four hours before sunset.",
+          "gp": 5,
+          "toddler": 4
+        },
+        {
+          "time": "Afternoon",
+          "title": "Navajo-guided valley tour",
+          "detail": "With the 17-Mile Valley Drive dropped, this is the way to actually get down among the buttes — and it is the better version anyway: a Navajo guide drives the washboard for you and reaches restricted areas the self-drive loop cannot, including Mystery Valley and the arches. Roughly 2–3 hours; book ahead at monument-valley.net. Mom put a question mark against this one (M4), so it is a group decision.",
           "gp": 4,
           "toddler": 3,
           "optional": true
         },
         {
-          "time": "Afternoon",
-          "title": "Monument Valley Navajo Tribal Park",
-          "detail": "The 17-Mile Valley Drive loop in your own vehicle, winding between the mittens, buttes, and spires. Road is dirt and can be washboarded — drive slowly. Entry $20/vehicle (Navajo Tribal Park; NPS passes do not apply).",
-          "gp": 5,
-          "toddler": 4
-        },
-        {
           "time": "6:47 PM",
           "title": "Sunset at The Mittens",
-          "detail": "East and West Mittens from the View Hotel terrace — one of the most iconic views in the American West. Sunset on Oct 14 is 6:47 PM MDT; be in place by 6:15. Whole group watches from the paved viewpoint, no hiking required.",
+          "detail": "East and West Mittens from the View Hotel terrace — one of the most iconic sights in the American West, and you can watch it from a chair with a sleeping baby. Sunset on Oct 14 is 6:47 PM MDT; be in place by 6:15.",
           "gp": 5,
           "toddler": 4
         }
       ],
       "tips": [
-        "Valley Drive is 17 miles of rough dirt; any SUV or sedan handles it at slow speed.",
-        "Guided Jeep tours with Navajo guides reach restricted areas — book at monument-valley.net.",
-        "Bring plenty of water; no services on the loop drive."
+        "Mesa Verde's Wetherill Mesa road usually closes by mid-October, but Chapin Mesa — the part you want — stays open.",
+        "Book the Cliff Palace tour at recreation.gov ($5/person). It fills fast even in October.",
+        "Park entry at Mesa Verde is covered by America the Beautiful / Senior Pass. Monument Valley is a Navajo Tribal Park at $20/vehicle and is NOT covered.",
+        "Dropping the 17-Mile Valley Drive saves about 90 minutes of washboard dirt. You still get the Mittens at sunset and again at sunrise, which is the image everyone actually remembers."
       ],
       "momNotes": [
         {
+          "id": "M2",
+          "mark": "○",
+          "text": "Circled \"Senior Pass\" against the Mesa Verde section of the printed plan — she has one, so park entry is covered. She circled it again on Days 5, 9, 11 and the packing list."
+        },
+        {
           "id": "M3",
           "mark": "★",
-          "text": "Star next to The View Hotel — this is her pick for Monument Valley."
+          "text": "Star next to The View Hotel — this is her pick for Monument Valley, and with the Valley Drive dropped the room view is now doing all the work."
         },
         {
           "id": "M4",
           "mark": "?",
-          "text": "Question mark next to the guided Jeep tours — undecided, wants to discuss."
+          "text": "Question mark next to the guided Jeep tours — undecided. Now the only way into the valley itself, so worth settling."
         }
       ],
       "stops": [
         {
-          "name": "Cortez, CO",
-          "lat": 37.3489,
-          "lng": -108.5859,
-          "type": "waypoint"
+          "name": "Mesa Verde — Chapin Mesa",
+          "lat": 37.183,
+          "lng": -108.487,
+          "type": "park"
         },
         {
           "name": "Goosenecks State Park",
@@ -296,13 +301,7 @@
           "type": "stop"
         },
         {
-          "name": "Valley of the Gods",
-          "lat": 37.254,
-          "lng": -109.883,
-          "type": "stop"
-        },
-        {
-          "name": "Monument Valley Navajo Tribal Park",
+          "name": "The View Hotel, Monument Valley",
           "lat": 36.9834,
           "lng": -110.1116,
           "type": "overnight"
@@ -707,7 +706,7 @@
         {
           "time": "Mid-afternoon",
           "title": "Back to the resort — the actual rest of the trip",
-          "detail": "Mom wrote \"could skip & rest\" against this afternoon (M13), and now there is somewhere worth resting. Pools, a 15,000 sq ft spa, and pickleball courts if anyone has energy. Day 8 starts the climb to 8,000 ft at Bryce and the two longest days follow. An afternoon by the water and an early night is the best possible use of this Sunday. Everything below is optional.",
+          "detail": "Mom wrote \"could skip & rest\" against this afternoon (M11), and now there is somewhere worth resting. Pools, a 15,000 sq ft spa, and pickleball courts if anyone has energy. Day 8 starts the climb to 8,000 ft at Bryce and the two longest days follow. An afternoon by the water and an early night is the best possible use of this Sunday. Everything below is optional.",
           "gp": 5,
           "toddler": 5
         },
@@ -1466,13 +1465,13 @@
     },
     {
       "id": "mesa-verde-tour",
-      "what": "Mesa Verde Cliff Palace ranger tour (Oct 13)",
+      "what": "Mesa Verde Cliff Palace ranger tour (Oct 14)",
       "category": "Activity",
       "status": "needed",
       "urgency": "soon",
       "who": "",
       "url": "https://recreation.gov",
-      "notes": "$5/person. Reduced October schedule; fills fast.",
+      "notes": "$5/person, recreation.gov. Reduced October schedule and it fills fast. Moved from Oct 13 to Oct 14 — Mesa Verde is now on the drive out to Monument Valley rather than crammed in after the steam train. Book a late-morning slot; you should be on site 8:45–11:15.",
       "confirmation": ""
     },
     {

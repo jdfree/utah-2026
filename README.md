@@ -28,8 +28,16 @@ outcome is reflected in the itinerary.
 ### Mom's notes
 
 Every annotation from the printed copy is numbered `M1`–`M20` in trip order and shown on
-the day it belongs to, so they can be cited in conversation. Numbers come from position,
-so inserting a note renumbers the ones after it.
+the day it belongs to, so they can be cited in conversation.
+
+**Numbers come from position, so adding, moving or removing a note renumbers everything
+after it — and any `(M12)`-style citation elsewhere in the file silently starts pointing
+at the wrong note.** This has already rotted twice. After touching `momNotes`, re-audit
+with:
+
+```bash
+python3 -c "import json,re;d=json.load(open('data/itinerary.json'));n={x['id']:t['day'] for t in d['days'] for x in (t.get('momNotes') or [])};[print(r,'->day',n.get(r,'DANGLING')) for r in sorted(set(re.findall(r'\bM\d+\b',json.dumps(d))),key=lambda s:int(s[1:]))]"
+```
 
 ### Packing
 
