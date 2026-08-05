@@ -9,7 +9,7 @@
     "shape": "Loop",
     "milesStated": "~1,850 driving miles",
     "bookingsSheet": "https://docs.google.com/spreadsheets/d/1N2r62ysrne-hRmPgi4nLXrrivAYXYYo6BxRDGzwjusM/edit",
-    "bookingsStatusCsv": "https://docs.google.com/spreadsheets/d/1N2r62ysrne-hRmPgi4nLXrrivAYXYYo6BxRDGzwjusM/pub?gid=1542015551&single=true&output=csv"
+    "bookingsStatusCsv": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQOmsZgWKqTLTGSf-BDju2c32E_ggpEEOnshW78n6pqnsOU0ACctaO_txCwbYMWJDAkEEDtxmyhCP4l/pub?gid=1542015551&single=true&output=csv"
   },
   "party": [
     {
@@ -1209,7 +1209,7 @@
       "id": "lodging-durango",
       "what": "Durango lodging — nights of Oct 12 & 13",
       "category": "Lodging",
-      "status": "booked",
+      "status": "needed",
       "urgency": "now",
       "who": "",
       "url": "",
@@ -1220,7 +1220,7 @@
       "id": "lodging-monument-valley",
       "what": "The View Hotel, Monument Valley — night of Oct 14",
       "category": "Lodging",
-      "status": "booked",
+      "status": "needed",
       "urgency": "now",
       "who": "",
       "url": "https://monumentvalleyview.com",
@@ -1253,7 +1253,7 @@
       "id": "lodging-torrey",
       "what": "Capitol Reef Resort, Torrey — night of Oct 21",
       "category": "Lodging",
-      "status": "booked",
+      "status": "needed",
       "urgency": "now",
       "who": "",
       "url": "https://capitolreefresort.com",
@@ -1275,7 +1275,7 @@
       "id": "lodging-moab",
       "what": "Moab lodging — night of Oct 22",
       "category": "Lodging",
-      "status": "booked",
+      "status": "needed",
       "urgency": "by-july",
       "who": "",
       "url": "",
