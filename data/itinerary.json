@@ -239,7 +239,7 @@
           "image": "https://en.wikipedia.org/wiki/File:Cliff_Palace-Colorado-Mesa_Verde_NP.jpg"
         },
         {
-          "time": "~1:50 PM — only if ahead",
+          "time": "~1:50 PM",
           "title": "Goosenecks State Park",
           "detail": "Worth 40 minutes if Mesa Verde ran to time, and the first thing to drop if it did not. Five minutes off US-163 and straight to the rim: 1,000 ft above the San Juan River where it doubles back on itself three times in a mile. Paved parking, a railing, no walking. $5/vehicle. Skipping it puts you at the Wildcat trailhead 35 minutes earlier, which is the difference between a relaxed evening and a rushed one.",
           "gp": 5,
@@ -420,8 +420,8 @@
         },
         {
           "time": "~12:45 PM",
-          "title": "Kanab, UT (optional stop)",
-          "detail": "Excellent restaurants for a small town — good place to break the drive with the kids.",
+          "title": "Lunch in Kanab",
+          "detail": "The one proper meal stop between Monument Valley and Zion, and the last real town before Springdale. Excellent restaurants for its size, and everyone needs out of the car by now — you will have been driving since the sunrise stop. Fuel up here too.",
           "gp": null,
           "toddler": null,
           "image": "https://en.wikipedia.org/wiki/File:Kanab_UT_1.JPG"
@@ -661,11 +661,12 @@
       "items": [
         {
           "time": "Morning",
-          "title": "Final Zion morning — optional Pa'rus Trail",
-          "detail": "Gentle walk along the Virgin River before checkout. The Pa'rus Trail starts at the Visitor Center and does not need the shuttle — it is the one canyon-floor trail you can reach on foot from Springdale. Autumn cottonwoods at peak gold; walk south toward the visitor center for the best color. Then pack up and head for St. George.",
+          "title": "A last morning on the Pa'rus Trail",
+          "detail": "A gentle walk along the Virgin River before checkout, if anyone wants one more look at the canyon. The Pa'rus Trail starts at the Visitor Center and does not need the shuttle — the one canyon-floor trail reachable on foot from Springdale. Autumn cottonwoods at peak gold. Skip it and you simply get to Kolob Canyons earlier.",
           "gp": null,
           "toddler": null,
-          "image": "https://en.wikipedia.org/wiki/File:Zion_angels_landing_view.jpg"
+          "image": "https://en.wikipedia.org/wiki/File:Zion_angels_landing_view.jpg",
+          "optional": true
         },
         {
           "time": "~11:00 AM",
@@ -779,11 +780,12 @@
         },
         {
           "time": "~4:00 PM",
-          "title": "Pioneer Park — if anyone still has energy",
-          "detail": "A city park atop a massive red lava formation downtown, about 15 minutes from the resort. Short paths among volcanic boulders, wide valley views, easy scrambling for the toddler, benches and shade for the grandparents. Free, and beautiful as the lava turns orange-red toward sunset. Snow Canyon is the closer alternative at ten minutes if you would rather not drive in.",
+          "title": "Pioneer Park, St. George",
+          "detail": "Only if anyone still has energy — the point of today is that nobody has to. A city park atop a massive red lava formation downtown, about 15 minutes from the resort. Short paths among volcanic boulders, wide valley views, easy scrambling for the toddler, benches and shade for the grandparents. Free, and beautiful as the lava turns orange-red toward sunset. Snow Canyon is ten minutes away if you would rather not drive into town.",
           "gp": 4,
           "toddler": 5,
-          "image": "https://en.wikipedia.org/wiki/File:EM_ST._GEORGE%2C_UTAH_%282624012794%29.jpg"
+          "image": "https://en.wikipedia.org/wiki/File:EM_ST._GEORGE%2C_UTAH_%282624012794%29.jpg",
+          "optional": true
         },
         {
           "time": "Evening",
@@ -1141,7 +1143,7 @@
         },
         {
           "time": "4:00 PM",
-          "title": "Hickman Bridge Trail (1 mi RT) — optional",
+          "title": "Hickman Bridge Trail (1 mi RT)",
           "detail": "A natural sandstone arch if energy permits. Otherwise the orchards and the historic homestead area are a lovely, easy walk. Then the short hop into Torrey.",
           "gp": 4,
           "toddler": 3,
@@ -1279,8 +1281,8 @@
         },
         {
           "time": "12:30 PM",
-          "title": "Dead Horse Point State Park — cut this one if you are running late",
-          "detail": "A peninsula of mesa 2,000 ft above the Colorado River, arguably the finest view in Utah. The 1.3-mile paved rim loop is fully accessible and stroller-friendly in sections. Allow an hour. If Goblin Valley overran — and it will — this is the stop to drop, because Canyonlands ten minutes later delivers a very similar payoff.",
+          "title": "Dead Horse Point State Park",
+          "detail": "A peninsula of mesa 2,000 ft above the Colorado River, arguably the finest view in Utah. The 1.3-mile paved rim loop is fully accessible and stroller-friendly in sections. Allow an hour. If the morning has overrun — and Goblin Valley will overrun — this is the stop to drop, because Canyonlands ten minutes later delivers a very similar payoff.",
           "gp": 5,
           "toddler": 4,
           "image": "https://en.wikipedia.org/wiki/File:Dead_Horse_Point2.jpg"
@@ -1413,7 +1415,7 @@
         },
         {
           "time": "Early afternoon",
-          "title": "Iron Mountain Hot Springs (alternative)",
+          "title": "Iron Mountain Hot Springs",
           "detail": "If you have energy for one more stop — or skip Glenwood Caverns and do this instead — sixteen geothermal pools above the Colorado River make a perfect trip-ending soak. Allow 1.5 hours. Book ahead at ironmountainhotsprings.com.",
           "gp": 5,
           "toddler": 5,
