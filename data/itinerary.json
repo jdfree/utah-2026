@@ -203,18 +203,12 @@
         "nights": [
           3
         ],
-        "chosen": null,
+        "chosen": "Goulding's Lodge",
         "status": "needed",
         "options": [
           {
-            "name": "The View Hotel",
-            "note": "Navajo-owned; rooms face The Mittens directly — sunset and sunrise from your window. Sells out 6+ months ahead.",
-            "mom": "★ top pick",
-            "url": "https://monumentvalleyview.com/"
-          },
-          {
             "name": "Goulding's Lodge",
-            "note": "Legendary historic lodge nearby, full service, great for families; John Ford filmed here",
+            "note": "Legendary lodge just west of the park, at the base of a mesa — John Ford's base for the Westerns. Rooms face east across the valley, there is a pool, a restaurant and a small museum, and it is the only full-service lodging in the area. Two miles outside the Tribal Park boundary, which matters for the gate hours below",
             "url": "https://gouldings.com/"
           }
         ]
@@ -243,32 +237,32 @@
         },
         {
           "time": "~3:00 PM",
-          "title": "Arrive The View — check in and stop moving",
-          "detail": "You have been in the car for most of two days. The whole point of staying inside the Tribal Park is that the view comes to you: the room faces the Mittens directly, so the afternoon can be spent on the terrace rather than on another dirt road. Nearly four hours before sunset.",
+          "title": "Arrive Goulding's — check in and stop moving",
+          "detail": "You have been in the car for most of two days. Goulding's sits below a mesa two miles west of the park with the valley laid out to the east, so the afternoon can be spent on the balcony rather than on another road. There is a pool and a restaurant on site.",
           "gp": 5,
           "toddler": 4
         },
         {
           "time": "Afternoon",
           "title": "Navajo-guided valley tour",
-          "detail": "The way to get down among the buttes, and the better version of it: a Navajo guide drives the washboard for you and reaches restricted areas closed to private vehicles, including Mystery Valley and the arches. Roughly 2–3 hours; book ahead at monument-valley.net. Mom put a question mark against this one (M4), so it is a group decision.",
+          "detail": "Worth more here than it looks. The Tribal Park keeps winter hours from Oct 1 — gates open 8:00 AM and close 5:00 PM — so a self-drive visit cannot reach the Mittens for either sunset or sunrise. Navajo guides can take you in outside those hours, and reach restricted areas closed to private vehicles including Mystery Valley and the arches. Operators advertise sunrise and sunset departures; confirm the timing when you book at monument-valley.net. Mom put a question mark against this one (M4) — with the gate hours as they are, it is the difference between seeing Monument Valley and driving past it.",
           "gp": 4,
           "toddler": 3,
           "optional": true
         },
         {
           "time": "6:47 PM",
-          "title": "Sunset at The Mittens",
-          "detail": "East and West Mittens from the View Hotel terrace — one of the most iconic sights in the American West, and you can watch it from a chair with a sleeping baby. Sunset on Oct 14 is 6:47 PM MDT; be in place by 6:15.",
+          "title": "Sunset over the valley — from Goulding's or US-163",
+          "detail": "Sunset on Oct 14 is 6:47 PM MDT, an hour and three quarters after the park gates lock at 5:00 PM, so the classic viewpoint inside the park is out unless you are on a guided tour. Two good alternatives, both on public land: the east-facing terrace and grounds at Goulding's, which look straight across at the buttes, or a pullout on US-163 north of the park. Be in place by 6:15.",
           "gp": 5,
           "toddler": 4
         }
       ],
       "tips": [
+        "The Tribal Park runs winter hours from Oct 1: gates open 8:00 AM, close 5:00 PM, last Scenic Drive entry 2:30 PM. Sunset and sunrise both fall outside that window.",
         "Mesa Verde's Wetherill Mesa road usually closes by mid-October, but Chapin Mesa — the part you want — stays open.",
         "Book the Cliff Palace tour at recreation.gov ($5/person). It fills fast even in October.",
-        "Park entry at Mesa Verde is covered by America the Beautiful / Senior Pass. Monument Valley is a Navajo Tribal Park at $20/vehicle and is NOT covered.",
-        "Dropping the 17-Mile Valley Drive saves about 90 minutes of washboard dirt. You still get the Mittens at sunset and again at sunrise, which is the image everyone actually remembers."
+        "Park entry at Mesa Verde is covered by America the Beautiful / Senior Pass. Monument Valley is a Navajo Tribal Park at $20/vehicle and is NOT covered."
       ],
       "momNotes": [
         {
@@ -279,7 +273,7 @@
         {
           "id": "M3",
           "mark": "★",
-          "text": "Star next to The View Hotel — this is her pick for Monument Valley."
+          "text": "Star next to The View Hotel — her pick for Monument Valley. It is sold out for Oct 14, so Goulding's it is."
         },
         {
           "id": "M4",
@@ -301,9 +295,9 @@
           "type": "stop"
         },
         {
-          "name": "The View Hotel, Monument Valley",
-          "lat": 36.9834,
-          "lng": -110.1116,
+          "name": "Goulding's Lodge, Monument Valley",
+          "lat": 37.0025,
+          "lng": -110.211,
           "type": "overnight"
         }
       ]
@@ -350,9 +344,9 @@
       },
       "items": [
         {
-          "time": "7:27 AM",
-          "title": "Sunrise at The Mittens",
-          "detail": "Sunrise on Oct 15 is 7:27 AM MDT, a civilised hour. Warm light turns the sandstone deep red-orange. Five-minute walk from the hotel; bring coffee. Note the Navajo Nation observes daylight saving even though the rest of Arizona does not, so your phone should show the same time as Utah.",
+          "time": "6:50 AM",
+          "title": "Sunrise from US-163 — Forrest Gump Point",
+          "detail": "Sunrise on Oct 15 is 7:27 AM MDT, but the park gates do not open until 8:00, so the in-park viewpoints are unavailable. The answer is 15 miles north on US-163: the long straight where the highway runs dead at the buttes, public road, open at any hour, and the most photographed view of Monument Valley there is. Eighteen minutes from Goulding's — leave by 6:50 to have light to spare. Bring coffee; there is nothing out there. The Navajo Nation observes daylight saving even though the rest of Arizona does not, so your phone should match Utah time.",
           "gp": 5,
           "toddler": 5
         },
@@ -419,6 +413,12 @@
         }
       ],
       "stops": [
+        {
+          "name": "Forrest Gump Point, US-163",
+          "lat": 37.1017,
+          "lng": -109.9925,
+          "type": "stop"
+        },
         {
           "name": "Toadstool Hoodoos (US-89)",
           "lat": 37.093,
@@ -1399,13 +1399,13 @@
     },
     {
       "id": "lodging-monument-valley",
-      "what": "The View Hotel, Monument Valley — night of Oct 14",
+      "what": "Goulding's Lodge, Monument Valley — night of Oct 14",
       "category": "Lodging",
       "status": "needed",
       "urgency": "now",
       "who": "",
-      "url": "https://monumentvalleyview.com",
-      "notes": "Mom's starred pick. Mitten-view rooms sell out 6+ months ahead.",
+      "url": "https://gouldings.com/",
+      "notes": "The View Hotel is sold out for this date. Goulding's is the only other full-service lodging in the area, so book it promptly — there is no third option within an hour.",
       "confirmation": ""
     },
     {
@@ -1501,10 +1501,10 @@
       "what": "Monument Valley guided Jeep tour (Oct 14)",
       "category": "Activity",
       "status": "optional",
-      "urgency": "soon",
+      "urgency": "now",
       "who": "",
       "url": "https://monument-valley.net",
-      "notes": "Mom put a \"?\" here — decide as a group first.",
+      "notes": "The main event rather than an extra. The Tribal Park keeps winter hours from Oct 1 (gates 8:00 AM–5:00 PM), so a self-drive trip cannot see the Mittens at sunrise or sunset and cannot enter the valley outside those hours. A Navajo-guided tour can, and reaches restricted areas as well. Ask specifically about a sunrise or sunset departure. Mom's question mark (M4) is on this one.",
       "confirmation": ""
     },
     {
