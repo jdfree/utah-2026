@@ -71,7 +71,8 @@
           "title": "Wolf Creek Pass (10,857 ft)",
           "detail": "The Continental Divide crossing. Aspens are fading by mid-October but the high alpine scenery is stunning. Stop at the summit pullout — it doubles as a diaper-and-run-around break. Check CDOT before you leave; early snow is possible at this elevation.",
           "gp": 4,
-          "toddler": 3
+          "toddler": 3,
+          "image": "https://en.wikipedia.org/wiki/File:Wolf_Creek_Pass_and_Ski_Area.jpg"
         },
         {
           "time": "~4:00–5:00 PM",
@@ -149,14 +150,16 @@
           "title": "D&SNG Cascade Canyon Train",
           "detail": "The crown jewel of Durango and now the whole of today. Narrow-gauge steam, 26 miles north through the Animas River Gorge — sheer walls, no road access — and back by early afternoon. Victorian open-air cars. Roughly five hours round trip, so do not plan anything that has to start before 2 PM.",
           "gp": 5,
-          "toddler": 5
+          "toddler": 5,
+          "image": "https://en.wikipedia.org/wiki/File:DurangoSilverton1.jpg"
         },
         {
           "time": "~2:30 PM",
           "title": "Main Avenue and the Animas River Trail",
           "detail": "Stroll the historic district, then walk the flat river path through downtown — playgrounds along the way, good coffee, views of the San Juans. The toddler can scooter it. The afternoon is deliberately empty: it sits between a seven-hour drive and a four-and-a-half-hour one, and that space is worth protecting.",
           "gp": 4,
-          "toddler": 5
+          "toddler": 5,
+          "image": "https://en.wikipedia.org/wiki/File:Animas_River_DSRR.jpg"
         },
         {
           "time": "Evening",
@@ -226,56 +229,44 @@
           "title": "Mesa Verde National Park — Chapin Mesa",
           "detail": "The best-preserved Ancestral Puebloan cliff dwellings in North America. The dwellings are at Chapin Mesa, 56 miles from Durango — the entrance is only halfway and the road in is slow and winding, so allow 1 hr 15 min each way. The ranger-guided Cliff Palace tour runs a reduced October schedule and books at recreation.gov. Even without it, the Chapin Mesa Archeological Museum and the Spruce Tree House viewpoint are free and excellent, and the Cliff Palace Loop Road gives you the views from the car. Allow 2–2.5 hours and leave by 11:15.",
           "gp": 5,
-          "toddler": 3
+          "toddler": 3,
+          "image": "https://en.wikipedia.org/wiki/File:Cliff_Palace-Colorado-Mesa_Verde_NP.jpg"
         },
         {
           "time": "~1:50 PM",
           "title": "Goosenecks State Park",
           "detail": "Five minutes off the highway and straight to the rim: 1,000 ft above the San Juan River where it doubles back on itself three times in a mile. Paved parking, a railing, no walking required. $5/vehicle. Half an hour is plenty.",
           "gp": 5,
-          "toddler": 3
+          "toddler": 3,
+          "image": "https://en.wikipedia.org/wiki/File:GooseneckMeandersUtahAerial1.jpg"
         },
         {
           "time": "~3:05 PM",
-          "title": "The Mittens from the visitor center overlook",
-          "detail": "The one thing worth timing the day around. The Tribal Park visitor center sits on the rim with East Mitten, West Mitten and Merrick Butte laid out below — this is the view everyone knows, and it is a few paces from the car park on pavement. You do not need the 17-mile Valley Drive to see it; you just need to be inside the gate before it locks at 5:00 PM. $20/vehicle. Come straight here from Goosenecks and check in afterwards. Allow an hour.",
-          "gp": 5,
-          "toddler": 4
-        },
-        {
-          "time": "~4:30 PM",
-          "title": "Arrive Goulding's — check in and stop moving",
-          "detail": "Check in after the overlook rather than before it — the gate closes at 5:00 and the lodge does not. Goulding's sits below a mesa two miles west of the park with the valley laid out to the east. Pool, restaurant and a trading post on site.",
-          "gp": 5,
-          "toddler": 4
-        },
-        {
-          "time": "Late afternoon — if booked",
-          "title": "Navajo-guided valley tour",
-          "detail": "If you book this, it replaces the arrangements above rather than adding to them: a Navajo guide can enter outside the 8:00–5:00 gate hours and reach restricted areas closed to private vehicles, including Mystery Valley and the arches. Operators run sunset departures, which is the version to ask for — it puts you among the buttes at the hour the overlook cannot. Roughly 2–3 hours; book through Goulding's or at monument-valley.net. Mom's question mark is on this one (M4).",
+          "title": "Wildcat Trail and the Mittens overlook",
+          "detail": "Both start from the same parking lot, and the gate locks at 5:00 PM — so come straight here from Goosenecks and check in afterwards. The overlook is a few paces from the car, with East Mitten, West Mitten and Merrick Butte below: the view everyone knows, no Valley Drive needed. Then walk the Wildcat Trail, the only self-guided trail in the park and the one way to get among the buttes on your own. Be realistic about the full loop: 3.2 miles of soft sand, no shade and no water, 2–3 hours — which does not fit before closing, and is a lot with a three-year-old. Go out as far as West Mitten and turn back, about an hour and a half, and you get the scale of the thing without racing the gate. $20/vehicle covers both.",
           "gp": 4,
-          "toddler": 3,
-          "optional": true
+          "toddler": 4,
+          "image": "https://en.wikipedia.org/wiki/File:Monument_Valley%2C_Utah%2C_USA_%2823611451292%29.jpg"
         },
         {
-          "time": "~5:15 PM",
-          "title": "Goulding's Museum and Earth Spirit theater",
-          "detail": "The original 1920s trading post, kept as a museum: Navajo weaving, and the room where John Ford planned the Westerns that made this valley famous to people who have never been near it. Small, indoors, twenty minutes, and it suits grandparents at the end of a long driving day better than another viewpoint does. The Earth Spirit film runs in the on-site theater.",
-          "gp": 5,
-          "toddler": 2,
-          "optional": true
+          "time": "~5:00 PM",
+          "title": "Check in at Goulding's",
+          "detail": "Ten minutes west of the park gate. Pool, restaurant, and the original 1920s trading post kept as a museum — twenty easy indoor minutes if anyone still has appetite for it.",
+          "gp": 4,
+          "toddler": 3
         },
         {
-          "time": "6:47 PM",
-          "title": "Sunset over the valley — from Goulding's or US-163",
-          "detail": "Sunset on Oct 14 is 6:47 PM MDT, an hour and three quarters after the park gates lock at 5:00 PM, so the classic viewpoint inside the park is out unless you are on a guided tour. Two good alternatives, both on public land: the east-facing terrace and grounds at Goulding's, which look straight across at the buttes, or a pullout on US-163 north of the park. Be in place by 6:15.",
+          "time": "6:15 PM",
+          "title": "Sunset over the valley, then dinner",
+          "detail": "Sunset is 6:47 PM MDT, nearly two hours after the gate locks, so the in-park viewpoints are out unless you are on the guided tour. Two alternatives, both public and open at any hour: the east-facing grounds at Goulding's, which look straight across at the buttes, or a pullout on US-163 north of the park. Be in place by 6:15. Dinner afterwards at the Stagecoach on site — it is the only restaurant for miles.",
           "gp": 5,
-          "toddler": 4
+          "toddler": 4,
+          "image": "https://en.wikipedia.org/wiki/File:Monument_Valley%2C_Utah%2C_USA_%2823611451292%29.jpg"
         },
         {
           "time": "After dark",
           "title": "Stargazing from the lodge grounds",
-          "detail": "The dark-sky night of the trip, and it needs no driving at all. On Oct 14 the moon is a thin crescent about 8% lit that sets soon after the sun, so by 8:30 the sky is genuinely black — darker than Bryce will be six nights later, when the moon is near half. There is no town for fifty miles. Walk clear of the lodge lighting, give your eyes ten minutes, and the Milky Way is overhead. Bring the blankets you packed for Bryce Point; it drops into the 40s.",
+          "detail": "The dark-sky night of the trip, and it needs no driving at all. On Oct 14 the moon is a thin crescent about 8% lit that sets soon after the sun, so by 8:30 the sky is genuinely black. There is no town for fifty miles. Walk clear of the lodge lighting, give your eyes ten minutes, and the Milky Way is overhead. Bring warm layers; it drops into the 40s.",
           "gp": 5,
           "toddler": 4
         }
@@ -301,7 +292,7 @@
         {
           "id": "M4",
           "mark": "?",
-          "text": "Question mark next to the guided Jeep tours — undecided, and the only way into the valley itself, so worth settling."
+          "text": "Question mark next to the guided Jeep tours. Decided against on cost — the Wildcat Trail covers the valley on foot for the price of the entry fee."
         }
       ],
       "stops": [
@@ -377,7 +368,17 @@
           "title": "Sunrise from US-163 — Forrest Gump Point",
           "detail": "Sunrise on Oct 15 is 7:27 AM MDT, but the park gates do not open until 8:00, so the in-park viewpoints are unavailable. The answer is 15 miles north on US-163: the long straight where the highway runs dead at the buttes, public road, open at any hour, and the most photographed view of Monument Valley there is. Eighteen minutes from Goulding's — leave by 6:50 to have light to spare. Bring coffee; there is nothing out there. The Navajo Nation observes daylight saving even though the rest of Arizona does not, so your phone should match Utah time.",
           "gp": 5,
-          "toddler": 5
+          "toddler": 5,
+          "image": "https://en.wikipedia.org/wiki/File:US_163.svg"
+        },
+        {
+          "time": "8:00 AM",
+          "title": "Wildcat Trail full loop",
+          "detail": "If the taster yesterday left everyone wanting the whole thing, this is when it fits: the gate opens at 8:00 and the loop takes 2–3 hours, so you would be away by about 10:30 and into Springdale mid-afternoon. Cool sand, long morning shadows on the Mittens, and almost nobody else out. It costs you the optional stops below — pick this or Horseshoe Bend, not both.",
+          "gp": 4,
+          "toddler": 3,
+          "optional": true,
+          "image": "https://en.wikipedia.org/wiki/File:Monument_Valley%2C_Utah%2C_USA_%2823611451292%29.jpg"
         },
         {
           "time": "Morning",
@@ -392,7 +393,8 @@
           "detail": "The Colorado River's 270-degree gooseneck, 1,000 ft below. About 15 minutes off route, then 1.5 miles round trip on flat sand. There is a railing at the main overlook but the rim is open and unfenced elsewhere — keep a firm hold on her. Allow 1.5 hours with parking.",
           "gp": 5,
           "toddler": 3,
-          "optional": true
+          "optional": true,
+          "image": "https://en.wikipedia.org/wiki/File:Grand_Canyon_Horseshoe_Bend.jpg"
         },
         {
           "time": "~11:45 AM",
@@ -400,14 +402,16 @@
           "detail": "Trailhead directly on US-89 with no detour at all. 1.5 miles round trip up a wash to balanced rocks perched on slender stems. Flat, sandy, and the toddler can scramble safely. Allow an hour.",
           "gp": 4,
           "toddler": 5,
-          "optional": true
+          "optional": true,
+          "image": "https://en.wikipedia.org/wiki/File:Grand_Staircase_Escalante_National_Monument_in_Utah_-_2015-02-07.jpg"
         },
         {
           "time": "~12:45 PM",
           "title": "Kanab, UT (optional stop)",
           "detail": "Excellent restaurants for a small town — good place to break the drive with the kids.",
           "gp": null,
-          "toddler": null
+          "toddler": null,
+          "image": "https://en.wikipedia.org/wiki/File:Kanab_UT_1.JPG"
         },
         {
           "time": "~1:30 PM",
@@ -415,14 +419,16 @@
           "detail": "The largest no-kill animal sanctuary in the country, right where you are already stopping for lunch. Free 90-minute bus tours of the canyon, booked ahead at bestfriends.org. For a three-year-old this may outrank several national parks.",
           "gp": 4,
           "toddler": 5,
-          "optional": true
+          "optional": true,
+          "image": "https://en.wikipedia.org/wiki/File:Kanab_UT_1.JPG"
         },
         {
           "time": "~3:30 PM",
           "title": "Arrive Springdale — Pa'rus Trail",
           "detail": "Zion's most accessible trail: 1.7 miles of paved path along the Virgin River through the canyon floor. Cottonwoods turn gold in October. No elevation change; stroller-friendly.",
           "gp": 5,
-          "toddler": 5
+          "toddler": 5,
+          "image": "https://en.wikipedia.org/wiki/File:Zion_angels_landing_view.jpg"
         }
       ],
       "tips": [
@@ -508,7 +514,8 @@
           "title": "Canyon Overlook Trail (1 mi RT, moderate) — drive yourself",
           "detail": "Do this first, in your own car. The trailhead is at the east end of the Zion–Mount Carmel Tunnel on UT-9, which is NOT part of the shuttle system, so private vehicles are fine here all day. A short hike to a magnificent panorama over lower Zion Canyon. Some exposure on one side but well maintained. The three-year-old can walk most of it with help on a few rocky steps. Best light in the morning.",
           "gp": 5,
-          "toddler": 4
+          "toddler": 4,
+          "image": "https://en.wikipedia.org/wiki/File:Zion_angels_landing_view.jpg"
         },
         {
           "time": "10:30 AM",
@@ -522,21 +529,24 @@
           "title": "Lower Emerald Pools — shuttle stop 5, Zion Lodge",
           "detail": "1.2 miles, paved and flat: a wide trail to a pool beneath a dripping overhang that showers mist on everyone below. She will want to stand under it forever. This is the reliable option and the one to build the day around. Zion Lodge has a cafeteria right at the stop for lunch.",
           "gp": 5,
-          "toddler": 5
+          "toddler": 5,
+          "image": "https://en.wikipedia.org/wiki/File:Emerald_Pools_Color.jpg"
         },
         {
           "time": "1:30 PM",
           "title": "Weeping Rock — shuttle stop 7 (check status first)",
           "detail": "0.4 miles, very easy: a spring seeps through the canyon wall into a hanging garden of ferns with a gentle waterfall. The catch: the Weeping Rock area was hit by a large rockfall in 2019 and the trails above it (Hidden Canyon, Observation Point via East Rim) remain on long-term closure. The short Weeping Rock trail itself has reopened and closed repeatedly since. Check nps.gov/zion conditions the morning of — if it is closed, ride on to the Temple of Sinawava and walk the paved Riverside Walk instead, which is flat, shaded and every bit as good with kids.",
           "gp": 5,
-          "toddler": 5
+          "toddler": 5,
+          "image": "https://en.wikipedia.org/wiki/File:Zion_angels_landing_view.jpg"
         },
         {
           "time": "3:00 PM",
           "title": "Ride the full canyon — Big Bend and Temple of Sinawava",
           "detail": "Stay on the shuttle to the end of the line and back. This is the version of the Scenic Drive you actually get in October: Court of the Patriarchs, the Zion Lodge meadow, the Big Bend curves, all narrated, with no parking to fight over. Hop off wherever it looks good. Riverside Walk at the Temple of Sinawava is 2.2 miles paved and stroller-friendly if there is energy left.",
           "gp": 5,
-          "toddler": 4
+          "toddler": 4,
+          "image": "https://en.wikipedia.org/wiki/File:Zion_angels_landing_view.jpg"
         }
       ],
       "tips": [
@@ -635,21 +645,24 @@
           "title": "Final Zion morning — optional Pa'rus Trail",
           "detail": "Gentle walk along the Virgin River before checkout. The Pa'rus Trail starts at the Visitor Center and does not need the shuttle — it is the one canyon-floor trail you can reach on foot from Springdale. Autumn cottonwoods at peak gold; walk south toward the visitor center for the best color. Then pack up and head for St. George.",
           "gp": null,
-          "toddler": null
+          "toddler": null,
+          "image": "https://en.wikipedia.org/wiki/File:Zion_angels_landing_view.jpg"
         },
         {
           "time": "~11:00 AM",
           "title": "Kolob Canyons — Zion's other half",
           "detail": "Zion's northwest corner has its own entrance off I-15 at exit 40, its own visitor center, and no shuttle — you drive the 5-mile Kolob Canyons Road yourself, stopping wherever you like. Crimson finger canyons 2,000 ft deep, a fraction of the crowds, and it is covered by the same pass you used yesterday. This is the antidote to being shuttled around Zion Canyon. Timber Creek Overlook at the end is a half-mile round trip to a big view. Adds about 25 minutes to the drive.",
           "gp": 5,
-          "toddler": 4
+          "toddler": 4,
+          "image": "https://en.wikipedia.org/wiki/File:Zion_angels_landing_view.jpg"
         },
         {
           "time": "Afternoon",
           "title": "Snow Canyon State Park",
           "detail": "Ten minutes from the resort — Ivins sits right at the park's doorstep. Red and white Navajo sandstone, lava flows and ancient dunes, a miniature Zion with shorter, more accessible trails. Do the full circuit today: Jenny's Canyon (0.4 mi into a narrow slot), the Petrified Sand Dunes, Johnson Arch (0.6 mi, easy, arch visible from a paved path) and the Lava Tubes. The Butterfly Trail (1.5 mi) if there is time.",
           "gp": 5,
-          "toddler": 5
+          "toddler": 5,
+          "image": "https://en.wikipedia.org/wiki/File:Snow_Canyon_Utah_March_2019.jpg"
         },
         {
           "time": "Evening",
@@ -744,7 +757,8 @@
           "title": "Pioneer Park — if anyone still has energy",
           "detail": "A city park atop a massive red lava formation downtown, about 15 minutes from the resort. Short paths among volcanic boulders, wide valley views, easy scrambling for the toddler, benches and shade for the grandparents. Free, and beautiful as the lava turns orange-red toward sunset. Snow Canyon is the closer alternative at ten minutes if you would rather not drive in.",
           "gp": 4,
-          "toddler": 5
+          "toddler": 5,
+          "image": "https://en.wikipedia.org/wiki/File:EM_ST._GEORGE%2C_UTAH_%282624012794%29.jpg"
         },
         {
           "time": "Evening",
@@ -837,28 +851,32 @@
           "detail": "A 2,000-ft amphitheatre of eroded rock at over 10,000 ft. Taking UT-14 through Cedar City instead of US-89 is actually a shorter route, only about 20 minutes slower. The catch: the rim road closes with the first real snow, often before late October, and 10,000 ft is a hard jump for the grandparents on the same day they climb to Bryce. Check nps.gov/cebr for road status the morning of, and skip it if anyone is feeling the altitude.",
           "gp": 5,
           "toddler": 3,
-          "optional": true
+          "optional": true,
+          "image": "https://en.wikipedia.org/wiki/File:Utah%2C_Cedar_Breaks_National_Monument%2C_amphitheater.jpg"
         },
         {
           "time": "~1:00 PM",
           "title": "Red Canyon (Dixie NF) — en-route stop",
           "detail": "On US-89 heading north toward Bryce. Free, and spectacular: the road passes through carved red sandstone arches and you can walk among hoodoos nearly identical to Bryce's with almost no crowds. The 0.6-mile Hoodoo Trail is a perfect 30-minute introduction.",
           "gp": 4,
-          "toddler": 4
+          "toddler": 4,
+          "image": "https://en.wikipedia.org/wiki/File:RedRockUtah.jpg"
         },
         {
           "time": "~2:45 PM",
           "title": "Mossy Cave Trail",
           "detail": "On UT-12 just before the Bryce turnoff, outside the fee gate, and essentially free in driving time. Eight-tenths of a mile round trip, nearly flat, to a dripping mossy overhang and a small waterfall on the Tropic Ditch. Hoodoos overhead the whole way. The easiest real trail in the Bryce area and most visitors never find it.",
           "gp": 5,
-          "toddler": 5
+          "toddler": 5,
+          "image": "https://en.wikipedia.org/wiki/File:Inspiration_Point_Bryce_Canyon_November_2018_panorama.jpg"
         },
         {
           "time": "~4:00 PM",
           "title": "Arrive Bryce Canyon — Sunset Point",
           "detail": "Check in, then straight to Sunset Point for late-afternoon light on the amphitheater. October light is warm and low; the pink-orange hoodoos glow as if lit from within. Elevation is 8,000 ft — slow down, drink water, let the grandparents acclimatize.",
           "gp": 5,
-          "toddler": 4
+          "toddler": 4,
+          "image": "https://en.wikipedia.org/wiki/File:Inspiration_Point_Bryce_Canyon_November_2018_panorama.jpg"
         }
       ],
       "tips": [
@@ -903,7 +921,7 @@
     {
       "day": 9,
       "date": "2026-10-20",
-      "title": "Bryce Canyon — Full Day + Stargazing",
+      "title": "Bryce Canyon — Full Day",
       "tags": [
         "National Park",
         "Magical Hoodoos",
@@ -928,35 +946,32 @@
           "title": "Sunrise at Sunrise Point",
           "detail": "Sunrise on Oct 20 is 7:40 AM MDT; the sun clears the Paunsaugunt Plateau a few minutes later. Dress warmly — it will be near freezing. The moment the amphitheater lights up is one of the great sights in the American West. Five-minute walk from the parking area.",
           "gp": 5,
-          "toddler": 4
+          "toddler": 4,
+          "image": "https://en.wikipedia.org/wiki/File:Inspiration_Point_Bryce_Canyon_November_2018_panorama.jpg"
         },
         {
           "time": "Morning",
           "title": "Rim Trail: Sunrise to Sunset Point (1.8 mi, easy)",
           "detail": "Runs along the canyon edge connecting all the major viewpoints. Minimal elevation change, paved in places, benches throughout. Walk as far as you like and turn back. In October the rim aspens turn gold against the pink hoodoos.",
           "gp": 5,
-          "toddler": 5
+          "toddler": 5,
+          "image": "https://en.wikipedia.org/wiki/File:Inspiration_Point_Bryce_Canyon_November_2018_panorama.jpg"
         },
         {
           "time": "Midday",
           "title": "Queen's Garden Trail (1.8 mi RT, moderate)",
           "detail": "The mildest descent into the canyon — about 320 ft down through a forest of hoodoos to a formation that looks exactly like Queen Victoria. Requires comfortable footing on rocky trail but is well-maintained. Toddler in a carrier if she tires.",
           "gp": 4,
-          "toddler": 4
+          "toddler": 4,
+          "image": "https://en.wikipedia.org/wiki/File:Inspiration_Point_Bryce_Canyon_November_2018_panorama.jpg"
         },
         {
           "time": "~2:30 PM",
           "title": "Scenic drive south to Rainbow Point",
           "detail": "The park road runs 18 miles south of the amphitheater to Rainbow Point at 9,115 ft, and almost every viewpoint is a few steps from the car. Natural Bridge is the one to stop for — a genuine arch framing green forest. Agua Canyon and Ponderosa Canyon are worth the pullouts. Allow 1.5–2 hours round trip including stops. Drive to the far end first and work back, so the viewpoints are all on your right.",
           "gp": 5,
-          "toddler": 3
-        },
-        {
-          "time": "After dark",
-          "title": "Stargazing at Bryce Point",
-          "detail": "Bryce is an International Dark Sky Park and the altitude helps, but be realistic about the moon: on Oct 20 it is around two-thirds lit and does not set until near midnight, so the Milky Way will be washed out. Planets, constellations and the ranger astronomy programs are all still excellent. Bundle up completely — it will be below freezing — drive to Bryce Point, kill the headlights and give your eyes five minutes. For the genuinely black sky, Monument Valley on Oct 14 is your night.",
-          "gp": 5,
-          "toddler": 5
+          "toddler": 3,
+          "image": "https://en.wikipedia.org/wiki/File:Lake_Taupo_and_Waikato_River_aerial_view.jpg"
         }
       ],
       "tips": [
@@ -1044,7 +1059,8 @@
           "title": "Scenic Byway 12",
           "detail": "East from Bryce on UT-12, consistently rated one of the most scenic drives in the country. Crosses the backbone of the Aquarius Plateau and winds through Grand Staircase-Escalante's painted desert. Multiple pullouts. Photos at the \"Hogback\", where the road runs along a knife-edge ridge with drop-offs on both sides.",
           "gp": 5,
-          "toddler": 3
+          "toddler": 3,
+          "image": "https://en.wikipedia.org/wiki/File:Utah_12.svg"
         },
         {
           "time": "~9:45 AM",
@@ -1052,21 +1068,24 @@
           "detail": "Nine miles off Byway 12 at Cannonville, about 35 minutes round trip. Sixty-seven sandstone chimneys stand vertically out of the valley floor — solidified geyser plumbing, unlike anything else on this trip. National Geographic named it. The Grand Parade trail is 1.5 miles and flat. Day 10 is your lightest driving day, so this is the one detour the schedule can genuinely absorb.",
           "gp": 4,
           "toddler": 4,
-          "optional": true
+          "optional": true,
+          "image": "https://en.wikipedia.org/wiki/File:Clouds_over_Kodachrome_Basin_State_Park.jpg"
         },
         {
           "time": "~11:30 AM",
           "title": "Anasazi State Park Museum, Boulder",
           "detail": "Thirty minutes, genuinely interesting, and free for seniors. A good excuse to break the drive at roughly the halfway point.",
           "gp": 4,
-          "toddler": 3
+          "toddler": 3,
+          "image": "https://en.wikipedia.org/wiki/File:Cliff_Palace%2C_Mesa_Verde_Park%2C_Colorado%2C_US_%2836%29.jpg"
         },
         {
           "time": "1:30 PM",
           "title": "Capitol Reef — Fruita district",
           "detail": "A green oasis along the Fremont River. In October the apple orchards may still be in harvest — free pick-your-own fruit in the NPS orchards. Deer graze the meadows late in the day. On the way in, stop at the petroglyph panel directly off UT-24: a boardwalk, wheelchair accessible, with Fremont bighorn and human figures carved into the cliff. Two minutes, and nearly everyone drives past it. Panorama Point and the Goosenecks Overlook are also short walks straight off the highway.",
           "gp": 5,
-          "toddler": 5
+          "toddler": 5,
+          "image": "https://en.wikipedia.org/wiki/File:Fruita_Schoolhouse.jpeg"
         },
         {
           "time": "2:30 PM",
@@ -1074,7 +1093,8 @@
           "detail": "Homemade pies and preserves, a Capitol Reef institution. Get the apple pie. They sell out in the afternoon, so this is the one thing worth arriving early for.",
           "gp": 5,
           "toddler": 5,
-          "mom": "\"Mmm\""
+          "mom": "\"Mmm\"",
+          "image": "https://en.wikipedia.org/wiki/File:Capitol_Reef_National_Park.jpg"
         },
         {
           "time": "4:00 PM",
@@ -1082,7 +1102,8 @@
           "detail": "A natural sandstone arch if energy permits. Otherwise the orchards and the historic homestead area are a lovely, easy walk. Then the short hop into Torrey.",
           "gp": 4,
           "toddler": 3,
-          "optional": true
+          "optional": true,
+          "image": "https://en.wikipedia.org/wiki/File:Hickman_Bridge_Capitol_Reef_National_Park_USA.jpg"
         }
       ],
       "tips": [
@@ -1201,7 +1222,8 @@
           "title": "Goblin Valley State Park",
           "detail": "The undisputed toddler highlight of the trip. Hundreds of mushroom-shaped sandstone \"goblins\" fill a broad valley like a Dr. Seuss landscape. There are no designated paths in the main valley — you simply wander, climb, duck and hide. The grandparents can sit at the overlook and watch her sprint around. Give it two hours; she will not want to leave.",
           "gp": 4,
-          "toddler": 5
+          "toddler": 5,
+          "image": "https://en.wikipedia.org/wiki/File:Utah_-_North_America_-_Goblin_Valley_State_Park_-_Hoodoos_%284892269801%29.jpg"
         },
         {
           "time": "~11:00 AM",
@@ -1209,28 +1231,32 @@
           "detail": "Five miles past Goblin Valley, so about 25 minutes of extra driving. A genuine slot canyon you can walk into on flat sand — narrow enough to touch both walls, no scrambling for the first mile, and the most family-friendly slot in Utah. Allow 1.5-2 hours. Honest trade-off: this day is already 4 hrs 35 min of driving, so do this INSTEAD of Dead Horse Point, not as well as it. Never enter if rain is forecast anywhere upstream.",
           "gp": 3,
           "toddler": 5,
-          "optional": true
+          "optional": true,
+          "image": "https://en.wikipedia.org/wiki/File:San_Rafael_Swell_from_Paraglider.jpg"
         },
         {
           "time": "12:30 PM",
           "title": "Dead Horse Point State Park — cut this one if you are running late",
           "detail": "A peninsula of mesa 2,000 ft above the Colorado River, arguably the finest view in Utah. The 1.3-mile paved rim loop is fully accessible and stroller-friendly in sections. Allow an hour. If Goblin Valley overran — and it will — this is the stop to drop, because Canyonlands ten minutes later delivers a very similar payoff.",
           "gp": 5,
-          "toddler": 4
+          "toddler": 4,
+          "image": "https://en.wikipedia.org/wiki/File:Dead_Horse_Point2.jpg"
         },
         {
           "time": "2:00 PM",
           "title": "Canyonlands NP — Island in the Sky",
           "detail": "Two overlooks, enormous payoff for minimal effort. Mesa Arch (0.5-mile loop, easy) frames the canyon 1,000 ft below. Grand View Point at the end of the road is a flat walk to the rim. Add Green River Overlook on the way — five minutes off the park road, arguably the finest view in the park, and a few steps from the car. Shafer Canyon Overlook by the visitor center is another two-minute stop. Allow 2 hours for the lot, or just do Grand View and Green River.",
           "gp": 5,
-          "toddler": 4
+          "toddler": 4,
+          "image": "https://en.wikipedia.org/wiki/File:Mesa_Arch_Canyonlands_sunrise.jpg"
         },
         {
           "time": "4:00 PM",
           "title": "Arches National Park — Balanced Rock and the Windows",
           "detail": "Thirty minutes from Canyonlands. Stop at Park Avenue just past the entrance — a five-minute look into a canyon of sandstone fins. Balanced Rock (0.3-mile loop, flat) next. In the Windows Section, walk the extra hundred yards to Double Arch: two spans rising from one base, the biggest impression per step in the park. Then the Delicate Arch Lower Viewpoint — the arch on the Utah licence plate, and a 100-yard paved walk rather than the 3-mile climb. Sunset on Oct 22 is 6:34 PM MDT.",
           "gp": 5,
-          "toddler": 5
+          "toddler": 5,
+          "image": "https://en.wikipedia.org/wiki/File:Balanced_Rock_sunset.jpg"
         },
         {
           "time": "~5:30 PM",
@@ -1342,7 +1368,8 @@
           "detail": "The Colorado River Scenic Byway follows the river northeast through a red-walled canyon, past Fisher Towers, and rejoins I-70 at Cisco. It costs about 50 minutes over the direct route and is one of the great American drives. Only take it if you are out of Moab early and have given up on Glenwood Caverns, or if the group would rather have a beautiful morning than a cave.",
           "gp": 5,
           "toddler": 3,
-          "optional": true
+          "optional": true,
+          "image": "https://en.wikipedia.org/wiki/File:Utah_128.svg"
         },
         {
           "time": "~12:30 PM",
@@ -1350,7 +1377,8 @@
           "detail": "A gondola carries you 1,300 ft up Iron Mountain. The King's Row Cave tour (45 min through glittering stalactites and flowstones) is the highlight — accessible, spectacular, and magical for every member of the group. Toddler gets the gondola ride and the cave in one. Book at glenwoodcaverns.com. Allow 2–2.5 hours.",
           "gp": 5,
           "toddler": 5,
-          "mom": "1st choice"
+          "mom": "1st choice",
+          "image": "https://en.wikipedia.org/wiki/File:Glenwood_Springs_city_view.jpg"
         },
         {
           "time": "Early afternoon",
@@ -1358,7 +1386,8 @@
           "detail": "If you have energy for one more stop — or skip Glenwood Caverns and do this instead — sixteen geothermal pools above the Colorado River make a perfect trip-ending soak. Allow 1.5 hours. Book ahead at ironmountainhotsprings.com.",
           "gp": 5,
           "toddler": 5,
-          "optional": true
+          "optional": true,
+          "image": "https://en.wikipedia.org/wiki/File:Glenwood_Springs_city_view.jpg"
         },
         {
           "time": "3:30–4:00 PM",
@@ -1523,17 +1552,6 @@
       "who": "",
       "url": "https://glenwoodcaverns.com",
       "notes": "Mom's 1st choice for the final day.",
-      "confirmation": ""
-    },
-    {
-      "id": "mv-jeep-tour",
-      "what": "Monument Valley guided Jeep tour (Oct 14)",
-      "category": "Activity",
-      "status": "optional",
-      "urgency": "now",
-      "who": "",
-      "url": "https://monument-valley.net",
-      "notes": "The main event rather than an extra. The Tribal Park keeps winter hours from Oct 1 (gates 8:00 AM–5:00 PM), so a self-drive trip cannot see the Mittens at sunrise or sunset and cannot enter the valley outside those hours. A Navajo-guided tour can, and reaches restricted areas as well. Ask specifically about a sunrise or sunset departure. Mom's question mark (M4) is on this one.",
       "confirmation": ""
     },
     {

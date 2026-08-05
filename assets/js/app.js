@@ -93,7 +93,9 @@ function showView(name) {
 const stars = (n) => (n ? `<b>${'★'.repeat(n)}</b>${'☆'.repeat(5 - n)}` : '');
 
 function renderItinerary() {
-  $('#view-itinerary').innerHTML = DATA.days.map(dayCard).join('');
+  $('#view-itinerary').innerHTML =
+    `<p class="muted">Click any day to expand it. Attraction names with a ${CAMERA} link out to a
+     photograph.</p>` + DATA.days.map(dayCard).join('');
 }
 
 function dayCard(d) {
@@ -138,9 +140,23 @@ function itemRow(i) {
   ${rating}
   <p class="when">${esc(i.time)}${
     i.optional ? '<span class="opttag">Optional — decide as a group</span>' : ''}</p>
-  <h4>${esc(i.title)}${i.mom ? `<span class="momtag">Mom: ${esc(i.mom)}</span>` : ''}</h4>
+  <h4>${photoLink(i)}${i.mom ? `<span class="momtag">Mom: ${esc(i.mom)}</span>` : ''}</h4>
   <p>${esc(i.detail)}</p>
 </div>`;
+}
+
+/* Attraction names link to a photo. These point at the Wikipedia/Commons file
+   page rather than the image file itself: it carries the licence and credit,
+   and Wikimedia asks that their image servers not be hotlinked from elsewhere. */
+const CAMERA = '<svg class="cam" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" '
+  + 'd="M9 3 7.2 5H4a2 2 0 0 0-2 2v11a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2h-3.2L15 3H9zm3 '
+  + '5.5A4.5 4.5 0 1 1 7.5 13 4.5 4.5 0 0 1 12 8.5zm0 2A2.5 2.5 0 1 0 14.5 13 2.5 2.5 0 0 0 12 '
+  + '10.5z"/></svg>';
+
+function photoLink(i) {
+  if (!i.image) return esc(i.title);
+  return `<a class="photo" href="${esc(i.image)}" target="_blank" rel="noopener"
+    title="Photo of ${esc(i.title)} — opens on Wikipedia">${esc(i.title)}${CAMERA}</a>`;
 }
 
 function callout(kind, heading, lines) {

@@ -39,6 +39,23 @@ with:
 python3 -c "import json,re;d=json.load(open('data/itinerary.json'));n={x['id']:t['day'] for t in d['days'] for x in (t.get('momNotes') or [])};[print(r,'->day',n.get(r,'DANGLING')) for r in sorted(set(re.findall(r'\bM\d+\b',json.dumps(d))),key=lambda s:int(s[1:]))]"
 ```
 
+### Photo links
+
+Each attraction item may carry an `image` — a link to the Wikipedia/Commons **file page**
+for a photo of it, not to the image file. That page carries the licence and the
+photographer's credit, and Wikimedia asks that their image servers not be hotlinked from
+other sites. The renderer turns the item title into that link and appends a camera icon.
+Items without an `image` (departures, drives, meals) render as plain text.
+
+To add one, find the attraction on Wikipedia and use its lead image:
+
+```bash
+curl -s -H 'User-Agent: your-contact' \
+  'https://en.wikipedia.org/w/api.php?action=query&format=json&prop=pageimages&piprop=name&redirects=1&titles=Delicate%20Arch'
+```
+
+Then set `"image": "https://en.wikipedia.org/wiki/File:<name with underscores>"`.
+
 ### Packing
 
 `packing` is a list of `{ group, items }`. Add a group by adding an object; the count in
