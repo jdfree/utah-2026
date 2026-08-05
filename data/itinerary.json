@@ -8,7 +8,8 @@
     "origin": "Fort Collins, CO",
     "shape": "Loop",
     "milesStated": "~1,850 driving miles",
-    "bookingsSheet": "https://docs.google.com/spreadsheets/d/1N2r62ysrne-hRmPgi4nLXrrivAYXYYo6BxRDGzwjusM/edit"
+    "bookingsSheet": "https://docs.google.com/spreadsheets/d/1N2r62ysrne-hRmPgi4nLXrrivAYXYYo6BxRDGzwjusM/edit",
+    "bookingsStatusCsv": "https://docs.google.com/spreadsheets/d/1N2r62ysrne-hRmPgi4nLXrrivAYXYYo6BxRDGzwjusM/pub?gid=1542015551&single=true&output=csv"
   },
   "party": [
     {
@@ -1194,6 +1195,7 @@
   ],
   "bookings": [
     {
+      "id": "dsng-train",
       "what": "D&SNG Cascade Canyon steam train (6 seats, Oct 13)",
       "category": "Activity",
       "status": "needed",
@@ -1204,9 +1206,10 @@
       "confirmation": ""
     },
     {
+      "id": "lodging-durango",
       "what": "Durango lodging — nights of Oct 12 & 13",
       "category": "Lodging",
-      "status": "needed",
+      "status": "booked",
       "urgency": "now",
       "who": "",
       "url": "",
@@ -1214,9 +1217,10 @@
       "confirmation": ""
     },
     {
+      "id": "lodging-monument-valley",
       "what": "The View Hotel, Monument Valley — night of Oct 14",
       "category": "Lodging",
-      "status": "needed",
+      "status": "booked",
       "urgency": "now",
       "who": "",
       "url": "https://monumentvalleyview.com",
@@ -1224,6 +1228,7 @@
       "confirmation": ""
     },
     {
+      "id": "lodging-springdale",
       "what": "Cable Mountain Lodge, Springdale — nights of Oct 15 & 16",
       "category": "Lodging",
       "status": "needed",
@@ -1234,6 +1239,7 @@
       "confirmation": ""
     },
     {
+      "id": "lodging-st-george",
       "what": "St. George lodging — nights of Oct 17 & 18",
       "category": "Lodging",
       "status": "needed",
@@ -1244,9 +1250,10 @@
       "confirmation": ""
     },
     {
+      "id": "lodging-torrey",
       "what": "Capitol Reef Resort, Torrey — night of Oct 21",
       "category": "Lodging",
-      "status": "needed",
+      "status": "booked",
       "urgency": "now",
       "who": "",
       "url": "https://capitolreefresort.com",
@@ -1254,6 +1261,7 @@
       "confirmation": ""
     },
     {
+      "id": "lodging-bryce",
       "what": "Bryce Canyon lodging — nights of Oct 19 & 20",
       "category": "Lodging",
       "status": "needed",
@@ -1264,9 +1272,10 @@
       "confirmation": ""
     },
     {
+      "id": "lodging-moab",
       "what": "Moab lodging — night of Oct 22",
       "category": "Lodging",
-      "status": "needed",
+      "status": "booked",
       "urgency": "by-july",
       "who": "",
       "url": "",
@@ -1274,6 +1283,7 @@
       "confirmation": ""
     },
     {
+      "id": "mesa-verde-tour",
       "what": "Mesa Verde Cliff Palace ranger tour (Oct 13)",
       "category": "Activity",
       "status": "needed",
@@ -1284,6 +1294,7 @@
       "confirmation": ""
     },
     {
+      "id": "dinosaur-site",
       "what": "St. George Dinosaur Discovery Site (Oct 18)",
       "category": "Activity",
       "status": "needed",
@@ -1294,6 +1305,7 @@
       "confirmation": ""
     },
     {
+      "id": "glenwood-caverns",
       "what": "Glenwood Caverns — King's Row Cave tour (Oct 23)",
       "category": "Activity",
       "status": "needed",
@@ -1304,6 +1316,7 @@
       "confirmation": ""
     },
     {
+      "id": "mv-jeep-tour",
       "what": "Monument Valley guided Jeep tour (Oct 14)",
       "category": "Activity",
       "status": "optional",
@@ -1314,6 +1327,7 @@
       "confirmation": ""
     },
     {
+      "id": "hot-springs",
       "what": "Iron Mountain Hot Springs (Oct 23)",
       "category": "Activity",
       "status": "optional",
@@ -1324,9 +1338,10 @@
       "confirmation": ""
     },
     {
+      "id": "parks-pass",
       "what": "America the Beautiful pass ($80/yr) or Senior Pass",
       "category": "Pass",
-      "status": "needed",
+      "status": "booked",
       "urgency": "before-trip",
       "who": "",
       "url": "https://nps.gov/planyourvisit/passes.htm",
@@ -1334,6 +1349,7 @@
       "confirmation": ""
     },
     {
+      "id": "travel-insurance",
       "what": "Travel insurance",
       "category": "Other",
       "status": "optional",
@@ -1344,6 +1360,7 @@
       "confirmation": ""
     },
     {
+      "id": "sunday-lunch",
       "what": "Arrange Sunday lunch with the Raasch family (Oct 18)",
       "category": "Other",
       "status": "needed",

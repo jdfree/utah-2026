@@ -39,6 +39,7 @@ fetch('data/itinerary.json')
     renderNotes();
     initMap();
     initTabs();
+    syncBookingStatus();
   })
   .catch((err) => {
     $('main').innerHTML =
@@ -266,15 +267,79 @@ function renderBookings() {
 </div>`;
 
   $('#bookings-body').innerHTML = `
-<h2>Snapshot</h2>
+<h2>Where everything stands</h2>
 <p><b>${counts.booked || 0} booked</b> · ${counts.needed || 0} still to book · ${
     counts.optional || 0} optional</p>
-<p class="muted">This table comes from <code>data/itinerary.json</code> and only changes when the repo does.
-  The sheet above is the one that updates live.</p>
+<p class="muted" id="bookings-live">Checking the shared sheet…</p>
 <div class="tablewrap"><table>
   <thead><tr><th>Status</th><th>What</th><th>Type</th><th>When</th><th>Who</th><th>Conf #</th><th>Notes</th></tr></thead>
   <tbody>${rows}</tbody>
 </table></div>`;
+}
+
+/* ---------- live booking status ---------- */
+
+/* The Bookings tab of the shared sheet is private. A second tab ("Public
+   status") exposes only id + status and is published to the web as CSV, so
+   this page can read it without anyone signing in. Names, confirmation
+   numbers and costs never leave the private tab.
+
+   Statuses in itinerary.json are the fallback: if the sheet is unreachable
+   (not yet published, offline, CORS), the committed snapshot still renders. */
+
+function parseCsv(text) {
+  return text
+    .trim()
+    .split(/\r?\n/)
+    .map((line) => line.split(',').map((c) => c.replace(/^"|"$/g, '').trim()));
+}
+
+async function syncBookingStatus() {
+  const url = DATA.trip.bookingsStatusCsv;
+  const note = $('#bookings-live');
+  if (!url || !note) return;
+
+  const VALID = new Set(['booked', 'needed', 'optional']);
+
+  try {
+    const res = await fetch(url, { cache: 'no-store' });
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+
+    const rows = parseCsv(await res.text());
+    const header = rows.shift().map((h) => h.toLowerCase());
+    const iId = header.indexOf('id');
+    const iStatus = header.indexOf('status');
+    if (iId < 0 || iStatus < 0) throw new Error('sheet is missing an id or status column');
+
+    const live = new Map();
+    for (const r of rows) {
+      const id = r[iId];
+      const status = (r[iStatus] || '').toLowerCase();
+      if (id && VALID.has(status)) live.set(id, status);
+    }
+    if (!live.size) throw new Error('no usable rows');
+
+    let changed = 0;
+    const unmatched = [];
+    for (const b of DATA.bookings) {
+      const s = live.get(b.id);
+      if (!s) { unmatched.push(b.id); continue; }
+      if (s !== b.status) { b.status = s; changed++; }
+    }
+
+    renderBookings();
+    $('#bookings-live').innerHTML = `
+      <span class="live ok">● Live</span> from the shared sheet${
+        changed ? ` — ${changed === 1 ? '1 row differs' : `${changed} rows differ`} from the committed snapshot` : ''}.${
+        unmatched.length ? ` <span class="warn">${unmatched.length} item${
+          unmatched.length === 1 ? ' has' : 's have'} no matching row in the sheet (${
+          esc(unmatched.join(', '))}).</span>` : ''}`;
+  } catch (err) {
+    note.innerHTML = `
+      <span class="live off">● Snapshot</span> — could not read the shared sheet
+      (${esc(err.message)}), so these are the statuses last committed to the repo.
+      If the sheet has just been published, give it a minute.`;
+  }
 }
 
 /* ---------- notes & questions ---------- */

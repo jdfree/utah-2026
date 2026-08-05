@@ -89,14 +89,39 @@ Two places, deliberately:
   is the live one. Anyone in the group claims a job by putting their name in *Who's
   booking*, then fills in *Confirmation #* and *Cost* and flips *Status* to `BOOKED`.
 
-The sheet is set to "anyone with the link can edit". Google does **not** require an
-account to edit under that setting, so treat the link as public — no card numbers, no
-passwords. To lock it down properly, set General access back to Restricted and share it to
-the three travellers' Google addresses instead; that is the only setting that actually
-requires sign-in. Version history (File › Version history) undoes any damage.
+The sheet is Restricted — only people it is shared with can open it. That also means this
+public, static site cannot read it directly: an anonymous browser has no credentials.
 
-When reservations firm up, mirror them into `itinerary.json` so the site snapshot and the
-sheet agree.
+### How live status reaches the page
+
+The sheet has two tabs:
+
+- **Bookings** — the private one. Who's booking, confirmation numbers, costs, notes.
+  Restricted sharing; never published.
+- **Public status** — two columns only, `id` and `status`, filled by
+  `=FILTER(Bookings!J2:J, …)` so it tracks the private tab automatically. This tab alone is
+  published to the web as CSV, so the page can read it without anyone signing in. No names,
+  no confirmation numbers, no costs are ever exposed.
+
+`trip.bookingsStatusCsv` in `itinerary.json` holds that CSV URL. On load the page fetches
+it and overrides the statuses baked into the JSON. If the fetch fails — not published yet,
+offline, CORS — the page silently falls back to the committed snapshot and says so.
+
+Rows are matched on `id`, not on the item text, so rewording a row in the sheet is safe.
+If an id in `itinerary.json` has no matching sheet row, the page names it in a warning
+rather than silently ignoring it.
+
+### Re-publishing the status tab
+
+If the CSV URL ever stops working, in the sheet: **File › Share › Publish to web**, set
+the left dropdown to **Public status** (never "Entire document" — that would expose the
+private tab) and the right to **Comma-separated values (.csv)**, then Publish. Paste the
+URL Google gives you into `trip.bookingsStatusCsv`.
+
+### Adding a booking
+
+Add it to `bookings` in `itinerary.json` with a new `id`, then add a row to the sheet's
+Bookings tab with that same id in column J. The Public status tab picks it up on its own.
 
 ## Where the content came from
 

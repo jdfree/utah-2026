@@ -330,6 +330,11 @@ a { color: var(--rust); }
 }
 .btn:hover { background: #8c4423; }
 
+.live { font-weight: 700; }
+.live.ok { color: #3c7a4e; }
+.live.off { color: var(--ink-soft); }
+.warn { color: var(--rust); }
+
 .qa { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); padding: 14px 18px; margin-bottom: 12px; box-shadow: var(--shadow); }
 .qa h4 { margin: 0 0 5px; font-size: 15px; }
 .qa p { margin: 0; font-size: 14.5px; color: #3f3a34; }
