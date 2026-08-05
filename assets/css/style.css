@@ -205,6 +205,26 @@ body {
 .item h4 { margin: 3px 0 4px; font-size: 15px; }
 .item p { margin: 0; color: #3f3a34; font-size: 14.5px; }
 
+/* Optional stops are proposals, not commitments — set back from the fixed plan */
+.item.optional {
+  border-left: 2px dashed var(--line);
+  padding-left: 14px;
+  margin-left: -2px;
+}
+.item.optional h4 { font-weight: 600; }
+.opttag {
+  display: inline-block;
+  margin-left: 8px;
+  padding: 1px 8px;
+  border-radius: 999px;
+  background: #eef2ee;
+  color: var(--sage);
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+}
+
 .stars { float: right; font-size: 12px; color: var(--ink-soft); margin-left: 12px; white-space: nowrap; }
 .stars b { color: var(--gold); letter-spacing: -1px; }
 

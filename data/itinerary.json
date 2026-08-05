@@ -227,7 +227,7 @@
         "Navajo Nation"
       ],
       "drive": {
-        "stated": "170 mi / ~3 hrs driving"
+        "stated": "179 mi / ~3 hrs 20 min driving"
       },
       "lodging": {
         "city": "Monument Valley, AZ/UT",
@@ -253,10 +253,25 @@
       "items": [
         {
           "time": "9:00 AM",
-          "title": "Depart Durango — US-160 west through Cortez",
-          "detail": "Classic high desert: piñon-juniper mesas, red rock, the Navajo Nation. Shiprock appears dramatically on the southern horizon.",
+          "title": "Depart Durango — US-160 west, then north via Bluff",
+          "detail": "Classic high desert: pinon-juniper mesas, red rock, the Navajo Nation. Shiprock appears on the southern horizon. Take the northern approach through Bluff and Mexican Hat rather than the direct line — it costs about 15 minutes and puts the two stops below on your way, plus the stretch of US-163 where Forrest Gump stopped running.",
           "gp": null,
           "toddler": null
+        },
+        {
+          "time": "~12:30 PM",
+          "title": "Goosenecks State Park",
+          "detail": "Five minutes off the highway, and one of the best-value stops in Utah. You stand on a rim 1,000 ft above the San Juan River where it doubles back on itself three times in a mile. Paved parking, a railing, no walking required — you are at the view the moment you step out of the car. $5/vehicle.",
+          "gp": 5,
+          "toddler": 3
+        },
+        {
+          "time": "~1:15 PM",
+          "title": "Valley of the Gods",
+          "detail": "A free 17-mile dirt loop through sandstone monoliths — Monument Valley in miniature, with almost nobody in it. Graded dirt, fine for a passenger car in dry weather. Costs about 35 minutes on top of Goosenecks. Skip it if you want the afternoon at Monument Valley proper; the two are similar and you have the real thing ahead of you.",
+          "gp": 4,
+          "toddler": 3,
+          "optional": true
         },
         {
           "time": "Afternoon",
@@ -294,6 +309,18 @@
           "lat": 37.3489,
           "lng": -108.5859,
           "type": "waypoint"
+        },
+        {
+          "name": "Goosenecks State Park",
+          "lat": 37.174,
+          "lng": -109.927,
+          "type": "stop"
+        },
+        {
+          "name": "Valley of the Gods",
+          "lat": 37.254,
+          "lng": -109.883,
+          "type": "stop"
         },
         {
           "name": "Monument Valley Navajo Tribal Park",
@@ -366,14 +393,41 @@
           "toddler": null
         },
         {
+          "time": "~11:00 AM",
+          "title": "Toadstool Hoodoos",
+          "detail": "Trailhead directly on US-89 with no detour at all. 1.5 miles round trip up a wash to balanced rocks perched on slender stems. Flat, sandy, and the toddler can scramble safely. Allow an hour.",
+          "gp": 4,
+          "toddler": 5,
+          "optional": true
+        },
+        {
+          "time": "~11:30 AM",
+          "title": "Horseshoe Bend, Page AZ",
+          "detail": "The Colorado River's 270-degree gooseneck, 1,000 ft below. About 15 minutes off route, then 1.5 miles round trip on flat sand. There is a railing at the main overlook but the rim is open and unfenced elsewhere — keep a firm hold on her. Allow 1.5 hours with parking.",
+          "gp": 5,
+          "toddler": 3,
+          "optional": true
+        },
+        {
           "time": "Afternoon",
           "title": "Arrive Springdale — Pa'rus Trail",
           "detail": "Zion's most accessible trail: 1.7 miles of paved path along the Virgin River through the canyon floor. Cottonwoods turn gold in October. No elevation change; stroller-friendly.",
           "gp": 5,
           "toddler": 5
+        },
+        {
+          "time": "~3:00 PM",
+          "title": "Best Friends Animal Sanctuary, Kanab",
+          "detail": "The largest no-kill animal sanctuary in the country, right where you are already stopping for lunch. Free 90-minute bus tours of the canyon, booked ahead at bestfriends.org. For a three-year-old this may outrank several national parks.",
+          "gp": 4,
+          "toddler": 5,
+          "optional": true
         }
       ],
-      "tips": [],
+      "tips": [
+        "Day 4 is 4 hrs 20 min of driving after a sunrise start. Pick ONE of the three optional stops below, not all three — most likely Toadstool (free, no detour) or Horseshoe Bend (iconic, 15 min off route).",
+        "The Navajo Nation observes daylight saving even though the rest of Arizona does not; your phone should match Utah time all day."
+      ],
       "momNotes": [
         {
           "mark": "★ ☺",
@@ -385,6 +439,18 @@
         }
       ],
       "stops": [
+        {
+          "name": "Toadstool Hoodoos (US-89)",
+          "lat": 37.093,
+          "lng": -111.876,
+          "type": "stop"
+        },
+        {
+          "name": "Horseshoe Bend, Page AZ",
+          "lat": 36.8791,
+          "lng": -111.5104,
+          "type": "stop"
+        },
         {
           "name": "Kanab, UT",
           "lat": 37.0475,
@@ -509,11 +575,11 @@
       "title": "Zion → St. George, UT + Snow Canyon SP",
       "tags": [
         "Short Drive",
-        "Slot Canyon!",
-        "Easy Terrain"
+        "Kolob Canyons",
+        "Slot Canyon!"
       ],
       "drive": {
-        "stated": "46 mi / ~50 min driving"
+        "stated": "75 mi / ~1 hr 15 min driving"
       },
       "lodging": {
         "city": "St. George, UT",
@@ -556,6 +622,13 @@
           "toddler": null
         },
         {
+          "time": "~11:00 AM",
+          "title": "Kolob Canyons — Zion's other half",
+          "detail": "Zion's northwest corner has its own entrance off I-15 at exit 40, its own visitor centre, and no shuttle — you drive the 5-mile Kolob Canyons Road yourself, stopping wherever you like. Crimson finger canyons 2,000 ft deep, a fraction of the crowds, and it is covered by the same pass you used yesterday. This is the antidote to being shuttled around Zion Canyon. Timber Creek Overlook at the end is a half-mile round trip to a big view. Adds about 25 minutes to the drive.",
+          "gp": 5,
+          "toddler": 4
+        },
+        {
           "time": "Afternoon",
           "title": "Snow Canyon State Park",
           "detail": "Twenty minutes from downtown St. George. Red and white Navajo sandstone, lava flows and ancient dunes — a miniature Zion with shorter, more accessible trails. With Sunday now given over to church and friends, do the full circuit today: Jenny's Canyon (0.4 mi into a narrow slot), the Petrified Sand Dunes, Johnson Arch (0.6 mi, easy, arch visible from a paved path) and the Lava Tubes. The Butterfly Trail (1.5 mi) if there is time.",
@@ -584,6 +657,12 @@
         }
       ],
       "stops": [
+        {
+          "name": "Kolob Canyons (Zion NW)",
+          "lat": 37.453,
+          "lng": -113.206,
+          "type": "park"
+        },
         {
           "name": "Snow Canyon State Park",
           "lat": 37.2103,
@@ -703,7 +782,7 @@
         "First Hoodoos"
       ],
       "drive": {
-        "stated": "141 mi / ~2 hrs 15 min driving"
+        "stated": "148 mi / ~2 hrs 15 min driving"
       },
       "lodging": {
         "city": "Bryce Canyon, UT",
@@ -740,11 +819,26 @@
           "toddler": 4
         },
         {
+          "time": "~1:00 PM",
+          "title": "Cedar Breaks National Monument",
+          "detail": "A 2,000-ft amphitheatre of eroded rock at over 10,000 ft. Taking UT-14 through Cedar City instead of US-89 is actually a shorter route, only about 20 minutes slower. The catch: the rim road closes with the first real snow, often before late October, and 10,000 ft is a hard jump for the grandparents on the same day they climb to Bryce. Check nps.gov/cebr for road status the morning of, and skip it if anyone is feeling the altitude.",
+          "gp": 5,
+          "toddler": 3,
+          "optional": true
+        },
+        {
           "time": "Late afternoon",
           "title": "Arrive Bryce Canyon — Sunset Point",
           "detail": "Check in, then straight to Sunset Point for late-afternoon light on the amphitheater. October light is warm and low; the pink-orange hoodoos glow as if lit from within. Elevation is 8,000 ft — slow down, drink water, let the grandparents acclimatize.",
           "gp": 5,
           "toddler": 4
+        },
+        {
+          "time": "~3:30 PM",
+          "title": "Mossy Cave Trail",
+          "detail": "On UT-12 just before the Bryce turnoff, outside the fee gate, and essentially free in driving time. Eight-tenths of a mile round trip, nearly flat, to a dripping mossy overhang and a small waterfall on the Tropic Ditch. Hoodoos overhead the whole way. The easiest real trail in the Bryce area and most visitors never find it.",
+          "gp": 5,
+          "toddler": 5
         }
       ],
       "tips": [
@@ -763,6 +857,12 @@
           "name": "Red Canyon (Dixie NF)",
           "lat": 37.744,
           "lng": -112.307,
+          "type": "stop"
+        },
+        {
+          "name": "Mossy Cave Trail",
+          "lat": 37.669,
+          "lng": -112.117,
           "type": "stop"
         },
         {
@@ -824,6 +924,13 @@
           "toddler": 4
         },
         {
+          "time": "~2:30 PM",
+          "title": "Scenic drive south to Rainbow Point",
+          "detail": "The plan has you in the amphitheatre all day, but the park road runs 18 miles further south to Rainbow Point at 9,115 ft, and almost every viewpoint is a few steps from the car. Natural Bridge is the one to stop for — a genuine arch framing green forest. Agua Canyon and Ponderosa Canyon are worth the pullouts. Allow 1.5-2 hours round trip including stops. Drive to the far end first and work back, so the viewpoints are all on your right.",
+          "gp": 5,
+          "toddler": 3
+        },
+        {
           "time": "After dark",
           "title": "Stargazing at Bryce Point",
           "detail": "An International Dark Sky Park — one of the best places on Earth to see the Milky Way. Mid-October brings a dark moon window. Bundle up completely (below freezing), drive to Bryce Point, kill the headlights, wait five minutes for your eyes to adjust. The park hosts ranger astronomy programs most evenings in season.",
@@ -861,6 +968,12 @@
           "type": "stop"
         },
         {
+          "name": "Bryce — Rainbow Point",
+          "lat": 37.474,
+          "lng": -112.242,
+          "type": "stop"
+        },
+        {
           "name": "Bryce Canyon City, UT",
           "lat": 37.6685,
           "lng": -112.157,
@@ -878,7 +991,7 @@
         "Easy Day"
       ],
       "drive": {
-        "stated": "134 mi / ~2 hrs 40 min driving"
+        "stated": "151 mi / ~3 hrs 15 min driving"
       },
       "lodging": {
         "city": "Torrey, UT",
@@ -923,9 +1036,17 @@
           "toddler": 3
         },
         {
+          "time": "~12:00 PM",
+          "title": "Kodachrome Basin State Park",
+          "detail": "Nine miles off Byway 12 at Cannonville, about 35 minutes round trip. Sixty-seven sandstone chimneys stand vertically out of the valley floor — solidified geyser plumbing, unlike anything else on this trip. National Geographic named it. The Grand Parade trail is 1.5 miles and flat. Day 10 is your lightest driving day, so this is the one detour the schedule can genuinely absorb.",
+          "gp": 4,
+          "toddler": 4,
+          "optional": true
+        },
+        {
           "time": "1:30 PM",
           "title": "Capitol Reef — Fruita district",
-          "detail": "A green oasis along the Fremont River. In October the apple orchards may still be in harvest — free pick-your-own fruit in the NPS orchards. Deer graze the meadows in the late afternoon. Easy, flat, shaded: a good place to let everyone out of the car for a couple of hours.",
+          "detail": "A green oasis along the Fremont River. In October the apple orchards may still be in harvest — free pick-your-own fruit in the NPS orchards. Deer graze the meadows late in the day. On the way in, stop at the petroglyph panel directly off UT-24: a boardwalk, wheelchair accessible, with Fremont bighorn and human figures carved into the cliff. Two minutes, and nearly everyone drives past it. Panorama Point and the Goosenecks Overlook are also short walks straight off the highway.",
           "gp": 5,
           "toddler": 5
         },
@@ -971,6 +1092,18 @@
           "name": "Byway 12 — the Hogback",
           "lat": 37.8517,
           "lng": -111.42,
+          "type": "stop"
+        },
+        {
+          "name": "Kodachrome Basin State Park",
+          "lat": 37.515,
+          "lng": -111.988,
+          "type": "park"
+        },
+        {
+          "name": "Capitol Reef petroglyph panel (UT-24)",
+          "lat": 38.288,
+          "lng": -111.227,
           "type": "stop"
         },
         {
@@ -1040,6 +1173,14 @@
           "toddler": 5
         },
         {
+          "time": "~11:00 AM",
+          "title": "Little Wild Horse Canyon",
+          "detail": "Five miles past Goblin Valley, so about 25 minutes of extra driving. A genuine slot canyon you can walk into on flat sand — narrow enough to touch both walls, no scrambling for the first mile, and the most family-friendly slot in Utah. Allow 1.5-2 hours. Honest trade-off: this day is already 4 hrs 35 min of driving, so do this INSTEAD of Dead Horse Point, not as well as it. Never enter if rain is forecast anywhere upstream.",
+          "gp": 3,
+          "toddler": 5,
+          "optional": true
+        },
+        {
           "time": "12:30 PM",
           "title": "Dead Horse Point State Park — cut this one if you are running late",
           "detail": "A peninsula of mesa 2,000 ft above the Colorado River, arguably the finest view in Utah. The 1.3-mile paved rim loop is fully accessible and stroller-friendly in sections. Allow an hour. If Goblin Valley overran — and it will — this is the stop to drop, because Canyonlands ten minutes later delivers a very similar payoff.",
@@ -1049,16 +1190,24 @@
         {
           "time": "2:00 PM",
           "title": "Canyonlands NP — Island in the Sky",
-          "detail": "Two overlooks, enormous payoff for minimal effort. Mesa Arch (0.5-mile loop, easy) frames the canyon 1,000 ft below. Grand View Point at the end of the road is a flat walk to the rim revealing the full enormity of Canyonlands. Allow 1.5 hours for both, or just do Grand View.",
+          "detail": "Two overlooks, enormous payoff for minimal effort. Mesa Arch (0.5-mile loop, easy) frames the canyon 1,000 ft below. Grand View Point at the end of the road is a flat walk to the rim. Add Green River Overlook on the way — five minutes off the park road, arguably the finest view in the park, and a few steps from the car. Shafer Canyon Overlook by the visitor centre is another two-minute stop. Allow 2 hours for the lot, or just do Grand View and Green River.",
           "gp": 5,
           "toddler": 4
         },
         {
           "time": "4:00 PM",
           "title": "Arches National Park — Balanced Rock and the Windows",
-          "detail": "Thirty minutes from Canyonlands. Balanced Rock (0.3-mile loop, flat) and the Windows Section (1-mile loop, two massive arches side by side) are the two that reward late light. Sunset on Oct 22 is 6:34 PM MDT. Landscape Arch (1.6 mi RT) only if the day has gone unusually well — more likely it waits for a future trip.",
+          "detail": "Thirty minutes from Canyonlands. Stop at Park Avenue just past the entrance — a five-minute look into a canyon of sandstone fins. Balanced Rock (0.3-mile loop, flat) next. In the Windows Section, walk the extra hundred yards to Double Arch: two spans rising from one base, the biggest impression per step in the park. Then the Delicate Arch Lower Viewpoint — the arch on the Utah licence plate, and a 100-yard paved walk rather than the 3-mile climb. Sunset on Oct 22 is 6:34 PM MDT.",
           "gp": 5,
           "toddler": 5
+        },
+        {
+          "time": "~5:30 PM",
+          "title": "Moab Giants",
+          "detail": "A dinosaur park at the Canyonlands turnoff, one mile off your route. Life-size models along an outdoor trail plus real tracks. She will have been talking about the Johnson Farm footprints for four days by this point. Check closing time — it is usually 6 PM in October, so this only works if the day has run early.",
+          "gp": 3,
+          "toddler": 5,
+          "optional": true
         }
       ],
       "tips": [
@@ -1086,6 +1235,12 @@
           "type": "park"
         },
         {
+          "name": "Little Wild Horse Canyon",
+          "lat": 38.581,
+          "lng": -110.801,
+          "type": "stop"
+        },
+        {
           "name": "Dead Horse Point State Park",
           "lat": 38.482,
           "lng": -109.7402,
@@ -1098,10 +1253,22 @@
           "type": "park"
         },
         {
+          "name": "Canyonlands — Green River Overlook",
+          "lat": 38.308,
+          "lng": -109.889,
+          "type": "stop"
+        },
+        {
           "name": "Arches NP — Balanced Rock",
           "lat": 38.7016,
           "lng": -109.5645,
           "type": "park"
+        },
+        {
+          "name": "Arches — Delicate Arch Viewpoint",
+          "lat": 38.737,
+          "lng": -109.498,
+          "type": "stop"
         },
         {
           "name": "Moab, UT",
@@ -1135,6 +1302,14 @@
           "detail": "Canyon country opening into the Colorado Plateau. Optional quick stop: Colorado National Monument (Rim Rock Drive, 23 miles, ~45 min) just west of Grand Junction — dramatic sandstone monoliths, easy car-window scenery with several pullouts. Covered by the America the Beautiful pass.",
           "gp": null,
           "toddler": null
+        },
+        {
+          "time": "8:00 AM",
+          "title": "Leave Moab on UT-128 instead of US-191",
+          "detail": "The Colorado River Scenic Byway follows the river northeast through a red-walled canyon, past Fisher Towers, and rejoins I-70 at Cisco. It costs about 50 minutes over the direct route and is one of the great American drives. Only take it if you are out of Moab early and have given up on Glenwood Caverns, or if the group would rather have a beautiful morning than a cave.",
+          "gp": 5,
+          "toddler": 3,
+          "optional": true
         },
         {
           "time": "~12:30 PM",

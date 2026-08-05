@@ -14,6 +14,10 @@ to install.
 Days of the week are derived from each day's `date`, not stored — change a date and the
 weekday follows automatically everywhere it appears.
 
+An item with `"optional": true` renders set back behind a dashed rule with an "Optional"
+badge. Use it for side trips the group hasn't committed to; promote one by deleting the
+flag, drop it by deleting the item.
+
 ### Marking something as booked
 
 Find the entry in the `bookings` array and change it:

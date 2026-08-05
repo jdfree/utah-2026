@@ -135,9 +135,10 @@ function itemRow(i) {
         i.toddler ? `<br>${stars(i.toddler)} kid` : ''}</span>`
     : '';
   return `
-<div class="item">
+<div class="item${i.optional ? ' optional' : ''}">
   ${rating}
-  <p class="when">${esc(i.time)}</p>
+  <p class="when">${esc(i.time)}${
+    i.optional ? '<span class="opttag">Optional — decide as a group</span>' : ''}</p>
   <h4>${esc(i.title)}${i.mom ? `<span class="momtag">Mom: ${esc(i.mom)}</span>` : ''}</h4>
   <p>${esc(i.detail)}</p>
 </div>`;
@@ -388,7 +389,14 @@ document.addEventListener('click', (e) => {
 /* ---------- map ---------- */
 
 function initMap() {
-  map = L.map('map', { scrollWheelZoom: false });
+  /* An explicit starting view matters: without one Leaflet has no _zoom when
+     fitBounds measures, and getBoundsZoom can resolve to maxZoom instead of
+     the fitted zoom — the map lands at street level with every pin offscreen. */
+  map = L.map('map', {
+    scrollWheelZoom: false,
+    center: [38.8, -109.2],
+    zoom: 6,
+  });
 
   L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     maxZoom: 18,
@@ -429,5 +437,14 @@ function initMap() {
     dashArray: '7 7',
   }).addTo(map);
 
-  map.fitBounds(bounds, { padding: [35, 35] });
+  function fit() {
+    map.invalidateSize();
+    map.fitBounds(bounds, { padding: [35, 35] });
+  }
+
+  fit();
+  /* If the map is measured while its container has no width — a backgrounded
+     tab, a collapsed pane, fonts still loading — fitBounds resolves to maxZoom
+     and every pin lands offscreen. Re-fit once the page has settled. */
+  window.addEventListener('load', fit, { once: true });
 }
