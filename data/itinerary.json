@@ -131,7 +131,8 @@
         "Scenic & Easy"
       ],
       "drive": {
-        "stated": "30 mi to Mesa Verde"
+        "stated": "112 mi / ~2 hrs 30 min driving",
+        "flag": "Mesa Verde is 56 miles each way to the cliff dwellings, on top of a morning train — see the schedule warning below"
       },
       "lodging": {
         "city": "Durango, CO",
@@ -154,7 +155,7 @@
         {
           "time": "Afternoon",
           "title": "Mesa Verde National Park",
-          "detail": "Thirty minutes from Durango. Best-preserved Ancestral Puebloan cliff dwellings in North America. Ranger-guided Cliff Palace tour runs a reduced October schedule (recreation.gov). Even without it, the Chapin Mesa Archeological Museum and Spruce Tree House viewpoint are free and fascinating. Allow 2–3 hours.",
+          "detail": "The cliff dwellings are at Chapin Mesa, 56 miles and about 1 hr 15 min from Durango — the park entrance is only half way, and the road in is slow and winding. Best-preserved Ancestral Puebloan dwellings in North America. The ranger-guided Cliff Palace tour runs a reduced October schedule (recreation.gov). Even without it, the Chapin Mesa Archeological Museum and the Spruce Tree House viewpoint are free and excellent. Allow 2–3 hours on site plus 2.5 hours of driving.",
           "gp": 5,
           "toddler": 3
         },
@@ -358,28 +359,13 @@
         },
         {
           "time": "Morning",
-          "title": "US-163 north → US-89 north",
-          "detail": "One of the most scenically dramatic drives in the Southwest. US-89 threads between the Vermillion Cliffs, the Grand Staircase, and the Colorado Plateau. \"Big Rock Candy Mountain\" hues near Kanab.",
+          "title": "Depart Monument Valley — US-163 south, US-160 west, US-89 north",
+          "detail": "Page is southwest of Monument Valley, not north: drop down US-163 to Kayenta, west on US-160 to Tuba City, then north on US-89. One of the most scenically dramatic drives in the Southwest, threading between the Vermillion Cliffs, the Grand Staircase and the Colorado Plateau.",
           "gp": null,
           "toddler": null
         },
         {
-          "time": "Lunch",
-          "title": "Kanab, UT (optional stop)",
-          "detail": "Excellent restaurants for a small town — good place to break the drive with the kids.",
-          "gp": null,
-          "toddler": null
-        },
-        {
-          "time": "~11:00 AM",
-          "title": "Toadstool Hoodoos",
-          "detail": "Trailhead directly on US-89 with no detour at all. 1.5 miles round trip up a wash to balanced rocks perched on slender stems. Flat, sandy, and the toddler can scramble safely. Allow an hour.",
-          "gp": 4,
-          "toddler": 5,
-          "optional": true
-        },
-        {
-          "time": "~11:30 AM",
+          "time": "~10:45 AM",
           "title": "Horseshoe Bend, Page AZ",
           "detail": "The Colorado River's 270-degree gooseneck, 1,000 ft below. About 15 minutes off route, then 1.5 miles round trip on flat sand. There is a railing at the main overlook but the rim is open and unfenced elsewhere — keep a firm hold on her. Allow 1.5 hours with parking.",
           "gp": 5,
@@ -387,19 +373,34 @@
           "optional": true
         },
         {
-          "time": "Afternoon",
-          "title": "Arrive Springdale — Pa'rus Trail",
-          "detail": "Zion's most accessible trail: 1.7 miles of paved path along the Virgin River through the canyon floor. Cottonwoods turn gold in October. No elevation change; stroller-friendly.",
-          "gp": 5,
-          "toddler": 5
+          "time": "~11:45 AM",
+          "title": "Toadstool Hoodoos",
+          "detail": "Trailhead directly on US-89 with no detour at all. 1.5 miles round trip up a wash to balanced rocks perched on slender stems. Flat, sandy, and the toddler can scramble safely. Allow an hour.",
+          "gp": 4,
+          "toddler": 5,
+          "optional": true
         },
         {
-          "time": "~3:00 PM",
+          "time": "~12:45 PM",
+          "title": "Kanab, UT (optional stop)",
+          "detail": "Excellent restaurants for a small town — good place to break the drive with the kids.",
+          "gp": null,
+          "toddler": null
+        },
+        {
+          "time": "~1:30 PM",
           "title": "Best Friends Animal Sanctuary, Kanab",
           "detail": "The largest no-kill animal sanctuary in the country, right where you are already stopping for lunch. Free 90-minute bus tours of the canyon, booked ahead at bestfriends.org. For a three-year-old this may outrank several national parks.",
           "gp": 4,
           "toddler": 5,
           "optional": true
+        },
+        {
+          "time": "~3:30 PM",
+          "title": "Arrive Springdale — Pa'rus Trail",
+          "detail": "Zion's most accessible trail: 1.7 miles of paved path along the Virgin River through the canyon floor. Cottonwoods turn gold in October. No elevation change; stroller-friendly.",
+          "gp": 5,
+          "toddler": 5
         }
       ],
       "tips": [
@@ -803,14 +804,7 @@
       },
       "items": [
         {
-          "time": "Late morning",
-          "title": "Red Canyon (Dixie NF) — en-route stop",
-          "detail": "On US-89 heading north toward Bryce. Free, and spectacular: the road passes through carved red sandstone arches and you can walk among hoodoos nearly identical to Bryce's with almost no crowds. The 0.6-mile Hoodoo Trail is a perfect 30-minute introduction.",
-          "gp": 4,
-          "toddler": 4
-        },
-        {
-          "time": "~1:00 PM",
+          "time": "~11:00 AM",
           "title": "Cedar Breaks National Monument",
           "detail": "A 2,000-ft amphitheatre of eroded rock at over 10,000 ft. Taking UT-14 through Cedar City instead of US-89 is actually a shorter route, only about 20 minutes slower. The catch: the rim road closes with the first real snow, often before late October, and 10,000 ft is a hard jump for the grandparents on the same day they climb to Bryce. Check nps.gov/cebr for road status the morning of, and skip it if anyone is feeling the altitude.",
           "gp": 5,
@@ -818,18 +812,25 @@
           "optional": true
         },
         {
-          "time": "Late afternoon",
-          "title": "Arrive Bryce Canyon — Sunset Point",
-          "detail": "Check in, then straight to Sunset Point for late-afternoon light on the amphitheater. October light is warm and low; the pink-orange hoodoos glow as if lit from within. Elevation is 8,000 ft — slow down, drink water, let the grandparents acclimatize.",
-          "gp": 5,
+          "time": "~1:00 PM",
+          "title": "Red Canyon (Dixie NF) — en-route stop",
+          "detail": "On US-89 heading north toward Bryce. Free, and spectacular: the road passes through carved red sandstone arches and you can walk among hoodoos nearly identical to Bryce's with almost no crowds. The 0.6-mile Hoodoo Trail is a perfect 30-minute introduction.",
+          "gp": 4,
           "toddler": 4
         },
         {
-          "time": "~3:30 PM",
+          "time": "~2:45 PM",
           "title": "Mossy Cave Trail",
           "detail": "On UT-12 just before the Bryce turnoff, outside the fee gate, and essentially free in driving time. Eight-tenths of a mile round trip, nearly flat, to a dripping mossy overhang and a small waterfall on the Tropic Ditch. Hoodoos overhead the whole way. The easiest real trail in the Bryce area and most visitors never find it.",
           "gp": 5,
           "toddler": 5
+        },
+        {
+          "time": "~4:00 PM",
+          "title": "Arrive Bryce Canyon — Sunset Point",
+          "detail": "Check in, then straight to Sunset Point for late-afternoon light on the amphitheater. October light is warm and low; the pink-orange hoodoos glow as if lit from within. Elevation is 8,000 ft — slow down, drink water, let the grandparents acclimatize.",
+          "gp": 5,
+          "toddler": 4
         }
       ],
       "tips": [
@@ -1018,19 +1019,19 @@
           "toddler": 3
         },
         {
-          "time": "11:00 AM",
-          "title": "Anasazi State Park Museum, Boulder",
-          "detail": "Thirty minutes, genuinely interesting, and free for seniors. A good excuse to break the drive at roughly the halfway point.",
-          "gp": 4,
-          "toddler": 3
-        },
-        {
-          "time": "~12:00 PM",
+          "time": "~9:45 AM",
           "title": "Kodachrome Basin State Park",
           "detail": "Nine miles off Byway 12 at Cannonville, about 35 minutes round trip. Sixty-seven sandstone chimneys stand vertically out of the valley floor — solidified geyser plumbing, unlike anything else on this trip. National Geographic named it. The Grand Parade trail is 1.5 miles and flat. Day 10 is your lightest driving day, so this is the one detour the schedule can genuinely absorb.",
           "gp": 4,
           "toddler": 4,
           "optional": true
+        },
+        {
+          "time": "~11:30 AM",
+          "title": "Anasazi State Park Museum, Boulder",
+          "detail": "Thirty minutes, genuinely interesting, and free for seniors. A good excuse to break the drive at roughly the halfway point.",
+          "gp": 4,
+          "toddler": 3
         },
         {
           "time": "1:30 PM",
@@ -1052,7 +1053,8 @@
           "title": "Hickman Bridge Trail (1 mi RT) — optional",
           "detail": "A natural sandstone arch if energy permits. Otherwise the orchards and the historic homestead area are a lovely, easy walk. Then the short hop into Torrey.",
           "gp": 4,
-          "toddler": 3
+          "toddler": 3,
+          "optional": true
         }
       ],
       "tips": [
@@ -1327,7 +1329,8 @@
           "title": "Iron Mountain Hot Springs (alternative)",
           "detail": "If you have energy for one more stop — or skip Glenwood Caverns and do this instead — sixteen geothermal pools above the Colorado River make a perfect trip-ending soak. Allow 1.5 hours. Book ahead at ironmountainhotsprings.com.",
           "gp": 5,
-          "toddler": 5
+          "toddler": 5,
+          "optional": true
         },
         {
           "time": "3:30–4:00 PM",
