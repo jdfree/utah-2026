@@ -18,6 +18,19 @@ An item with `"optional": true` renders set back behind a dashed rule with an "O
 badge. Use it for side trips the group hasn't committed to; promote one by deleting the
 flag, drop it by deleting the item.
 
+### Open questions
+
+`openQuestions` is empty — everything raised against the printed plan was checked and
+folded into the days themselves. To raise a new one, add an entry with a fresh `id`.
+Mark it `"status": "resolved"` while the decision is fresh, then delete it once the
+outcome is reflected in the itinerary.
+
+### Mom's notes
+
+Every annotation from the printed copy is numbered `M1`–`M20` in trip order, on the day
+it belongs to and collected on the Notes tab, so they can be cited in conversation.
+Numbers come from position, so inserting a note renumbers the ones after it.
+
 ### Marking something as booked
 
 Find the entry in the `bookings` array and change it:
@@ -26,7 +39,7 @@ Find the entry in the `bookings` array and change it:
 {
   "what": "D&SNG Cascade Canyon steam train (6 seats, Oct 13)",
   "status": "booked",
-  "who": "James",
+  "who": "your name",
   "confirmation": "ABC-12345"
 }
 ```
@@ -56,11 +69,6 @@ private. Note the two directives pull against each other slightly: a crawler tha
 `robots.txt` never fetches the page, so it never sees the `noindex`. If a link to the
 site ever leaks, a search engine can still list the bare URL. Belt and braces is what was
 asked for and what is here.
-
-### Closing an open question
-
-Delete the entry from `openQuestions`, or change its `status` to `"resolved"` and add
-what you decided to the `detail`.
 
 ## Running it locally
 
@@ -133,6 +141,8 @@ The cowork-generated plan, plus Mom's handwritten annotations on the printed cop
 Her notes are preserved verbatim in the `momNotes` field on each day and collected on
 the "Notes & questions" tab, so nothing she wrote gets lost as the plan changes.
 
-The `openQuestions` list flags places where the printed plan looks wrong — drive times,
-the Day 10 stop order, the Zion shuttle assumption — that should be checked before
-money changes hands.
+The printed plan had real errors — drive times off by hours, the Zion shuttle backwards,
+a Day 10 route that doubled back, two lodgings that were not what they claimed. Those were
+tracked as numbered questions, checked one by one, and the corrections now live in the days
+themselves. The reasoning is in the git history if you ever need to know why something
+changed.

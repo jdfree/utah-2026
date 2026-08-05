@@ -371,9 +371,20 @@ a { color: var(--rust); }
 }
 .qa h4 .pill { margin-left: 8px; vertical-align: 1px; }
 
+/* Mom's notes are numbered M1..Mn in trip order so they can be cited */
+.mid {
+  display: inline-block;
+  min-width: 30px;
+  font-size: 11px;
+  font-weight: 700;
+  color: var(--gold);
+  letter-spacing: .04em;
+}
+.momlist { list-style: none; padding-left: 0; }
+.momlist li { display: flex; gap: 2px; align-items: baseline; }
+
 .stay a { text-decoration: none; border-bottom: 1px solid rgba(163,80,43,.35); }
 .stay a:hover { border-bottom-color: var(--rust); }
 .stay a.pick, .stay .pick { font-weight: 700; }
-.unverified { color: var(--ink-soft); text-decoration: underline dotted; cursor: help; }
 
 footer { padding: 30px 20px 50px; color: var(--ink-soft); font-size: 13px; text-align: center; }

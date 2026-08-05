@@ -115,6 +115,7 @@
       ],
       "momNotes": [
         {
+          "id": "M1",
           "mark": "?",
           "text": "Question mark next to the Strater Hotel — wants to talk it through before booking."
         }
@@ -199,6 +200,7 @@
       ],
       "momNotes": [
         {
+          "id": "M2",
           "mark": "○",
           "text": "Circled \"Senior Pass\" — she has one, so park entry is covered. Circled again on Days 5, 9, 11 and the packing list."
         }
@@ -295,10 +297,12 @@
       ],
       "momNotes": [
         {
+          "id": "M3",
           "mark": "★",
           "text": "Star next to The View Hotel — this is her pick for Monument Valley."
         },
         {
+          "id": "M4",
           "mark": "?",
           "text": "Question mark next to the guided Jeep tours — undecided, wants to discuss."
         }
@@ -430,10 +434,12 @@
       ],
       "momNotes": [
         {
+          "id": "M5",
           "mark": "★ ☺",
           "text": "Star and a smiley face next to the Pa'rus Trail — clearly a highlight for her."
         },
         {
+          "id": "M6",
           "mark": "1st / 2nd",
           "text": "Ranked Springdale lodging: Cable Mountain Lodge 1st, Desert Pearl Inn 2nd."
         }
@@ -540,10 +546,12 @@
       ],
       "momNotes": [
         {
+          "id": "M7",
           "mark": "○",
           "text": "Circled \"Senior Pass\" again in the Zion notes."
         },
         {
+          "id": "M8",
           "mark": "○",
           "text": "Her circled \"Senior Pass\" still applies — entry is covered, and the shuttle is free on top of that."
         }
@@ -598,7 +606,7 @@
           },
           {
             "name": "Hilton Garden Inn St. George",
-            "note": "Modern, pool, family-friendly — but it sits off I-15 by the convention centre, not near Snow Canyon as the printed plan said (see Q11)",
+            "note": "Modern, pool, family-friendly. Note it sits off I-15 by the convention centre, about 20 minutes from Snow Canyon — the printed plan billed it as being next to the park, which it is not",
             "url": "https://www.hilton.com/en/hotels/sgugigi-hilton-garden-inn-st-george/"
           },
           {
@@ -608,7 +616,7 @@
           },
           {
             "name": "The Inn at Entrada",
-            "note": "Casitas in a gated community 20 min from Snow Canyon — the property the printed plan's \"Entrada\" line seems to have been reaching for; upscale golf resort, pricier",
+            "note": "Casitas in a gated community, genuinely close to Snow Canyon. Upscale golf resort and pricier than the others — included because it is the property actually near the park",
             "url": "https://www.innatentrada.com/"
           }
         ]
@@ -648,10 +656,12 @@
       ],
       "momNotes": [
         {
+          "id": "M9",
           "mark": "○",
           "text": "Circled \"70–76°F\" — she's noting St. George as the warm stretch of the trip."
         },
         {
+          "id": "M10",
           "mark": "?",
           "text": "Question mark next to Inn on the Cliff."
         }
@@ -744,10 +754,12 @@
       ],
       "momNotes": [
         {
+          "id": "M11",
           "mark": "✎",
           "text": "Wrote \"could skip & rest\" against the Sunday afternoon. That is now the plan: church, lunch with friends, and nothing compulsory after it."
         },
         {
+          "id": "M12",
           "mark": "___",
           "text": "Underlined \"tonight is the last warm night of the trip.\""
         }
@@ -848,6 +860,7 @@
       ],
       "momNotes": [
         {
+          "id": "M13",
           "mark": "○",
           "text": "Circled the \"28–32°F\" overnight lows — she wants everyone to have real cold-weather layers for Bryce."
         }
@@ -946,10 +959,12 @@
       ],
       "momNotes": [
         {
+          "id": "M14",
           "mark": "___",
           "text": "Underlined \"Weather changes fast\" and \"below freezing.\" Cold is her main concern for the Bryce nights."
         },
         {
+          "id": "M15",
           "mark": "○",
           "text": "Circled \"Senior Pass\" once more."
         }
@@ -1006,11 +1021,6 @@
             "note": "Lovely property in Torrey with Western-themed cabins and great views; very limited rooms",
             "mom": "✓",
             "url": "https://capitolreefresort.com/"
-          },
-          {
-            "name": "Entrada Guesthouse",
-            "note": "Listed in the printed plan as an intimate B&B, but no such property could be found in Torrey (see Q11) — Mom's question mark was well placed",
-            "mom": "?"
           },
           {
             "name": "Austin's Chuckwagon Motel",
@@ -1073,12 +1083,14 @@
       ],
       "momNotes": [
         {
+          "id": "M16",
           "mark": "✎",
           "text": "Wrote \"Mmm\" next to the Gifford Homestead pies — the apple pie is non-negotiable."
         },
         {
+          "id": "M17",
           "mark": "✓ ✓ ?",
-          "text": "Checked Capitol Reef Resort and Austin's Chuckwagon Motel; question mark on Entrada Guesthouse."
+          "text": "Checked Capitol Reef Resort and Austin's Chuckwagon Motel; question mark on Entrada Guesthouse. Her doubt was well placed — no such property could be found in Torrey, and it has been dropped. Torrey Schoolhouse B&B or Skyridge Inn are real alternatives if you want a third choice."
         }
       ],
       "stops": [
@@ -1219,10 +1231,12 @@
       ],
       "momNotes": [
         {
+          "id": "M18",
           "mark": "○",
           "text": "Circled \"Pack a full lunch\" — even more true now that Goblin Valley is on this leg. Nothing between Torrey and Green River."
         },
         {
+          "id": "M19",
           "mark": "○",
           "text": "Circled \"Senior Pass\" for the Arches entry. Note it does not cover Goblin Valley or Dead Horse Point."
         }
@@ -1342,6 +1356,7 @@
       ],
       "momNotes": [
         {
+          "id": "M20",
           "mark": "✎",
           "text": "Wrote \"1st choice\" next to Glenwood Caverns / King's Row Cave tour — that settles the Caverns-vs-Hot-Springs question in favor of the Caverns."
         }
@@ -1558,72 +1573,5 @@
     "Closed-toe shoes for Goblin Valley — the sandstone is rough",
     "Carrier for the 3-year-old and a stroller for paved trails (Pa'rus, Rim Trail, Dead Horse Point)"
   ],
-  "openQuestions": [
-    {
-      "id": "Q7",
-      "topic": "Monument Valley nights",
-      "detail": "The source document labels Monument Valley \"nights 3–4\" and Springdale \"nights 4–5,\" which double-books night 4. Working the dates through, Monument Valley is a single night (Oct 14) and Springdale is Oct 15–16. Confirm you want only one night at Monument Valley.",
-      "status": "open"
-    },
-    {
-      "id": "Q11",
-      "topic": "Two \"Entrada\" properties in the plan look wrong",
-      "detail": "Checking booking links turned up two problems. \"Hilton Garden Inn Entrada — near Snow Canyon\" conflates two different places: the Hilton Garden Inn St. George sits off I-15 by the convention centre, while the property actually next to Snow Canyon is The Inn at Entrada, an unrelated gated golf resort. Both are now listed separately on Day 6. Worse, \"Entrada Guesthouse\" in Torrey does not appear to exist — no website, no listing, nothing in the Torrey lodging directories. Mom put a question mark on exactly that one. Real Torrey B&B alternatives if you want a third option: Torrey Schoolhouse B&B or Skyridge Inn.",
-      "status": "open"
-    },
-    {
-      "id": "Q1",
-      "topic": "Day 1 drive time — resolved, now a driving day",
-      "detail": "Routed properly: 446 miles by the scenic US-160 route over La Veta and Wolf Creek Passes, about 7 hours of driving before stops — not the 3.5 hrs / 220 mi the printed plan claimed. Day 1 has been rewritten as a pure travel day with a 6:30–7:00 AM departure, a Walsenburg break, Wolf Creek Pass in the early afternoon and arrival in Durango around 4–5 PM. Main Avenue and the Animas River Trail moved to Day 2.",
-      "status": "resolved"
-    },
-    {
-      "id": "Q2",
-      "topic": "Day 8 drive time — resolved",
-      "detail": "St. George → Red Canyon → Bryce routes at 141 miles, about 2 hrs 15 min driving, not 1.5 hrs / 85 mi. Updated on the day card. Still an easy morning.",
-      "status": "resolved"
-    },
-    {
-      "id": "Q3",
-      "topic": "Day 10 stop order — resolved by moving Goblin Valley to Day 11",
-      "detail": "Reordering alone does not help: Bryce → Byway 12 → Goblin Valley → Capitol Reef and Bryce → Capitol Reef → Goblin Valley → Torrey both route at 271 miles, because either way Goblin Valley is a three-hour out-and-back from the Byway 12 corridor. The fix is to move it to Day 11, where it sits directly on the UT-24 / I-70 line to Moab and costs 26 extra miles instead of 137. Day 10 is now a relaxed 134 miles (~2 hrs 40 min) ending at Capitol Reef; Day 11 runs Torrey → Goblin Valley → Dead Horse Point → Canyonlands → Arches at 225 miles. Net saving across the two days: 111 miles and roughly two hours.",
-      "status": "resolved"
-    },
-    {
-      "id": "Q4",
-      "topic": "Zion shuttle — resolved, the shuttle IS running",
-      "detail": "The printed plan had this backwards. Per nps.gov, the Zion Canyon shuttle runs 7:00 AM–6:00 PM on the Sept 13 – Oct 24 schedule, which covers Oct 16. Private vehicles are only allowed on the Zion Canyon Scenic Drive during the non-shuttle season, roughly December to February. Day 5 has been rebuilt around the shuttle: Canyon Overlook first in your own car (the Mt Carmel Highway is outside the shuttle system), then park at the Visitor Center and ride the canyon. No ticket needed. Strollers must be folded to board.",
-      "status": "resolved"
-    },
-    {
-      "id": "Q5",
-      "topic": "Weeping Rock — resolved, both options now on Day 5",
-      "detail": "Both Weeping Rock and Lower Emerald Pools are listed. Lower Emerald Pools is the reliable one and the day is built around it. Weeping Rock is included with a caveat: the 2019 rockfall closed the trails above it (Hidden Canyon and Observation Point via East Rim remain on long-term closure per nps.gov) and the short Weeping Rock trail itself has opened and closed repeatedly since. Check park conditions the morning of; the Riverside Walk at the Temple of Sinawava is the substitute if it is shut.",
-      "status": "resolved"
-    },
-    {
-      "id": "Q6",
-      "topic": "Monument Valley sunrise time — resolved",
-      "detail": "Computed for 36.98°N, 110.11°W: sunrise on Oct 15 is 7:27 AM MDT, not 6:15. Sunset on Oct 14 is 6:47 PM. Bryce sunrise on Oct 20 is 7:40 AM (the plan said 7:15) and Arches sunset on Oct 22 is 6:34 PM. All updated on the day cards. Worth knowing: the Navajo Nation observes daylight saving even though the rest of Arizona does not, so Monument Valley is on the same clock as Utah.",
-      "status": "resolved"
-    },
-    {
-      "id": "Q8",
-      "topic": "Total mileage — resolved",
-      "detail": "With Day 1 corrected to 446 miles and Goblin Valley moved to Day 11, the loop routes at roughly 1,850 driving miles, before local pottering. The header figure of ~1,900 was closer than the footer's 1,700.",
-      "status": "resolved"
-    },
-    {
-      "id": "Q9",
-      "topic": "Sunday pace — resolved",
-      "detail": "Settled: Day 7 is worship at Redemption Lutheran at 10:00 AM, lunch with the Raasch family afterwards, and nothing compulsory after that. Snow Canyon's full circuit moved to Saturday so Sunday stays open. This is the rest day, which matters because Day 8 climbs to 8,000 ft and Days 10–11 are the longest of the trip.",
-      "status": "resolved"
-    },
-    {
-      "id": "Q10",
-      "topic": "Bryce Canyon Lodge season",
-      "detail": "The Lodge at Bryce Canyon's Main Lodge and Suites are open March 1 – November 30, 2026, so Oct 19–20 is inside the season (the cabins are the part that closes early, opening only mid-May). Book at visitbrycecanyon.com — they take reservations up to a year out and the in-park lodge is the first thing to go.",
-      "status": "resolved"
-    }
-  ]
+  "openQuestions": []
 }

@@ -150,8 +150,10 @@ function callout(kind, heading, lines) {
 }
 
 function momCallout(notes) {
-  return `<div class="callout mom"><h5>Mom's notes</h5><ul>${
-    notes.map((n) => `<li><span class="mark">${esc(n.mark)}</span> ${esc(n.text)}</li>`).join('')
+  return `<div class="callout mom"><h5>Mom's notes</h5><ul class="momlist">${
+    notes.map((n) => `<li>
+      <span class="mid">${esc(n.id)}</span>
+      <span class="mark">${esc(n.mark)}</span> ${esc(n.text)}</li>`).join('')
   }</ul></div>`;
 }
 
@@ -176,14 +178,13 @@ function stayBlock(d) {
 </div>`;
 }
 
-/* Options carry a verified `url` to the property's own booking page. The one
-   without a link (Entrada Guesthouse) could not be found to exist — see Q11. */
+/* Every option carries a verified `url` to the property's own booking page.
+   The plain-text branch is a fallback for one added without a link. */
 function lodgingLink(o, isPick) {
   const cls = isPick ? 'pick' : '';
   return o.url
     ? `<a class="${cls}" href="${esc(o.url)}" target="_blank" rel="noopener">${esc(o.name)}</a>`
-    : `<span class="${cls} unverified" title="No booking site found for this property">${
-        esc(o.name)}</span>`;
+    : `<span class="${cls}">${esc(o.name)}</span>`;
 }
 
 function gmapsRoute(stops) {
@@ -351,6 +352,7 @@ function renderNotes() {
 
   $('#view-notes').innerHTML = `
 <h2>Open questions</h2>
+${DATA.openQuestions.length ? `
 <p class="muted">Things in the printed plan that need a decision or a fact-check before booking.
 Numbers are fixed — <code>Q4</code> stays <code>Q4</code> even as others get resolved.</p>
 ${DATA.openQuestions.map((q) => `
@@ -358,12 +360,22 @@ ${DATA.openQuestions.map((q) => `
   <h4><span class="qid">${esc(q.id)}</span> ${esc(q.topic)}${
     q.status === 'resolved' ? '<span class="pill booked">resolved</span>' : ''}</h4>
   <p>${esc(q.detail)}</p>
-</div>`).join('')}
+</div>`).join('')}` : `
+<div class="qa">
+  <h4>Nothing outstanding</h4>
+  <p>Every question raised against the printed plan has been checked and folded into the days
+  themselves — the drive times, the Zion shuttle, the Day 10 route, the sunrise times, the two
+  properties that turned out not to be what the plan claimed. What's left to decide is the
+  optional side trips, which are marked on their own days.</p>
+</div>`}
 
 <h2>Everything Mom wrote</h2>
+<p class="muted">All ${momAll.length} annotations from the printed copy, numbered in trip order so
+they can be referred to — <code>M16</code> is always the pie.</p>
 ${momAll.map((n) => `
-<div class="qa">
-  <h4><a href="#day-${n.day}" data-goto="${n.day}">Day ${n.day} · ${esc(fmtDay(n.date))}</a> — ${esc(n.title)}</h4>
+<div class="qa" id="${esc(n.id)}">
+  <h4><span class="mid">${esc(n.id)}</span>
+    <a href="#day-${n.day}" data-goto="${n.day}">Day ${n.day} · ${esc(fmtDay(n.date))}</a> — ${esc(n.title)}</h4>
   <p><span class="mark">${esc(n.mark)}</span> ${esc(n.text)}</p>
 </div>`).join('')}
 
