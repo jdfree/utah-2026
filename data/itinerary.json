@@ -1128,9 +1128,14 @@
         "nights": [
           11
         ],
-        "chosen": null,
+        "chosen": "SpringHill Suites Moab",
         "status": "needed",
         "options": [
+          {
+            "name": "SpringHill Suites Moab",
+            "note": "Booked with the Marriott free-night certificate. All-suite, free breakfast, pool, and a separate living area — useful when the toddler goes down before the adults do. Arriving late after the longest driving day of the trip, so a suite and a breakfast you don't have to go find are worth more here than the view would be",
+            "url": "https://www.marriott.com/en-us/hotels/cnyms-springhill-suites-moab/overview/"
+          },
           {
             "name": "Hyatt Place Moab",
             "note": "Modern, pool, river views, very comfortable for family groups",
@@ -1145,6 +1150,11 @@
             "name": "Moab Valley Inn",
             "note": "Reliable, spacious rooms, easy parking, good value",
             "url": "https://www.moabvalleyinn.com/"
+          },
+          {
+            "name": "Fairfield Inn & Suites Moab",
+            "note": "The neighbouring Marriott and the designated overflow if SpringHill is unavailable — also the closest hotel in town to the Arches entrance",
+            "url": "https://www.marriott.com/en-us/hotels/cnyfi-fairfield-inn-and-suites-moab/overview/"
           }
         ]
       },
@@ -1442,13 +1452,13 @@
     },
     {
       "id": "lodging-moab",
-      "what": "Moab lodging — night of Oct 22",
+      "what": "SpringHill Suites Moab — night of Oct 22",
       "category": "Lodging",
       "status": "needed",
-      "urgency": "by-july",
+      "urgency": "now",
       "who": "",
-      "url": "",
-      "notes": "",
+      "url": "https://www.marriott.com/en-us/hotels/cnyms-springhill-suites-moab/overview/",
+      "notes": "Redeeming the Marriott free-night certificate. Two things to check before counting on it: the certificate's points cap (35k Boundless/Bold, 50k Brilliant, 85k on some — you may top off by up to 15,000 points) against a peak-season Thursday in Moab, and that the certificate is still valid through October 2026. Award inventory in a small market during Arches season goes early, so book as soon as the certificate allows. One further check: SpringHill has run an autumn renovation closure in a recent year (Nov 14 – Dec 26), which misses these dates, but reconfirm when booking since those schedules move. Fairfield Inn next door is the fallback and takes the same certificate.",
       "confirmation": ""
     },
     {
