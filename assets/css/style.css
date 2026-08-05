@@ -298,10 +298,30 @@ p.muted .cam { opacity: .8; }
   white-space: nowrap;
 }
 
+.route {
+  margin-top: 16px;
+  padding: 12px 14px;
+  background: #f8f5f1;
+  border-radius: 8px;
+}
+.route h5 {
+  margin: 0 0 6px;
+  font-size: 11px;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+}
+.route .chain {
+  margin: 0 0 8px;
+  font-size: 13.5px;
+  line-height: 1.7;
+  color: #3f3a34;
+}
+.route .arrow { color: var(--rust); padding: 0 2px; }
 .maplink {
   display: inline-block;
-  margin-top: 14px;
   font-size: 13px;
+  font-weight: 600;
   color: var(--rust);
 }
 

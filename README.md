@@ -110,7 +110,15 @@ python3 -m http.server 8000
 
 Then open http://localhost:8000.
 
-## Map
+## Map and daily routes
+
+Each day card ends with a **Today's route** block: the chain of stops spelled out, plus a
+Google Maps directions link built from them.
+
+`stops` is a separate list from `items` and does not update itself — **if you change what
+a day does, update its `stops` too, or the route silently goes stale.** Two rules keep it
+honest: the first stop is where you wake up that morning, and the last is where you sleep.
+Coordinates rather than place names, because they land in the right parking lot every time.
 
 Leaflet with OpenStreetMap tiles — no API key, no billing account, nothing to expire.
 Pins are numbered by day and clicking one jumps to that day's card. Coordinates live in

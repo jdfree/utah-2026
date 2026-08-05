@@ -176,16 +176,22 @@
       "momNotes": [],
       "stops": [
         {
+          "name": "D&SNG depot, Durango",
+          "lat": 37.2716,
+          "lng": -107.8801,
+          "type": "stop"
+        },
+        {
+          "name": "Animas River Trail, Durango",
+          "lat": 37.279,
+          "lng": -107.879,
+          "type": "stop"
+        },
+        {
           "name": "Durango, CO",
           "lat": 37.2753,
           "lng": -107.8801,
           "type": "overnight"
-        },
-        {
-          "name": "Cascade Canyon (D&SNG turnaround)",
-          "lat": 37.548,
-          "lng": -107.801,
-          "type": "stop"
         }
       ]
     },
@@ -233,40 +239,41 @@
           "image": "https://en.wikipedia.org/wiki/File:Cliff_Palace-Colorado-Mesa_Verde_NP.jpg"
         },
         {
-          "time": "~1:50 PM",
+          "time": "~1:50 PM — only if ahead",
           "title": "Goosenecks State Park",
-          "detail": "Five minutes off the highway and straight to the rim: 1,000 ft above the San Juan River where it doubles back on itself three times in a mile. Paved parking, a railing, no walking required. $5/vehicle. Half an hour is plenty.",
+          "detail": "Worth 40 minutes if Mesa Verde ran to time, and the first thing to drop if it did not. Five minutes off US-163 and straight to the rim: 1,000 ft above the San Juan River where it doubles back on itself three times in a mile. Paved parking, a railing, no walking. $5/vehicle. Skipping it puts you at the Wildcat trailhead 35 minutes earlier, which is the difference between a relaxed evening and a rushed one.",
           "gp": 5,
           "toddler": 3,
-          "image": "https://en.wikipedia.org/wiki/File:GooseneckMeandersUtahAerial1.jpg"
+          "image": "https://en.wikipedia.org/wiki/File:GooseneckMeandersUtahAerial1.jpg",
+          "optional": true
         },
         {
-          "time": "~3:05 PM",
+          "time": "~2:30 PM (3:05 with Goosenecks)",
           "title": "Wildcat Trail and the Mittens overlook",
-          "detail": "Both start from the same parking lot, and the gate locks at 5:00 PM — so come straight here from Goosenecks and check in afterwards. The overlook is a few paces from the car, with East Mitten, West Mitten and Merrick Butte below: the view everyone knows, no Valley Drive needed. Then walk the Wildcat Trail, the only self-guided trail in the park and the one way to get among the buttes on your own. Be realistic about the full loop: 3.2 miles of soft sand, no shade and no water, 2–3 hours — which does not fit before closing, and is a lot with a three-year-old. Go out as far as West Mitten and turn back, about an hour and a half, and you get the scale of the thing without racing the gate. $20/vehicle covers both.",
+          "detail": "Park at the Monument Valley visitor center — the overlook and the trailhead share the same lot, and the gate locks at 5:00 PM, so this is the last thing you can do inside the park today. Walk out to the overlook first: East Mitten, West Mitten and Merrick Butte laid out below, a few paces from the car. Then take the Wildcat Trail, the only self-guided trail in the park. The full loop is 3.2 miles of soft sand with no shade or water and takes 2–3 hours, which neither fits before closing nor suits a three-year-old — walk out toward West Mitten for 45 minutes and turn back. $20/vehicle covers the lot. Be back through the gate by 5:00.",
           "gp": 4,
           "toddler": 4,
           "image": "https://en.wikipedia.org/wiki/File:Monument_Valley%2C_Utah%2C_USA_%2823611451292%29.jpg"
         },
         {
-          "time": "~5:00 PM",
+          "time": "~4:45 PM",
           "title": "Check in at Goulding's",
-          "detail": "Ten minutes west of the park gate. Pool, restaurant, and the original 1920s trading post kept as a museum — twenty easy indoor minutes if anyone still has appetite for it.",
+          "detail": "Goulding's Lodge, ten minutes west of the park gate on Monument Valley Road — the only full-service lodging out here, and where you are sleeping tonight. Drop the bags, then eat before the light goes.",
           "gp": 4,
           "toddler": 3
         },
         {
-          "time": "6:15 PM",
-          "title": "Sunset over the valley, then dinner",
-          "detail": "Sunset is 6:47 PM MDT, nearly two hours after the gate locks, so the in-park viewpoints are out unless you are on the guided tour. Two alternatives, both public and open at any hour: the east-facing grounds at Goulding's, which look straight across at the buttes, or a pullout on US-163 north of the park. Be in place by 6:15. Dinner afterwards at the Stagecoach on site — it is the only restaurant for miles.",
+          "time": "5:15 PM — dinner, then sunset",
+          "title": "Dinner at the Stagecoach, then sunset from the terrace",
+          "detail": "Eat first: sunset is 6:47 PM and nobody wants to feed two small children after dark. The Stagecoach Dining Room is inside the lodge and is the only restaurant for miles — sit down at 5:15 and you are done by 6:15. Then walk out to the terrace in front of the lodge, or your own balcony; both face east across the valley. The sun goes down behind the mesa at your back and the last light lands on the buttes in front of you, which is the view you came for. No driving, no gate to beat, and you can carry a sleeping baby back to the room in two minutes. The famous roadside view is 18 minutes north on US-163 if a photographer in the group insists, but it means driving back in the dark.",
           "gp": 5,
           "toddler": 4,
           "image": "https://en.wikipedia.org/wiki/File:Monument_Valley%2C_Utah%2C_USA_%2823611451292%29.jpg"
         },
         {
           "time": "After dark",
-          "title": "Stargazing from the lodge grounds",
-          "detail": "The dark-sky night of the trip, and it needs no driving at all. On Oct 14 the moon is a thin crescent about 8% lit that sets soon after the sun, so by 8:30 the sky is genuinely black. There is no town for fifty miles. Walk clear of the lodge lighting, give your eyes ten minutes, and the Milky Way is overhead. Bring warm layers; it drops into the 40s.",
+          "title": "Stargazing from the Goulding's grounds",
+          "detail": "Walk clear of the lodge lighting — the far end of the parking area is enough — and give your eyes ten minutes. On Oct 14 the moon is a thin crescent about 8% lit that sets soon after the sun, and there is no town for fifty miles in any direction, so the Milky Way is overhead. Bring warm layers; it drops into the 40s. Nothing to book, nothing to drive to.",
           "gp": 5,
           "toddler": 4
         }
@@ -297,25 +304,31 @@
       ],
       "stops": [
         {
+          "name": "Durango, CO",
+          "lat": 37.2753,
+          "lng": -107.8801,
+          "type": "origin"
+        },
+        {
           "name": "Mesa Verde — Chapin Mesa",
           "lat": 37.183,
           "lng": -108.487,
           "type": "park"
         },
         {
-          "name": "Goosenecks State Park",
+          "name": "Goosenecks State Park (optional)",
           "lat": 37.174,
           "lng": -109.927,
           "type": "stop"
         },
         {
-          "name": "Monument Valley visitor center overlook",
+          "name": "Monument Valley visitor center — Wildcat trailhead",
           "lat": 36.9834,
           "lng": -110.1116,
           "type": "park"
         },
         {
-          "name": "Goulding's Lodge, Monument Valley",
+          "name": "Goulding's Lodge",
           "lat": 37.0025,
           "lng": -110.211,
           "type": "overnight"
@@ -449,25 +462,31 @@
       ],
       "stops": [
         {
+          "name": "Goulding's Lodge",
+          "lat": 37.0025,
+          "lng": -110.211,
+          "type": "origin"
+        },
+        {
           "name": "Forrest Gump Point, US-163",
           "lat": 37.1017,
           "lng": -109.9925,
           "type": "stop"
         },
         {
-          "name": "Toadstool Hoodoos (US-89)",
-          "lat": 37.093,
-          "lng": -111.876,
-          "type": "stop"
-        },
-        {
-          "name": "Horseshoe Bend, Page AZ",
+          "name": "Horseshoe Bend, Page AZ (optional)",
           "lat": 36.8791,
           "lng": -111.5104,
           "type": "stop"
         },
         {
-          "name": "Kanab, UT",
+          "name": "Toadstool Hoodoos, US-89 (optional)",
+          "lat": 37.093,
+          "lng": -111.876,
+          "type": "stop"
+        },
+        {
+          "name": "Kanab, UT — lunch",
           "lat": 37.0475,
           "lng": -112.5263,
           "type": "waypoint"
@@ -477,12 +496,6 @@
           "lat": 37.1889,
           "lng": -112.9986,
           "type": "overnight"
-        },
-        {
-          "name": "Pa'rus Trail / Zion Visitor Center",
-          "lat": 37.2,
-          "lng": -112.9871,
-          "type": "stop"
         }
       ]
     },
@@ -571,16 +584,22 @@
       ],
       "stops": [
         {
+          "name": "Springdale, UT",
+          "lat": 37.1889,
+          "lng": -112.9986,
+          "type": "origin"
+        },
+        {
           "name": "Canyon Overlook Trailhead",
           "lat": 37.2131,
           "lng": -112.9403,
           "type": "stop"
         },
         {
-          "name": "Zion Canyon Scenic Drive",
-          "lat": 37.2506,
-          "lng": -112.9503,
-          "type": "stop"
+          "name": "Zion Visitor Center — shuttle",
+          "lat": 37.2,
+          "lng": -112.9871,
+          "type": "park"
         },
         {
           "name": "Springdale, UT",
@@ -689,6 +708,12 @@
       ],
       "stops": [
         {
+          "name": "Springdale, UT",
+          "lat": 37.1889,
+          "lng": -112.9986,
+          "type": "origin"
+        },
+        {
           "name": "Kolob Canyons (Zion NW)",
           "lat": 37.453,
           "lng": -113.206,
@@ -787,6 +812,12 @@
         }
       ],
       "stops": [
+        {
+          "name": "Black Desert Resort, Ivins",
+          "lat": 37.169,
+          "lng": -113.679,
+          "type": "origin"
+        },
         {
           "name": "Redemption Lutheran Church, St. George",
           "lat": 37.1146,
@@ -893,6 +924,18 @@
       ],
       "stops": [
         {
+          "name": "Black Desert Resort, Ivins",
+          "lat": 37.169,
+          "lng": -113.679,
+          "type": "origin"
+        },
+        {
+          "name": "Cedar Breaks National Monument (optional)",
+          "lat": 37.631,
+          "lng": -112.845,
+          "type": "park"
+        },
+        {
           "name": "Red Canyon (Dixie NF)",
           "lat": 37.744,
           "lng": -112.307,
@@ -994,16 +1037,16 @@
       ],
       "stops": [
         {
+          "name": "Bryce Canyon City, UT",
+          "lat": 37.6685,
+          "lng": -112.157,
+          "type": "origin"
+        },
+        {
           "name": "Bryce Canyon — Sunrise Point",
           "lat": 37.6325,
           "lng": -112.1621,
           "type": "park"
-        },
-        {
-          "name": "Bryce Point",
-          "lat": 37.6047,
-          "lng": -112.1573,
-          "type": "stop"
         },
         {
           "name": "Bryce — Rainbow Point",
@@ -1125,10 +1168,16 @@
       ],
       "stops": [
         {
-          "name": "Anasazi State Park Museum, Boulder UT",
-          "lat": 37.913,
-          "lng": -111.4213,
-          "type": "stop"
+          "name": "Bryce Canyon City, UT",
+          "lat": 37.6685,
+          "lng": -112.157,
+          "type": "origin"
+        },
+        {
+          "name": "Kodachrome Basin State Park (optional)",
+          "lat": 37.515,
+          "lng": -111.988,
+          "type": "park"
         },
         {
           "name": "Byway 12 — the Hogback",
@@ -1137,19 +1186,13 @@
           "type": "stop"
         },
         {
-          "name": "Kodachrome Basin State Park",
-          "lat": 37.515,
-          "lng": -111.988,
-          "type": "park"
-        },
-        {
-          "name": "Capitol Reef petroglyph panel (UT-24)",
-          "lat": 38.288,
-          "lng": -111.227,
+          "name": "Anasazi State Park Museum, Boulder",
+          "lat": 37.913,
+          "lng": -111.4213,
           "type": "stop"
         },
         {
-          "name": "Capitol Reef NP — Fruita / Gifford Homestead",
+          "name": "Capitol Reef — Fruita / Gifford Homestead",
           "lat": 38.287,
           "lng": -111.247,
           "type": "park"
@@ -1288,16 +1331,16 @@
       ],
       "stops": [
         {
+          "name": "Torrey, UT",
+          "lat": 38.2999,
+          "lng": -111.4191,
+          "type": "origin"
+        },
+        {
           "name": "Goblin Valley State Park",
           "lat": 38.5645,
           "lng": -110.7075,
           "type": "park"
-        },
-        {
-          "name": "Little Wild Horse Canyon",
-          "lat": 38.581,
-          "lng": -110.801,
-          "type": "stop"
         },
         {
           "name": "Dead Horse Point State Park",
@@ -1312,27 +1355,15 @@
           "type": "park"
         },
         {
-          "name": "Canyonlands — Green River Overlook",
-          "lat": 38.308,
-          "lng": -109.889,
-          "type": "stop"
-        },
-        {
-          "name": "Arches NP — Balanced Rock",
+          "name": "Arches — Balanced Rock & the Windows",
           "lat": 38.7016,
           "lng": -109.5645,
           "type": "park"
         },
         {
-          "name": "Arches — Delicate Arch Viewpoint",
-          "lat": 38.737,
-          "lng": -109.498,
-          "type": "stop"
-        },
-        {
-          "name": "Moab, UT",
-          "lat": 38.5733,
-          "lng": -109.5498,
+          "name": "SpringHill Suites Moab",
+          "lat": 38.59,
+          "lng": -109.549,
           "type": "overnight"
         }
       ]
@@ -1412,7 +1443,13 @@
       ],
       "stops": [
         {
-          "name": "Colorado National Monument",
+          "name": "SpringHill Suites Moab",
+          "lat": 38.59,
+          "lng": -109.549,
+          "type": "origin"
+        },
+        {
+          "name": "Colorado National Monument (optional)",
           "lat": 39.0542,
           "lng": -108.7382,
           "type": "stop"

@@ -124,8 +124,7 @@ function dayCard(d) {
     ${d.tips?.length ? callout('tips', 'Tips', d.tips) : ''}
     ${stayBlock(d)}
 
-    <a class="maplink" target="_blank" rel="noopener"
-       href="${gmapsRoute(d.stops)}">Open this day's route in Google Maps &rarr;</a>
+    ${routeBlock(d)}
   </div>
 </details>`;
 }
@@ -200,6 +199,20 @@ function lodgingLink(o, isPick) {
   return o.url
     ? `<a class="${cls}" href="${esc(o.url)}" target="_blank" rel="noopener">${esc(o.name)}</a>`
     : `<span class="${cls}">${esc(o.name)}</span>`;
+}
+
+/* The day's driving route, spelled out. `stops` is ordered and starts wherever
+   you wake up, so the chain doubles as the answer to "where am I going today?"
+   Coordinates rather than names — they land in the right car park every time. */
+function routeBlock(d) {
+  const chain = d.stops.map((s) => esc(s.name)).join(' <span class="arrow">&rarr;</span> ');
+  return `
+<div class="route">
+  <h5>Today's route</h5>
+  <p class="chain">${chain}</p>
+  <a class="maplink" target="_blank" rel="noopener" href="${gmapsRoute(d.stops)}">
+    Open in Google Maps &rarr;</a>
+</div>`;
 }
 
 function gmapsRoute(stops) {
