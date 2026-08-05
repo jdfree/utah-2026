@@ -94,8 +94,9 @@ const stars = (n) => (n ? `<b>${'★'.repeat(n)}</b>${'☆'.repeat(5 - n)}` : ''
 
 function renderItinerary() {
   $('#view-itinerary').innerHTML =
-    `<p class="muted">Click any day to expand it. Attraction names with a ${CAMERA} link out to a
-     photograph.</p>` + DATA.days.map(dayCard).join('');
+    `<p class="muted">Click any day to expand it. Attraction names with a ${OUTLINK} open the
+     official page for that place — the park service, the state park, or whoever runs it — which
+     is where hours, closures and fees are current.</p>` + DATA.days.map(dayCard).join('');
 }
 
 function dayCard(d) {
@@ -139,23 +140,23 @@ function itemRow(i) {
   ${rating}
   <p class="when">${esc(i.time)}${
     i.optional ? '<span class="opttag">Optional — decide as a group</span>' : ''}</p>
-  <h4>${photoLink(i)}${i.mom ? `<span class="momtag">Mom: ${esc(i.mom)}</span>` : ''}</h4>
+  <h4>${guideLink(i)}${i.mom ? `<span class="momtag">Mom: ${esc(i.mom)}</span>` : ''}</h4>
   <p>${esc(i.detail)}</p>
 </div>`;
 }
 
-/* Attraction names link to a photo. These point at the Wikipedia/Commons file
-   page rather than the image file itself: it carries the licence and credit,
-   and Wikimedia asks that their image servers not be hotlinked from elsewhere. */
-const CAMERA = '<svg class="cam" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" '
-  + 'd="M9 3 7.2 5H4a2 2 0 0 0-2 2v11a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2h-3.2L15 3H9zm3 '
-  + '5.5A4.5 4.5 0 1 1 7.5 13 4.5 4.5 0 0 1 12 8.5zm0 2A2.5 2.5 0 1 0 14.5 13 2.5 2.5 0 0 0 12 '
-  + '10.5z"/></svg>';
+/* Attraction names link to whoever actually runs the place — the NPS, Utah State
+   Parks, the BLM, or the operator's own site — so the link is the authority on
+   hours, closures and fees rather than somebody's photo of it. */
+const OUTLINK = '<svg class="ext" viewBox="0 0 24 24" aria-hidden="true"><path fill="none" '
+  + 'stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" '
+  + 'd="M14 4h6v6M20 4l-8.5 8.5M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5"/></svg>';
 
-function photoLink(i) {
-  if (!i.image) return esc(i.title);
-  return `<a class="photo" href="${esc(i.image)}" target="_blank" rel="noopener"
-    title="Photo of ${esc(i.title)} — opens on Wikipedia">${esc(i.title)}${CAMERA}</a>`;
+function guideLink(i) {
+  if (!i.guide) return esc(i.title);
+  const host = i.guide.replace(/^https?:\/\/(www\.)?/, '').split('/')[0];
+  return `<a class="guide" href="${esc(i.guide)}" target="_blank" rel="noopener"
+    title="${esc(i.title)} — opens ${esc(host)}">${esc(i.title)}${OUTLINK}</a>`;
 }
 
 function callout(kind, heading, lines) {

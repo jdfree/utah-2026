@@ -195,14 +195,14 @@ body {
 
 .item { padding: 14px 0; border-bottom: 1px dashed var(--line); }
 .item:last-child { border-bottom: 0; }
-a.photo {
+a.guide {
   color: inherit;
   text-decoration: none;
   border-bottom: 1px dotted rgba(163, 80, 43, .45);
 }
-a.photo:hover { border-bottom-color: var(--rust); }
-a.photo:hover .cam { opacity: 1; }
-.cam {
+a.guide:hover { border-bottom-color: var(--rust); }
+a.guide:hover .ext { opacity: 1; }
+.ext {
   width: 12px;
   height: 12px;
   margin-left: 5px;
@@ -210,7 +210,7 @@ a.photo:hover .cam { opacity: 1; }
   color: var(--rust);
   opacity: .55;
 }
-p.muted .cam { opacity: .8; }
+p.muted .ext { opacity: .8; }
 
 .item .when {
   font-size: 11px;

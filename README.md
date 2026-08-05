@@ -39,22 +39,39 @@ with:
 python3 -c "import json,re;d=json.load(open('data/itinerary.json'));n={x['id']:t['day'] for t in d['days'] for x in (t.get('momNotes') or [])};[print(r,'->day',n.get(r,'DANGLING')) for r in sorted(set(re.findall(r'\bM\d+\b',json.dumps(d))),key=lambda s:int(s[1:]))]"
 ```
 
-### Photo links
+### Guide links
 
-Each attraction item may carry an `image` — a link to the Wikipedia/Commons **file page**
-for a photo of it, not to the image file. That page carries the licence and the
-photographer's credit, and Wikimedia asks that their image servers not be hotlinked from
-other sites. The renderer turns the item title into that link and appends a camera icon.
-Items without an `image` (departures, drives, meals) render as plain text.
+Each attraction item may carry a `guide` — a link to the page of whoever actually runs the
+place. The renderer turns the item title into that link and appends an external-link icon.
+Items without a `guide` (departures, drives, meals) render as plain text.
 
-To add one, find the attraction on Wikipedia and use its lead image:
+Prefer the managing agency, in this order, and fall back only when none of them has a page:
+
+| Kind of place | Where the link should point |
+| --- | --- |
+| National park, monument, rec area | `nps.gov/<park>/planyourvisit/…` |
+| Utah state park | `stateparks.utah.gov/parks/<park>/` |
+| BLM land | `blm.gov/visit/<site>` |
+| Commercial operator | its own site (`durangotrain.com`, `gouldings.com`) |
+| Byways, towns, tribal park | `visitutah.com` |
+
+The point is that the link is authoritative about **hours, closures and fees** — which is
+what you actually need on the road. These pages are worth more than a photo was.
+
+NPS slugs are not guessable and change over time: `parus-trail.htm`, `emerald-pools.htm`
+and `dayhikes.htm` all 404 today. Don't invent one. Scrape the park's own index instead:
 
 ```bash
-curl -s -H 'User-Agent: your-contact' \
-  'https://en.wikipedia.org/w/api.php?action=query&format=json&prop=pageimages&piprop=name&redirects=1&titles=Delicate%20Arch'
+curl -sL -A 'Mozilla/5.0' https://www.nps.gov/zion/planyourvisit/index.htm \
+  | grep -oE 'href="/zion/planyourvisit/[a-z0-9._-]+\.htm"' | sort -u
 ```
 
-Then set `"image": "https://en.wikipedia.org/wiki/File:<name with underscores>"`.
+Then check every link still resolves — a 404 here is silent on the page:
+
+```bash
+python3 -c "import json;d=json.load(open('data/itinerary.json'));[print(i['guide']) for t in d['days'] for i in t['items'] if i.get('guide')]" \
+  | sort -u | xargs -P4 -I{} curl -sS -o /dev/null -w '%{http_code} {}\n' -L --max-time 20 -A 'Mozilla/5.0' {}
+```
 
 ### Packing
 
