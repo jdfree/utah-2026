@@ -236,18 +236,33 @@
           "toddler": 3
         },
         {
-          "time": "~3:00 PM",
-          "title": "Arrive Goulding's — check in and stop moving",
-          "detail": "You have been in the car for most of two days. Goulding's sits below a mesa two miles west of the park with the valley laid out to the east, so the afternoon can be spent on the balcony rather than on another road. There is a pool and a restaurant on site.",
+          "time": "~3:05 PM",
+          "title": "The Mittens from the visitor center overlook",
+          "detail": "The one thing worth timing the day around. The Tribal Park visitor center sits on the rim with East Mitten, West Mitten and Merrick Butte laid out below — this is the view everyone knows, and it is a few paces from the car park on pavement. You do not need the 17-mile Valley Drive to see it; you just need to be inside the gate before it locks at 5:00 PM. $20/vehicle. Come straight here from Goosenecks and check in afterwards. Allow an hour.",
           "gp": 5,
           "toddler": 4
         },
         {
-          "time": "Afternoon",
+          "time": "~4:30 PM",
+          "title": "Arrive Goulding's — check in and stop moving",
+          "detail": "Check in after the overlook rather than before it — the gate closes at 5:00 and the lodge does not. Goulding's sits below a mesa two miles west of the park with the valley laid out to the east. Pool, restaurant and a trading post on site.",
+          "gp": 5,
+          "toddler": 4
+        },
+        {
+          "time": "Late afternoon — if booked",
           "title": "Navajo-guided valley tour",
-          "detail": "Worth more here than it looks. The Tribal Park keeps winter hours from Oct 1 — gates open 8:00 AM and close 5:00 PM — so a self-drive visit cannot reach the Mittens for either sunset or sunrise. Navajo guides can take you in outside those hours, and reach restricted areas closed to private vehicles including Mystery Valley and the arches. Operators advertise sunrise and sunset departures; confirm the timing when you book at monument-valley.net. Mom put a question mark against this one (M4) — with the gate hours as they are, it is the difference between seeing Monument Valley and driving past it.",
+          "detail": "If you book this, it replaces the arrangements above rather than adding to them: a Navajo guide can enter outside the 8:00–5:00 gate hours and reach restricted areas closed to private vehicles, including Mystery Valley and the arches. Operators run sunset departures, which is the version to ask for — it puts you among the buttes at the hour the overlook cannot. Roughly 2–3 hours; book through Goulding's or at monument-valley.net. Mom's question mark is on this one (M4).",
           "gp": 4,
           "toddler": 3,
+          "optional": true
+        },
+        {
+          "time": "~5:15 PM",
+          "title": "Goulding's Museum and Earth Spirit theater",
+          "detail": "The original 1920s trading post, kept as a museum: Navajo weaving, and the room where John Ford planned the Westerns that made this valley famous to people who have never been near it. Small, indoors, twenty minutes, and it suits grandparents at the end of a long driving day better than another viewpoint does. The Earth Spirit film runs in the on-site theater.",
+          "gp": 5,
+          "toddler": 2,
           "optional": true
         },
         {
@@ -256,10 +271,18 @@
           "detail": "Sunset on Oct 14 is 6:47 PM MDT, an hour and three quarters after the park gates lock at 5:00 PM, so the classic viewpoint inside the park is out unless you are on a guided tour. Two good alternatives, both on public land: the east-facing terrace and grounds at Goulding's, which look straight across at the buttes, or a pullout on US-163 north of the park. Be in place by 6:15.",
           "gp": 5,
           "toddler": 4
+        },
+        {
+          "time": "After dark",
+          "title": "Stargazing from the lodge grounds",
+          "detail": "The dark-sky night of the trip, and it needs no driving at all. On Oct 14 the moon is a thin crescent about 8% lit that sets soon after the sun, so by 8:30 the sky is genuinely black — darker than Bryce will be six nights later, when the moon is near half. There is no town for fifty miles. Walk clear of the lodge lighting, give your eyes ten minutes, and the Milky Way is overhead. Bring the blankets you packed for Bryce Point; it drops into the 40s.",
+          "gp": 5,
+          "toddler": 4
         }
       ],
       "tips": [
         "The Tribal Park runs winter hours from Oct 1: gates open 8:00 AM, close 5:00 PM, last Scenic Drive entry 2:30 PM. Sunset and sunrise both fall outside that window.",
+        "The visitor center overlook is inside the gate but is not the Scenic Drive — the 2:30 PM last-entry rule applies to the 17-mile loop, not to walking out to the rim. Just be through the gate before 5:00 PM.",
         "Mesa Verde's Wetherill Mesa road usually closes by mid-October, but Chapin Mesa — the part you want — stays open.",
         "Book the Cliff Palace tour at recreation.gov ($5/person). It fills fast even in October.",
         "Park entry at Mesa Verde is covered by America the Beautiful / Senior Pass. Monument Valley is a Navajo Tribal Park at $20/vehicle and is NOT covered."
@@ -293,6 +316,12 @@
           "lat": 37.174,
           "lng": -109.927,
           "type": "stop"
+        },
+        {
+          "name": "Monument Valley visitor center overlook",
+          "lat": 36.9834,
+          "lng": -110.1116,
+          "type": "park"
         },
         {
           "name": "Goulding's Lodge, Monument Valley",
@@ -925,7 +954,7 @@
         {
           "time": "After dark",
           "title": "Stargazing at Bryce Point",
-          "detail": "An International Dark Sky Park — one of the best places on Earth to see the Milky Way. Mid-October brings a dark moon window. Bundle up completely (below freezing), drive to Bryce Point, kill the headlights, wait five minutes for your eyes to adjust. The park hosts ranger astronomy programs most evenings in season.",
+          "detail": "Bryce is an International Dark Sky Park and the altitude helps, but be realistic about the moon: on Oct 20 it is around two-thirds lit and does not set until near midnight, so the Milky Way will be washed out. Planets, constellations and the ranger astronomy programs are all still excellent. Bundle up completely — it will be below freezing — drive to Bryce Point, kill the headlights and give your eyes five minutes. For the genuinely black sky, Monument Valley on Oct 14 is your night.",
           "gp": 5,
           "toddler": 5
         }
