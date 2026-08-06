@@ -130,7 +130,13 @@ function dayCard(d) {
 </details>`;
 }
 
+/* A day is a timeline of three kinds of row. Drives and meals are the connective
+   tissue — they carry the time that used to be invisible between attractions, so
+   they render compact and muted. Anything without a `kind` is a real stop. */
 function itemRow(i) {
+  if (i.kind === 'drive') return driveRow(i);
+  if (i.kind === 'meal') return mealRow(i);
+
   const rating = i.gp || i.toddler
     ? `<span class="stars">${i.gp ? `${stars(i.gp)} GP` : ''}${
         i.toddler ? `<br>${stars(i.toddler)} kid` : ''}</span>`
@@ -138,12 +144,49 @@ function itemRow(i) {
   return `
 <div class="item${i.optional ? ' optional' : ''}">
   ${rating}
-  <p class="when">${esc(i.time)}${
+  <p class="when">${esc(i.time)}${dwellTag(i)}${
     i.optional ? '<span class="opttag">Optional — decide as a group</span>' : ''}</p>
   <h4>${guideLink(i)}${i.mom ? `<span class="momtag">Mom: ${esc(i.mom)}</span>` : ''}</h4>
   <p>${esc(i.detail)}</p>
 </div>`;
 }
+
+/* How long to actually spend here. Without this the times below look like a
+   schedule you could keep by driving between them at infinite speed. */
+function dwellTag(i) {
+  return i.dwell && i.dwell !== '—'
+    ? `<span class="dwell" title="How long to spend here">${esc(i.dwell)} here</span>` : '';
+}
+
+function driveRow(i) {
+  const legs = [i.dist, i.dur].filter((s) => s && s !== '—').map(esc).join(' · ');
+  return `
+<div class="item leg${i.optional ? ' optional' : ''}">
+  <p class="when">${esc(i.time)}</p>
+  <h4>${CAR}${guideLink(i)}<span class="legmeta">${legs}</span></h4>
+  <p>${esc(i.detail)}</p>
+  ${i.flag ? `<p class="legflag">${esc(i.flag)}</p>` : ''}
+</div>`;
+}
+
+function mealRow(i) {
+  return `
+<div class="item meal">
+  <p class="when">${esc(i.time)}${dwellTag(i)}</p>
+  <h4>${FORK}${guideLink(i)}</h4>
+  <p>${esc(i.detail)}</p>
+</div>`;
+}
+
+const CAR = '<svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" '
+  + 'd="M5 11l1.5-4.5A2 2 0 0 1 8.4 5h7.2a2 2 0 0 1 1.9 1.5L19 11h.5a1.5 1.5 0 0 1 1.5 1.5V17a1 1 0 '
+  + '0 1-1 1h-1a1 1 0 0 1-1-1v-1H6v1a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1v-4.5A1.5 1.5 0 0 1 4.5 11H5zm2.1 '
+  + '0h9.8l-1.1-3.4a.5.5 0 0 0-.5-.35H8.7a.5.5 0 0 0-.5.35L7.1 11zM7 13.5a1 1 0 1 0 0 2 1 1 0 0 0 '
+  + '0-2zm10 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2z"/></svg>';
+
+const FORK = '<svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" '
+  + 'd="M7 2v7a2 2 0 0 0 1.5 1.94V22h1.5V10.94A2 2 0 0 0 11.5 9V2H10v6H9.75V2h-1.5v6H8V2H7zm8.5 '
+  + '0C14 2 13 4.5 13 8c0 2.2.6 3.5 1.75 3.9V22h1.5V2h-.75z"/></svg>';
 
 /* Attraction names link to whoever actually runs the place — the NPS, Utah State
    Parks, the BLM, or the operator's own site — so the link is the authority on

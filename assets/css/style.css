@@ -242,6 +242,36 @@ p.muted .ext { opacity: .8; }
   text-transform: uppercase;
 }
 
+/* How long to spend somewhere, next to the time you get there */
+.dwell {
+  display: inline-block;
+  margin-left: 8px;
+  padding: 1px 8px;
+  border-radius: 999px;
+  background: #f4efe7;
+  color: #6b5b47;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: .04em;
+  text-transform: none;
+}
+
+/* Drive legs and meals are the connective tissue between stops: same timeline,
+   deliberately quieter, so the eye still lands on the attractions. */
+.item.leg, .item.meal { padding: 10px 0 10px 12px; border-left: 2px solid #ece5da; }
+.item.leg h4, .item.meal h4 { font-size: 13.5px; font-weight: 600; color: #6b5b47; }
+.item.leg p, .item.meal p { font-size: 13.5px; color: #6a6259; }
+.item.leg .when, .item.meal .when { color: #96877a; }
+.item.meal { border-left-color: #e2e8dc; }
+.ico { width: 14px; height: 14px; vertical-align: -2px; margin-right: 6px; opacity: .65; }
+.legmeta {
+  margin-left: 8px;
+  font-weight: 700;
+  color: var(--rust);
+  font-variant-numeric: tabular-nums;
+}
+.legflag { margin-top: 6px !important; color: #8a5a2b !important; font-size: 13px !important; }
+
 .stars { float: right; font-size: 12px; color: var(--ink-soft); margin-left: 12px; white-space: nowrap; }
 .stars b { color: var(--gold); letter-spacing: -1px; }
 

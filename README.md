@@ -18,6 +18,51 @@ An item with `"optional": true` renders set back behind a dashed rule with an "O
 badge. Use it for side trips the group hasn't committed to; promote one by deleting the
 flag, drop it by deleting the item.
 
+### The day is a timeline, not a list of attractions
+
+Every day accounts for its own time. There are three kinds of row:
+
+| `kind` | Fields | Renders as |
+| --- | --- | --- |
+| *(none)* | `dwell` | An attraction, with a "1 hr 30 min here" badge |
+| `"drive"` | `dist`, `dur` | A muted leg with a car icon: **80 mi · 1 hr 30 min** |
+| `"meal"` | `dwell` | A muted row with a fork icon |
+
+**The rule that keeps it honest: `time` is when you arrive, and every row must finish
+before the next one starts.** Adding an attraction means adding the drive leg to reach it
+and pushing everything after it back. Change one thing and the rest of the day moves.
+
+Two invariants, both checked below: every day has a lunch near noon and a dinner between
+5:00 and 6:30 PM — early dinners are deliberate, so that sunsets never collide with a
+hungry three-year-old.
+
+```bash
+python3 - <<'EOF'
+import json, re
+P = json.load(open('data/itinerary.json'))
+t2m = lambda s: (lambda m: None if not m else (int(m[1])%12 + (12 if m[3]=='PM' else 0))*60 + int(m[2]))(
+    re.match(r'~?(\d{1,2}):(\d{2})\s*(AM|PM)', s.strip()))
+dur = lambda s: 0 if not s or s=='—' else (
+    int(re.search(r'(\d+)\s*hr',s)[1])*60 if re.search(r'(\d+)\s*hr',s) else 0) + (
+    int(re.search(r'(\d+)\s*min',s)[1]) if re.search(r'(\d+)\s*min',s) else 0)
+for d in P['days']:
+    prev = None
+    for i in (x for x in d['items'] if not x.get('optional')):
+        st = t2m(i['time'])
+        if st is None: continue
+        if prev and st < prev[1] + dur(prev[0].get('dur') or prev[0].get('dwell') or '') - 1:
+            print(f"Day {d['day']}: {prev[0]['title'][:40]!r} overruns {i['title'][:40]!r}")
+        prev = (i, st)
+    meals = [t2m(i['time']) for i in d['items'] if i.get('kind') == 'meal']
+    if not any(m and 11*60 <= m <= 12*60+40 for m in meals): print(f"Day {d['day']}: no lunch near noon")
+    if not any(m and 17*60 <= m <= 18*60+30 for m in meals): print(f"Day {d['day']}: no dinner 5:00-6:30")
+EOF
+```
+
+Drive distances and times come from OSRM, whose demo server runs about 25% slow — the
+numbers here are scaled by **0.8**, which matches Google's estimates closely. `drive.stated`
+on each day is the sum of its non-optional drive legs, so it is derived, not typed.
+
 ### Open questions
 
 `openQuestions` is empty — everything raised against the printed plan was checked and
