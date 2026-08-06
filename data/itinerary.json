@@ -2108,22 +2108,12 @@
         {
           "time": "12:30 PM",
           "title": "Glenwood Caverns Adventure Park",
-          "detail": "A gondola up the canyon wall to cave tours, an alpine coaster and a viewing platform over the town. The cave tour is the part worth booking. Allow the full afternoon and buy tram tickets ahead in October when hours are reduced.",
-          "dwell": "2 hr 45 min",
+          "detail": "A gondola up the canyon wall to cave tours, a viewing platform over the town and an alpine coaster. The cave tour is the part worth booking. The one stop of the day, so it gets the whole afternoon — buy tram tickets ahead, October hours are reduced.",
+          "dwell": "3 hr",
           "gp": 5,
           "toddler": 5,
           "guide": "https://www.glenwoodcaverns.com/",
           "mom": "1st choice"
-        },
-        {
-          "time": "3:15 PM",
-          "title": "Iron Mountain Hot Springs",
-          "detail": "Sixteen mineral pools terraced down to the Colorado River, right in town. A better last stop than the caverns if the crew is done with activity — but taking both puts you home after 9:00 PM.",
-          "dwell": "1 hr 30 min",
-          "gp": 5,
-          "toddler": 5,
-          "guide": "https://www.ironmountainhotsprings.com/",
-          "optional": true
         },
         {
           "time": "3:30 PM",
@@ -2157,7 +2147,7 @@
       ],
       "tips": [
         "Leave Moab no later than 8 AM to reach Glenwood with time for activities.",
-        "Pick either Glenwood Caverns OR Iron Mountain Hot Springs — both is tight but doable.",
+        "Glenwood Caverns is the one stop today. It gets the whole afternoon, which is why the day still lands home by 8 PM.",
         "Glenwood Canyon on I-70 is itself spectacular; stop at the Hanging Lake trailhead pullout just to see the canyon walls.",
         "Check CDOT.com for Eisenhower Tunnel / I-70 mountain corridor conditions before departure."
       ],
@@ -2316,17 +2306,6 @@
       "who": "",
       "url": "https://glenwoodcaverns.com",
       "notes": "Mom's 1st choice for the final day.",
-      "confirmation": ""
-    },
-    {
-      "id": "hot-springs",
-      "what": "Iron Mountain Hot Springs (Oct 23)",
-      "category": "Activity",
-      "status": "optional",
-      "urgency": "later",
-      "who": "",
-      "url": "https://ironmountainhotsprings.com",
-      "notes": "Alternative to Glenwood Caverns; both in one day is tight.",
       "confirmation": ""
     },
     {
