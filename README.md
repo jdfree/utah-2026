@@ -182,6 +182,35 @@ a day does, update its `stops` too, or the route silently goes stale.** Two rule
 honest: the first stop is where you wake up that morning, and the last is where you sleep.
 Coordinates rather than place names, because they land in the right parking lot every time.
 
+**The directions link reflects the day as scheduled.** An optional stop the clock already
+assumes — Goosenecks, Cedar Breaks, Kodachrome — stays in the route. An optional stop that
+would *displace* the schedule is a branch: mark it `"viaOptional": true` and it still shows
+in the chain, greyed, but drops out of the Google Maps URL. Routing through Canyonlands
+would report a day you are not planning to drive.
+
+Check the routes against the stated totals — this is what catches stale stops:
+
+```bash
+python3 - <<'EOF'
+import json, re, urllib.request, time
+P = json.load(open('data/itinerary.json'))
+for d in P['days']:
+    pts = [s for s in d['stops'] if not s.get('viaOptional')]
+    if len(pts) < 2 or d['day'] == 2: continue
+    c = ';'.join(f"{s['lng']},{s['lat']}" for s in pts)
+    r = json.load(urllib.request.urlopen(
+        f"http://router.project-osrm.org/route/v1/driving/{c}?overview=false"))['routes'][0]
+    mi, mn = r['distance']/1609.34, r['duration']/60*0.8       # 0.8 = demo-server correction
+    st = d['drive']['stated']
+    smi = float(re.search(r'(\d+) mi', st)[1])
+    smn = (int(re.search(r'(\d+)\s*hr', st)[1])*60 if re.search(r'(\d+)\s*hr', st) else 0) + \
+          (int(re.search(r'(\d+)\s*min', st)[1]) if re.search(r'(\d+)\s*min', st) else 0)
+    if abs(mi-smi) > 8 or abs(mn-smn) > 15:
+        print(f"Day {d['day']}: route is {mi:.0f} mi / {mn:.0f} min, header says {st}")
+    time.sleep(0.4)
+EOF
+```
+
 Leaflet with OpenStreetMap tiles — no API key, no billing account, nothing to expire.
 Pins are numbered by day and clicking one jumps to that day's card. Coordinates live in
 `itinerary.json` and are approximate, meant for orientation. Each day card also has an

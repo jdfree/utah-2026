@@ -348,6 +348,14 @@ p.muted .ext { opacity: .8; }
   color: #3f3a34;
 }
 .route .arrow { color: var(--rust); padding: 0 2px; }
+/* Optional side trips appear in the chain but are not in the directions link */
+.route .viaopt { color: #96877a; font-style: italic; }
+.route .routenote {
+  margin: 0 0 8px;
+  font-size: 12.5px;
+  line-height: 1.55;
+  color: #6a6259;
+}
 .maplink {
   display: inline-block;
   font-size: 13px;

@@ -208,7 +208,7 @@
           "gp": 5,
           "toddler": 5,
           "guide": "https://durangotrain.com/",
-          "flag": "The plan originally had the 5-hour Cascade Canyon Express. It does not run on Oct 13 — it is a summer-only excursion ending Aug 11, and the shorter Silverton Express and Skyway bus/train combos both stop Oct 11. The only train running Oct 13 is the full Silverton round trip: 3 hr 30 min each way plus a 2-hour layover, a 9-hour day. Confirm before booking, and consider whether that is right for a newborn — the alternative is riding one way and having a driver meet you in Silverton, 46 min by car over US-550."
+          "flag": "On Oct 13 the Silverton round trip is the only train running: 3 hr 30 min each way plus a two-hour layover, a nine-hour day. The shorter excursions are all out of season by mid-October. Confirm the schedule when you book, and decide whether nine hours on a train is right with a newborn — you can also ride one way and have a driver meet you in Silverton, 46 min over US-550."
         },
         {
           "time": "11:45 AM",
@@ -275,7 +275,7 @@
           "type": "stop"
         },
         {
-          "name": "Silverton, CO — by train",
+          "name": "Silverton, CO",
           "lat": 37.8119,
           "lng": -107.6645,
           "type": "park"
@@ -286,7 +286,8 @@
           "lng": -107.8801,
           "type": "overnight"
         }
-      ]
+      ],
+      "routeNote": "Durango to Silverton and back is by train, not by car. The map link shows the highway route — 46 min each way — which only matters if you ride one leg and drive the other."
     },
     {
       "day": 3,
@@ -473,7 +474,7 @@
           "type": "waypoint"
         },
         {
-          "name": "Goosenecks State Park (optional)",
+          "name": "Goosenecks State Park",
           "lat": 37.174,
           "lng": -109.927,
           "type": "stop"
@@ -682,16 +683,24 @@
           "type": "stop"
         },
         {
+          "name": "Goulding's Lodge — breakfast",
+          "lat": 37.0025,
+          "lng": -110.211,
+          "type": "stop"
+        },
+        {
           "name": "Horseshoe Bend, Page AZ (optional)",
           "lat": 36.8791,
           "lng": -111.5104,
-          "type": "stop"
+          "type": "stop",
+          "viaOptional": true
         },
         {
           "name": "Toadstool Hoodoos, US-89 (optional)",
           "lat": 37.093,
           "lng": -111.876,
-          "type": "stop"
+          "type": "stop",
+          "viaOptional": true
         },
         {
           "name": "Kanab, UT — lunch",
@@ -875,7 +884,7 @@
           "type": "stop"
         },
         {
-          "name": "Zion Visitor Center — shuttle",
+          "name": "Zion Visitor Center — shuttle all day",
           "lat": 37.2,
           "lng": -112.9871,
           "type": "park"
@@ -886,7 +895,8 @@
           "lng": -112.9986,
           "type": "overnight"
         }
-      ]
+      ],
+      "routeNote": "Only the first two legs are driven. Everything inside the canyon is the park shuttle; private cars are not allowed up the Scenic Drive in October."
     },
     {
       "day": 6,
@@ -1040,7 +1050,7 @@
           "type": "origin"
         },
         {
-          "name": "Kolob Canyons (Zion NW) — picnic lunch",
+          "name": "Kolob Canyons — picnic lunch",
           "lat": 37.453,
           "lng": -113.206,
           "type": "park"
@@ -1178,7 +1188,8 @@
           "name": "Pioneer Park, St. George (optional)",
           "lat": 37.1157,
           "lng": -113.5836,
-          "type": "stop"
+          "type": "stop",
+          "viaOptional": true
         },
         {
           "name": "Black Desert Resort, Ivins",
@@ -1197,7 +1208,7 @@
         "First Hoodoos"
       ],
       "drive": {
-        "stated": "163 mi / 3 hr 15 min driving"
+        "stated": "152 mi / 3 hrs driving"
       },
       "lodging": {
         "city": "Bryce Canyon, UT",
@@ -1253,20 +1264,20 @@
         {
           "time": "11:15 AM",
           "title": "Drive to Panguitch",
-          "detail": "Down off the plateau on UT-143. Steep grades and cattle on the road.",
+          "detail": "Down off the plateau on UT-143 and UT-89. Steep grades and cattle on the road.",
           "kind": "drive",
-          "dist": "45 mi",
-          "dur": "55 min"
+          "dist": "34 mi",
+          "dur": "40 min"
         },
         {
-          "time": "12:10 PM",
+          "time": "11:55 AM",
           "title": "Lunch in Panguitch",
           "detail": "A 19th-century brick main street and the last real town before Bryce. Also the last reasonably priced petrol.",
           "kind": "meal",
           "dwell": "50 min"
         },
         {
-          "time": "1:00 PM",
+          "time": "12:45 PM",
           "title": "Drive to Red Canyon",
           "detail": "UT-12 east. The highway runs through two arches cut in the red rock — you drive straight through them.",
           "kind": "drive",
@@ -1274,7 +1285,7 @@
           "dur": "15 min"
         },
         {
-          "time": "1:15 PM",
+          "time": "1:00 PM",
           "title": "Red Canyon (Dixie NF)",
           "detail": "Bryce-orange hoodoos right beside the highway, with a visitor center and a flat paved path. Free, uncrowded, and a genuinely good warm-up for tomorrow.",
           "dwell": "45 min",
@@ -1283,7 +1294,7 @@
           "guide": "https://www.visitutah.com/places-to-go/parks-outdoors/red-canyon"
         },
         {
-          "time": "2:00 PM",
+          "time": "1:45 PM",
           "title": "Drive to Mossy Cave",
           "detail": "UT-12 east then a short run down UT-63.",
           "kind": "drive",
@@ -1291,7 +1302,7 @@
           "dur": "15 min"
         },
         {
-          "time": "2:15 PM",
+          "time": "2:00 PM",
           "title": "Mossy Cave Trail",
           "detail": "A 0.8-mile round trip to a small waterfall and a dripping mossy grotto — inside Bryce Canyon but outside the main amphitheatre, with its own trailhead and no shuttle. Easy grade, and the waterfall is the bit the three-year-old will remember.",
           "dwell": "1 hr 15 min",
@@ -1300,7 +1311,7 @@
           "guide": "https://www.nps.gov/brca/planyourvisit/mossycave.htm"
         },
         {
-          "time": "3:30 PM",
+          "time": "3:15 PM",
           "title": "Drive to Bryce Canyon City",
           "detail": "Back up UT-12 and south on UT-63 to the park gate.",
           "kind": "drive",
@@ -1308,10 +1319,10 @@
           "dur": "20 min"
         },
         {
-          "time": "3:50 PM",
+          "time": "3:35 PM",
           "title": "Check in at Bryce Canyon City",
           "detail": "Get the warm clothes out now. It will be near freezing at sunrise tomorrow.",
-          "dwell": "1 hr 10 min"
+          "dwell": "1 hr 25 min"
         },
         {
           "time": "5:00 PM",
@@ -1350,7 +1361,7 @@
           "type": "origin"
         },
         {
-          "name": "Cedar Breaks National Monument (optional)",
+          "name": "Cedar Breaks National Monument",
           "lat": 37.631,
           "lng": -112.845,
           "type": "park"
@@ -1374,16 +1385,16 @@
           "type": "stop"
         },
         {
-          "name": "Bryce Canyon City, UT",
-          "lat": 37.6685,
-          "lng": -112.157,
-          "type": "overnight"
-        },
-        {
           "name": "Bryce Canyon — Sunset Point",
           "lat": 37.6283,
           "lng": -112.1676,
           "type": "park"
+        },
+        {
+          "name": "Bryce Canyon City, UT",
+          "lat": 37.6685,
+          "lng": -112.157,
+          "type": "overnight"
         }
       ]
     },
@@ -1701,7 +1712,7 @@
           "type": "origin"
         },
         {
-          "name": "Kodachrome Basin State Park (optional)",
+          "name": "Kodachrome Basin State Park",
           "lat": 37.515,
           "lng": -111.988,
           "type": "park"
@@ -1962,6 +1973,20 @@
           "type": "waypoint"
         },
         {
+          "name": "Canyonlands — Island in the Sky (optional)",
+          "lat": 38.3887,
+          "lng": -109.8683,
+          "type": "park",
+          "viaOptional": true
+        },
+        {
+          "name": "Dead Horse Point State Park (optional)",
+          "lat": 38.482,
+          "lng": -109.7402,
+          "type": "park",
+          "viaOptional": true
+        },
+        {
           "name": "Arches — Park Avenue",
           "lat": 38.6089,
           "lng": -109.5975,
@@ -2135,7 +2160,7 @@
       "urgency": "now",
       "who": "",
       "url": "https://durangotrain.com/excursions/round-trip-silverton-train-tour/",
-      "notes": "The Cascade Canyon Express is summer-only and the Silverton Express and Skyway bus combos both end Oct 11 — on Oct 13 the full 9-hour Silverton round trip is the only train running. Departures 8:15 AM and 9:00 AM. Book the 8:15 to be back by 5:15 PM. Sells out months ahead.",
+      "notes": "The only train running on Oct 13. Departures at 8:15 AM and 9:00 AM; take the 8:15 to be back by 5:15 PM. Children under 4 ride free on a lap. Sells out months ahead.",
       "confirmation": ""
     },
     {
@@ -2157,7 +2182,7 @@
       "urgency": "now",
       "who": "",
       "url": "https://gouldings.com/",
-      "notes": "The View Hotel is sold out for this date. Goulding's is the only other full-service lodging in the area, so book it promptly — there is no third option within an hour.",
+      "notes": "The only full-service lodging at Monument Valley — there is nothing else within an hour, so book promptly. Ask for a valley-facing room; the terrace is where you watch sunset.",
       "confirmation": ""
     },
     {
@@ -2224,17 +2249,6 @@
       "who": "",
       "url": "https://recreation.gov",
       "notes": "$5/person, recreation.gov. Reduced October schedule and it fills fast. Book a late-morning slot — you are on site 8:45–11:15 on the drive out to Monument Valley.",
-      "confirmation": ""
-    },
-    {
-      "id": "dinosaur-site",
-      "what": "St. George Dinosaur Discovery Site (Oct 18)",
-      "category": "Activity",
-      "status": "needed",
-      "urgency": "later",
-      "who": "",
-      "url": "https://utahdinosaurs.com",
-      "notes": "Check hours — typically 10 AM–6 PM.",
       "confirmation": ""
     },
     {
@@ -2324,17 +2338,6 @@
       "url": "https://bestfriends.org/sanctuary/plan-your-visit",
       "confirmation": "",
       "notes": "Free, but the 90-minute bus tours must be reserved ahead and do fill. Only if Day 4 is the day you pick it — see the three optional stops on that day, of which you should do one."
-    },
-    {
-      "id": "moab-giants",
-      "what": "Moab Giants dinosaur park (Oct 22)",
-      "category": "Activity",
-      "status": "optional",
-      "urgency": "later",
-      "who": "",
-      "url": "https://moabgiants.com/",
-      "confirmation": "",
-      "notes": "Ticketed. Check the October closing time — usually 6 PM — because Day 11 only reaches Moab late. She'll have been talking about the Johnson Farm tracks for four days by then."
     }
   ],
   "packing": [

@@ -249,18 +249,24 @@ function lodgingLink(o, isPick) {
    you wake up, so the chain doubles as the answer to "where am I going today?"
    Coordinates rather than names — they land in the right car park every time. */
 function routeBlock(d) {
-  const chain = d.stops.map((s) => esc(s.name)).join(' <span class="arrow">&rarr;</span> ');
+  const chain = d.stops
+    .map((s) => `<span class="${s.viaOptional ? 'viaopt' : ''}">${esc(s.name)}</span>`)
+    .join(' <span class="arrow">&rarr;</span> ');
   return `
 <div class="route">
   <h5>Today's route</h5>
   <p class="chain">${chain}</p>
+  ${d.routeNote ? `<p class="routenote">${esc(d.routeNote)}</p>` : ''}
   <a class="maplink" target="_blank" rel="noopener" href="${gmapsRoute(d.stops)}">
     Open in Google Maps &rarr;</a>
 </div>`;
 }
 
+/* Directions follow the plan you actually committed to. Optional side trips show
+   in the chain above but stay out of the URL — routing through a stop the group
+   hasn't agreed to would report the wrong distance for the day. */
 function gmapsRoute(stops) {
-  const pts = stops.map((s) => `${s.lat},${s.lng}`);
+  const pts = stops.filter((s) => !s.viaOptional).map((s) => `${s.lat},${s.lng}`);
   return 'https://www.google.com/maps/dir/' + pts.join('/');
 }
 
