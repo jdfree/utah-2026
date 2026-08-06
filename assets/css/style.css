@@ -366,8 +366,31 @@ p.muted .ext { opacity: .8; }
 /* ---------- tables ---------- */
 
 .tablewrap { overflow-x: auto; -webkit-overflow-scrolling: touch; }
-table { border-collapse: collapse; width: 100%; min-width: 620px; font-size: 14px; }
-th, td { text-align: left; padding: 11px 12px; border-bottom: 1px solid var(--line); vertical-align: top; }
+/* Fixed layout, or the long booking URLs in "What" win the width fight and
+   squeeze Notes into a column so narrow every row grows to a dozen lines. */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  min-width: 820px;
+  font-size: 14px;
+  table-layout: fixed;
+}
+th, td { text-align: left; padding: 10px 10px; border-bottom: 1px solid var(--line); vertical-align: top; }
+
+/* Status · What · Type · When · Who · Conf # · Notes — Notes gets the slack,
+   Who and Conf # stay narrow because they hold a dash until someone claims a job. */
+th:nth-child(1), td:nth-child(1) { width: 80px; }   /* Status  */
+th:nth-child(2), td:nth-child(2) { width: 21%; }    /* What    */
+th:nth-child(3), td:nth-child(3) { width: 76px; }   /* Type    */
+th:nth-child(4), td:nth-child(4) { width: 98px; }   /* When    */
+th:nth-child(5), td:nth-child(5) { width: 62px; }   /* Who     */
+th:nth-child(6), td:nth-child(6) { width: 76px; }   /* Conf #  */
+th:nth-child(7), td:nth-child(7) { width: auto; }   /* Notes — takes the rest */
+
+/* A booking URL has no spaces to break on; let it wrap mid-string rather than
+   blow out its column. */
+td:nth-child(2) { overflow-wrap: anywhere; }
+td a { overflow-wrap: anywhere; }
 th {
   font-size: 11px;
   letter-spacing: .1em;
@@ -454,3 +477,6 @@ a { color: var(--rust); }
 .stay a.pick, .stay .pick { font-weight: 700; }
 
 footer { padding: 30px 20px 50px; color: var(--ink-soft); font-size: 13px; text-align: center; }
+
+/* Booking link: host only, so a long reservation URL cannot set the row height */
+a.bookhost { font-size: 13px; }

@@ -272,6 +272,12 @@ function gmapsRoute(stops) {
 
 /* ---------- bookings ---------- */
 
+/* Booking links print the host only. The deep IHG reservation URL is 70-odd
+   characters with no spaces in it; printed in full it wrapped over four lines
+   and set the height of the whole row. Full URL stays in href and title. */
+const bookingHost = (url) =>
+  url.replace(/^https?:\/\//, '').replace(/^www\./, '').split('/')[0];
+
 function renderBookings() {
   const order = { needed: 0, optional: 1, booked: 2 };
   const urgency = {
@@ -284,8 +290,8 @@ function renderBookings() {
     .map((b) => `
 <tr>
   <td><span class="pill ${b.status}">${esc(b.status)}</span></td>
-  <td>${esc(b.what)}${b.url ? `<br><a href="${esc(b.url)}" target="_blank" rel="noopener">${
-      esc(b.url.replace(/^https?:\/\//, ''))}</a>` : ''}</td>
+  <td>${esc(b.what)}${b.url ? `<br><a class="bookhost" href="${esc(b.url)}" target="_blank"
+      rel="noopener" title="${esc(b.url)}">${esc(bookingHost(b.url))}</a>` : ''}</td>
   <td>${esc(b.category)}</td>
   <td>${b.urgency === 'now' || b.urgency === 'soon'
       ? `<span class="pill ${b.urgency}">${esc(urgency[b.urgency])}</span>`
@@ -334,11 +340,24 @@ function renderBookings() {
    Statuses in itinerary.json are the fallback: if the sheet is unreachable
    (not yet published, offline, CORS), the committed snapshot still renders. */
 
+/* Quote-aware: a Notes-style column can legitimately contain commas, and a
+   naive split would shift every field after it without ever erroring. */
 function parseCsv(text) {
-  return text
-    .trim()
-    .split(/\r?\n/)
-    .map((line) => line.split(',').map((c) => c.replace(/^"|"$/g, '').trim()));
+  const rows = [];
+  let row = [], field = '', quoted = false;
+  for (let i = 0; i < text.length; i++) {
+    const c = text[i];
+    if (quoted) {
+      if (c !== '"') field += c;
+      else if (text[i + 1] === '"') { field += '"'; i++; }
+      else quoted = false;
+    } else if (c === '"') quoted = true;
+    else if (c === ',') { row.push(field.trim()); field = ''; }
+    else if (c === '\n') { row.push(field.trim()); rows.push(row); row = []; field = ''; }
+    else if (c !== '\r') field += c;
+  }
+  if (field !== '' || row.length) { row.push(field.trim()); rows.push(row); }
+  return rows.filter((r) => r.some((c) => c !== ''));
 }
 
 async function syncBookingStatus() {
@@ -359,12 +378,24 @@ async function syncBookingStatus() {
     if (iId < 0 || iStatus < 0) throw new Error('sheet is missing an id or status column');
 
     const live = new Map();
+    const rejected = new Set();
     for (const r of rows) {
       const id = r[iId];
       const status = (r[iStatus] || '').toLowerCase();
       if (id && VALID.has(status)) live.set(id, status);
+      else if (r[iStatus]) rejected.add(r[iStatus]);
     }
-    if (!live.size) throw new Error('no usable rows');
+    /* If the Public status tab ever stops pointing at the Status and ID columns
+       — reordering the Bookings tab by cut-and-paste rather than by dragging a
+       whole column will do it — the values arriving here stop being statuses.
+       Say exactly what turned up, so the cause is obvious from the page. */
+    if (!live.size) {
+      throw new Error(rejected.size
+        ? `the status column held ${[...rejected].slice(0, 3).map((v) => `"${v}"`).join(', ')} `
+          + 'instead of BOOKED / NEEDED / OPTIONAL. Check that the Public status tab\'s '
+          + 'FILTER formulas still reference the Status and ID columns of the Bookings tab'
+        : 'the sheet returned no usable rows');
+    }
 
     let changed = 0;
     const unmatched = [];
@@ -380,7 +411,9 @@ async function syncBookingStatus() {
         changed ? ` — ${changed === 1 ? '1 row differs' : `${changed} rows differ`} from the committed snapshot` : ''}.${
         unmatched.length ? ` <span class="warn">${unmatched.length} item${
           unmatched.length === 1 ? ' has' : 's have'} no matching row in the sheet (${
-          esc(unmatched.join(', '))}).</span>` : ''}`;
+          esc(unmatched.join(', '))}).</span>` : ''}${
+        rejected.size ? ` <span class="warn">${rejected.size} row${
+          rejected.size === 1 ? '' : 's'} had an unrecognised status and were ignored.</span>` : ''}`;
   } catch (err) {
     note.innerHTML = `
       <span class="live off">● Snapshot</span> — could not read the shared sheet
