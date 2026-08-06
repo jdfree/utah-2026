@@ -63,6 +63,19 @@ Drive distances and times come from OSRM, whose demo server runs about 25% slow 
 numbers here are scaled by **0.8**, which matches Google's estimates closely. `drive.stated`
 on each day is the sum of its non-optional drive legs, so it is derived, not typed.
 
+**Two places where OSRM must not be believed**, both on Day 2:
+
+- **CO-145 between Telluride and Rico** is mis-speeded in OpenStreetMap. Every OSM-based
+  router either reports ~3½ hours for a 76-mile paved state highway or detours 90 miles
+  around it via Naturita. The real figure is **76 mi / ~1 hr 35 min**, confirmed against
+  several independent sources. The route-check script below will flag Day 2 forever; that
+  is the script being wrong, not the itinerary.
+- **US-550 over Coal Bank, Molas and Red Mountain passes.** OSRM is optimistic on tight
+  mountain roads. Day 2's legs are padded above what it reports.
+
+If you add a leg on a mountain highway, sanity-check it against a real map rather than
+trusting the number that comes back.
+
 ### Open questions
 
 `openQuestions` is empty — everything raised against the printed plan was checked and

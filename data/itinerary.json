@@ -27,15 +27,14 @@
       "lodging": {
         "city": "Durango, CO",
         "nights": [
-          1,
-          2
+          1
         ],
         "chosen": null,
         "status": "needed",
         "options": [
           {
             "name": "Strater Hotel",
-            "note": "Iconic 1887 Victorian on Main Ave, steps from the D&SNG depot",
+            "note": "Iconic 1887 Victorian in the middle of Main Avenue, walkable to dinner",
             "mom": "?",
             "url": "https://strater.com/"
           },
@@ -128,8 +127,8 @@
       "tips": [
         "Leave by 7 AM at the latest — arriving in daylight matters more than an early dinner.",
         "Pack the cooler the night before; there is very little between Walsenburg and Pagosa Springs.",
-        "D&SNG tickets must be booked well in advance (durangotrain.com).",
-        "Check CDOT for Wolf Creek Pass conditions the morning you go."
+        "Check CDOT for Wolf Creek Pass conditions the morning you go.",
+        "One night in Durango only. Pack so tomorrow morning is a straight check-out."
       ],
       "momNotes": [
         {
@@ -174,132 +173,193 @@
     {
       "day": 2,
       "date": "2026-10-13",
-      "title": "Durango — Steam Train Day",
+      "title": "Durango → San Juan Skyway → Cortez",
       "tags": [
-        "Colorado Gem",
-        "Steam Train!",
-        "Easy Afternoon"
+        "Scenic Byway",
+        "Hot Springs",
+        "Two Mountain Passes"
       ],
       "drive": {
-        "stated": "No driving · 9-hour train day"
+        "stated": "197 mi / 4 hr 25 min driving"
       },
       "lodging": {
-        "city": "Durango, CO",
+        "city": "Cortez, CO",
         "nights": [
-          1,
           2
         ],
         "chosen": null,
         "status": "needed",
-        "sameAsDay": 1
+        "options": [
+          {
+            "name": "Holiday Inn Express Mesa Verde-Cortez",
+            "note": "Ten minutes from the park entrance, indoor pool, full hot breakfast — the easy default with small children",
+            "url": "https://www.ihg.com/holidayinnexpress/hotels/us/en/cortez/cezex/hoteldetail"
+          },
+          {
+            "name": "Hampton Inn Mesa Verde",
+            "note": "Same distance from the gate, free hot breakfast, reliable rooms",
+            "url": "https://www.hilton.com/en/hotels/cezcohx-hampton-mesa-verde-cortez/"
+          },
+          {
+            "name": "Retro Inn at Mesa Verde",
+            "note": "Small independent motel, mid-century styling, cheaper than the chains",
+            "url": "https://www.retroinnmesaverde.com/"
+          }
+        ]
       },
       "items": [
         {
-          "time": "7:30 AM",
-          "title": "Walk to the depot and board",
-          "detail": "The depot is at 479 Main Avenue, right downtown. Board early to get seats together — six of you, including a lap infant.",
-          "dwell": "45 min"
+          "time": "8:00 AM",
+          "title": "Check out of Durango",
+          "detail": "Load up and go north. Today is the San Juan Skyway — the finest mountain drive in Colorado, and it ends most of the way to Mesa Verde."
         },
         {
-          "time": "8:15 AM",
-          "title": "Silverton train departs — northbound leg",
-          "detail": "Three and a half hours up the Animas River gorge on a coal-fired steam locomotive: Horseshoe Curve, the High Bridge, and the High Line ledge blasted into the cliff. No cell service the whole way, which is the point. Bring snacks, layers and something for the three-year-old — it is a long sit.",
-          "dwell": "3 hr 30 min",
+          "time": "8:00 AM",
+          "title": "Drive to Silverton",
+          "detail": "US-550 north over Coal Bank Pass (10,640 ft) and Molas Pass (10,910 ft), with the Animas gorge below you on the left. This is the same canyon the narrow-gauge railway runs through, seen from above.",
+          "kind": "drive",
+          "dist": "48 mi",
+          "dur": "1 hr",
+          "guide": "https://www.uncovercolorado.com/activities/million-dollar-highway/"
+        },
+        {
+          "time": "9:00 AM",
+          "title": "Silverton",
+          "detail": "A 9,300 ft mining town at the end of the railway, with a dirt main street and painted storefronts. Walk Greene Street and Blair Street. It is cold up here in October and some shops keep short shoulder-season hours, but the town itself is the sight.",
+          "dwell": "1 hr",
+          "gp": 4,
+          "toddler": 3,
+          "guide": "https://www.silvertoncolorado.com/"
+        },
+        {
+          "time": "10:00 AM",
+          "title": "Drive the Million Dollar Highway to Ouray",
+          "detail": "Twenty-three miles over Red Mountain Pass (11,018 ft) — a cliff-edge shelf road with no guardrail and a thousand-foot drop, cut through old mining country. Widely called the most spectacular paved road in the state. Slow down and use the pullouts.",
+          "kind": "drive",
+          "dist": "23 mi",
+          "dur": "45 min",
+          "gp": 5,
+          "toddler": 3,
+          "guide": "https://www.uncovercolorado.com/activities/million-dollar-highway/",
+          "flag": "Red Mountain Pass is maintained all winter but can close on short notice in an early-season storm, and it is a serious road in bad weather. Check cotrip.org the morning you go. The bail-out is to turn around and take US-160 west from Durango to Cortez — 46 mi, 50 min, no passes."
+        },
+        {
+          "time": "10:45 AM",
+          "title": "Arrive Ouray — park and walk over",
+          "detail": "A Victorian town wedged into a box canyon, nicknamed the Switzerland of America. The pool is on Main Street at the north end, with a park and playground beside it.",
+          "dwell": "15 min",
+          "gp": 5,
+          "toddler": 4,
+          "guide": "https://www.ouraycolorado.com/"
+        },
+        {
+          "time": "11:00 AM",
+          "title": "Ouray Hot Springs Pool",
+          "detail": "A million-gallon natural mineral pool in the middle of town, ringed by mountains on every side, fed by the Box Cañon springs and free of any sulphur smell. Sections run from about 88°F to 106°F, so there is water everyone can sit in. Opens at 11:00. Adults $26, ages 4–17 $16, seniors 62–74 $18, under 4 free — about $88 for the six of you.",
+          "dwell": "1 hr 30 min",
           "gp": 5,
           "toddler": 5,
-          "guide": "https://durangotrain.com/",
-          "flag": "On Oct 13 the Silverton round trip is the only train running: 3 hr 30 min each way plus a two-hour layover, a nine-hour day. The shorter excursions are all out of season by mid-October. Confirm the schedule when you book, and decide whether nine hours on a train is right with a newborn — you can also ride one way and have a driver meet you in Silverton, 46 min over US-550."
+          "guide": "https://www.cityofouray.com/"
         },
         {
-          "time": "11:45 AM",
-          "title": "Arrive Silverton — about two hours on the ground",
-          "detail": "A 9,300 ft mining town, largely unchanged. Cold in October: pack real coats for this.",
-          "dwell": "15 min"
-        },
-        {
-          "time": "12:00 PM",
-          "title": "Lunch in Silverton",
-          "detail": "Built into the layover. Plenty of options within two blocks of where the train stops.",
+          "time": "12:30 PM",
+          "title": "Lunch in Ouray",
+          "detail": "Main Street is two blocks long and has more good restaurants than a town of 1,000 has any business having. Walk from the pool.",
           "kind": "meal",
           "dwell": "1 hr"
         },
         {
-          "time": "1:00 PM",
-          "title": "Blair Street and the shops",
-          "detail": "Enough time for a slow wander before the whistle. Do not stray far — the train leaves without you.",
+          "time": "1:30 PM",
+          "title": "Drive to Telluride",
+          "detail": "North to Ridgway, then west and south up the San Miguel valley. Gentler than the morning — no cliff edges — and the aspens should still be turning at this elevation.",
+          "kind": "drive",
+          "dist": "50 mi",
+          "dur": "1 hr 5 min"
+        },
+        {
+          "time": "2:35 PM",
+          "title": "Telluride and the free gondola",
+          "detail": "A box-canyon town under a 365-foot waterfall, with a free gondola climbing 1,750 ft over the ridge to Mountain Village. It runs 6:30 AM to midnight through Oct 25 and costs nothing — the best free ride in Colorado, and a stroller goes straight on.",
+          "dwell": "1 hr 15 min",
+          "gp": 5,
+          "toddler": 5,
+          "guide": "https://www.telluride.com/discover/the-gondola/"
+        },
+        {
+          "time": "3:50 PM",
+          "title": "Drive to Cortez",
+          "detail": "South on CO-145 over Lizard Head Pass (10,222 ft), past the Wilson peaks, then down through Rico and Dolores into the Montezuma Valley. The last hour is easy going.",
+          "kind": "drive",
+          "dist": "76 mi",
+          "dur": "1 hr 35 min"
+        },
+        {
+          "time": "5:25 PM",
+          "title": "Arrive Cortez — check in",
+          "detail": "Ten minutes from the Mesa Verde entrance, which is the whole point of sleeping here.",
           "dwell": "45 min"
         },
         {
-          "time": "1:45 PM",
-          "title": "Train departs Silverton — southbound leg",
-          "detail": "The same canyon in afternoon light, which is better than the morning light. Most small children fall asleep somewhere around Needleton.",
-          "dwell": "3 hr 30 min"
-        },
-        {
-          "time": "5:15 PM",
-          "title": "Back at the Durango depot",
-          "detail": "Straight out onto Main Avenue.",
-          "dwell": "15 min"
-        },
-        {
-          "time": "5:30 PM",
-          "title": "Main Avenue and the Animas River Trail",
-          "detail": "The paved river trail runs right past the depot. A short flat stroll to unbend everyone after seven hours in a rail car.",
-          "dwell": "30 min",
-          "gp": 4,
-          "toddler": 5,
-          "guide": "https://www.durango.org/places/trail-systems/animas-river-trail/"
-        },
-        {
-          "time": "6:00 PM",
-          "title": "Dinner on Main Avenue",
-          "detail": "You are already standing on it. Everything is within a few blocks.",
+          "time": "6:10 PM",
+          "title": "Dinner in Cortez",
+          "detail": "A working town rather than a resort one, with honest food and no queues. Early night — tomorrow starts at 7:45.",
           "kind": "meal",
-          "dwell": "1 hr 30 min",
-          "gp": 4,
-          "toddler": 4
+          "dwell": "1 hr 30 min"
         }
       ],
       "tips": [
-        "A 9-hour day on a train is the whole of Oct 13. There is no second activity — treat the day as the train.",
-        "Pack layers: the open-air cars are genuinely cold in the gorge, and Silverton sits at 9,300 ft.",
-        "No cell service anywhere in the Animas canyon. Download whatever the three-year-old might need beforehand.",
-        "Children under 4 ride free on a lap, which covers the newborn."
+        "Two passes above 10,000 ft today. Check cotrip.org before you leave Durango, and again before Lizard Head in the afternoon.",
+        "A newborn should not go into hot water — infants overheat fast. Ouray has cooler sections around 88°F, but plan on one adult sitting out with the baby.",
+        "The waterslide and the shallow activity pool at Ouray are Memorial Day to Labor Day only. The main pool is open year-round; ring 970-325-7073 to confirm October hours before you count on it.",
+        "Bring swimsuits and towels in a bag you can reach without unpacking the car.",
+        "This is the day to buy anything you need for the desert. Cortez is the last real supermarket before Monument Valley.",
+        "Drive times today are padded above what routing engines report — US-550 and CO-145 are twisty mountain highways and the machines are optimistic about them."
       ],
       "momNotes": [],
       "stops": [
         {
-          "name": "D&SNG depot, Durango",
-          "lat": 37.2716,
+          "name": "Durango, CO",
+          "lat": 37.2753,
           "lng": -107.8801,
-          "type": "stop"
+          "type": "origin"
         },
         {
           "name": "Silverton, CO",
           "lat": 37.8119,
           "lng": -107.6645,
+          "type": "stop"
+        },
+        {
+          "name": "Ouray, CO — hot springs & lunch",
+          "lat": 38.0228,
+          "lng": -107.6714,
           "type": "park"
         },
         {
-          "name": "Durango, CO",
-          "lat": 37.2753,
-          "lng": -107.8801,
+          "name": "Telluride, CO",
+          "lat": 37.9375,
+          "lng": -107.8123,
+          "type": "stop"
+        },
+        {
+          "name": "Cortez, CO",
+          "lat": 37.3489,
+          "lng": -108.5859,
           "type": "overnight"
         }
-      ],
-      "routeNote": "Durango to Silverton and back is by train, not by car. The map link shows the highway route — 46 min each way — which only matters if you ride one leg and drive the other."
+      ]
     },
     {
       "day": 3,
       "date": "2026-10-14",
-      "title": "Durango → Mesa Verde → Monument Valley",
+      "title": "Cortez → Mesa Verde → Monument Valley",
       "tags": [
         "Cliff Dwellings",
         "Drive Day",
         "Sunset at The Mittens"
       ],
       "drive": {
-        "stated": "227 mi / 4 hr 45 min driving"
+        "stated": "202 mi / 4 hr 20 min driving"
       },
       "lodging": {
         "city": "Monument Valley, AZ/UT",
@@ -318,62 +378,62 @@
       },
       "items": [
         {
-          "time": "7:30 AM",
-          "title": "Depart Durango — US-160 west",
-          "detail": "Breakfast at the hotel, on the road by 7:30. Today has one long transit leg in the middle of it."
+          "time": "7:45 AM",
+          "title": "Depart Cortez",
+          "detail": "Breakfast at the hotel. The park gate is ten minutes away, which buys you an extra half hour on the mesa."
         },
         {
-          "time": "7:30 AM",
+          "time": "7:45 AM",
           "title": "Drive to Mesa Verde — Chapin Mesa",
-          "detail": "US-160 west, then the park road climbs 20 miles from the entrance station up onto the mesa. That climb is most of this hour — do not plan around the entrance sign.",
+          "detail": "US-160 east to the gate, then the park road climbs 20 miles up onto the mesa. That climb is most of this hour — do not plan around the entrance sign.",
           "kind": "drive",
-          "dist": "56 mi",
-          "dur": "1 hr 15 min"
+          "dist": "31 mi",
+          "dur": "50 min"
         },
         {
-          "time": "8:45 AM",
+          "time": "8:35 AM",
           "title": "Mesa Verde National Park — Chapin Mesa",
-          "detail": "The reason to leave early. Start at the museum, then the Mesa Top Loop, then the Cliff Palace overlook. Ranger-led cliff dwelling tours are ticketed and sell out — book ahead or plan on viewing from the rim, which is still remarkable.",
+          "detail": "Start at the museum, then the Mesa Top Loop, then the Cliff Palace overlook. Ranger-led cliff dwelling tours are ticketed and sell out — book ahead or view from the rim, which is still remarkable.",
           "dwell": "3 hr",
           "gp": 5,
           "toddler": 3,
           "guide": "https://www.nps.gov/meve/planyourvisit/cliff_dwelling_tours.htm"
         },
         {
-          "time": "11:45 AM",
+          "time": "11:35 AM",
           "title": "Drive down off the mesa to Cortez",
-          "detail": "The 20-mile park road again, in reverse, then a short run west.",
+          "detail": "The 20-mile park road again in reverse, then ten minutes west.",
           "kind": "drive",
           "dist": "31 mi",
           "dur": "50 min"
         },
         {
-          "time": "12:35 PM",
+          "time": "12:25 PM",
           "title": "Lunch in Cortez",
-          "detail": "The last proper town for a long while. Fuel up here too — services thin out badly once you turn south.",
+          "detail": "Back where you started the day. Fuel up too — services thin out badly once you turn south.",
           "kind": "meal",
           "dwell": "45 min"
         },
         {
-          "time": "1:20 PM",
+          "time": "1:10 PM",
           "title": "Drive to Goosenecks",
-          "detail": "US-160 west then US-163 south, crossing into Utah. Long, empty, beautiful. Without the Goosenecks stop this leg runs straight to Monument Valley: 125 mi, 2 hr 15 min.",
+          "detail": "US-160 west then US-163 south, crossing into Utah. Long, empty, beautiful. Skipping Goosenecks makes this a straight run to Monument Valley: 125 mi, 2 hr 15 min.",
           "kind": "drive",
           "dist": "101 mi",
           "dur": "1 hr 50 min"
         },
         {
-          "time": "3:10 PM",
+          "time": "3:00 PM",
           "title": "Goosenecks State Park",
           "detail": "A thousand-foot overlook onto the San Juan River folded back on itself five times. Twenty minutes at the rail is enough, and there are no guardrails to speak of — hold onto the three-year-old.",
           "dwell": "20 min",
+          "optional": true,
           "gp": 5,
           "toddler": 3,
-          "guide": "https://stateparks.utah.gov/parks/goosenecks/",
-          "optional": true
+          "guide": "https://stateparks.utah.gov/parks/goosenecks/"
         },
         {
-          "time": "3:30 PM",
+          "time": "3:20 PM",
           "title": "Drive to the Monument Valley overlook",
           "detail": "UT-261 south to US-163. The Mittens come into view about ten minutes out and it is worth the whole drive.",
           "kind": "drive",
@@ -381,7 +441,7 @@
           "dur": "40 min"
         },
         {
-          "time": "4:10 PM",
+          "time": "4:00 PM",
           "title": "Wildcat Trail and the Mittens overlook",
           "detail": "Park at the tribal park visitor center. The full Wildcat loop is 3.2 miles and too much this late, but the overlook and the first stretch of trail give you the classic view without committing to it. Tribal park gates close at 5:00 PM from October 1 — be through by then.",
           "dwell": "45 min",
@@ -390,7 +450,7 @@
           "guide": "https://www.visitutah.com/places-to-go/parks-outdoors/monument-valley-tribal-park/wildcat-trail"
         },
         {
-          "time": "4:55 PM",
+          "time": "4:45 PM",
           "title": "Drive to Goulding's Lodge",
           "detail": "Back out to US-163 and a couple of miles west, just inside Utah.",
           "kind": "drive",
@@ -398,10 +458,10 @@
           "dur": "10 min"
         },
         {
-          "time": "5:05 PM",
+          "time": "4:55 PM",
           "title": "Check in at Goulding's Lodge",
           "detail": "Rooms face the valley. Get the bags in and hands washed — dinner is early on purpose.",
-          "dwell": "25 min",
+          "dwell": "35 min",
           "gp": 4,
           "toddler": 3
         },
@@ -418,7 +478,7 @@
         {
           "time": "6:45 PM",
           "title": "Sunset from the Goulding's terrace",
-          "detail": "Sunset is 6:45 PM. You do not go anywhere for this — the terrace outside the dining room looks straight east across the valley at the Mittens, and the rock goes orange to red to purple over about half an hour. No tour, no gate, no drive.",
+          "detail": "Sunset is 6:45 PM. You do not go anywhere for this — the terrace outside the dining room looks straight east across the valley at the Mittens, and the rock goes orange to red to purple over about half an hour.",
           "dwell": "45 min"
         },
         {
@@ -446,7 +506,7 @@
         {
           "id": "M3",
           "mark": "★",
-          "text": "Star next to The View Hotel — her pick for Monument Valley. It is sold out for Oct 14, so Goulding's it is."
+          "text": "Star next to The View Hotel — her pick for Monument Valley. It has no availability for Oct 14, so the booking is Goulding's."
         },
         {
           "id": "M4",
@@ -456,9 +516,9 @@
       ],
       "stops": [
         {
-          "name": "Durango, CO",
-          "lat": 37.2753,
-          "lng": -107.8801,
+          "name": "Cortez, CO",
+          "lat": 37.3489,
+          "lng": -108.5859,
           "type": "origin"
         },
         {
@@ -2153,25 +2213,36 @@
   ],
   "bookings": [
     {
-      "id": "dsng-train",
-      "what": "D&SNG Silverton round trip, 8:15 AM (6 seats, Oct 13)",
-      "category": "Activity",
-      "status": "needed",
-      "urgency": "now",
-      "who": "",
-      "url": "https://durangotrain.com/excursions/round-trip-silverton-train-tour/",
-      "notes": "The only train running on Oct 13. Departures at 8:15 AM and 9:00 AM; take the 8:15 to be back by 5:15 PM. Children under 4 ride free on a lap. Sells out months ahead.",
-      "confirmation": ""
-    },
-    {
       "id": "lodging-durango",
-      "what": "Durango lodging — nights of Oct 12 & 13",
+      "what": "Durango lodging — night of Oct 12",
       "category": "Lodging",
       "status": "needed",
       "urgency": "now",
       "who": "",
       "url": "",
-      "notes": "Mom put a \"?\" on the Strater. DoubleTree and Leland House are the alternatives.",
+      "notes": "One night now. Mom put a \"?\" on the Strater; the DoubleTree and Leland House are the alternatives.",
+      "confirmation": ""
+    },
+    {
+      "id": "lodging-cortez",
+      "what": "Cortez lodging — night of Oct 13",
+      "category": "Lodging",
+      "status": "needed",
+      "urgency": "now",
+      "who": "",
+      "url": "https://www.ihg.com/holidayinnexpress/hotels/us/en/cortez/cezex/hoteldetail",
+      "notes": "Ten minutes from the Mesa Verde gate, which is why the night is here rather than in Durango. Chains only; book early for the indoor pool.",
+      "confirmation": ""
+    },
+    {
+      "id": "ouray-pool",
+      "what": "Ouray Hot Springs Pool (Oct 13)",
+      "category": "Activity",
+      "status": "needed",
+      "urgency": "before-trip",
+      "who": "",
+      "url": "https://www.cityofouray.com/",
+      "notes": "No reservation needed — pay at the door. About $88 for the six of you. Ring 970-325-7073 to confirm October hours; the pool opens at 11:00 and the summer slide and shallow pool are closed by then.",
       "confirmation": ""
     },
     {
@@ -2248,7 +2319,7 @@
       "urgency": "soon",
       "who": "",
       "url": "https://recreation.gov",
-      "notes": "$5/person, recreation.gov. Reduced October schedule and it fills fast. Book a late-morning slot — you are on site 8:45–11:15 on the drive out to Monument Valley.",
+      "notes": "$5/person, recreation.gov. Reduced October schedule and it fills fast. Book a mid-morning slot — you are on site 8:35–11:35 on the drive out to Monument Valley.",
       "confirmation": ""
     },
     {
