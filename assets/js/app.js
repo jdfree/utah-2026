@@ -314,6 +314,9 @@ function renderBookings() {
     <li>When it's done, fill in <b>Confirmation #</b> and <b>Cost</b>, and change <b>Status</b> from <code>NEEDED</code> to <code>BOOKED</code>.</li>
     <li>Use the <b>Notes</b> column for anything the rest of us need to know — cancellation deadline, room type, who's in which bed.</li>
   </ol>
+  <p class="muted">Only the <b>Status</b> column reaches this page — that is what the green “Live” line below
+    reflects. Names, confirmation numbers, costs and notes stay in the sheet on purpose, so put them there and
+    read them there.</p>
   <p class="muted">Anyone with this link can edit, and Google does not require them to sign in first, so
     treat it as public: no card numbers, no passwords. Edits are logged in the sheet's version history
     (File &rsaquo; Version history) and anything can be undone.</p>
@@ -406,14 +409,32 @@ async function syncBookingStatus() {
     }
 
     renderBookings();
-    $('#bookings-live').innerHTML = `
+    const noteEl = $('#bookings-live');
+    noteEl.innerHTML = `
       <span class="live ok">● Live</span> from the shared sheet${
-        changed ? ` — ${changed === 1 ? '1 row differs' : `${changed} rows differ`} from the committed snapshot` : ''}.${
-        unmatched.length ? ` <span class="warn">${unmatched.length} item${
-          unmatched.length === 1 ? ' has' : 's have'} no matching row in the sheet (${
-          esc(unmatched.join(', '))}).</span>` : ''}${
-        rejected.size ? ` <span class="warn">${rejected.size} row${
-          rejected.size === 1 ? '' : 's'} had an unrecognised status and were ignored.</span>` : ''}`;
+        changed ? ` — ${changed === 1 ? '1 row differs' : `${changed} rows differ`} from the committed snapshot` : ''}.`;
+
+    /* A partial sync is the dangerous case: the page looks live and is quietly
+       showing stale statuses for whatever the sheet stopped publishing. Say so
+       in a box, not in small print. */
+    const problems = [];
+    if (unmatched.length) {
+      problems.push(`<li><b>${unmatched.length} booking${unmatched.length === 1 ? '' : 's'} on this page `
+        + `${unmatched.length === 1 ? 'has' : 'have'} no row in the published sheet</b>, so `
+        + `${unmatched.length === 1 ? 'its status is' : 'their statuses are'} the committed snapshot, not live: `
+        + `<code>${unmatched.map(esc).join('</code>, <code>')}</code>. The usual cause is the Public status tab: `
+        + `inserting rows at the top of the Bookings tab shifts its FILTER range down, so the top rows stop `
+        + `publishing. Set both formulas back to whole-column ranges.</li>`);
+    }
+    if (rejected.size) {
+      problems.push(`<li>${rejected.size} row${rejected.size === 1 ? '' : 's'} had an unrecognised status and `
+        + `${rejected.size === 1 ? 'was' : 'were'} ignored: ${[...rejected].slice(0, 5).map(esc).join(', ')}.</li>`);
+    }
+    if (problems.length) {
+      noteEl.insertAdjacentHTML('afterend',
+        `<div class="callout flag"><h5>The shared sheet is only partly reaching this page</h5>`
+        + `<ul>${problems.join('')}</ul></div>`);
+    }
   } catch (err) {
     note.innerHTML = `
       <span class="live off">● Snapshot</span> — could not read the shared sheet
