@@ -138,19 +138,21 @@ the intro line is computed.
 
 ### Marking something as booked
 
-Find the entry in the `bookings` array and change it:
+Do it in the sheet, not here — flip that row's **Status** to `BOOKED` and the page picks it
+up within five minutes. The `status` in `itinerary.json` is only the fallback shown when the
+sheet is unreachable, so it is worth keeping roughly in step:
 
 ```json
 {
-  "what": "D&SNG Cascade Canyon steam train (6 seats, Oct 13)",
-  "status": "booked",
-  "who": "your name",
-  "confirmation": "ABC-12345"
+  "id": "lodging-ouray",
+  "what": "Twin Peaks Lodge & Hot Springs, Ouray — night of Oct 12",
+  "status": "booked"
 }
 ```
 
-`status` is one of `needed`, `booked`, or `optional`. The counts at the top of the
-Bookings tab update automatically.
+`status` is one of `needed`, `booked`, or `optional`. The counts at the top of the Bookings
+tab update automatically. Do not put `who` or `confirmation` in this file — those live in
+the private tab of the sheet and are not rendered.
 
 ### Locking in a hotel
 
