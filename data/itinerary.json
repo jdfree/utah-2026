@@ -29,8 +29,8 @@
         "nights": [
           1
         ],
-        "chosen": null,
-        "status": "needed",
+        "chosen": "Twin Peaks Lodge & Hot Springs",
+        "status": "booked",
         "options": [
           {
             "name": "Box Canyon Lodge & Hot Springs",
@@ -2190,13 +2190,13 @@
   "bookings": [
     {
       "id": "lodging-ouray",
-      "what": "Ouray lodging — night of Oct 12",
+      "what": "Twin Peaks Lodge & Hot Springs, Ouray — night of Oct 12",
       "category": "Lodging",
-      "status": "needed",
+      "status": "booked",
       "urgency": "now",
       "who": "",
-      "url": "https://www.boxcanyonouray.com/",
-      "notes": "Ouray is a town of 1,000 and October rooms are limited — book early. Prefer a lodge with its own hot-spring tubs (Box Canyon, Twin Peaks); it gives you the soak without spending a time slot on it.",
+      "url": "https://www.twinpeakslodging.com/",
+      "notes": "Booked. On-site hot spring pools and tubs, so the soak costs no time. Confirmation and cost are in the shared sheet.",
       "confirmation": ""
     },
     {

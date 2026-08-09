@@ -243,6 +243,12 @@ Two places, deliberately:
   is the live one. Anyone in the group claims a job by putting their name in *Who's
   booking*, then fills in *Confirmation #* and *Cost* and flips *Status* to `BOOKED`.
 
+**Only the Status column reaches the site.** *Who's booking*, *Confirmation #* and *Cost*
+are deliberately not published and are not shown in the table, so the site never carries a
+confirmation number. The practical consequence is worth stating plainly, because it has
+already caught someone out: filling in the confirmation and the cost changes nothing on the
+page. It is the Status cell that has to move from `NEEDED` to `BOOKED`.
+
 The sheet is Restricted — only people it is shared with can open it. That also means this
 public, static site cannot read it directly: an anonymous browser has no credentials.
 
@@ -253,17 +259,30 @@ The sheet has two tabs:
 - **Bookings** — the private one. Who's booking, confirmation numbers, costs, notes.
   Restricted sharing; never published.
 - **Public status** — two columns only, `id` and `status`, filled by
-  `=FILTER(Bookings!J2:J, …)` so it tracks the private tab automatically. This tab alone is
-  published to the web as CSV, so the page can read it without anyone signing in. No names,
-  no confirmation numbers, no costs are ever exposed.
+  `=FILTER(Bookings!J:J, Bookings!J:J<>"", Bookings!J:J<>"ID")` so it tracks the private tab
+  automatically. This tab alone is published to the web as CSV, so the page can read it
+  without anyone signing in. No names, no confirmation numbers, no costs are ever exposed.
+
+  **Use whole-column ranges, not `J2:J`.** Inserting a row at the top of the Bookings tab
+  makes Google rewrite a `J2:J` reference to `J4:J` to keep it pointing at the original
+  cells — which silently drops the new top rows from the published CSV while the page still
+  reports itself Live. That has happened once. Whole-column references cannot be shifted.
 
 `trip.bookingsStatusCsv` in `itinerary.json` holds that CSV URL. On load the page fetches
 it and overrides the statuses baked into the JSON. If the fetch fails — not published yet,
 offline, CORS — the page silently falls back to the committed snapshot and says so.
 
-Rows are matched on `id`, not on the item text, so rewording a row in the sheet is safe.
-If an id in `itinerary.json` has no matching sheet row, the page names it in a warning
-rather than silently ignoring it.
+Rows are matched on `id`, not on the item text, so rewording or reordering rows in the
+sheet is safe. If an id in `itinerary.json` has no matching sheet row, the page raises a
+callout naming it — a partial sync is more dangerous than a total failure, because the page
+otherwise looks healthy while quietly showing stale statuses.
+
+Google serves the published CSV with `max-age=300`, so a status change takes up to five
+minutes to appear. Before concluding something is broken, check the CSV directly:
+
+```bash
+curl -sSL "$(python3 -c "import json;print(json.load(open('data/itinerary.json'))['trip']['bookingsStatusCsv'])")"
+```
 
 ### Re-publishing the status tab
 

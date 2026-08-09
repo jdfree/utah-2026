@@ -296,8 +296,6 @@ function renderBookings() {
   <td>${b.urgency === 'now' || b.urgency === 'soon'
       ? `<span class="pill ${b.urgency}">${esc(urgency[b.urgency])}</span>`
       : esc(urgency[b.urgency] ?? '')}</td>
-  <td>${esc(b.who) || '<span class="muted">—</span>'}</td>
-  <td>${esc(b.confirmation) || '<span class="muted">—</span>'}</td>
   <td class="muted">${esc(b.notes)}</td>
 </tr>`).join('');
 
@@ -314,9 +312,10 @@ function renderBookings() {
     <li>When it's done, fill in <b>Confirmation #</b> and <b>Cost</b>, and change <b>Status</b> from <code>NEEDED</code> to <code>BOOKED</code>.</li>
     <li>Use the <b>Notes</b> column for anything the rest of us need to know — cancellation deadline, room type, who's in which bed.</li>
   </ol>
-  <p class="muted">Only the <b>Status</b> column reaches this page — that is what the green “Live” line below
-    reflects. Names, confirmation numbers, costs and notes stay in the sheet on purpose, so put them there and
-    read them there.</p>
+  <p class="muted">Only <b>Status</b> reaches this page — that is what the green “Live” line below reflects.
+    <b>Who's booking</b>, <b>Confirmation #</b> and <b>Cost</b> deliberately stay in the sheet and are not shown
+    here, so read them there. Changing the other columns will not change anything on this page: it is the Status
+    cell that has to move from <code>NEEDED</code> to <code>BOOKED</code>.</p>
   <p class="muted">Anyone with this link can edit, and Google does not require them to sign in first, so
     treat it as public: no card numbers, no passwords. Edits are logged in the sheet's version history
     (File &rsaquo; Version history) and anything can be undone.</p>
@@ -328,7 +327,7 @@ function renderBookings() {
     counts.optional || 0} optional</p>
 <p class="muted" id="bookings-live">Checking the shared sheet…</p>
 <div class="tablewrap"><table>
-  <thead><tr><th>Status</th><th>What</th><th>Type</th><th>When</th><th>Who</th><th>Conf #</th><th>Notes</th></tr></thead>
+  <thead><tr><th>Status</th><th>What</th><th>Type</th><th>When</th><th>Notes</th></tr></thead>
   <tbody>${rows}</tbody>
 </table></div>`;
 }

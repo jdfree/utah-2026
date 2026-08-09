@@ -371,7 +371,7 @@ p.muted .ext { opacity: .8; }
 table {
   border-collapse: collapse;
   width: 100%;
-  min-width: 820px;
+  min-width: 700px;
   font-size: 14px;
   table-layout: fixed;
 }
@@ -379,13 +379,11 @@ th, td { text-align: left; padding: 10px 10px; border-bottom: 1px solid var(--li
 
 /* Status · What · Type · When · Who · Conf # · Notes — Notes gets the slack,
    Who and Conf # stay narrow because they hold a dash until someone claims a job. */
-th:nth-child(1), td:nth-child(1) { width: 80px; }   /* Status  */
-th:nth-child(2), td:nth-child(2) { width: 21%; }    /* What    */
-th:nth-child(3), td:nth-child(3) { width: 76px; }   /* Type    */
-th:nth-child(4), td:nth-child(4) { width: 98px; }   /* When    */
-th:nth-child(5), td:nth-child(5) { width: 62px; }   /* Who     */
-th:nth-child(6), td:nth-child(6) { width: 76px; }   /* Conf #  */
-th:nth-child(7), td:nth-child(7) { width: auto; }   /* Notes — takes the rest */
+th:nth-child(1), td:nth-child(1) { width: 84px; }   /* Status */
+th:nth-child(2), td:nth-child(2) { width: 24%; }    /* What   */
+th:nth-child(3), td:nth-child(3) { width: 82px; }   /* Type   */
+th:nth-child(4), td:nth-child(4) { width: 104px; }  /* When   */
+th:nth-child(5), td:nth-child(5) { width: auto; }   /* Notes — takes the rest */
 
 /* A booking URL has no spaces to break on; let it wrap mid-string rather than
    blow out its column. */
@@ -451,7 +449,6 @@ a { color: var(--rust); }
 .live { font-weight: 700; }
 .live.ok { color: #3c7a4e; }
 .live.off { color: var(--ink-soft); }
-.warn { color: var(--rust); }
 
 .qa { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); padding: 14px 18px; margin-bottom: 12px; box-shadow: var(--shadow); }
 .qa h4 { margin: 0 0 5px; font-size: 15px; }
