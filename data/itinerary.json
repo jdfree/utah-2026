@@ -351,11 +351,11 @@
         ],
         "chosen": "Home in Kayenta — 126 Arrowhead Drive",
         "status": "booked",
-        "checkin": "Check in Wed Oct 14 from 3:00 PM · check out Thu Oct 15 by 11:00 AM · lockbox self check-in · 6 guests maximum",
+        "checkin": "Check in Wed Oct 14 from 3:00 PM · check out Thu Oct 15 by 11:00 AM · lockbox self check-in",
         "options": [
           {
             "name": "Bright & Spacious, family-friendly home in Kayenta (Airbnb, hosted by Divine)",
-            "note": "126 Arrowhead Drive, in town. Sleeps six — the only booking on the trip that fits the whole party without an amendment. Thirty minutes south of the Monument Valley overlook and, more usefully, twenty-six miles closer to Page than staying at the valley would be. The host warns that GPS will not find it and cell service is unreliable, so carry the printed directions"
+            "note": "126 Arrowhead Drive, in town. Thirty minutes south of the Monument Valley overlook and, more usefully, twenty-six miles closer to Page than staying at the valley would be. The host warns that GPS will not find it and cell service is unreliable, so carry the printed directions"
           }
         ]
       },
@@ -450,7 +450,7 @@
         {
           "time": "5:30 PM",
           "title": "Arrive Kayenta — check in",
-          "detail": "126 Arrowhead Drive. Lockbox entry, and the house sleeps six. Check-in is from 3:00 PM, so arriving now is fine.",
+          "detail": "126 Arrowhead Drive. Lockbox entry. Check-in is from 3:00 PM, so arriving now is fine.",
           "dwell": "30 min"
         },
         {
@@ -2163,7 +2163,7 @@
       "status": "booked",
       "urgency": "now",
       "url": "https://www.airbnb.com/",
-      "notes": "Booked. 1700 American Way — two bedrooms, one bath, grill, hosted by Cat. Check in from 3:00 PM Mon Oct 12, out by 11:00 AM. Booked for 5 guests; the party is 6."
+      "notes": "Booked. 1700 American Way — two bedrooms, one bath, grill, hosted by Cat. Check in from 3:00 PM Mon Oct 12, out by 11:00 AM."
     },
     {
       "id": "lodging-dolores",
@@ -2181,7 +2181,7 @@
       "status": "booked",
       "urgency": "now",
       "url": "https://www.airbnb.com/",
-      "notes": "Booked, $271.12, confirmation HMN4JSZQPC. 126 Arrowhead Drive, hosted by Divine. Check in from 3:00 PM Wed Oct 14, out by 11:00 AM. Lockbox self check-in. SLEEPS SIX — the only booking that already fits the whole party. The host warns GPS will not find the house and there may be no cell signal: print the written directions and note the coordinates N 36°42.784, W 110°14.931. Every night of the trip is now booked."
+      "notes": "Booked, $271.12, confirmation HMN4JSZQPC. 126 Arrowhead Drive, hosted by Divine. Check in from 3:00 PM Wed Oct 14, out by 11:00 AM. Lockbox self check-in. The host warns GPS will not find the house and there may be no cell signal: print the written directions and note the coordinates N 36°42.784, W 110°14.931. Every night of the trip is now booked."
     },
     {
       "id": "lodging-washington",
@@ -2190,7 +2190,7 @@
       "status": "booked",
       "urgency": "now",
       "url": "https://www.airbnb.com/",
-      "notes": "Booked, $936 for four nights. 1902 E Respite Lane, just off Washington Parkway at I-15 exit 13 — three bedrooms, 8 beds, 2.5 baths, heated pool and hot tub. Check in from 4:00 PM Thu Oct 15, out by 11:00 AM Mon Oct 19. The four-night base is what removes three check-ins and two pack-ups from the middle of the trip. Booked for 4 guests; the party is 6."
+      "notes": "Booked, $936 for four nights. 1902 E Respite Lane, just off Washington Parkway at I-15 exit 13 — three bedrooms, 8 beds, 2.5 baths, heated pool and hot tub. Check in from 4:00 PM Thu Oct 15, out by 11:00 AM Mon Oct 19. The four-night base is what removes three check-ins and two pack-ups from the middle of the trip."
     },
     {
       "id": "lodging-cannonville",
@@ -2199,7 +2199,7 @@
       "status": "booked",
       "urgency": "now",
       "url": "https://www.airbnb.com/",
-      "notes": "Booked, $365.11, confirmation HMF98HWCWH. 115 S Kodachrome Rd, hosted by Marshall, keypad entry. Check in from 3:00 PM Mon Oct 19, out by 11:00 AM Wed Oct 21. LISTED AS 4 GUESTS MAXIMUM and the party is 6 — raise this with the host before the trip. Cannonville costs half an hour each way to the Bryce rim but puts Kodachrome fifteen minutes from the door."
+      "notes": "Booked, $365.11, confirmation HMF98HWCWH. 115 S Kodachrome Rd, hosted by Marshall, keypad entry. Check in from 3:00 PM Mon Oct 19, out by 11:00 AM Wed Oct 21. Cannonville costs half an hour each way to the Bryce rim but puts Kodachrome fifteen minutes from the door."
     },
     {
       "id": "lodging-torrey",
@@ -2208,7 +2208,7 @@
       "status": "booked",
       "urgency": "now",
       "url": "https://www.airbnb.com/",
-      "notes": "Booked. 125 East Main Street, hosted by Danielle and Teresa. Check in from 3:00 PM Wed Oct 21, out by 11:00 AM. The host warns there is no grocery store in Torrey — the nearest is Loa, twenty minutes away. Buy food in Escalante on the way. Booked for 4 guests; the party is 6."
+      "notes": "Booked. 125 East Main Street, hosted by Danielle and Teresa. Check in from 3:00 PM Wed Oct 21, out by 11:00 AM. The host warns there is no grocery store in Torrey — the nearest is Loa, twenty minutes away. Buy food in Escalante on the way."
     },
     {
       "id": "lodging-moab",
@@ -2217,16 +2217,7 @@
       "status": "booked",
       "urgency": "now",
       "url": "https://www.airbnb.com/",
-      "notes": "Booked, $348.07, through Moab Lodging Vacation Rentals. 3368 E La Camino Dr — three bedrooms, two baths, four miles south-east of town. Check in from 4:00 PM Thu Oct 22, out by 10:00 AM Fri Oct 23 (an hour earlier than every other stay, and the drive home is the second longest of the trip). Keypad entry, which is what makes the 7:20 PM arrival from Arches workable. Booked for 4 guests; the party is 6."
-    },
-    {
-      "id": "airbnb-guest-counts",
-      "what": "Confirm guest counts with every Airbnb host",
-      "category": "Logistics",
-      "status": "needed",
-      "urgency": "now",
-      "url": "",
-      "notes": "Six people are travelling. The bookings read 5 guests (Montrose) and 4 guests (Washington, Cannonville, Torrey, Moab), and the Cannonville listing states 4 guests maximum outright. Message each host now: some will simply adjust the reservation and charge an extra-guest fee, but Cannonville may not be able to. Do not leave this to arrival day."
+      "notes": "Booked, $348.07, through Moab Lodging Vacation Rentals. 3368 E La Camino Dr — three bedrooms, two baths, four miles south-east of town. Check in from 4:00 PM Thu Oct 22, out by 10:00 AM Fri Oct 23 (an hour earlier than every other stay, and the drive home is the second longest of the trip). Keypad entry, which is what makes the 7:20 PM arrival from Arches workable."
     },
     {
       "id": "forfeited-credits",
