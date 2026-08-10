@@ -2265,15 +2265,6 @@
       "notes": "Mom has a Senior Pass (free lifetime, 62+) — circled it on five separate pages. Covers Arches, Canyonlands, Capitol Reef, Bryce, Zion, Mesa Verde entry. Does NOT cover Monument Valley ($20/vehicle), Snow Canyon ($10/vehicle), Goblin Valley (~$25/vehicle), or Dead Horse Point."
     },
     {
-      "id": "travel-insurance",
-      "what": "Travel insurance",
-      "category": "Other",
-      "status": "optional",
-      "urgency": "later",
-      "url": "",
-      "notes": "October mountain weather can delay plans."
-    },
-    {
       "id": "sunday-lunch",
       "what": "Arrange Sunday lunch with the Raasch family (Oct 18)",
       "category": "Other",
@@ -2281,15 +2272,6 @@
       "urgency": "soon",
       "url": "https://redemptionsg.com/",
       "notes": "Worship 10:00 AM at Redemption Lutheran, 348 N Bluff St. Reach out well ahead — Sunday mornings are working time for a pastor."
-    },
-    {
-      "id": "vehicle",
-      "what": "Confirm a vehicle that seats six with two car seats",
-      "category": "Other",
-      "status": "needed",
-      "urgency": "now",
-      "url": "",
-      "notes": "Four adults, a toddler car seat, an infant seat and twelve days of luggage. A standard five-seat SUV does not do this. If the family car won't take it, a rental needs booking well ahead — October is still busy in Denver."
     },
     {
       "id": "state-park-fees",
