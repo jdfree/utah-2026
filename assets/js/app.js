@@ -391,11 +391,14 @@ async function syncBookingStatus() {
 
     const live = new Map();
     const rejected = new Set();
+    const blank = new Set();
     for (const r of rows) {
       const id = r[iId];
       const status = (r[iStatus] || '').toLowerCase();
-      if (id && VALID.has(status)) live.set(id, status);
+      if (!id) continue;
+      if (VALID.has(status)) live.set(id, status);
       else if (r[iStatus]) rejected.add(r[iStatus]);
+      else blank.add(id);       /* row is there, the Status cell just isn't filled in */
     }
     /* If the Public status tab ever stops pointing at the Status and ID columns
        — reordering the Bookings tab by cut-and-paste rather than by dragging a
@@ -409,11 +412,15 @@ async function syncBookingStatus() {
         : 'the sheet returned no usable rows');
     }
 
+    /* Three ways a booking can miss its live status, and only one is a fault.
+       An id with no row at all means the join is broken — that is worth shouting
+       about. A row whose Status cell is simply empty is an ordinary unfilled cell:
+       keep the committed value and say nothing. */
     let changed = 0;
     const unmatched = [];
     for (const b of DATA.bookings) {
       const s = live.get(b.id);
-      if (!s) { unmatched.push(b.id); continue; }
+      if (!s) { if (!blank.has(b.id)) unmatched.push(b.id); continue; }
       if (s !== b.status) { b.status = s; changed++; }
     }
 
@@ -431,9 +438,10 @@ async function syncBookingStatus() {
       problems.push(`<li><b>${unmatched.length} booking${unmatched.length === 1 ? '' : 's'} on this page `
         + `${unmatched.length === 1 ? 'has' : 'have'} no row in the published sheet</b>, so `
         + `${unmatched.length === 1 ? 'its status is' : 'their statuses are'} the committed snapshot, not live: `
-        + `<code>${unmatched.map(esc).join('</code>, <code>')}</code>. The usual cause is the Public status tab: `
-        + `inserting rows at the top of the Bookings tab shifts its FILTER range down, so the top rows stop `
-        + `publishing. Set both formulas back to whole-column ranges.</li>`);
+        + `<code>${unmatched.map(esc).join('</code>, <code>')}</code>. Either the row was deleted from the `
+        + `Bookings tab — in which case delete the booking from <code>itinerary.json</code> too — or the `
+        + `Public status tab stopped publishing it, which happens when inserting rows at the top of the `
+        + `Bookings tab shifts its FILTER range down. Whole-column ranges in both formulas prevent that.</li>`);
     }
     if (rejected.size) {
       problems.push(`<li>${rejected.size} row${rejected.size === 1 ? '' : 's'} had an unrecognised status and `
