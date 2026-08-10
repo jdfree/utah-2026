@@ -7,7 +7,7 @@
     "nights": 11,
     "origin": "Fort Collins, CO",
     "shape": "Loop",
-    "milesStated": "~2,100 driving miles",
+    "milesStated": "~2,200 driving miles",
     "bookingsSheet": "https://docs.google.com/spreadsheets/d/1N2r62ysrne-hRmPgi4nLXrrivAYXYYo6BxRDGzwjusM/edit",
     "bookingsStatusCsv": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQOmsZgWKqTLTGSf-BDju2c32E_ggpEEOnshW78n6pqnsOU0ACctaO_txCwbYMWJDAkEEDtxmyhCP4l/pub?gid=1542015551&single=true&output=csv"
   },
@@ -15,37 +15,27 @@
     {
       "day": 1,
       "date": "2026-10-12",
-      "title": "Fort Collins → Black Canyon → Ouray, CO",
+      "title": "Fort Collins → Black Canyon → Montrose, CO",
       "tags": [
         "Drive Day",
         "National Park",
         "Monarch Pass"
       ],
       "drive": {
-        "stated": "386 mi / 7 hr 25 min driving"
+        "stated": "350 mi / 6 hr 45 min driving"
       },
       "lodging": {
-        "city": "Ouray, CO",
+        "city": "Montrose, CO",
         "nights": [
           1
         ],
-        "chosen": "Twin Peaks Lodge & Hot Springs",
+        "chosen": "Home in Montrose — 1700 American Way",
         "status": "booked",
+        "checkin": "Check in Mon Oct 12 from 3:00 PM · check out Tue Oct 13 by 11:00 AM",
         "options": [
           {
-            "name": "Box Canyon Lodge & Hot Springs",
-            "note": "Four spring-fed redwood soaking tubs terraced up the hillside behind the lodge, included with the room — the easiest way to get the soak without spending a time slot on it",
-            "url": "https://www.boxcanyonouray.com/"
-          },
-          {
-            "name": "Twin Peaks Lodge & Hot Springs",
-            "note": "On-site hot spring pools and tubs, larger rooms, at the south end of Main Street",
-            "url": "https://www.twinpeakslodging.com/"
-          },
-          {
-            "name": "Beaumont Hotel",
-            "note": "Restored 1886 landmark on Main Street — the grandest room in town, adults-oriented",
-            "url": "https://www.beaumonthotel.com/"
+            "name": "Home in Montrose (Airbnb, hosted by Cat)",
+            "note": "1700 American Way. Two bedrooms, one bath, grill. Host sends check-in instructions the morning you arrive; shoes off at the door, and it is a quiet family home rather than a party house"
           }
         ]
       },
@@ -58,7 +48,7 @@
         {
           "time": "6:30 AM",
           "title": "Drive to Fairplay",
-          "detail": "I-25 south, around Denver on C-470, then US-285 climbs over Kenosha Pass (10,001 ft) and drops into South Park — a treeless basin the size of a county, ringed by fourteeners.",
+          "detail": "I-25 south, around Denver on C-470, then US-285 over Kenosha Pass (10,001 ft) into South Park — a treeless basin the size of a county.",
           "kind": "drive",
           "dist": "145 mi",
           "dur": "2 hr 35 min"
@@ -72,7 +62,7 @@
         {
           "time": "9:35 AM",
           "title": "Drive to Gunnison over Monarch Pass",
-          "detail": "US-285 over Trout Creek Pass, down the Arkansas headwaters past Salida, then US-50 climbs the Continental Divide at Monarch Pass (11,312 ft). Ears pop twice.",
+          "detail": "US-285 over Trout Creek Pass, down the Arkansas headwaters past Salida, then US-50 crosses the Continental Divide at Monarch Pass (11,312 ft).",
           "kind": "drive",
           "dist": "116 mi",
           "dur": "2 hr 5 min"
@@ -87,7 +77,7 @@
         {
           "time": "12:35 PM",
           "title": "Drive to Black Canyon — South Rim",
-          "detail": "US-50 west through the Curecanti reservoirs, then CO-347 climbs six miles to the rim. The park entrance is directly on the way to Ouray, not a detour.",
+          "detail": "US-50 west through the Curecanti reservoirs, then CO-347 climbs six miles to the rim. Directly on the way now that you sleep in Montrose.",
           "kind": "drive",
           "dist": "69 mi",
           "dur": "1 hr 30 min"
@@ -95,7 +85,7 @@
         {
           "time": "2:05 PM",
           "title": "Black Canyon of the Gunnison — South Rim",
-          "detail": "A gorge so narrow and so deep that parts of the floor get half an hour of sunlight a day — 2,000 ft straight down to the river, and in places only 40 ft wide at the bottom. Drive the South Rim Road and stop at Gunnison Point, Chasm View, Painted Wall (the tallest cliff in Colorado at 2,250 ft) and Sunset View. All are short paved walks from the car park, which is what makes it work with a three-year-old and a newborn.",
+          "detail": "A gorge so narrow and so deep that parts of the floor get half an hour of sunlight a day. Drive the South Rim Road and stop at Gunnison Point, Chasm View, Painted Wall (the tallest cliff in Colorado at 2,250 ft) and Sunset View. All short paved walks from the car park.",
           "dwell": "1 hr 45 min",
           "gp": 5,
           "toddler": 4,
@@ -104,32 +94,31 @@
         },
         {
           "time": "3:50 PM",
-          "title": "Drive to Ouray",
-          "detail": "Back to US-50, west past Montrose, then US-550 south up the Uncompahgre valley. The San Juans fill the windscreen for the last twenty minutes.",
+          "title": "Drive to Montrose",
+          "detail": "Back down CO-347 and a few miles west. Twenty miles — the shortest end-of-day drive on the whole trip.",
           "kind": "drive",
-          "dist": "56 mi",
-          "dur": "1 hr 15 min"
+          "dist": "20 mi",
+          "dur": "35 min"
         },
         {
-          "time": "5:05 PM",
-          "title": "Arrive Ouray — check in",
-          "detail": "A Victorian mining town of a thousand people wedged into a box canyon, walled in on three sides. Everything is within four blocks.",
-          "dwell": "40 min"
+          "time": "4:25 PM",
+          "title": "Arrive Montrose — check in",
+          "detail": "1700 American Way. Check-in from 3:00 PM, so you are well inside it. Two bedrooms, one bath, a grill in the yard. The host asks for shoes off at the door.",
+          "dwell": "1 hr 5 min"
         },
         {
-          "time": "5:45 PM",
-          "title": "Dinner in Ouray",
-          "detail": "Main Street is two blocks long and has more good restaurants than a town this size has any business having. Walk from the hotel.",
+          "time": "5:30 PM",
+          "title": "Dinner in Montrose",
+          "detail": "A real town with real supermarkets — the last easy shopping until St George. Stock the cooler tonight.",
           "kind": "meal",
           "dwell": "1 hr 30 min"
         }
       ],
       "tips": [
-        "Leave by 6:30 — arriving in daylight matters, and the Black Canyon overlooks are the point of the day.",
+        "Leave by 6:30 — the Black Canyon overlooks are the point of the day.",
         "Black Canyon entry is covered by the America the Beautiful and Senior passes.",
         "Two Continental Divide crossings today, Kenosha and Monarch. Check cotrip.org the morning you go.",
-        "Ouray sleeps at 7,792 ft. Expect a cold night and a slow first hour for anyone who feels altitude.",
-        "Several Ouray hotels have their own hot-spring soaking tubs — worth choosing one for tonight, since it costs no time at all.",
+        "Montrose sits at 5,800 ft, so the first night is a gentle one for altitude. Ouray tomorrow is 7,800 and you are only passing through.",
         "Pack the cooler the night before; South Park and the Gunnison stretch are thin on services."
       ],
       "momNotes": [
@@ -165,9 +154,9 @@
           "type": "park"
         },
         {
-          "name": "Ouray, CO",
-          "lat": 38.0228,
-          "lng": -107.6714,
+          "name": "Montrose, CO",
+          "lat": 38.46817,
+          "lng": -107.8291,
           "type": "overnight"
         }
       ]
@@ -175,45 +164,49 @@
     {
       "day": 2,
       "date": "2026-10-13",
-      "title": "Ouray → Million Dollar Highway → Telluride → Cortez",
+      "title": "Montrose → Million Dollar Highway → Telluride → Dolores",
       "tags": [
         "Million Dollar Highway",
         "Free Gondola",
         "Short Drive"
       ],
       "drive": {
-        "stated": "152 mi / 3 hr 45 min driving"
+        "stated": "182 mi / 4 hr 15 min driving"
       },
       "lodging": {
-        "city": "Cortez, CO",
+        "city": "Dolores, CO",
         "nights": [
           2
         ],
-        "chosen": null,
-        "status": "needed",
+        "chosen": "Wrangler's Roost Family Suite — 27660 Road P",
+        "status": "booked",
+        "checkin": "Check in Tue Oct 13 from 4:00 PM · check out Wed Oct 14 by 11:00 AM",
         "options": [
           {
-            "name": "Holiday Inn Express Mesa Verde-Cortez",
-            "note": "Ten minutes from the park entrance, indoor pool, full hot breakfast — the easy default with small children",
-            "url": "https://www.ihg.com/holidayinnexpress/hotels/us/en/cortez/cezex/hoteldetail"
-          },
-          {
-            "name": "Hampton Inn Mesa Verde",
-            "note": "Same distance from the gate, free hot breakfast, reliable rooms",
-            "url": "https://www.hilton.com/en/hotels/cezcohx-hampton-mesa-verde-cortez/"
-          },
-          {
-            "name": "Retro Inn at Mesa Verde",
-            "note": "Small independent motel, mid-century styling, cheaper than the chains",
-            "url": "https://www.retroinnmesaverde.com/"
+            "name": "Room in Dolores — Wrangler's Roost Family Suite (Airbnb, hosted by JanElle and Todd)",
+            "note": "27660 Road P, Dolores. A family suite rather than an entire house; the hosts send the address and arrival detail closer to the date"
           }
         ]
       },
       "items": [
         {
-          "time": "8:30 AM",
+          "time": "8:00 AM",
+          "title": "Check out of Montrose",
+          "detail": "Check-out is 11:00, so there is no rush, but the Million Dollar Highway is better early with the light behind you.",
+          "dwell": "—"
+        },
+        {
+          "time": "8:00 AM",
+          "title": "Drive south to Ouray",
+          "detail": "US-550 down the Uncompahgre valley. The San Juans build in the windscreen the whole way and Ouray appears suddenly, wedged into its box canyon.",
+          "kind": "drive",
+          "dist": "36 mi",
+          "dur": "45 min"
+        },
+        {
+          "time": "8:45 AM",
           "title": "Drive the Million Dollar Highway south",
-          "detail": "US-550 out of Ouray on a shelf blasted into the wall of the Uncompahgre Gorge — no guardrail, a sheer drop off the passenger side, and Bear Creek Falls dropping under the road at mile 2. This is the famous stretch.",
+          "detail": "US-550 out of Ouray on a shelf blasted into the wall of the Uncompahgre Gorge — no guardrail, a sheer drop off the passenger side, and Bear Creek Falls dropping under the road at mile 2.",
           "kind": "drive",
           "dist": "13 mi",
           "dur": "30 min",
@@ -223,90 +216,95 @@
           "flag": "Red Mountain Pass is maintained all winter but can close on short notice in an early storm, and it is a serious road in bad weather. Check cotrip.org before you set off. If it is closed you lose nothing else — turn around and head straight for Telluride."
         },
         {
-          "time": "9:00 AM",
+          "time": "9:15 AM",
           "title": "Red Mountain Pass and the Ironton overlooks",
-          "detail": "Turn around at the pass (11,018 ft). The Red Mountain mining district on the way up is rust-orange rock with wooden headframes still standing in the trees, and the Ironton ghost town sits just below the summit. Drive it out and back — the pass is where the good part ends, and Silverton beyond it is another 45 minutes each way.",
+          "detail": "Turn around at the pass (11,018 ft). The Red Mountain mining district on the way up is rust-orange rock with wooden headframes still standing in the trees. Silverton beyond it is another 45 minutes each way and the good part ends here.",
           "dwell": "45 min",
           "gp": 5,
           "toddler": 3
         },
         {
-          "time": "9:45 AM",
+          "time": "10:00 AM",
           "title": "Drive back down to Ouray",
-          "detail": "The same shelf road northbound, which is the better direction for the gorge views — the drop is now on the driver’s side and the town appears below you.",
+          "detail": "The same shelf road northbound, which is the better direction for the gorge — the drop is now on the driver’s side and the town appears below you.",
           "kind": "drive",
           "dist": "13 mi",
           "dur": "30 min"
         },
         {
-          "time": "10:15 AM",
+          "time": "10:30 AM",
           "title": "Box Cañon Falls, Ouray",
-          "detail": "A 285-foot waterfall roaring inside a limestone slot barely wider than your shoulders, reached by a short steel walkway bolted to the canyon wall. Five minutes from the hotel, about ten minutes of walking, and genuinely thrilling for a three-year-old. Roughly $8 adult, $7 senior, $6 for ages 4–17.",
+          "detail": "A 285-foot waterfall roaring inside a limestone slot barely wider than your shoulders, reached by a steel walkway bolted to the canyon wall. About ten minutes of walking. Roughly $8 adult, $7 senior, $6 for ages 4–17.",
           "dwell": "45 min",
           "gp": 5,
           "toddler": 5,
           "guide": "https://www.visitouray.com/box-canyon-falls"
         },
         {
-          "time": "11:00 AM",
+          "time": "11:15 AM",
           "title": "Drive to Telluride",
-          "detail": "North to Ridgway, then west and south up the San Miguel valley. Gentle going — no cliff edges — and the aspens should still be turning.",
+          "detail": "North to Ridgway, then west and south up the San Miguel valley. Gentler than the morning — no cliff edges — and the aspens should still be turning.",
           "kind": "drive",
           "dist": "50 mi",
-          "dur": "1 hr 10 min"
+          "dur": "1 hr 5 min"
         },
         {
-          "time": "12:10 PM",
+          "time": "12:20 PM",
           "title": "Lunch in Telluride",
-          "detail": "The main street runs straight at a wall of mountains with Bridal Veil Falls at the end of it. Plenty of choice, and you are parked for the afternoon.",
+          "detail": "The main street runs straight at a wall of mountains with Bridal Veil Falls at the end of it. You are parked for the afternoon.",
           "kind": "meal",
           "dwell": "1 hr"
         },
         {
-          "time": "1:10 PM",
+          "time": "1:20 PM",
           "title": "Telluride and the free gondola",
-          "detail": "A free gondola climbs 1,750 ft over the ridge from Telluride to Mountain Village and back, running 6:30 AM to midnight through Oct 25. Fifteen minutes each way, cabins every few seconds, and a stroller rolls straight on. The view down into the box canyon at the top is the best thing you will see all day that costs nothing.",
-          "dwell": "1 hr 30 min",
+          "detail": "A free gondola climbs 1,750 ft over the ridge to Mountain Village and back, running 6:30 AM to midnight through Oct 25. Fifteen minutes each way and a stroller rolls straight on.",
+          "dwell": "1 hr 15 min",
           "gp": 5,
           "toddler": 5,
           "guide": "https://www.telluride.com/discover/the-gondola/"
         },
         {
-          "time": "2:40 PM",
-          "title": "Drive to Cortez",
-          "detail": "South on CO-145 over Lizard Head Pass (10,222 ft), past the Wilson peaks, then down through Rico and Dolores into the Montezuma Valley.",
+          "time": "2:35 PM",
+          "title": "Drive to Dolores",
+          "detail": "CO-145 south over Lizard Head Pass, then down the Dolores River. The house is on the county grid south-west of town, twenty minutes closer to Mesa Verde than Dolores itself.",
           "kind": "drive",
-          "dist": "76 mi",
-          "dur": "1 hr 35 min"
+          "dist": "70 mi",
+          "dur": "1 hr 25 min"
         },
         {
-          "time": "4:15 PM",
-          "title": "Arrive Cortez — check in",
-          "detail": "Ten minutes from the Mesa Verde entrance, which is the whole point of sleeping here. An easy evening after a short driving day.",
-          "dwell": "1 hr 30 min"
+          "time": "4:00 PM",
+          "title": "Arrive Dolores — check in",
+          "detail": "27660 Road P. Check-in from 4:00 PM. The hosts live on site and will meet you.",
+          "dwell": "1 hr 5 min"
         },
         {
-          "time": "5:45 PM",
-          "title": "Dinner in Cortez",
-          "detail": "A working town rather than a resort one, with honest food and no queues. Early night — tomorrow starts at 7:45.",
+          "time": "6:00 PM",
+          "title": "Dinner in Dolores",
+          "detail": "A small town on the river with a couple of good options. Cortez is fifteen minutes south if you want more choice.",
           "kind": "meal",
           "dwell": "1 hr 30 min"
         }
       ],
       "tips": [
-        "The lightest driving day between here and Utah: 152 miles, three and a half hours, and most of it before lunch.",
-        "Two passes above 10,000 ft. Check cotrip.org before Red Mountain in the morning and again before Lizard Head in the afternoon.",
-        "Ouray Hot Springs Pool is right in town if you would rather swap it for Box Cañon Falls — but it does not open until 11:00, and the waterslide and shallow activity pool are closed after Labor Day, so in October it is a soak rather than somewhere a three-year-old can play.",
-        "This is the day to buy anything you need for the desert. Cortez is the last real supermarket before Monument Valley.",
-        "Drive times today are padded above what routing engines report — US-550 and CO-145 are twisty mountain highways and the machines are optimistic about them."
+        "Two passes above 10,000 ft today. Check cotrip.org before Red Mountain in the morning and again before Lizard Head in the afternoon.",
+        "Red Mountain Pass is maintained all winter but can close on short notice in an early storm. If it is shut you lose nothing else — turn around and head straight for Telluride.",
+        "Drive times today are padded above what routing engines report; US-550 and CO-145 are twisty mountain highways and the machines are optimistic about them.",
+        "Dolores is tiny. Do the desert shopping in Cortez tomorrow morning, not here."
       ],
       "momNotes": [],
       "stops": [
         {
+          "name": "Montrose, CO",
+          "lat": 38.46817,
+          "lng": -107.8291,
+          "type": "origin"
+        },
+        {
           "name": "Ouray, CO",
           "lat": 38.0228,
           "lng": -107.6714,
-          "type": "origin"
+          "type": "stop"
         },
         {
           "name": "Red Mountain Pass (turnaround)",
@@ -327,9 +325,9 @@
           "type": "park"
         },
         {
-          "name": "Cortez, CO",
-          "lat": 37.3489,
-          "lng": -108.5859,
+          "name": "Dolores, CO",
+          "lat": 37.41215,
+          "lng": -108.53551,
           "type": "overnight"
         }
       ]
@@ -337,55 +335,55 @@
     {
       "day": 3,
       "date": "2026-10-14",
-      "title": "Cortez → Mesa Verde → Monument Valley",
+      "title": "Dolores → Mesa Verde → Kayenta",
       "tags": [
         "Cliff Dwellings",
         "Drive Day",
-        "Sunset at The Mittens"
+        "The Mittens"
       ],
       "drive": {
-        "stated": "202 mi / 4 hr 40 min driving"
+        "stated": "222 mi / 5 hr 5 min driving"
       },
       "lodging": {
-        "city": "Monument Valley, AZ/UT",
+        "city": "Kayenta, AZ",
         "nights": [
           3
         ],
-        "chosen": "Goulding's Lodge",
-        "status": "needed",
+        "chosen": "Home in Kayenta — 126 Arrowhead Drive",
+        "status": "booked",
+        "checkin": "Check in Wed Oct 14 from 3:00 PM · check out Thu Oct 15 by 11:00 AM · lockbox self check-in · 6 guests maximum",
         "options": [
           {
-            "name": "Goulding's Lodge",
-            "note": "Legendary lodge just west of the park, at the base of a mesa — John Ford's base for the Westerns. Rooms face east across the valley, there is a pool, a restaurant and a small museum, and it is the only full-service lodging in the area. Two miles outside the Tribal Park boundary, which matters for the gate hours below",
-            "url": "https://gouldings.com/"
+            "name": "Bright & Spacious, family-friendly home in Kayenta (Airbnb, hosted by Divine)",
+            "note": "126 Arrowhead Drive, in town. Sleeps six — the only booking on the trip that fits the whole party without an amendment. Thirty minutes south of the Monument Valley overlook and, more usefully, twenty-six miles closer to Page than staying at the valley would be. The host warns that GPS will not find it and cell service is unreliable, so carry the printed directions"
           }
         ]
       },
       "items": [
         {
-          "time": "7:45 AM",
-          "title": "Depart Cortez",
-          "detail": "Breakfast at the hotel. The park gate is ten minutes away, which buys you an extra half hour on the mesa."
+          "time": "7:50 AM",
+          "title": "Depart Dolores",
+          "detail": "Breakfast at the suite, away by 7:50. Today has one long transit leg in the middle of it."
         },
         {
-          "time": "7:45 AM",
+          "time": "7:50 AM",
           "title": "Drive to Mesa Verde — Chapin Mesa",
-          "detail": "US-160 east to the gate, then the park road climbs 20 miles up onto the mesa. That climb is most of this hour — do not plan around the entrance sign.",
+          "detail": "County roads to US-160, then the long climb up the mesa. Being out on Road P rather than in Dolores town saves twenty minutes of this.",
           "kind": "drive",
-          "dist": "31 mi",
-          "dur": "55 min"
+          "dist": "32 mi",
+          "dur": "1 hr"
         },
         {
-          "time": "8:40 AM",
+          "time": "8:50 AM",
           "title": "Mesa Verde National Park — Chapin Mesa",
           "detail": "Start at the museum, then the Mesa Top Loop, then the Cliff Palace overlook. Ranger-led cliff dwelling tours are ticketed and sell out — book ahead or view from the rim, which is still remarkable.",
-          "dwell": "3 hr",
+          "dwell": "2 hr 45 min",
           "gp": 5,
           "toddler": 3,
           "guide": "https://www.nps.gov/meve/planyourvisit/cliff_dwelling_tours.htm"
         },
         {
-          "time": "11:40 AM",
+          "time": "11:35 AM",
           "title": "Drive down off the mesa to Cortez",
           "detail": "The 20-mile park road again in reverse, then ten minutes west.",
           "kind": "drive",
@@ -393,14 +391,14 @@
           "dur": "55 min"
         },
         {
-          "time": "12:35 PM",
+          "time": "12:30 PM",
           "title": "Lunch in Cortez",
-          "detail": "Back where you started the day. Fuel up too — services thin out badly once you turn south.",
+          "detail": "Back down at the highway. The last proper town for a long while — do the desert shopping here, and fuel up, because services thin out badly once you turn south.",
           "kind": "meal",
           "dwell": "45 min"
         },
         {
-          "time": "1:20 PM",
+          "time": "1:15 PM",
           "title": "Drive to Goosenecks",
           "detail": "US-160 west then US-163 south, crossing into Utah. Long, empty, beautiful. Skipping Goosenecks makes this a straight run to Monument Valley: 125 mi, 2 hr 15 min.",
           "kind": "drive",
@@ -408,7 +406,7 @@
           "dur": "1 hr 50 min"
         },
         {
-          "time": "3:10 PM",
+          "time": "3:05 PM",
           "title": "Goosenecks State Park",
           "detail": "A thousand-foot overlook onto the San Juan River folded back on itself five times. Twenty minutes at the rail is enough, and there are no guardrails to speak of — hold onto the three-year-old.",
           "dwell": "20 min",
@@ -418,7 +416,7 @@
           "guide": "https://stateparks.utah.gov/parks/goosenecks/"
         },
         {
-          "time": "3:10 PM",
+          "time": "3:25 PM",
           "title": "Drive to the Monument Valley overlook",
           "detail": "UT-261 south to US-163. The Mittens come into view about ten minutes out and it is worth the whole drive.",
           "kind": "drive",
@@ -426,61 +424,50 @@
           "dur": "50 min"
         },
         {
-          "time": "4:00 PM",
+          "time": "4:15 PM",
           "title": "Wildcat Trail and the Mittens overlook",
-          "detail": "Park at the tribal park visitor center. The full Wildcat loop is 3.2 miles and too much this late, but the overlook and the first stretch of trail give you the classic view without committing to it. Tribal park gates close at 5:00 PM from October 1 — be through by then.",
+          "detail": "The overlook behind the visitor center gives you the postcard — East Mitten, West Mitten and Merrick Butte — for the price of walking to the rim. Sign in at the visitor center if anyone wants to start the 3.2-mile Wildcat loop; there is not time to finish it today.",
           "dwell": "45 min",
           "gp": 4,
           "toddler": 4,
           "guide": "https://www.visitutah.com/places-to-go/parks-outdoors/monument-valley-tribal-park/wildcat-trail"
         },
         {
-          "time": "4:45 PM",
-          "title": "Drive to Goulding's Lodge",
-          "detail": "Back out to US-163 and a couple of miles west, just inside Utah.",
+          "time": "5:00 PM",
+          "title": "Drive to Kayenta",
+          "detail": "South on US-163 with the monuments in the mirror, then west on US-160 into town. Be out through the park gate by 5:00 — that is when it closes.",
           "kind": "drive",
-          "dist": "6 mi",
-          "dur": "10 min"
-        },
-        {
-          "time": "4:55 PM",
-          "title": "Check in at Goulding's Lodge",
-          "detail": "Rooms face the valley. Get the bags in and hands washed — dinner is early on purpose.",
-          "dwell": "35 min",
-          "gp": 4,
-          "toddler": 3
+          "dist": "25 mi",
+          "dur": "30 min"
         },
         {
           "time": "5:30 PM",
-          "title": "Dinner at the Stagecoach Dining Room",
-          "detail": "The lodge restaurant, on site — no driving. Eating at 5:30 is deliberate: it puts dinner safely before sunset so nobody is negotiating with a hungry three-year-old during the best light of the day.",
+          "title": "Navajo Code Talker Exhibit, Kayenta",
+          "detail": "A genuine museum of Navajo Code Talker history — uniforms, radios, letters — housed, improbably, inside the Burger King on US-160 as you come into town. Free, twenty minutes, and the best short history stop of the trip. Worth ringing ahead; it has kept irregular hours.",
+          "dwell": "20 min",
+          "optional": true
+        },
+        {
+          "time": "5:30 PM",
+          "title": "Arrive Kayenta — check in",
+          "detail": "126 Arrowhead Drive. Lockbox entry, and the house sleeps six. Check-in is from 3:00 PM, so arriving now is fine.",
+          "dwell": "30 min"
+        },
+        {
+          "time": "6:00 PM",
+          "title": "Dinner in Kayenta",
+          "detail": "Amigo Cafe is the local institution — Navajo and Mexican, and it closes earlier than you expect. Blue Coffee Pot is the other one. Kayenta also has the last full supermarket before Page.",
           "kind": "meal",
-          "dwell": "1 hr 15 min",
-          "gp": 5,
-          "toddler": 4,
-          "guide": "https://gouldings.com/"
-        },
-        {
-          "time": "6:45 PM",
-          "title": "Sunset from the Goulding's terrace",
-          "detail": "Sunset is 6:45 PM. You do not go anywhere for this — the terrace outside the dining room looks straight east across the valley at the Mittens, and the rock goes orange to red to purple over about half an hour.",
-          "dwell": "45 min"
-        },
-        {
-          "time": "After dark",
-          "title": "Stargazing from the Goulding's grounds",
-          "detail": "Step out from your room onto the lodge grounds. The moon is only about 8% lit on Oct 14, so the Milky Way should be plainly visible — this is among the darkest skies on the whole trip.",
-          "dwell": "30 min",
-          "gp": 5,
-          "toddler": 4
+          "dwell": "1 hr 15 min"
         }
       ],
       "tips": [
-        "The Tribal Park runs winter hours from Oct 1: gates open 8:00 AM, close 5:00 PM, last Scenic Drive entry 2:30 PM. Sunset and sunrise both fall outside that window.",
-        "The visitor center overlook is inside the gate but is not the Scenic Drive — the 2:30 PM last-entry rule applies to the 17-mile loop, not to walking out to the rim. Just be through the gate before 5:00 PM.",
+        "The Tribal Park runs winter hours from Oct 1: gates open 8:00 AM, close 5:00 PM, last Scenic Drive entry 2:30 PM. Arriving at 4:15 works for the visitor-center overlook; it does not work for the 17-mile loop.",
+        "Sunset is 6:46 PM and the park shuts at 5:00, so there is no sunset from inside it. If you want one, US-163 north of the park is free and open all night — Forrest Gump Point is twenty-five minutes up the road — but it puts you into Kayenta near 8:00 PM on unlit roads with open-range livestock.",
+        "THE HOST WARNS GPS WILL NOT FIND THE HOUSE and there may be no cell signal. Print the written directions before you leave Colorado. The coordinates are N 36°42.784, W 110°14.931.",
         "Mesa Verde's Wetherill Mesa road usually closes by mid-October, but Chapin Mesa — the part you want — stays open.",
         "Book the Cliff Palace tour at recreation.gov ($5/person). It fills fast even in October.",
-        "Park entry at Mesa Verde is covered by America the Beautiful / Senior Pass. Monument Valley is a Navajo Tribal Park at $20/vehicle and is NOT covered."
+        "Park entry at Mesa Verde is covered by America the Beautiful / Senior Pass. Monument Valley is a Navajo Tribal Park and is NOT covered — check the posted rate at navajonationparks.org before you go, it has changed recently."
       ],
       "momNotes": [
         {
@@ -491,7 +478,7 @@
         {
           "id": "M3",
           "mark": "★",
-          "text": "Star next to The View Hotel — her pick for Monument Valley. It has no availability for Oct 14, so the booking is Goulding's."
+          "text": "Star next to The View Hotel — her pick for Monument Valley. It had no availability for Oct 14; the booking is a house in Kayenta, thirty minutes south."
         },
         {
           "id": "M4",
@@ -501,9 +488,9 @@
       ],
       "stops": [
         {
-          "name": "Cortez, CO",
-          "lat": 37.3489,
-          "lng": -108.5859,
+          "name": "Dolores, CO",
+          "lat": 37.41215,
+          "lng": -108.53551,
           "type": "origin"
         },
         {
@@ -525,15 +512,15 @@
           "type": "stop"
         },
         {
-          "name": "Monument Valley — Wildcat trailhead",
+          "name": "Monument Valley — visitor center overlook",
           "lat": 36.9834,
           "lng": -110.1116,
           "type": "park"
         },
         {
-          "name": "Goulding's Lodge",
-          "lat": 37.0025,
-          "lng": -110.211,
+          "name": "Kayenta, AZ",
+          "lat": 36.71307,
+          "lng": -110.24885,
           "type": "overnight"
         }
       ]
@@ -541,166 +528,183 @@
     {
       "day": 4,
       "date": "2026-10-15",
-      "title": "Monument Valley → Zion National Park",
+      "title": "Kayenta → Lake Powell → Zion → Washington, UT",
       "tags": [
+        "Lake Powell",
         "Drive Day",
         "Navajo Country → Red Rock"
       ],
       "drive": {
-        "stated": "271 mi / 5 hr 15 min driving"
+        "stated": "252 mi / 4 hr 55 min driving"
       },
       "lodging": {
-        "city": "Springdale, UT",
+        "city": "Washington, UT",
         "nights": [
           4,
-          5
+          5,
+          6,
+          7
         ],
-        "chosen": "Cable Mountain Lodge",
-        "status": "needed",
+        "chosen": "Casitas at Sienna Hills — 1902 E Respite Lane, Washington",
+        "status": "booked",
+        "checkin": "Check in Thu Oct 15 from 4:00 PM · check out Mon Oct 19 by 11:00 AM",
         "options": [
           {
-            "name": "Cable Mountain Lodge",
-            "note": "Suites on the Virgin River, canyon-wall views; walk to everything in Springdale",
-            "mom": "1st",
-            "url": "https://cablemountainlodge.com/"
-          },
-          {
-            "name": "Desert Pearl Inn",
-            "note": "Pool, river views, excellent for families; very limited rooms",
-            "mom": "2nd",
-            "url": "https://www.desertpearl.com/"
-          },
-          {
-            "name": "Cliffrose Springdale",
-            "note": "Lush gardens along the Virgin River, lovely setting",
-            "url": "https://www.hilton.com/en/hotels/sguchqq-cliffrose-springdale/"
+            "name": "Casitas at Sienna Hills — \"Huge Pool & Hot Tub | By Zion & St George | 1902SH\" (Airbnb, St George Rentals)",
+            "note": "1902 E Respite Lane, Washington, just off Washington Parkway at I-15 exit 13. Three bedrooms, 2.5 baths, sleeps 10; a Pack ’n Play is provided. Heated community pool and hot tub year-round, five minutes’ walk. Washer and dryer"
           }
         ]
       },
       "items": [
         {
-          "time": "6:35 AM",
-          "title": "Drive to Forrest Gump Point",
-          "detail": "US-163 north. Fifteen miles, and worth the early alarm.",
-          "kind": "drive",
-          "dist": "15 mi",
-          "dur": "20 min"
-        },
-        {
-          "time": "6:55 AM",
-          "title": "Sunrise from US-163 — Forrest Gump Point",
-          "detail": "Sunrise is 7:27 AM. This is the mile-marker-13 pullout where the highway runs dead straight at the buttes — the view everybody recognises. It is a public highway shoulder, so no gate and no fee, which matters because the tribal park does not open until 8:00 AM in October.",
-          "dwell": "45 min",
-          "gp": 5,
-          "toddler": 5,
-          "guide": "https://www.visitutah.com/places-to-go/parks-outdoors/monument-valley-tribal-park"
+          "time": "7:00 AM",
+          "title": "Breakfast at the house and load the car",
+          "detail": "Sunrise is 7:28. You have a kitchen, and the next food is ninety miles away in Page.",
+          "kind": "meal",
+          "dwell": "40 min"
         },
         {
           "time": "7:40 AM",
-          "title": "Drive back to Goulding's",
-          "detail": "Same fifteen miles in reverse.",
+          "title": "Drive to Glen Canyon Dam, Page",
+          "detail": "US-160 west then US-98 across the Navajo Nation — big, empty, fast road. Fill the tank in Kayenta.",
           "kind": "drive",
-          "dist": "15 mi",
-          "dur": "20 min"
+          "dist": "96 mi",
+          "dur": "1 hr 40 min",
+          "flag": "Page, AZ does not observe daylight saving but the Navajo Nation does. Driving from Kayenta into Page you gain an hour; crossing back into Utah you lose it again. Phones change on their own — trust the clock, not your sense of elapsed time. All times on this page are Utah time."
         },
         {
-          "time": "8:00 AM",
-          "title": "Breakfast at Goulding's and load the car",
-          "detail": "Eat properly here. Today is the longest transit of the trip and the services between here and Kanab are thin.",
-          "kind": "meal",
-          "dwell": "45 min"
+          "time": "9:20 AM",
+          "title": "Glen Canyon Dam and the Carl Hayden Visitor Center",
+          "detail": "The dam that made Lake Powell: 710 feet of concrete holding back the Colorado, with the lake on one side and the green river canyon on the other. The visitor center is free, open 8:00–5:00, and has restrooms, air conditioning and a relief map of the whole canyon system — a soft landing after a hundred miles.",
+          "dwell": "45 min",
+          "gp": 5,
+          "toddler": 4,
+          "guide": "https://www.nps.gov/glca/planyourvisit/glen-canyon-dam.htm"
         },
         {
-          "time": "8:45 AM",
-          "title": "Wildcat Trail full loop",
-          "detail": "The complete 3.2-mile loop around West Mitten Butte, on the valley floor. Genuinely great, and genuinely a two-hour commitment that pushes everything below back by two hours and puts you in Springdale after dark. Only if you skipped it yesterday and are willing to trade the Zion evening.",
-          "dwell": "2 hr",
-          "gp": 4,
-          "toddler": 3,
-          "guide": "https://www.visitutah.com/places-to-go/parks-outdoors/monument-valley-tribal-park/wildcat-trail",
-          "optional": true
-        },
-        {
-          "time": "8:45 AM",
-          "title": "Drive Monument Valley to Kanab",
-          "detail": "US-163 south, US-160 west, US-89 north. Big, empty, and long — three and a half hours with one gas stop. The optional detours below hang off this leg.",
-          "kind": "drive",
-          "dist": "198 mi",
-          "dur": "3 hr 20 min",
-          "flag": "Page, AZ does not observe daylight saving but the Navajo Nation does. Crossing from Monument Valley into Page you gain an hour; crossing back into Utah you lose it again. Phones change on their own — trust the clock, not your sense of elapsed time."
-        },
-        {
-          "time": "10:20 AM",
+          "time": "9:20 AM",
           "title": "Horseshoe Bend, Page AZ",
-          "detail": "A 1.5-mile round-trip walk on sand to the overlook where the Colorado wraps 270 degrees around a sandstone fin. Add about 1 hr 15 min to the day including the walk and the parking fee. Note the clock: it is 10:20 AM trip time but 9:20 AM local, because Page stays on standard time.",
+          "detail": "The famous meander of the Colorado River — not Lake Powell, which is behind the dam. A 1.5-mile round trip over open sand with no shade, $10 per vehicle, and four miles back south of the dam. Worth it, but it is the piece to drop if the morning is running late.",
           "dwell": "1 hr 15 min",
+          "optional": true,
           "gp": 5,
           "toddler": 3,
-          "guide": "https://www.nps.gov/glca/planyourvisit/horseshoe-bend.htm",
-          "optional": true
+          "guide": "https://www.nps.gov/glca/planyourvisit/horseshoe-bend.htm"
         },
         {
-          "time": "11:50 AM",
+          "time": "10:05 AM",
+          "title": "Drive to Wahweap Overlook",
+          "detail": "Two miles north on US-89, then a signed 0.8-mile gravel road up the hill. Any car can do it.",
+          "kind": "drive",
+          "dist": "5 mi",
+          "dur": "10 min"
+        },
+        {
+          "time": "10:15 AM",
+          "title": "Wahweap Overlook — the Lake Powell view",
+          "detail": "This is the view of Lake Powell. Six hundred feet above the water on a bare promontory, looking out over Wahweap Bay and the marina to Castle Rock, Tower Butte and Navajo Mountain, with the dam behind you. Free, outside the fee area, and a two-minute walk from the car.",
+          "dwell": "40 min",
+          "gp": 5,
+          "toddler": 4,
+          "guide": "https://www.nps.gov/glca/planyourvisit/wahweap.htm"
+        },
+        {
+          "time": "10:55 AM",
+          "title": "Drive to Kanab",
+          "detail": "US-89 north over the Utah line, along the top of the lake past Big Water and Lone Rock, then up through the Vermilion Cliffs.",
+          "kind": "drive",
+          "dist": "72 mi",
+          "dur": "1 hr 10 min"
+        },
+        {
+          "time": "11:40 AM",
           "title": "Toadstool Hoodoos",
-          "detail": "A flat 1.5-mile round trip off US-89 to a field of balanced boulders perched on soft pedestals. No fee, no gate, and the best kid-to-effort ratio on the trip. Adds about an hour, and only works if you have already given up on an early Zion arrival.",
+          "detail": "Mushroom-shaped rocks balancing on thin stems, a flat 1.5-mile round trip from an unmarked US-89 pull-off. Free and almost empty.",
           "dwell": "1 hr",
+          "optional": true,
           "gp": 4,
           "toddler": 5,
-          "guide": "https://www.grandcanyontrust.org/hikes/cpe-toadstools/",
-          "optional": true
+          "guide": "https://www.grandcanyontrust.org/hikes/cpe-toadstools/"
         },
         {
           "time": "12:05 PM",
           "title": "Lunch in Kanab",
-          "detail": "The one proper meal stop between Monument Valley and Zion, and the last real town before Springdale. Excellent restaurants for its size, and everyone needs out of the car by now. Fuel up here too.",
+          "detail": "A proper town with real choice. Shop here too: you have a kitchen for the next four days.",
           "kind": "meal",
-          "dwell": "1 hr",
-          "guide": "https://www.visitutah.com/places-to-go/cities-and-towns/kanab"
+          "dwell": "1 hr"
         },
         {
           "time": "1:05 PM",
           "title": "Best Friends Animal Sanctuary, Kanab",
-          "detail": "The largest no-kill animal sanctuary in the country, in a red-rock canyon just north of town. Tours are free but must be booked ahead. Adds about 1 hr 30 min including the drive out and back.",
+          "detail": "The largest no-kill sanctuary in the country, in a red-rock canyon north of town. Free but must be booked ahead. Adds about 1 hr 30 min.",
           "dwell": "1 hr 30 min",
+          "optional": true,
           "gp": 4,
           "toddler": 5,
-          "guide": "https://bestfriends.org/sanctuary",
-          "optional": true
+          "guide": "https://bestfriends.org/sanctuary"
         },
         {
           "time": "1:05 PM",
-          "title": "Drive to Springdale",
-          "detail": "US-89 north then UT-9 west through Mt Carmel Junction. The last twenty minutes drop into the canyon and it is a genuinely startling arrival.",
+          "title": "Drive to the Canyon Overlook trailhead",
+          "detail": "US-89 north to Mt Carmel Junction, then UT-9 west through the east entrance. The trailhead is immediately at the far end of the Zion–Mount Carmel tunnel, so it is directly on your way in.",
           "kind": "drive",
-          "dist": "43 mi",
-          "dur": "1 hr 15 min"
+          "dist": "36 mi",
+          "dur": "50 min"
         },
         {
-          "time": "2:20 PM",
-          "title": "Arrive Springdale — check in",
-          "detail": "Early on purpose. Two nights here, so unpack properly.",
-          "dwell": "1 hr 25 min"
+          "time": "1:55 PM",
+          "title": "Canyon Overlook Trail (1 mi RT, moderate)",
+          "detail": "Done today rather than tomorrow, because you drive past the door. A short hike to a magnificent panorama over lower Zion Canyon. Some exposure on one side but well maintained. Parking is very limited — if the pullouts are full, carry on and try again tomorrow morning.",
+          "dwell": "1 hr 15 min",
+          "gp": 5,
+          "toddler": 4,
+          "guide": "https://www.nps.gov/thingstodo/hike-canyon-overlook.htm"
         },
         {
-          "time": "3:45 PM",
+          "time": "3:10 PM",
+          "title": "Drive down to the Zion Visitor Center",
+          "detail": "Back through the tunnel and down the switchbacks into the canyon.",
+          "kind": "drive",
+          "dist": "6 mi",
+          "dur": "15 min"
+        },
+        {
+          "time": "3:25 PM",
           "title": "Pa'rus Trail",
-          "detail": "A 1.7-mile paved, flat trail along the Virgin River from the visitor center — the only trail in Zion open to strollers and bicycles. A gentle first look at the canyon walls without committing to a hike.",
+          "detail": "A 1.7-mile paved, flat trail along the Virgin River from the visitor center — the only trail in Zion open to strollers and bicycles. A gentle first look at the canyon walls.",
           "dwell": "1 hr 15 min",
           "gp": 5,
           "toddler": 5,
           "guide": "https://www.nps.gov/zion/planyourvisit/zion-canyon-trail-descriptions.htm"
         },
         {
-          "time": "5:00 PM",
-          "title": "Dinner in Springdale",
-          "detail": "The whole town is one street and it is all within walking distance of the hotels. Sunset is 6:53 tonight.",
+          "time": "4:40 PM",
+          "title": "Drive to the Casitas",
+          "detail": "UT-9 west out of the canyon, then I-15 south to Washington. The last stretch is easy interstate after a very long day.",
+          "kind": "drive",
+          "dist": "37 mi",
+          "dur": "50 min"
+        },
+        {
+          "time": "5:30 PM",
+          "title": "Arrive the Casitas — check in",
+          "detail": "1902 E Respite Lane. Check-in from 4:00 PM. Four nights here, so unpack properly — this is the only time on the trip you do.",
+          "dwell": "45 min"
+        },
+        {
+          "time": "6:15 PM",
+          "title": "Dinner in Washington",
+          "detail": "A proper town with real choice. Shop here too: you have a kitchen for the next four days.",
           "kind": "meal",
           "dwell": "1 hr 30 min"
         }
       ],
       "tips": [
-        "Day 4 is 4 hrs 20 min of driving after a sunrise start. Pick ONE of the three optional stops below, not all three — most likely Toadstool (free, no detour) or Horseshoe Bend (iconic, 15 min off route).",
-        "The Navajo Nation observes daylight saving even though the rest of Arizona does not; your phone should match Utah time all day."
+        "Page, AZ does not observe daylight saving but the Navajo Nation does. Driving from Kayenta into Page you gain an hour; crossing back into Utah you lose it again. Phones change on their own — trust the clock, not your sense of elapsed time. All times on this page are Utah time.",
+        "Wahweap Overlook is free and needs no pass — it sits outside the Glen Canyon fee area. The Carl Hayden Visitor Center is free too. Horseshoe Bend is the one that charges, $10 per vehicle, and it is run by the city rather than the Park Service.",
+        "The Canyon Overlook trailhead sits at the east end of the Zion–Mount Carmel tunnel, directly on the road in from Kanab, which is why it falls today rather than tomorrow. Parking there is very limited — if it is full, keep going and pick it up tomorrow morning.",
+        "Fill the tank in Kayenta. It is ninety-six miles to Page and there is nothing in between.",
+        "A long day but no longer a punishing one: 7:00 AM to dinner at 6:15, and 252 miles. If it is too much, drop the Pa’rus Trail and you reach the house at 4:15."
       ],
       "momNotes": [
         {
@@ -716,22 +720,10 @@
       ],
       "stops": [
         {
-          "name": "Goulding's Lodge",
-          "lat": 37.0025,
-          "lng": -110.211,
+          "name": "Kayenta, AZ",
+          "lat": 36.71307,
+          "lng": -110.24885,
           "type": "origin"
-        },
-        {
-          "name": "Forrest Gump Point, US-163",
-          "lat": 37.1017,
-          "lng": -109.9925,
-          "type": "stop"
-        },
-        {
-          "name": "Goulding's Lodge — breakfast",
-          "lat": 37.0025,
-          "lng": -110.211,
-          "type": "stop"
         },
         {
           "name": "Horseshoe Bend, Page AZ (optional)",
@@ -739,6 +731,18 @@
           "lng": -111.5104,
           "type": "stop",
           "viaOptional": true
+        },
+        {
+          "name": "Glen Canyon Dam — Carl Hayden Visitor Center",
+          "lat": 36.9369,
+          "lng": -111.4847,
+          "type": "park"
+        },
+        {
+          "name": "Wahweap Overlook — Lake Powell",
+          "lat": 36.96902,
+          "lng": -111.49907,
+          "type": "park"
         },
         {
           "name": "Toadstool Hoodoos, US-89 (optional)",
@@ -754,9 +758,21 @@
           "type": "waypoint"
         },
         {
-          "name": "Springdale, UT",
-          "lat": 37.1889,
-          "lng": -112.9986,
+          "name": "Canyon Overlook Trailhead",
+          "lat": 37.2131,
+          "lng": -112.9403,
+          "type": "park"
+        },
+        {
+          "name": "Zion Visitor Center — Pa'rus Trail",
+          "lat": 37.2,
+          "lng": -112.9871,
+          "type": "park"
+        },
+        {
+          "name": "Casitas at Sienna Hills, Washington",
+          "lat": 37.14764,
+          "lng": -113.47804,
           "type": "overnight"
         }
       ]
@@ -771,52 +787,37 @@
         "Easy Trails"
       ],
       "drive": {
-        "stated": "All local · 13 mi, 30 min driving"
+        "stated": "74 mi / 1 hr 40 min driving"
       },
       "lodging": {
-        "city": "Springdale, UT",
+        "city": "Washington, UT",
         "nights": [
           4,
-          5
+          5,
+          6,
+          7
         ],
-        "chosen": "Cable Mountain Lodge",
-        "status": "needed",
+        "chosen": "Casitas at Sienna Hills — 1902 E Respite Lane, Washington",
+        "status": "booked",
         "sameAsDay": 4
       },
       "items": [
         {
-          "time": "7:45 AM",
-          "title": "Drive to the Canyon Overlook trailhead",
-          "detail": "UT-9 east through the Zion–Mount Carmel tunnel. Private cars are fine on this road all day — it is the Scenic Drive that is closed to cars, not this.",
-          "kind": "drive",
-          "dist": "7 mi",
-          "dur": "15 min"
-        },
-        {
           "time": "8:00 AM",
-          "title": "Canyon Overlook Trail (1 mi RT, moderate)",
-          "detail": "Do this first, in your own car. The trailhead is at the east end of the tunnel. A short hike to a magnificent panorama over lower Zion Canyon. Some exposure on one side but well maintained; the three-year-old can walk most of it with help on a few rocky steps. Parking is very limited, which is the real reason to be here at 8:00.",
-          "dwell": "1 hr 15 min",
-          "gp": 5,
-          "toddler": 4,
-          "guide": "https://www.nps.gov/thingstodo/hike-canyon-overlook.htm"
-        },
-        {
-          "time": "9:15 AM",
-          "title": "Drive back to the Visitor Center",
-          "detail": "Back down through the tunnel.",
+          "title": "Drive to the Zion Visitor Center",
+          "detail": "UT-9 east from Washington. A later start than the old plan, because Canyon Overlook is already done.",
           "kind": "drive",
-          "dist": "6 mi",
-          "dur": "15 min"
+          "dist": "37 mi",
+          "dur": "50 min"
         },
         {
-          "time": "9:30 AM",
+          "time": "8:50 AM",
           "title": "Park at the Visitor Center and pick up the shuttle",
-          "detail": "The shuttle is running on Oct 16 (the Sept 13 – Oct 24 schedule, 7:00 AM to 6:00 PM, every 5–10 minutes), which means private vehicles are not allowed up the Scenic Drive. Strollers must be folded on board.",
+          "detail": "The shuttle runs Oct 16 (the Sept 13 – Oct 24 schedule, 7:00 AM to 6:00 PM, every 5–10 minutes), which means private vehicles are not allowed up the Scenic Drive. Strollers must be folded on board. The lot fills mid-morning — if it is full, drop back into Springdale, park there and take the free town shuttle to the pedestrian entrance.",
           "dwell": "30 min"
         },
         {
-          "time": "10:00 AM",
+          "time": "9:20 AM",
           "title": "Shuttle to Zion Lodge — stop 5",
           "detail": "Roughly halfway up the canyon. The narration is genuinely good.",
           "kind": "drive",
@@ -824,23 +825,29 @@
           "dur": "25 min by shuttle"
         },
         {
-          "time": "10:25 AM",
+          "time": "9:45 AM",
           "title": "Lower Emerald Pools",
-          "detail": "1.2 miles, paved and flat: a wide trail to a pool beneath a dripping overhang that showers mist on everyone below. She will want to stand under it forever. This is the reliable option and the one to build the day around.",
+          "detail": "1.2 miles, paved and flat: a wide trail to a pool beneath a dripping overhang that showers mist on everyone below. The reliable option and the one to build the day around.",
           "dwell": "1 hr 30 min",
           "gp": 5,
           "toddler": 5,
           "guide": "https://www.nps.gov/zion/planyourvisit/zion-canyon-trail-descriptions.htm"
         },
         {
-          "time": "11:55 AM",
+          "time": "11:15 AM",
+          "title": "The Zion Lodge lawn",
+          "detail": "Shade, grass and somewhere to put a baby down before lunch. The only patch of it in the canyon.",
+          "dwell": "45 min"
+        },
+        {
+          "time": "12:00 PM",
           "title": "Lunch at the Zion Lodge café",
-          "detail": "The lodge is right at shuttle stop 5, with a lawn and shade trees. The only food inside the canyon — everywhere else means riding back out.",
+          "detail": "Right at shuttle stop 5. The only food inside the canyon — anywhere else means riding back out.",
           "kind": "meal",
           "dwell": "1 hr"
         },
         {
-          "time": "12:55 PM",
+          "time": "1:00 PM",
           "title": "Shuttle to Weeping Rock — stop 7",
           "detail": "Two stops up the canyon.",
           "kind": "drive",
@@ -848,16 +855,16 @@
           "dur": "10 min by shuttle"
         },
         {
-          "time": "1:05 PM",
+          "time": "1:10 PM",
           "title": "Weeping Rock — check status first",
-          "detail": "0.4 miles, very easy: a spring seeps through the canyon wall into a hanging garden of ferns with a gentle waterfall. The catch is that the Weeping Rock area was hit by a large rockfall in 2019 and the trails above it remain on long-term closure; the short trail itself has reopened and closed repeatedly since. Check the morning of — if it is closed, ride on to the Temple of Sinawava and walk the Riverside Walk instead.",
+          "detail": "0.4 miles, very easy: a spring seeps through the canyon wall into a hanging garden with a gentle waterfall. The area took a large rockfall in 2019 and the trails above remain on long-term closure; the short trail has reopened and closed repeatedly since. Check the morning of — if it is shut, ride on to the Temple of Sinawava.",
           "dwell": "1 hr",
           "gp": 5,
           "toddler": 5,
           "guide": "https://www.nps.gov/zion/planyourvisit/trail-access-information.htm"
         },
         {
-          "time": "2:05 PM",
+          "time": "2:10 PM",
           "title": "Shuttle to the Temple of Sinawava — last stop",
           "detail": "The end of the line, past Big Bend and the Court of the Patriarchs.",
           "kind": "drive",
@@ -865,16 +872,16 @@
           "dur": "20 min by shuttle"
         },
         {
-          "time": "2:25 PM",
+          "time": "2:30 PM",
           "title": "Riverside Walk and the Temple of Sinawava",
-          "detail": "The version of the Scenic Drive you actually get in October, all narrated, with no parking to fight over. The Riverside Walk at the end is 2.2 miles paved and stroller-friendly if there is energy left.",
+          "detail": "The version of the Scenic Drive you actually get in October, narrated, with no parking to fight over. The Riverside Walk is 2.2 miles paved and stroller-friendly if there is energy left.",
           "dwell": "1 hr 45 min",
           "gp": 5,
           "toddler": 4,
           "guide": "https://www.nps.gov/zion/planyourvisit/zion-canyon-shuttle-system.htm"
         },
         {
-          "time": "4:10 PM",
+          "time": "4:15 PM",
           "title": "Shuttle back down to the Visitor Center",
           "detail": "The full run back down the canyon. Allow the full 40 minutes — it stops everywhere.",
           "kind": "drive",
@@ -882,26 +889,26 @@
           "dur": "40 min by shuttle"
         },
         {
-          "time": "4:50 PM",
-          "title": "Back in Springdale",
-          "detail": "Collect the car and walk into town.",
-          "dwell": "1 hr"
+          "time": "4:55 PM",
+          "title": "Drive back to the Casitas",
+          "detail": "UT-9 west and I-15 south. The pool is heated year-round if anyone still has legs.",
+          "kind": "drive",
+          "dist": "37 mi",
+          "dur": "50 min"
         },
         {
-          "time": "5:50 PM",
-          "title": "Dinner in Springdale",
-          "detail": "Second night, so try the other end of the street.",
+          "time": "6:15 PM",
+          "title": "Dinner in Washington",
+          "detail": "Back at the house by 5:45. Cook, or take your pick in town.",
           "kind": "meal",
           "dwell": "1 hr 30 min"
         }
       ],
       "tips": [
-        "The shuttle runs on your dates, so private cars cannot drive the Zion Canyon Scenic Drive. Park at the Visitor Center and ride.",
-        "No ticket or reservation is needed for the shuttle; just queue at the Visitor Center.",
-        "Strollers must be folded to board — a carrier is easier for the newborn.",
-        "The Narrows involves wading in cold water — skip it for this group.",
-        "Park entry by America the Beautiful / Senior Pass.",
-        "Last shuttle leaves the Visitor Center at 6:00 PM; last one down from the Temple of Sinawava is later, but do not cut it fine."
+        "Zion Visitor Center parking fills mid-morning. Arriving at 8:50 on a Friday is reasonable but not guaranteed — leave at 7:30 if you want certainty.",
+        "If the lot is full: park in Springdale and take the free town shuttle to the pedestrian entrance. You lose twenty minutes, not the day.",
+        "The shuttle is the only way up the canyon in October. Private cars are barred on the Scenic Drive.",
+        "Everything today is on the shuttle, so the car sits at the Visitor Center from 8:50 to 4:55."
       ],
       "momNotes": [
         {
@@ -917,16 +924,10 @@
       ],
       "stops": [
         {
-          "name": "Springdale, UT",
-          "lat": 37.1889,
-          "lng": -112.9986,
+          "name": "Casitas at Sienna Hills, Washington",
+          "lat": 37.14764,
+          "lng": -113.47804,
           "type": "origin"
-        },
-        {
-          "name": "Canyon Overlook Trailhead",
-          "lat": 37.2131,
-          "lng": -112.9403,
-          "type": "stop"
         },
         {
           "name": "Zion Visitor Center — shuttle all day",
@@ -935,146 +936,106 @@
           "type": "park"
         },
         {
-          "name": "Springdale, UT",
-          "lat": 37.1889,
-          "lng": -112.9986,
+          "name": "Casitas at Sienna Hills, Washington",
+          "lat": 37.14764,
+          "lng": -113.47804,
           "type": "overnight"
         }
       ],
-      "routeNote": "Only the first two legs are driven. Everything inside the canyon is the park shuttle; private cars are not allowed up the Scenic Drive in October."
+      "routeNote": "Only the two legs shown are driven. Everything inside the canyon is the park shuttle."
     },
     {
       "day": 6,
       "date": "2026-10-17",
-      "title": "Zion → Kolob Canyons → Snow Canyon → Ivins",
+      "title": "Kolob Canyons → Snow Canyon → back to Washington",
       "tags": [
         "Kolob Canyons",
         "Slot Canyon!",
-        "Resort Nights"
+        "Pool & Hot Tub"
       ],
       "drive": {
-        "stated": "91 mi / 1 hr 50 min driving"
+        "stated": "95 mi / 1 hr 45 min driving"
       },
       "lodging": {
-        "city": "Ivins / St. George, UT",
+        "city": "Washington, UT",
         "nights": [
+          4,
+          5,
           6,
           7
         ],
-        "chosen": "Black Desert Resort",
-        "status": "needed",
-        "options": [
-          {
-            "name": "Black Desert Resort",
-            "note": "Booked with the Chase travel credit. A new luxury resort in Ivins built into black lava flows, five minutes from Snow Canyon — closer to the park than downtown St. George is. Spa, pools, golf, several restaurants on site, and multi-bedroom units. Two nights here is the one genuinely restful stretch of the trip",
-            "url": "https://www.blackdesertresort.com/"
-          },
-          {
-            "name": "Inn on the Cliff",
-            "note": "Dramatic cliff-edge location, sweeping red-rock valley views, serene",
-            "mom": "?",
-            "url": "https://www.innonthecliff.com/"
-          },
-          {
-            "name": "Hilton Garden Inn St. George",
-            "note": "Modern, pool, family-friendly. Sits off I-15 by the convention center, about 20 minutes from Snow Canyon",
-            "url": "https://www.hilton.com/en/hotels/sgugigi-hilton-garden-inn-st-george/"
-          },
-          {
-            "name": "SpringHill Suites by Marriott",
-            "note": "Spacious suites with kitchenette, excellent value, quiet — actually in Washington, UT, about 10 min east of St. George",
-            "url": "https://www.marriott.com/en-us/hotels/sgusw-springhill-suites-st-george-washington/overview/"
-          },
-          {
-            "name": "The Inn at Entrada",
-            "note": "Casitas in a gated community, genuinely close to Snow Canyon. Upscale golf resort and pricier than the others — included because it is the property actually near the park",
-            "url": "https://www.innatentrada.com/"
-          }
-        ]
+        "chosen": "Casitas at Sienna Hills — 1902 E Respite Lane, Washington",
+        "status": "booked",
+        "sameAsDay": 4
       },
       "items": [
         {
-          "time": "8:30 AM",
-          "title": "A last morning on the Pa'rus Trail",
-          "detail": "A slow paved mile along the river before you leave the canyon. Skipping it simply gets you to Kolob an hour earlier.",
-          "dwell": "1 hr",
-          "guide": "https://www.nps.gov/zion/planyourvisit/zion-canyon-trail-descriptions.htm",
-          "optional": true
-        },
-        {
           "time": "9:45 AM",
-          "title": "Check out of Springdale",
-          "detail": "Load up. Today is the shortest driving day of the trip that still moves you somewhere.",
-          "dwell": "15 min"
-        },
-        {
-          "time": "10:00 AM",
           "title": "Drive to Kolob Canyons",
-          "detail": "UT-9 west then I-15 north. Kolob has its own entrance off the interstate at exit 40 — it is not connected to Zion Canyon by road.",
+          "detail": "I-15 north to exit 40. Kolob has its own entrance off the interstate — it is not connected to Zion Canyon by road. No packing up this morning; you are here three more nights.",
           "kind": "drive",
-          "dist": "40 mi",
-          "dur": "50 min"
+          "dist": "30 mi",
+          "dur": "30 min"
         },
         {
-          "time": "10:50 AM",
+          "time": "10:15 AM",
           "title": "Kolob Canyons — Zion's other half",
-          "detail": "A five-mile scenic drive into blood-red finger canyons that most Zion visitors never see. Your Zion pass already covers it. Almost no crowds, and the payoff-per-minute is the best in the park. The visitor centre at the entrance closes for lunch from 12:00 to 1:00, so use the restrooms on the way in, not on the way out.",
-          "dwell": "1 hr 15 min",
+          "detail": "A five-mile scenic drive into blood-red finger canyons that most Zion visitors never see. Your Zion pass covers it. Almost no crowds, and the payoff-per-minute is the best in the park. The visitor centre at the entrance closes 12:00–1:00 for lunch, so use the restrooms on the way in.",
+          "dwell": "1 hr 30 min",
           "gp": 5,
           "toddler": 4,
           "guide": "https://www.nps.gov/zion/planyourvisit/kolob-canyons.htm"
         },
         {
-          "time": "12:05 PM",
+          "time": "11:45 AM",
           "title": "Picnic lunch at the Kolob Canyons Viewpoint",
-          "detail": "There are tables at the end of the drive looking straight into the canyons. Buy lunch in Springdale before you leave — there is no food at Kolob at all.",
+          "detail": "Tables at the end of the drive looking straight into the canyons. Make it at the house before you leave — there is no food at Kolob at all.",
           "kind": "meal",
           "dwell": "45 min"
         },
         {
-          "time": "12:50 PM",
+          "time": "12:30 PM",
           "title": "Drive to Snow Canyon",
-          "detail": "I-15 south past St. George, then up and over into the Red Cliffs. A pretty, easy 45 minutes.",
+          "detail": "I-15 south past St George, then up and over into the Red Cliffs.",
           "kind": "drive",
           "dist": "46 mi",
           "dur": "50 min"
         },
         {
-          "time": "1:40 PM",
+          "time": "1:20 PM",
           "title": "Snow Canyon State Park",
-          "detail": "Petrified sand dunes the kids can scramble on, black lava tubes, and Jenny's Canyon — a 0.5-mile round trip into a slot barely wider than your shoulders. Warmer than Zion by ten degrees and far less busy.",
-          "dwell": "2 hr 30 min",
+          "detail": "Petrified sand dunes the kids can scramble on, black lava tubes, and Jenny's Canyon — a 0.5-mile round trip into a slot barely wider than your shoulders. Ten degrees warmer than Zion and far less busy.",
+          "dwell": "2 hr 45 min",
           "gp": 5,
           "toddler": 5,
           "guide": "https://stateparks.utah.gov/parks/snow-canyon/"
         },
         {
-          "time": "4:10 PM",
-          "title": "Drive to Black Desert Resort, Ivins",
-          "detail": "Ten minutes down the road. You are practically next door.",
+          "time": "4:05 PM",
+          "title": "Drive back to the Casitas",
+          "detail": "Twenty-five minutes east. No check-in, no unpacking.",
           "kind": "drive",
-          "dist": "5 mi",
-          "dur": "10 min"
+          "dist": "19 mi",
+          "dur": "25 min"
         },
         {
-          "time": "4:20 PM",
-          "title": "Check in at Black Desert Resort",
-          "detail": "The nice one, on the travel credit. Two nights. Pools, lawns, and black lava rock everywhere.",
-          "dwell": "1 hr 50 min",
-          "gp": 4,
-          "toddler": 4
+          "time": "4:30 PM",
+          "title": "The pool and the hot tub",
+          "detail": "Both heated year-round and five minutes on foot. Towels are provided.",
+          "dwell": "1 hr 30 min"
         },
         {
-          "time": "6:10 PM",
-          "title": "Dinner at the resort",
-          "detail": "On site, so nobody gets back in the car. Sunset is 6:50.",
+          "time": "6:00 PM",
+          "title": "Dinner in Washington",
+          "detail": "Cook, or walk out. Sunset is 6:50.",
           "kind": "meal",
           "dwell": "1 hr 30 min"
         }
       ],
       "tips": [
-        "Snow Canyon opens at 6 AM; entry $10/vehicle (state park — NPS passes not accepted).",
-        "The Kolob Canyons visitor centre shuts 12:00–1:00. The scenic drive and the viewpoint stay open — only the building closes."
+        "No check-out and no check-in today — the single biggest gain from basing here for four nights.",
+        "The Kolob Canyons visitor centre shuts 12:00–1:00. The scenic drive and viewpoint stay open; only the building closes.",
+        "Make the picnic at the house. There is no food at Kolob and nothing between there and Snow Canyon."
       ],
       "momNotes": [
         {
@@ -1090,9 +1051,9 @@
       ],
       "stops": [
         {
-          "name": "Springdale, UT",
-          "lat": 37.1889,
-          "lng": -112.9986,
+          "name": "Casitas at Sienna Hills, Washington",
+          "lat": 37.14764,
+          "lng": -113.47804,
           "type": "origin"
         },
         {
@@ -1108,9 +1069,9 @@
           "type": "park"
         },
         {
-          "name": "Black Desert Resort, Ivins",
-          "lat": 37.169,
-          "lng": -113.679,
+          "name": "Casitas at Sienna Hills, Washington",
+          "lat": 37.14764,
+          "lng": -113.47804,
           "type": "overnight"
         }
       ]
@@ -1118,38 +1079,40 @@
     {
       "day": 7,
       "date": "2026-10-18",
-      "title": "Ivins — Church, Friends, and a Slow Sunday",
+      "title": "Washington — Church, Friends, and a Slow Sunday",
       "tags": [
         "Worship",
         "Friends",
         "Easy All Day"
       ],
       "drive": {
-        "stated": "All local · 14 mi, 30 min driving"
+        "stated": "16 mi / 20 min driving"
       },
       "lodging": {
-        "city": "Ivins / St. George, UT",
+        "city": "Washington, UT",
         "nights": [
+          4,
+          5,
           6,
           7
         ],
-        "chosen": "Black Desert Resort",
-        "status": "needed",
-        "sameAsDay": 6
+        "chosen": "Casitas at Sienna Hills — 1902 E Respite Lane, Washington",
+        "status": "booked",
+        "sameAsDay": 4
       },
       "items": [
         {
-          "time": "9:45 AM",
+          "time": "9:50 AM",
           "title": "Drive to Redemption Lutheran Church",
-          "detail": "St. George is about fifteen minutes from Ivins.",
+          "detail": "Ten minutes down I-15. The shortest drive to anything on the whole trip.",
           "kind": "drive",
-          "dist": "7 mi",
-          "dur": "15 min"
+          "dist": "8 mi",
+          "dur": "10 min"
         },
         {
           "time": "10:00 AM",
           "title": "Worship at Redemption Lutheran Church",
-          "detail": "An old friend is the pastor here. Get there a few minutes early to say hello before the service rather than after.",
+          "detail": "An old friend is the pastor here. Arrive a few minutes early to say hello before the service rather than after.",
           "dwell": "1 hr 15 min",
           "gp": 5,
           "toddler": 4
@@ -1165,17 +1128,17 @@
         },
         {
           "time": "1:30 PM",
-          "title": "Drive back to the resort",
-          "detail": "Fifteen minutes.",
+          "title": "Drive back to the house",
+          "detail": "Ten minutes.",
           "kind": "drive",
-          "dist": "7 mi",
-          "dur": "15 min"
+          "dist": "8 mi",
+          "dur": "10 min"
         },
         {
-          "time": "1:45 PM",
-          "title": "Back to the resort — the actual rest of the trip",
-          "detail": "This is the one genuinely unstructured block on the calendar. Pool, nap, laundry, nothing. Day eight through twelve are relentless, and this afternoon is what makes them survivable.",
-          "dwell": "4 hr 15 min",
+          "time": "1:40 PM",
+          "title": "The pool, the hot tub, and nothing",
+          "detail": "The one genuinely unstructured block on the calendar. Laundry, naps, a heated pool five minutes away. Days 8 to 12 are relentless and this afternoon is what makes them survivable.",
+          "dwell": "4 hr 20 min",
           "gp": 5,
           "toddler": 5
         },
@@ -1184,10 +1147,10 @@
           "title": "Pioneer Park, St. George",
           "detail": "Only if anyone still has energy — the point of today is that nobody has to. Red sandstone boulders, slots and arches to scramble through, fifteen minutes away and free.",
           "dwell": "1 hr 15 min",
+          "optional": true,
           "gp": 4,
           "toddler": 5,
-          "guide": "https://greaterzion.com/listing/pioneer-park/",
-          "optional": true
+          "guide": "https://greaterzion.com/listing/pioneer-park/"
         },
         {
           "time": "6:00 PM",
@@ -1200,10 +1163,9 @@
         }
       ],
       "tips": [
-        "Confirm the service time on redemptionsg.com closer to the date — small churches move things.",
-        "Reach out about lunch weeks ahead, not the week of.",
-        "Snow Canyon is ten minutes away if anyone wants a walk, but Sunday is meant to be unhurried — only go if everyone is up early and keen.",
-        "Dinosaur Discovery Site at Johnson Farm is the fallback if the afternoon wants filling — book at utahdinosaurs.com, typically 10 AM–6 PM."
+        "Church starts at 10:00 and the drive is ten minutes. This is the only fixed appointment on the trip.",
+        "Do the laundry today. It is the midpoint of eleven nights and the next machine is in Cannonville.",
+        "Pack for Bryce tonight: from tomorrow you are at 8,000 ft and Tuesday starts near 25°F."
       ],
       "momNotes": [
         {
@@ -1219,9 +1181,9 @@
       ],
       "stops": [
         {
-          "name": "Black Desert Resort, Ivins",
-          "lat": 37.169,
-          "lng": -113.679,
+          "name": "Casitas at Sienna Hills, Washington",
+          "lat": 37.14764,
+          "lng": -113.47804,
           "type": "origin"
         },
         {
@@ -1238,9 +1200,9 @@
           "viaOptional": true
         },
         {
-          "name": "Black Desert Resort, Ivins",
-          "lat": 37.169,
-          "lng": -113.679,
+          "name": "Casitas at Sienna Hills, Washington",
+          "lat": 37.14764,
+          "lng": -113.47804,
           "type": "overnight"
         }
       ]
@@ -1248,67 +1210,57 @@
     {
       "day": 8,
       "date": "2026-10-19",
-      "title": "Ivins → Red Canyon → Bryce Canyon",
+      "title": "Washington → Cedar Breaks → Cannonville",
       "tags": [
         "Drive + Arrive",
         "First Hoodoos"
       ],
       "drive": {
-        "stated": "152 mi / 3 hr 20 min driving"
+        "stated": "171 mi / 3 hr 50 min driving"
       },
       "lodging": {
-        "city": "Bryce Canyon, UT",
+        "city": "Cannonville, UT",
         "nights": [
           8,
           9
         ],
-        "chosen": null,
-        "status": "needed",
+        "chosen": "The House at Pooh Corner — 115 S Kodachrome Rd, Cannonville",
+        "status": "booked",
+        "checkin": "Check in Mon Oct 19 from 3:00 PM · check out Wed Oct 21 by 11:00 AM · keypad self check-in",
         "options": [
           {
-            "name": "Bryce Canyon Lodge",
-            "note": "Rustic historic lodge inside the park, incomparable location. Main Lodge and Suites run Mar 1 – Nov 30 2026, so your dates are in season — but it is the only lodging inside the park and books up to a year out",
-            "url": "https://www.visitbrycecanyon.com/stay/the-lodge-at-bryce-canyon"
-          },
-          {
-            "name": "Ruby's Inn (Best Western)",
-            "note": "Full-service resort just outside the park gate, pools, restaurant, very family-friendly",
-            "url": "https://www.rubysinn.com/"
-          },
-          {
-            "name": "Bryce Canyon Resort",
-            "note": "Comfortable motel-style, good value, 3 miles from park gate",
-            "url": "https://brycecanyonresort.com/"
+            "name": "The House at Pooh Corner near Bryce Canyon (Airbnb, hosted by Marshall)",
+            "note": "115 S Kodachrome Rd, Cannonville. Across the road south of the LDS church, two blocks south of the Sinclair. About 7 miles from the park border and a little over twenty minutes from the entrance station"
           }
         ]
       },
       "items": [
         {
-          "time": "8:45 AM",
-          "title": "Check out of Black Desert",
-          "detail": "Pack the warm layers where you can reach them — you gain 6,000 feet today.",
+          "time": "9:00 AM",
+          "title": "Check out of the Casitas",
+          "detail": "Check-out is 11:00, so this is unhurried. Pack the warm layers where you can reach them — you gain 6,000 feet today.",
           "dwell": "15 min"
         },
         {
-          "time": "9:00 AM",
+          "time": "9:15 AM",
           "title": "Drive to Cedar Breaks",
-          "detail": "I-15 north to Cedar City, then UT-14 climbs hard to 10,000 ft. Skipping Cedar Breaks makes this a straight 1 hr 50 min run to Panguitch instead.",
+          "detail": "I-15 north to Cedar City, then UT-14 climbs hard to 10,000 ft — 6,000 feet of gain in seventy miles.",
           "kind": "drive",
-          "dist": "83 mi",
-          "dur": "1 hr 45 min"
+          "dist": "70 mi",
+          "dur": "1 hr 20 min"
         },
         {
-          "time": "10:45 AM",
+          "time": "10:35 AM",
           "title": "Cedar Breaks National Monument",
-          "detail": "A half-mile-deep amphitheatre of orange and white rock at 10,350 ft — like Bryce but emptier and a thousand feet higher. It is genuinely cold up here in late October and the rim road can close on early snow. Check before you commit to the climb.",
+          "detail": "A half-mile-deep amphitheatre of orange and white rock at 10,350 ft — like Bryce but emptier and a thousand feet higher. Genuinely cold in late October and the rim road can close on early snow; check nps.gov/cebr before committing to the climb.",
           "dwell": "45 min",
+          "optional": true,
           "gp": 5,
           "toddler": 3,
-          "guide": "https://www.nps.gov/cebr/index.htm",
-          "optional": true
+          "guide": "https://www.nps.gov/cebr/index.htm"
         },
         {
-          "time": "10:45 AM",
+          "time": "11:20 AM",
           "title": "Drive to Panguitch",
           "detail": "Down off the plateau on UT-143 and UT-89. Steep grades and cattle on the road.",
           "kind": "drive",
@@ -1316,14 +1268,14 @@
           "dur": "45 min"
         },
         {
-          "time": "11:30 AM",
+          "time": "12:05 PM",
           "title": "Lunch in Panguitch",
-          "detail": "A 19th-century brick main street and the last real town before Bryce. Also the last reasonably priced petrol.",
+          "detail": "A 19th-century brick main street and the last real town before Bryce. Also the last reasonably priced petrol — and the last supermarket before Torrey, which has none at all.",
           "kind": "meal",
           "dwell": "50 min"
         },
         {
-          "time": "12:20 PM",
+          "time": "12:55 PM",
           "title": "Drive to Red Canyon",
           "detail": "UT-12 east. The highway runs through two arches cut in the red rock — you drive straight through them.",
           "kind": "drive",
@@ -1331,16 +1283,16 @@
           "dur": "15 min"
         },
         {
-          "time": "12:35 PM",
+          "time": "1:10 PM",
           "title": "Red Canyon (Dixie NF)",
-          "detail": "Bryce-orange hoodoos right beside the highway, with a visitor center and a flat paved path. Free, uncrowded, and a genuinely good warm-up for tomorrow.",
+          "detail": "Bryce-orange hoodoos right beside the highway, with a visitor center and a flat paved path. Free, uncrowded, and a good warm-up for tomorrow.",
           "dwell": "45 min",
           "gp": 4,
           "toddler": 4,
           "guide": "https://www.visitutah.com/places-to-go/parks-outdoors/red-canyon"
         },
         {
-          "time": "1:20 PM",
+          "time": "1:55 PM",
           "title": "Drive to Mossy Cave",
           "detail": "UT-12 east then a short run down UT-63.",
           "kind": "drive",
@@ -1348,49 +1300,66 @@
           "dur": "15 min"
         },
         {
-          "time": "1:35 PM",
+          "time": "2:10 PM",
           "title": "Mossy Cave Trail",
-          "detail": "A 0.8-mile round trip to a small waterfall and a dripping mossy grotto — inside Bryce Canyon but outside the main amphitheatre, with its own trailhead and no shuttle. Easy grade, and the waterfall is the bit the three-year-old will remember.",
+          "detail": "A 0.8-mile round trip to a small waterfall and a dripping mossy grotto — inside Bryce Canyon but outside the main amphitheatre, with its own trailhead and no shuttle. The waterfall is the bit she will remember.",
           "dwell": "1 hr 15 min",
           "gp": 5,
           "toddler": 5,
           "guide": "https://www.nps.gov/brca/planyourvisit/mossycave.htm"
         },
         {
-          "time": "2:50 PM",
-          "title": "Drive to Bryce Canyon City",
-          "detail": "Back up UT-12 and south on UT-63 to the park gate.",
+          "time": "3:25 PM",
+          "title": "Drive to Cannonville",
+          "detail": "Nine miles south on UT-12 through Tropic. The house is across the road from the LDS church, two blocks south of the Sinclair.",
           "kind": "drive",
-          "dist": "11 mi",
-          "dur": "20 min"
+          "dist": "9 mi",
+          "dur": "15 min"
         },
         {
-          "time": "3:10 PM",
-          "title": "Check in at Bryce Canyon City",
-          "detail": "Get the warm clothes out now. It will be near freezing at sunrise tomorrow.",
-          "dwell": "1 hr 50 min"
+          "time": "3:40 PM",
+          "title": "Arrive Cannonville — check in",
+          "detail": "115 S Kodachrome Rd. Check-in from 3:00 PM, keypad entry. Two nights.",
+          "dwell": "1 hr 20 min"
         },
         {
           "time": "5:00 PM",
-          "title": "Dinner in Bryce Canyon City",
-          "detail": "Early, so that sunset does not collide with a hungry three-year-old. Options are limited up here — the lodge and a handful of places by the park gate.",
+          "title": "Dinner",
+          "detail": "Cannonville has no restaurants. Either cook — you have a kitchen and shopped in Panguitch — or drive five minutes to Tropic.",
           "kind": "meal",
-          "dwell": "1 hr 15 min"
+          "dwell": "1 hr"
         },
         {
-          "time": "6:15 PM",
+          "time": "6:00 PM",
+          "title": "Drive to Sunset Point",
+          "detail": "Half an hour up UT-12 and UT-63 to the rim. Cannonville is a real town, not a park-gate strip, and this is what that costs.",
+          "kind": "drive",
+          "dist": "17 mi",
+          "dur": "30 min"
+        },
+        {
+          "time": "6:30 PM",
           "title": "Sunset Point for the sunset",
-          "detail": "Sunset is 6:44. Sunset Point is five minutes inside the gate and the hoodoos light up from the side. Bring every layer you own — it drops below freezing fast once the sun is off the rim.",
+          "detail": "Sunset is 6:44. The hoodoos light from the side. Bring every layer you own — it drops below freezing fast once the sun is off the rim.",
           "dwell": "45 min",
           "gp": 5,
           "toddler": 4,
           "guide": "https://www.nps.gov/brca/planyourvisit/viewpoints.htm"
+        },
+        {
+          "time": "7:15 PM",
+          "title": "Drive back to Cannonville",
+          "detail": "Half an hour down UT-12 in the dark. Deer on the road.",
+          "kind": "drive",
+          "dist": "17 mi",
+          "dur": "30 min"
         }
       ],
       "tips": [
-        "Bryce rim sits at 8,000–9,100 ft — coming from St. George at 2,800 ft is a big jump.",
-        "Drink lots of water; short walks only on arrival day. Altitude can cause headaches in seniors.",
-        "Temps drop sharply: overnight lows around 28–32°F. Have warm layers ready."
+        "Do the shopping in Panguitch. Cannonville has no restaurants and Torrey, two days from now, has no grocery store at all.",
+        "Sunset and sunrise are both a thirty-minute drive from the house. That is the cost of Cannonville — the payoff comes on Day 10, when Kodachrome is fifteen minutes away.",
+        "Tropic is five minutes north and has the nearest food.",
+        "Keypad entry, so a late arrival is fine."
       ],
       "momNotes": [
         {
@@ -1401,9 +1370,9 @@
       ],
       "stops": [
         {
-          "name": "Black Desert Resort, Ivins",
-          "lat": 37.169,
-          "lng": -113.679,
+          "name": "Casitas at Sienna Hills, Washington",
+          "lat": 37.14764,
+          "lng": -113.47804,
           "type": "origin"
         },
         {
@@ -1431,15 +1400,21 @@
           "type": "stop"
         },
         {
+          "name": "Cannonville, UT — check in",
+          "lat": 37.564887,
+          "lng": -112.053381,
+          "type": "stop"
+        },
+        {
           "name": "Bryce Canyon — Sunset Point",
           "lat": 37.6283,
           "lng": -112.1676,
           "type": "park"
         },
         {
-          "name": "Bryce Canyon City, UT",
-          "lat": 37.6685,
-          "lng": -112.157,
+          "name": "Cannonville, UT",
+          "lat": 37.564887,
+          "lng": -112.053381,
           "type": "overnight"
         }
       ]
@@ -1447,38 +1422,38 @@
     {
       "day": 9,
       "date": "2026-10-20",
-      "title": "Bryce Canyon — Full Day",
+      "title": "Bryce Canyon — Full Day from Cannonville",
       "tags": [
         "National Park",
         "Magical Hoodoos",
         "Rim Trail Easy"
       ],
       "drive": {
-        "stated": "39 mi / 1 hr 5 min driving"
+        "stated": "75 mi / 2 hr driving"
       },
       "lodging": {
-        "city": "Bryce Canyon, UT",
+        "city": "Cannonville, UT",
         "nights": [
           8,
           9
         ],
-        "chosen": null,
-        "status": "needed",
+        "chosen": "The House at Pooh Corner — 115 S Kodachrome Rd, Cannonville",
+        "status": "booked",
         "sameAsDay": 8
       },
       "items": [
         {
-          "time": "7:15 AM",
-          "title": "Drive to Sunrise Point",
-          "detail": "Ten minutes from town, inside the park. Go in the car — it is far too cold to wait for a shuttle.",
+          "time": "7:00 AM",
+          "title": "Drive up to Sunrise Point",
+          "detail": "Half an hour up UT-12 and UT-63 in the dark and the cold. Start the car early and scrape it.",
           "kind": "drive",
-          "dist": "3 mi",
-          "dur": "10 min"
+          "dist": "17 mi",
+          "dur": "30 min"
         },
         {
           "time": "7:30 AM",
           "title": "Sunrise at Sunrise Point",
-          "detail": "Sunrise is 7:42. The hoodoos catch the light from the bottom up and glow from the inside. It will be around 25°F — hats, gloves, blankets, and a thermos. Twenty minutes of this is worth the alarm.",
+          "detail": "Sunrise is 7:47 and the hoodoos catch it first. The single best thirty minutes of the trip, and the reason for the early alarm. Expect low-20s at the rim.",
           "dwell": "45 min",
           "gp": 5,
           "toddler": 4,
@@ -1486,48 +1461,56 @@
         },
         {
           "time": "8:15 AM",
-          "title": "Breakfast back at the lodge",
-          "detail": "Everyone will be frozen. A hot breakfast indoors before anything else happens.",
+          "title": "Breakfast at the rim",
+          "detail": "Brought from the house — flasks, pastries, and a thermos of something hot. Nothing in the park opens this early.",
           "kind": "meal",
-          "dwell": "1 hr"
+          "dwell": "45 min"
         },
         {
-          "time": "9:15 AM",
+          "time": "9:00 AM",
           "title": "Queen's Garden Trail (1.8 mi RT, moderate)",
-          "detail": "The gentlest way down among the hoodoos — 320 feet of descent on switchbacks, then the same back up. Do it in the morning while it is cool and everyone is fresh. Carry the three-year-old for the climb out and budget the full two hours.",
+          "detail": "The gentlest way down among the hoodoos, dropping 320 ft on switchbacks from Sunrise Point. Walking between them beats looking down at them, and this is the one descent a three-year-old can be carried back up.",
           "dwell": "2 hr",
           "gp": 4,
           "toddler": 4,
           "guide": "https://www.nps.gov/brca/planyourvisit/day-hikes.htm"
         },
         {
-          "time": "11:15 AM",
+          "time": "11:00 AM",
           "title": "Rim Trail: Sunrise to Sunset Point (1.8 mi, easy)",
-          "detail": "Flat, paved and along the rim between the two viewpoints, with the whole amphitheatre on your left the entire way. Walk it one way and ride the shuttle back if legs are done.",
+          "detail": "Flat, paved, and along the edge the whole way. Do it out and back so you end at the car.",
           "dwell": "1 hr 15 min",
           "gp": 5,
           "toddler": 5,
           "guide": "https://www.nps.gov/thingstodo/walk-the-rim-trail.htm"
         },
         {
-          "time": "12:30 PM",
-          "title": "Lunch at the Bryce Canyon Lodge",
-          "detail": "Inside the park, five minutes from the rim, so you do not lose the afternoon driving out and back.",
+          "time": "12:15 PM",
+          "title": "Drive to Bryce Canyon City",
+          "detail": "Ten minutes out of the park to the strip of restaurants at the junction.",
+          "kind": "drive",
+          "dist": "4 mi",
+          "dur": "10 min"
+        },
+        {
+          "time": "12:25 PM",
+          "title": "Lunch in Bryce Canyon City",
+          "detail": "The only cluster of food anywhere near the park.",
           "kind": "meal",
           "dwell": "1 hr"
         },
         {
-          "time": "1:30 PM",
+          "time": "1:25 PM",
           "title": "Drive south to Rainbow Point",
-          "detail": "The park road climbs to 9,115 ft at the far end. Do the drive out in one go and stop at the overlooks on the way back — they are all on the right-hand side heading north.",
+          "detail": "Eighteen miles up the plateau to 9,115 ft — the far end of the park road.",
           "kind": "drive",
-          "dist": "17 mi",
-          "dur": "25 min"
+          "dist": "20 mi",
+          "dur": "30 min"
         },
         {
           "time": "1:55 PM",
           "title": "Rainbow Point and the overlooks northbound",
-          "detail": "Rainbow Point, Yovimpa Point, then Agua Canyon, Natural Bridge and Farview on the way back. A different park from the amphitheatre — high forest, long views into Arizona. Mostly done from the car, which by day nine is a feature.",
+          "detail": "Drive to the end, then work back down stopping at Agua Canyon, Natural Bridge and Farview. All roadside, all short walks, and the light improves the whole way.",
           "dwell": "2 hr 30 min",
           "gp": 5,
           "toddler": 3,
@@ -1535,25 +1518,25 @@
         },
         {
           "time": "4:25 PM",
-          "title": "Drive back to Bryce Canyon City",
-          "detail": "Back up the park road and out the gate.",
+          "title": "Drive back to Cannonville",
+          "detail": "Down off the plateau and out to the house.",
           "kind": "drive",
-          "dist": "19 mi",
-          "dur": "30 min"
+          "dist": "34 mi",
+          "dur": "50 min"
         },
         {
           "time": "5:15 PM",
-          "title": "Dinner in Bryce Canyon City",
-          "detail": "Early again. Tomorrow is Scenic Byway 12, which deserves a rested crew.",
+          "title": "Dinner at the house",
+          "detail": "Cook what you bought in Panguitch. Sunset is 6:43 and everyone has been up since six.",
           "kind": "meal",
           "dwell": "1 hr 30 min"
         }
       ],
       "tips": [
-        "Rim Trail and all main viewpoints are accessible for moderate-fitness seniors.",
-        "Inspiration Point gives the widest panorama of the main amphitheater — don't miss it.",
-        "Park entry by America the Beautiful / Senior Pass.",
-        "Weather changes fast — always bring a warm layer even on sunny afternoon hikes."
+        "Alarm at 6:15. Sunrise Point is thirty minutes away and sunrise is 7:47.",
+        "Breakfast comes with you — nothing in the park is open before eight.",
+        "Queen's Garden and the Rim Trail both start at Sunrise Point, so the car stays put all morning.",
+        "Low-20s at the rim at dawn, near 60°F by afternoon. Layers, not a single warm coat."
       ],
       "momNotes": [
         {
@@ -1569,9 +1552,9 @@
       ],
       "stops": [
         {
-          "name": "Bryce Canyon City, UT",
-          "lat": 37.6685,
-          "lng": -112.157,
+          "name": "Cannonville, UT",
+          "lat": 37.564887,
+          "lng": -112.053381,
           "type": "origin"
         },
         {
@@ -1581,15 +1564,21 @@
           "type": "park"
         },
         {
+          "name": "Bryce Canyon City — lunch",
+          "lat": 37.6685,
+          "lng": -112.157,
+          "type": "waypoint"
+        },
+        {
           "name": "Bryce — Rainbow Point",
           "lat": 37.474,
           "lng": -112.242,
           "type": "stop"
         },
         {
-          "name": "Bryce Canyon City, UT",
-          "lat": 37.6685,
-          "lng": -112.157,
+          "name": "Cannonville, UT",
+          "lat": 37.564887,
+          "lng": -112.053381,
           "type": "overnight"
         }
       ]
@@ -1597,66 +1586,58 @@
     {
       "day": 10,
       "date": "2026-10-21",
-      "title": "Bryce → Scenic Byway 12 → Capitol Reef",
+      "title": "Cannonville → Kodachrome → Scenic Byway 12 → Torrey",
       "tags": [
         "Scenic Drive",
         "Byway 12",
         "Easy Day"
       ],
       "drive": {
-        "stated": "151 mi / 3 hr 35 min driving"
+        "stated": "137 mi / 3 hr 10 min driving"
       },
       "lodging": {
         "city": "Torrey, UT",
         "nights": [
           10
         ],
-        "chosen": null,
-        "status": "needed",
+        "chosen": "#6 Home in the Heart of Utah — 125 East Main Street",
+        "status": "booked",
+        "checkin": "Check in Wed Oct 21 from 3:00 PM · check out Thu Oct 22 by 11:00 AM",
         "options": [
           {
-            "name": "Capitol Reef Resort",
-            "note": "Lovely property in Torrey with Western-themed cabins and great views; very limited rooms",
-            "mom": "✓",
-            "url": "https://capitolreefresort.com/"
-          },
-          {
-            "name": "Austin's Chuckwagon Motel",
-            "note": "Classic Western motel, local institution, Torrey town center",
-            "mom": "✓",
-            "url": "https://austinschuckwagonmotel.com/"
+            "name": "#6 Home in the Heart of Utah (Airbnb, hosted by Danielle and Teresa)",
+            "note": "125 East Main Street, Torrey. On the main road through town, ten minutes from the Capitol Reef entrance and walkable to what little Torrey has. No grocery store in town — the nearest is Loa, twenty minutes away"
           }
         ]
       },
       "items": [
         {
-          "time": "9:15 AM",
-          "title": "Depart Bryce Canyon City",
-          "detail": "A later start than the other driving days — today is the road itself, and leaving at 9:15 puts you in Boulder exactly at lunchtime.",
-          "dwell": "—"
+          "time": "8:30 AM",
+          "title": "Check out of the house",
+          "detail": "Check-out is 11:00, so this is unhurried. Fill up in Tropic or Escalante — there is no petrol between Boulder and Torrey.",
+          "dwell": "15 min"
         },
         {
-          "time": "9:15 AM",
+          "time": "8:45 AM",
           "title": "Drive to Kodachrome Basin",
-          "detail": "UT-12 east then a short spur south from Cannonville.",
+          "detail": "Fifteen minutes straight up Kodachrome Road, which the house sits on. This is what Cannonville buys you.",
           "kind": "drive",
-          "dist": "22 mi",
-          "dur": "40 min"
+          "dist": "8 mi",
+          "dur": "15 min"
         },
         {
-          "time": "9:55 AM",
+          "time": "9:00 AM",
           "title": "Kodachrome Basin State Park",
-          "detail": "Sixty-seven sandstone chimneys standing straight up out of the desert floor — sedimentary pipes left behind when the softer rock eroded away. Named by a National Geographic expedition in 1948. The Grand Parade trail is flat and short.",
+          "detail": "Sixty-seven sandstone chimneys standing free on the desert floor — nothing else in Utah looks like it. Named by a National Geographic expedition in 1948. The Grand Parade loop is flat and easy.",
           "dwell": "1 hr 15 min",
           "gp": 4,
           "toddler": 4,
-          "guide": "https://stateparks.utah.gov/parks/kodachrome-basin/",
-          "optional": true
+          "guide": "https://stateparks.utah.gov/parks/kodachrome-basin/"
         },
         {
-          "time": "9:55 AM",
+          "time": "10:15 AM",
           "title": "Drive Scenic Byway 12 to Boulder",
-          "detail": "The heart of the trip's best road: over Escalante, then the Hogback — a mile-long stretch of two-lane with a thousand-foot drop off both sides at once and no shoulder. Slow down, use the pullouts. Without the Kodachrome stop this leg runs 76 mi / 1 hr 30 min direct from Bryce.",
+          "detail": "The famous stretch: Escalante, then the Hogback — a mile of two-lane road on a knife-edge with the ground falling away on both sides. Slow down and enjoy it.",
           "kind": "drive",
           "dist": "70 mi",
           "dur": "1 hr 35 min",
@@ -1665,42 +1646,42 @@
           "guide": "https://www.visitutah.com/places-to-go/parks-outdoors/scenic-byway-12"
         },
         {
-          "time": "11:30 AM",
+          "time": "11:50 AM",
           "title": "Lunch in Boulder",
-          "detail": "A town of 250 people with a genuinely good place to eat. It was supplied by pack mule until 1940 — the last place in the lower 48 to get its mail that way.",
+          "detail": "Hell’s Backbone Grill is the famous one and needs a booking; Burr Trail Grill is the easy alternative. Boulder had mail delivered by mule until 1940.",
           "kind": "meal",
           "dwell": "1 hr"
         },
         {
-          "time": "12:30 PM",
+          "time": "12:50 PM",
           "title": "Anasazi State Park Museum, Boulder",
-          "detail": "An excavated Ancestral Puebloan village of about 87 rooms, occupied around AD 1160, with a full-size six-room replica dwelling you can walk into. Small, indoors, air-conditioned and quick — a good reset between two long drives.",
+          "detail": "An excavated Ancestral Puebloan village with a full-size replica dwelling you can walk into. Small, indoors, and a good pause in the middle of a long drive.",
           "dwell": "45 min",
           "gp": 4,
           "toddler": 3,
           "guide": "https://stateparks.utah.gov/parks/anasazi/"
         },
         {
-          "time": "1:15 PM",
+          "time": "1:35 PM",
           "title": "Drive to Capitol Reef",
-          "detail": "UT-12 climbs over Boulder Mountain to 9,600 ft with long views back across the Escalante, then drops to Torrey and east into the park.",
+          "detail": "Over Boulder Mountain at 9,600 ft, through aspen already turned, then down to the Fremont River.",
           "kind": "drive",
           "dist": "47 mi",
           "dur": "1 hr 5 min"
         },
         {
-          "time": "2:20 PM",
+          "time": "2:40 PM",
           "title": "Capitol Reef — Fruita district",
-          "detail": "A green orchard valley in the middle of red rock: a Mormon pioneer settlement with fruit trees you may pick from, a one-room schoolhouse, and deer everywhere at dusk. The most relaxed national park on the route by a distance.",
-          "dwell": "1 hr",
+          "detail": "A green Mormon orchard settlement wedged between red cliffs, with a one-room schoolhouse and deer everywhere at dusk. Utterly unlike anywhere else on the trip.",
+          "dwell": "45 min",
           "gp": 5,
           "toddler": 5,
           "guide": "https://www.nps.gov/care/planyourvisit/fruita.htm"
         },
         {
-          "time": "3:20 PM",
+          "time": "3:25 PM",
           "title": "Gifford Homestead — the pie",
-          "detail": "A restored 1908 farmhouse selling small fruit pies baked that morning, plus cinnamon rolls and ice cream. It closes at 5:00 PM and regularly sells out well before then, so treat 3:30 as a real deadline rather than a suggestion.",
+          "detail": "The homestead sells small fruit pies baked that morning. They sell out. Buy more than you think you need.",
           "dwell": "45 min",
           "gp": 5,
           "toddler": 5,
@@ -1708,35 +1689,42 @@
           "mom": "\"Mmm\""
         },
         {
-          "time": "4:05 PM",
+          "time": "4:10 PM",
           "title": "Hickman Bridge Trail (1 mi RT)",
-          "detail": "A natural bridge 133 feet across, reached by a 400-foot climb over slickrock. Genuinely steep in the first quarter mile — an hour and a half with small children, and it puts dinner back to 6:00.",
+          "detail": "A steady climb to a 133-ft natural bridge. Worth it if legs allow; skip it without guilt if not.",
           "dwell": "1 hr 30 min",
+          "optional": true,
           "gp": 4,
           "toddler": 3,
-          "guide": "https://www.nps.gov/care/planyourvisit/trailguide.htm",
-          "optional": true
+          "guide": "https://www.nps.gov/care/planyourvisit/trailguide.htm"
         },
         {
-          "time": "5:45 PM",
+          "time": "5:40 PM",
           "title": "Drive to Torrey",
-          "detail": "Twelve miles west, back out of the park.",
+          "detail": "Fifteen minutes west on UT-24 into town.",
           "kind": "drive",
           "dist": "12 mi",
           "dur": "15 min"
         },
         {
-          "time": "6:00 PM",
+          "time": "5:55 PM",
+          "title": "Arrive Torrey — check in",
+          "detail": "125 East Main Street, right on the main road through town. Check-in from 3:00 PM.",
+          "dwell": "20 min"
+        },
+        {
+          "time": "6:15 PM",
           "title": "Dinner in Torrey",
-          "detail": "A small town with a few genuinely good restaurants. Sunset is 6:38. Early night — tomorrow starts at 7:30.",
+          "detail": "Torrey has restaurants but no grocery store — the nearest is Loa, twenty minutes away. Sunset is 6:35.",
           "kind": "meal",
           "dwell": "1 hr 30 min"
         }
       ],
       "tips": [
-        "The lightest driving day of the trip, which is why it can absorb Kodachrome Basin (about 35 minutes round trip) without strain.",
-        "Gifford Homestead closes in the late afternoon and sells out of pie before that. Go there before Hickman Bridge.",
-        "Fill the tank in Escalante or Boulder; services on Byway 12 are thin."
+        "Kodachrome Road runs past the front door, so the park is fifteen minutes away and the day starts without a commute.",
+        "No petrol between Boulder and Torrey. Fill up in Escalante.",
+        "Torrey has no grocery store. If you need supplies, buy them in Escalante or accept a twenty-minute run to Loa.",
+        "The Gifford Homestead pies sell out in the afternoon."
       ],
       "momNotes": [
         {
@@ -1752,9 +1740,9 @@
       ],
       "stops": [
         {
-          "name": "Bryce Canyon City, UT",
-          "lat": 37.6685,
-          "lng": -112.157,
+          "name": "Cannonville, UT",
+          "lat": 37.564887,
+          "lng": -112.053381,
           "type": "origin"
         },
         {
@@ -1777,8 +1765,8 @@
         },
         {
           "name": "Torrey, UT",
-          "lat": 38.2999,
-          "lng": -111.4191,
+          "lat": 38.29911,
+          "lng": -111.41825,
           "type": "overnight"
         }
       ]
@@ -1793,40 +1781,20 @@
         "Short Walks"
       ],
       "drive": {
-        "stated": "219 mi / 4 hr 35 min driving"
+        "stated": "219 mi / 4 hr 30 min driving"
       },
       "lodging": {
         "city": "Moab, UT",
         "nights": [
           11
         ],
-        "chosen": "SpringHill Suites Moab",
-        "status": "needed",
+        "chosen": "Castle View town home — 3368 E La Camino Dr",
+        "status": "booked",
+        "checkin": "Check in Thu Oct 22 from 4:00 PM · check out Fri Oct 23 by 10:00 AM · keypad self check-in",
         "options": [
           {
-            "name": "SpringHill Suites Moab",
-            "note": "Booked with the Marriott free-night certificate. All-suite, free breakfast, pool, and a separate living area — useful when the toddler goes down before the adults do. Arriving late after the longest driving day of the trip, so a suite and a breakfast you don't have to go find are worth more here than the view would be",
-            "url": "https://www.marriott.com/en-us/hotels/cnyms-springhill-suites-moab/overview/"
-          },
-          {
-            "name": "Hyatt Place Moab",
-            "note": "Modern, pool, river views, very comfortable for family groups",
-            "url": "https://www.hyatt.com/hyatt-place/en-US/slczm-hyatt-place-moab"
-          },
-          {
-            "name": "Hoodoo Moab, Curio by Hilton",
-            "note": "Stylish, central, walkable to restaurants",
-            "url": "https://www.hilton.com/en/hotels/cnycuqq-hoodoo-moab/"
-          },
-          {
-            "name": "Moab Valley Inn",
-            "note": "Reliable, spacious rooms, easy parking, good value",
-            "url": "https://www.moabvalleyinn.com/"
-          },
-          {
-            "name": "Fairfield Inn & Suites Moab",
-            "note": "The neighbouring Marriott and the designated overflow if SpringHill is unavailable — also the closest hotel in town to the Arches entrance",
-            "url": "https://www.marriott.com/en-us/hotels/cnyfi-fairfield-inn-and-suites-moab/overview/"
+            "name": "Castle View — 3 bed / 2 bath town home (Airbnb, Moab Lodging Vacation Rentals)",
+            "note": "3368 E La Camino Dr, four miles south-east of Moab centre and about thirty-five minutes from Balanced Rock. Keypad entry, which is what makes a 7:20 PM arrival workable. Note the 10:00 AM check-out — an hour earlier than the other stays, and the drive home is long"
           }
         ]
       },
@@ -1966,16 +1934,16 @@
         },
         {
           "time": "6:45 PM",
-          "title": "Drive to SpringHill Suites Moab",
-          "detail": "Out the park road and south into town.",
+          "title": "Drive to the Moab town home",
+          "detail": "Out of Arches in the dark and four miles south-east of town. Google puts it at thirty-five minutes.",
           "kind": "drive",
           "dist": "20 mi",
-          "dur": "40 min"
+          "dur": "35 min"
         },
         {
-          "time": "7:25 PM",
-          "title": "Arrive SpringHill Suites Moab",
-          "detail": "Last night on the road. Pack tonight — tomorrow is the long drive home.",
+          "time": "7:20 PM",
+          "title": "Arrive at the Moab town home",
+          "detail": "3368 E La Camino Dr. Keypad entry, so a 7:20 arrival after the longest day of the trip is fine — the host sends the code before you travel.",
           "dwell": "—"
         }
       ],
@@ -2051,9 +2019,9 @@
           "type": "park"
         },
         {
-          "name": "SpringHill Suites Moab",
-          "lat": 38.59,
-          "lng": -109.549,
+          "name": "Moab town home",
+          "lat": 38.538226,
+          "lng": -109.484138,
           "type": "overnight"
         }
       ]
@@ -2064,10 +2032,10 @@
       "title": "Moab → Glenwood Canyon → Fort Collins",
       "tags": [
         "Homeward Bound",
-        "Hot Springs Finale"
+        "Glenwood Caverns"
       ],
       "drive": {
-        "stated": "421 mi / 7 hr 5 min driving"
+        "stated": "425 mi / 6 hr 55 min driving"
       },
       "lodging": {
         "city": "Home",
@@ -2079,7 +2047,7 @@
         {
           "time": "8:00 AM",
           "title": "Depart Moab",
-          "detail": "Breakfast at the hotel, on the road by 8:00. Six and a half hours of driving today plus stops."
+          "detail": "Check-out is 10:00 AM, the earliest of the trip, but you are leaving well before it. Pack the car the night before."
         },
         {
           "time": "8:00 AM",
@@ -2096,8 +2064,8 @@
           "title": "Drive to Glenwood Springs",
           "detail": "US-191 north to I-70, then east through Grand Junction and up Glenwood Canyon — the canyon stretch is genuinely spectacular from the interstate.",
           "kind": "drive",
-          "dist": "202 mi",
-          "dur": "3 hr 15 min"
+          "dist": "206 mi",
+          "dur": "3 hr 5 min"
         },
         {
           "time": "11:15 AM",
@@ -2161,9 +2129,9 @@
       ],
       "stops": [
         {
-          "name": "SpringHill Suites Moab",
-          "lat": 38.59,
-          "lng": -109.549,
+          "name": "Moab town home",
+          "lat": 38.538226,
+          "lng": -109.484138,
           "type": "origin"
         },
         {
@@ -2189,15 +2157,85 @@
   ],
   "bookings": [
     {
-      "id": "lodging-ouray",
-      "what": "Twin Peaks Lodge & Hot Springs, Ouray — night of Oct 12",
+      "id": "lodging-montrose",
+      "what": "Home in Montrose, CO — night of Oct 12",
       "category": "Lodging",
       "status": "booked",
       "urgency": "now",
-      "who": "",
-      "url": "https://www.twinpeakslodging.com/",
-      "notes": "Booked. On-site hot spring pools and tubs, so the soak costs no time. Confirmation and cost are in the shared sheet.",
-      "confirmation": ""
+      "url": "https://www.airbnb.com/",
+      "notes": "Booked. 1700 American Way — two bedrooms, one bath, grill, hosted by Cat. Check in from 3:00 PM Mon Oct 12, out by 11:00 AM. Booked for 5 guests; the party is 6."
+    },
+    {
+      "id": "lodging-dolores",
+      "what": "Wrangler's Roost Family Suite, Dolores, CO — night of Oct 13",
+      "category": "Lodging",
+      "status": "booked",
+      "urgency": "now",
+      "url": "https://www.airbnb.com/",
+      "notes": "Booked. 27660 Road P, hosted by JanElle and Todd. Check in from 4:00 PM Tue Oct 13, out by 11:00 AM. A family suite rather than a whole house, and it sits on the county grid south-west of Dolores — twenty minutes closer to Mesa Verde than the town is."
+    },
+    {
+      "id": "lodging-kayenta",
+      "what": "Home in Kayenta, AZ — night of Oct 14",
+      "category": "Lodging",
+      "status": "booked",
+      "urgency": "now",
+      "url": "https://www.airbnb.com/",
+      "notes": "Booked, $271.12, confirmation HMN4JSZQPC. 126 Arrowhead Drive, hosted by Divine. Check in from 3:00 PM Wed Oct 14, out by 11:00 AM. Lockbox self check-in. SLEEPS SIX — the only booking that already fits the whole party. The host warns GPS will not find the house and there may be no cell signal: print the written directions and note the coordinates N 36°42.784, W 110°14.931. Every night of the trip is now booked."
+    },
+    {
+      "id": "lodging-washington",
+      "what": "Casitas at Sienna Hills, Washington, UT — nights of Oct 15–18",
+      "category": "Lodging",
+      "status": "booked",
+      "urgency": "now",
+      "url": "https://www.airbnb.com/",
+      "notes": "Booked, $936 for four nights. 1902 E Respite Lane, just off Washington Parkway at I-15 exit 13 — three bedrooms, 8 beds, 2.5 baths, heated pool and hot tub. Check in from 4:00 PM Thu Oct 15, out by 11:00 AM Mon Oct 19. The four-night base is what removes three check-ins and two pack-ups from the middle of the trip. Booked for 4 guests; the party is 6."
+    },
+    {
+      "id": "lodging-cannonville",
+      "what": "The House at Pooh Corner, Cannonville, UT — nights of Oct 19 & 20",
+      "category": "Lodging",
+      "status": "booked",
+      "urgency": "now",
+      "url": "https://www.airbnb.com/",
+      "notes": "Booked, $365.11, confirmation HMF98HWCWH. 115 S Kodachrome Rd, hosted by Marshall, keypad entry. Check in from 3:00 PM Mon Oct 19, out by 11:00 AM Wed Oct 21. LISTED AS 4 GUESTS MAXIMUM and the party is 6 — raise this with the host before the trip. Cannonville costs half an hour each way to the Bryce rim but puts Kodachrome fifteen minutes from the door."
+    },
+    {
+      "id": "lodging-torrey",
+      "what": "#6 Home in the Heart of Utah, Torrey, UT — night of Oct 21",
+      "category": "Lodging",
+      "status": "booked",
+      "urgency": "now",
+      "url": "https://www.airbnb.com/",
+      "notes": "Booked. 125 East Main Street, hosted by Danielle and Teresa. Check in from 3:00 PM Wed Oct 21, out by 11:00 AM. The host warns there is no grocery store in Torrey — the nearest is Loa, twenty minutes away. Buy food in Escalante on the way. Booked for 4 guests; the party is 6."
+    },
+    {
+      "id": "lodging-moab",
+      "what": "Castle View town home, Moab, UT — night of Oct 22",
+      "category": "Lodging",
+      "status": "booked",
+      "urgency": "now",
+      "url": "https://www.airbnb.com/",
+      "notes": "Booked, $348.07, through Moab Lodging Vacation Rentals. 3368 E La Camino Dr — three bedrooms, two baths, four miles south-east of town. Check in from 4:00 PM Thu Oct 22, out by 10:00 AM Fri Oct 23 (an hour earlier than every other stay, and the drive home is the second longest of the trip). Keypad entry, which is what makes the 7:20 PM arrival from Arches workable. Booked for 4 guests; the party is 6."
+    },
+    {
+      "id": "airbnb-guest-counts",
+      "what": "Confirm guest counts with every Airbnb host",
+      "category": "Logistics",
+      "status": "needed",
+      "urgency": "now",
+      "url": "",
+      "notes": "Six people are travelling. The bookings read 5 guests (Montrose) and 4 guests (Washington, Cannonville, Torrey, Moab), and the Cannonville listing states 4 guests maximum outright. Message each host now: some will simply adjust the reservation and charge an extra-guest fee, but Cannonville may not be able to. Do not leave this to arrival day."
+    },
+    {
+      "id": "forfeited-credits",
+      "what": "Marriott free night and Chase Edit credit now unused",
+      "category": "Logistics",
+      "status": "optional",
+      "urgency": "later",
+      "url": "",
+      "notes": "Switching to Airbnbs releases two things the old plan spent: the Marriott free-night certificate earmarked for SpringHill Suites Moab, and the $250 Chase Edit credit earmarked for Black Desert Resort. Both are now free for another trip — check the certificate expiry date and whether the Edit credit renews before it lapses."
     },
     {
       "id": "box-canyon-falls",
@@ -2205,87 +2243,8 @@
       "category": "Activity",
       "status": "needed",
       "urgency": "before-trip",
-      "who": "",
       "url": "https://www.visitouray.com/box-canyon-falls",
-      "notes": "No reservation — pay at the gate, about $30 for the group. Ring 970-325-7080 to confirm October hours; the park runs 9:00–5:00 from Oct 15 and slightly longer before that.",
-      "confirmation": ""
-    },
-    {
-      "id": "lodging-cortez",
-      "what": "Cortez lodging — night of Oct 13",
-      "category": "Lodging",
-      "status": "needed",
-      "urgency": "now",
-      "who": "",
-      "url": "https://www.ihg.com/holidayinnexpress/hotels/us/en/cortez/cezex/hoteldetail",
-      "notes": "Ten minutes from the Mesa Verde gate, which is what buys you the early start on Day 3. Chains only; book early for the indoor pool.",
-      "confirmation": ""
-    },
-    {
-      "id": "lodging-monument-valley",
-      "what": "Goulding's Lodge, Monument Valley — night of Oct 14",
-      "category": "Lodging",
-      "status": "needed",
-      "urgency": "now",
-      "who": "",
-      "url": "https://gouldings.com/",
-      "notes": "The only full-service lodging at Monument Valley — there is nothing else within an hour, so book promptly. Ask for a valley-facing room; the terrace is where you watch sunset.",
-      "confirmation": ""
-    },
-    {
-      "id": "lodging-springdale",
-      "what": "Cable Mountain Lodge, Springdale — nights of Oct 15 & 16",
-      "category": "Lodging",
-      "status": "needed",
-      "urgency": "now",
-      "who": "",
-      "url": "https://cablemountainlodge.com",
-      "notes": "Mom's 1st choice. Desert Pearl Inn is her 2nd.",
-      "confirmation": ""
-    },
-    {
-      "id": "lodging-st-george",
-      "what": "Black Desert Resort, Ivins — nights of Oct 17 & 18",
-      "category": "Lodging",
-      "status": "needed",
-      "urgency": "now",
-      "who": "",
-      "url": "https://www.blackdesertresort.com/",
-      "notes": "The Chase-credit stay, and the one restful stretch of the trip. Book PREPAID (\"Pay Now\") for both nights in a single transaction through Chase Travel — The Edit needs 2+ nights and pays a maximum of $250 per transaction, so a 2-night stay captures $250, not $500. The card has to pay but the parents can be the named guests. Black Desert is independent, so the separate $250 select-hotels credit (IHG, Minor, Montage, Omni, Pan Pacific, Pendry, Virgin) does NOT apply here. Confirm the resort actually appears in The Edit before relying on it — the public lists I checked showed no Utah properties, though inventory changes. The annual travel credit renews 9/5/2026 and has no brand or night restriction, so it can cover the balance.",
-      "confirmation": ""
-    },
-    {
-      "id": "lodging-torrey",
-      "what": "Capitol Reef Resort, Torrey — night of Oct 21",
-      "category": "Lodging",
-      "status": "needed",
-      "urgency": "now",
-      "who": "",
-      "url": "https://capitolreefresort.com",
-      "notes": "Very limited rooms in a tiny town. Mom checked this one and Austin's Chuckwagon.",
-      "confirmation": ""
-    },
-    {
-      "id": "lodging-bryce",
-      "what": "Bryce Canyon lodging — nights of Oct 19 & 20",
-      "category": "Lodging",
-      "status": "needed",
-      "urgency": "now",
-      "who": "",
-      "url": "https://www.visitbrycecanyon.com/stay/the-lodge-at-bryce-canyon",
-      "notes": "The Lodge at Bryce Canyon's Main Lodge and Suites run Mar 1 – Nov 30, 2026, so your dates are in season. It is the only lodging inside the park and books up to a year out — visitbrycecanyon.com.",
-      "confirmation": ""
-    },
-    {
-      "id": "lodging-moab",
-      "what": "SpringHill Suites Moab — night of Oct 22",
-      "category": "Lodging",
-      "status": "needed",
-      "urgency": "now",
-      "who": "",
-      "url": "https://www.marriott.com/en-us/hotels/cnyms-springhill-suites-moab/overview/",
-      "notes": "Redeeming the Marriott free-night certificate. Two things to check before counting on it: the certificate's points cap (35k Boundless/Bold, 50k Brilliant, 85k on some — you may top off by up to 15,000 points) against a peak-season Thursday in Moab, and that the certificate is still valid through October 2026. Award inventory in a small market during Arches season goes early, so book as soon as the certificate allows. One further check: SpringHill has run an autumn renovation closure in a recent year (Nov 14 – Dec 26), which misses these dates, but reconfirm when booking since those schedules move. Fairfield Inn next door is the fallback and takes the same certificate.",
-      "confirmation": ""
+      "notes": "No reservation — pay at the gate, about $30 for the group. Ring 970-325-7080 to confirm October hours; the park runs 9:00–5:00 from Oct 15 and slightly longer before that."
     },
     {
       "id": "mesa-verde-tour",
@@ -2293,10 +2252,8 @@
       "category": "Activity",
       "status": "needed",
       "urgency": "soon",
-      "who": "",
       "url": "https://recreation.gov",
-      "notes": "$5/person, recreation.gov. Reduced October schedule and it fills fast. Book a mid-morning slot — you are on site 8:35–11:35 on the drive out to Monument Valley.",
-      "confirmation": ""
+      "notes": "$5/person, recreation.gov. Reduced October schedule and it fills fast. Book a mid-morning slot — you are on site 8:35–11:35 on the drive out to Monument Valley."
     },
     {
       "id": "glenwood-caverns",
@@ -2304,10 +2261,8 @@
       "category": "Activity",
       "status": "needed",
       "urgency": "soon",
-      "who": "",
       "url": "https://glenwoodcaverns.com",
-      "notes": "Mom's 1st choice for the final day.",
-      "confirmation": ""
+      "notes": "Mom's 1st choice for the final day."
     },
     {
       "id": "parks-pass",
@@ -2315,10 +2270,8 @@
       "category": "Pass",
       "status": "booked",
       "urgency": "before-trip",
-      "who": "",
       "url": "https://nps.gov/planyourvisit/passes.htm",
-      "notes": "Mom has a Senior Pass (free lifetime, 62+) — circled it on five separate pages. Covers Arches, Canyonlands, Capitol Reef, Bryce, Zion, Mesa Verde entry. Does NOT cover Monument Valley ($20/vehicle), Snow Canyon ($10/vehicle), Goblin Valley (~$25/vehicle), or Dead Horse Point.",
-      "confirmation": ""
+      "notes": "Mom has a Senior Pass (free lifetime, 62+) — circled it on five separate pages. Covers Arches, Canyonlands, Capitol Reef, Bryce, Zion, Mesa Verde entry. Does NOT cover Monument Valley ($20/vehicle), Snow Canyon ($10/vehicle), Goblin Valley (~$25/vehicle), or Dead Horse Point."
     },
     {
       "id": "travel-insurance",
@@ -2326,10 +2279,8 @@
       "category": "Other",
       "status": "optional",
       "urgency": "later",
-      "who": "",
       "url": "",
-      "notes": "October mountain weather can delay plans.",
-      "confirmation": ""
+      "notes": "October mountain weather can delay plans."
     },
     {
       "id": "sunday-lunch",
@@ -2337,9 +2288,7 @@
       "category": "Other",
       "status": "needed",
       "urgency": "soon",
-      "who": "",
       "url": "https://redemptionsg.com/",
-      "confirmation": "",
       "notes": "Worship 10:00 AM at Redemption Lutheran, 348 N Bluff St. Reach out well ahead — Sunday mornings are working time for a pastor."
     },
     {
@@ -2348,9 +2297,7 @@
       "category": "Other",
       "status": "needed",
       "urgency": "now",
-      "who": "",
       "url": "",
-      "confirmation": "",
       "notes": "Four adults, a toddler car seat, an infant seat and twelve days of luggage. A standard five-seat SUV does not do this. If the family car won't take it, a rental needs booking well ahead — October is still busy in Denver."
     },
     {
@@ -2359,9 +2306,7 @@
       "category": "Pass",
       "status": "needed",
       "urgency": "before-trip",
-      "who": "",
       "url": "https://stateparks.utah.gov/resources/passes/",
-      "confirmation": "",
       "notes": "Snow Canyon $10, Goblin Valley ~$25, Dead Horse Point ~$20, plus Goosenecks ~$5 and Kodachrome ~$10 if you take those options. Roughly $55–70 total. A non-resident annual pass runs about $175, so it is NOT worth buying for this route. None of these are covered by the America the Beautiful pass."
     },
     {
@@ -2370,9 +2315,7 @@
       "category": "Activity",
       "status": "optional",
       "urgency": "soon",
-      "who": "",
       "url": "https://bestfriends.org/sanctuary/plan-your-visit",
-      "confirmation": "",
       "notes": "Free, but the 90-minute bus tours must be reserved ahead and do fill. Only if Day 4 is the day you pick it — see the three optional stops on that day, of which you should do one."
     }
   ],
@@ -2393,7 +2336,7 @@
         "Child's warm hat, mittens and puffy coat for the two Bryce days.",
         "Sun hats and sunglasses for everyone, including the kids.",
         "Church clothes for Sunday morning at Redemption Lutheran on Oct 18.",
-        "Swimsuits — several of the hotels have pools, and the Ouray lodges have their own hot-spring soaking tubs.",
+        "Swimsuits — the Washington house has a heated pool and a hot tub, and you are there four nights.",
         "More toddler clothes than seems reasonable, plus a complete change kept in the car."
       ]
     },
@@ -2414,7 +2357,7 @@
         "Portable changing mat — many trailhead restrooms have no table.",
         "Feeding supplies and a way to warm a bottle in the car.",
         "Sun shade for the car window and for the carrier. Sunscreen isn't recommended under six months, so shade and long sleeves do the work.",
-        "Confirm a crib with each hotel rather than assuming, or bring a travel one.",
+        "Message each Airbnb host about a cot rather than assuming one, or bring a travel one. Every night of the trip is now an Airbnb.",
         "Saline drops. The air is extremely dry and Bryce sits at 8,000 ft."
       ]
     },
@@ -2431,6 +2374,8 @@
       "group": "Water, food and the car",
       "items": [
         "Reusable bottles, a liter per person per hike, plus a couple of gallon jugs in the trunk.",
+        "Ten of the eleven nights have a kitchen, so this trip runs on groceries rather than restaurants. Pack a small kit — a sharp knife, a can opener, coffee, oil, salt — and a soft cooler bag for moving leftovers between houses.",
+        "Shop in the big towns: Montrose, Cortez, Kanab, Washington/St George, Panguitch and Escalante. Cannonville has no restaurants and Torrey has no grocery store — the nearest is Loa, twenty minutes away.",
         "A cooler. Day 1 and Day 11 both have long stretches with nothing open.",
         "Far more snacks than you think. Mom circled \"pack a full lunch\" for a reason (M18).",
         "Download offline maps for the whole route before leaving. There is no signal on Byway 12, around Goblin Valley, or through much of the Navajo Nation.",
@@ -2454,7 +2399,7 @@
       "group": "Bryce after dark, and photography",
       "items": [
         "Headlamps, ideally with a red-light mode so nobody wrecks everyone's night vision at Bryce Point.",
-        "A blanket each for stargazing. You'll be stationary in sub-freezing air.",
+        "A blanket each for the Bryce rim at sunrise and sunset. You'll be stationary in sub-freezing air.",
         "Binoculars — good for the Milky Way at night and the viewpoints by day.",
         "A star chart or app downloaded in advance; there's no signal at Bryce Point.",
         "The good camera for the Monument Valley sunset and the Bryce sunrise, plus spare batteries — cold drains them fast."

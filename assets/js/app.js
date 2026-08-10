@@ -226,14 +226,24 @@ function stayBlock(d) {
   }
   return `
 <div class="stay">
-  <h5>Where to stay — ${esc(l.city)} · night${l.nights.length > 1 ? 's' : ''} ${l.nights.join(' &amp; ')}</h5>
+  <h5>Where to stay — ${esc(l.city)} · night${l.nights.length > 1 ? 's' : ''} ${nightList(l.nights)}</h5>
   <ul>${l.options.map((o) => `
     <li>
       ${lodgingLink(o, o.name === l.chosen)}${
         o.mom ? `<span class="momtag">Mom: ${esc(o.mom)}</span>` : ''} — ${esc(o.note)}
     </li>`).join('')}
   </ul>
+  ${l.checkin ? `<p class="checkin">${esc(l.checkin)}</p>` : ''}
 </div>`;
+}
+
+/* Three or more consecutive nights read as a range; anything else stays a list.
+   "nights 4 & 5 & 6 & 7" is technically correct and impossible to skim. */
+function nightList(nights) {
+  const run = nights.every((n, k) => k === 0 || n === nights[k - 1] + 1);
+  return run && nights.length > 2
+    ? `${nights[0]}–${nights[nights.length - 1]}`
+    : nights.join(' &amp; ');
 }
 
 /* Every option carries a verified `url` to the property's own booking page.

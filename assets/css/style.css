@@ -318,6 +318,8 @@ p.muted .ext { opacity: .8; }
 .stay ul { margin: 0; padding-left: 18px; }
 .stay li + li { margin-top: 5px; }
 .stay .pick { font-weight: 700; }
+/* Confirmed arrival window — only rendered once a stay is actually booked */
+.stay .checkin { margin: 8px 0 0; font-size: 13px; color: var(--ink-soft); }
 .stay .momtag {
   font-size: 11px;
   background: var(--gold);
