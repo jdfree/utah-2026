@@ -144,28 +144,45 @@ sheet is unreachable, so it is worth keeping roughly in step:
 
 ```json
 {
-  "id": "lodging-ouray",
-  "what": "Twin Peaks Lodge & Hot Springs, Ouray — night of Oct 12",
+  "id": "lodging-montrose",
+  "what": "Home in Montrose, CO — night of Oct 12",
   "status": "booked"
 }
 ```
+
+**The `id` is the join key.** Renaming one here without renaming column J in the sheet
+breaks the link silently — the page falls back to the committed status and prints a
+callout naming the orphaned rows. Change both together.
 
 `status` is one of `needed`, `booked`, or `optional`. The counts at the top of the Bookings
 tab update automatically. Do not put `who` or `confirmation` in this file — those live in
 the private tab of the sheet and are not rendered.
 
-### Locking in a hotel
+### Locking in a place to stay
 
-Set `chosen` on that day's `lodging` object to the name of the option you booked, and
-set `status` to `"booked"`:
+Set `chosen` on that day's `lodging` object to the name of the option you booked, set
+`status` to `"booked"`, and add a `checkin` line — the arrival window, the check-out
+deadline and how you get in. It renders under the options and is the thing you actually
+want on your phone at 7 PM:
 
 ```json
 "lodging": {
-  "city": "Springdale, UT",
-  "nights": [4, 5],
-  "chosen": "Cable Mountain Lodge",
-  "status": "booked"
+  "city": "Cannonville, UT",
+  "nights": [8, 9],
+  "chosen": "The House at Pooh Corner — 115 S Kodachrome Rd, Cannonville",
+  "status": "booked",
+  "checkin": "Check in Mon Oct 19 from 3:00 PM · check out Wed Oct 21 by 11:00 AM · keypad self check-in"
 }
+```
+
+Consecutive `nights` of three or more render as a range ("nights 4–7"); anything else
+stays a list. Door codes and WiFi passwords never go in this file — the site is public.
+
+For the second and later nights of the same stay, use `sameAsDay` instead of repeating
+the options:
+
+```json
+"lodging": { "city": "Cannonville, UT", "nights": [8, 9], "status": "booked", "sameAsDay": 8 }
 ```
 
 ## Search engines
