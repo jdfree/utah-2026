@@ -136,6 +136,38 @@ python3 -c "import json;d=json.load(open('data/itinerary.json'));[print(i['guide
 `packing` is a list of `{ group, items }`. Add a group by adding an object; the count in
 the intro line is computed.
 
+### The Views tab
+
+`views` is a list of photographs of places on the route, rendered in trip order. Each one
+carries the day it belongs to, so clicking it opens that day's card:
+
+```json
+{
+  "slug": "delicate-arch",
+  "day": 11,
+  "title": "Delicate Arch",
+  "blurb": "Utah's licence plate. We are viewing it from the lower viewpoint, not the three-mile climb.",
+  "src": "assets/img/views/delicate-arch.jpg",
+  "w": 1200, "h": 900,
+  "credit": "Thomas Schoch",
+  "license": "CC BY-SA 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+  "source": "https://commons.wikimedia.org/wiki/File:USA_Arches_NP_Delicate_Arch(1).jpg"
+}
+```
+
+**Every photo here is someone else's work, and this is a public site.** Only add images
+that are public domain or under a licence that permits reuse — these all came from
+Wikimedia Commons — and always fill in `credit`, `license` and `source`. The credit line
+renders under each photo whether or not `licenseUrl` is set, which is why public-domain
+entries can leave that field empty. Once we have taken our own photographs, they can
+replace these with `credit` set to whoever pressed the shutter.
+
+Files go in `assets/img/views/` at **1200 px wide, JPEG quality ~78** — roughly 200 KB
+each, which matters because most of this route has no signal. The grid crops every image
+to 3:2 from its centre, so a photo whose subject sits hard against one edge will lose it;
+the uncropped original stays one click away at `source`.
+
 ### Marking something as booked
 
 Do it in the sheet, not here — flip that row's **Status** to `BOOKED` and the page picks it

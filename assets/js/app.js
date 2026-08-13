@@ -34,6 +34,7 @@ fetch('data/itinerary.json')
     DATA = data;
     renderHero();
     renderItinerary();
+    renderViews();
     renderBookings();
     renderPacking();
     initMap();
@@ -278,6 +279,49 @@ function routeBlock(d) {
 function gmapsRoute(stops) {
   const pts = stops.filter((s) => !s.viaOptional).map((s) => `${s.lat},${s.lng}`);
   return 'https://www.google.com/maps/dir/' + pts.join('/');
+}
+
+/* ---------- views ---------- */
+
+/* Nobody in this family has been to most of these places, so the itinerary asks
+   people to agree to names on a page. This tab is what those names actually look
+   like. Every photo is somebody else's work under a licence that requires the
+   credit line underneath it — that line is not decoration, so it renders whether
+   or not the licence happens to carry a URL. */
+function renderViews() {
+  const views = DATA.views ?? [];
+  if (!views.length) return;
+
+  const days = new Set(views.map((v) => v.day)).size;
+
+  $('#view-views').innerHTML = `
+<h2>Views</h2>
+<p class="muted">${views.length} of the sights this route is built around, in trip order across
+${days} of the ${DATA.days.length} days. Click any photo to jump to the day it belongs to.
+These are other people's photographs — credited below each one — not ours. Ours get taken
+in October.</p>
+<div class="gallery">${views.map(viewCard).join('')}</div>`;
+}
+
+function viewCard(v) {
+  const licence = v.licenseUrl
+    ? `<a href="${esc(v.licenseUrl)}" target="_blank" rel="noopener">${esc(v.license)}</a>`
+    : esc(v.license);
+
+  return `
+<figure class="shot">
+  <a href="#day-${v.day}" data-goto="${v.day}" title="See Day ${v.day}">
+    <img src="${esc(v.src)}" width="${v.w}" height="${v.h}" loading="lazy" decoding="async"
+         alt="${esc(v.title)}">
+    <span class="daytag">Day ${v.day}</span>
+  </a>
+  <figcaption>
+    <h4>${esc(v.title)}</h4>
+    <p>${esc(v.blurb)}</p>
+    <p class="credit">Photo ${esc(v.credit)} · ${licence} ·
+      <a href="${esc(v.source)}" target="_blank" rel="noopener">Wikimedia Commons</a></p>
+  </figcaption>
+</figure>`;
 }
 
 /* ---------- bookings ---------- */

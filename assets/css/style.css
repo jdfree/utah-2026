@@ -475,6 +475,59 @@ a { color: var(--rust); }
 .stay a:hover { border-bottom-color: var(--rust); }
 .stay a.pick, .stay .pick { font-weight: 700; }
 
+/* ---------- views ---------- */
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+  gap: 18px;
+  margin-top: 18px;
+}
+
+.shot {
+  margin: 0;
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  overflow: hidden;
+}
+.shot > a { display: block; position: relative; line-height: 0; }
+
+/* The photos arrive at whatever shape their photographer framed — a 5:2
+   panorama of the Goosenecks next to a 4:3 of Delicate Arch. A fixed ratio
+   makes the grid a grid; the uncropped original is one click away on Commons. */
+.shot img {
+  display: block;
+  width: 100%;
+  height: auto;          /* without this the width/height attributes pin a real
+                            height and aspect-ratio never gets a say */
+  aspect-ratio: 3 / 2;
+  object-fit: cover;
+  background: var(--rust-soft);
+}
+.shot > a:hover img { opacity: .92; }
+
+.daytag {
+  position: absolute;
+  left: 10px; bottom: 10px;
+  background: rgba(35,32,28,.72);
+  color: #fff;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  padding: 4px 9px;
+  border-radius: 999px;
+  line-height: 1.5;
+}
+
+.shot figcaption { padding: 12px 15px 14px; }
+.shot h4 { margin: 0 0 4px; font-size: 15px; }
+.shot figcaption p { margin: 0; font-size: 14px; color: #3f3a34; }
+.shot .credit { margin-top: 8px; font-size: 11.5px; color: var(--ink-soft); }
+.shot .credit a { color: inherit; }
+
 footer { padding: 30px 20px 50px; color: var(--ink-soft); font-size: 13px; text-align: center; }
 
 /* Booking link: host only, so a long reservation URL cannot set the row height */
