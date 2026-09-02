@@ -1,4 +1,4 @@
-# Utah Canyon Country · October 12–23, 2026
+# Utah Canyon Country · October 12–22, 2026
 
 Trip site for a Fort Collins → Utah → Fort Collins loop. Six travelers: two parents,
 both grandparents, a three-year-old, and a newborn.
@@ -144,7 +144,7 @@ carries the day it belongs to, so clicking it opens that day's card:
 ```json
 {
   "slug": "delicate-arch",
-  "day": 11,
+  "day": 10,
   "title": "Delicate Arch",
   "blurb": "Utah's licence plate. We are viewing it from the lower viewpoint, not the three-mile climb.",
   "src": "assets/img/views/delicate-arch.jpg",
@@ -200,10 +200,10 @@ want on your phone at 7 PM:
 ```json
 "lodging": {
   "city": "Cannonville, UT",
-  "nights": [8, 9],
+  "nights": [8],
   "chosen": "The House at Pooh Corner — 115 S Kodachrome Rd, Cannonville",
   "status": "booked",
-  "checkin": "Check in Mon Oct 19 from 3:00 PM · check out Wed Oct 21 by 11:00 AM · keypad self check-in"
+  "checkin": "Check in Mon Oct 19 from 3:00 PM · check out Tue Oct 20 by 11:00 AM · keypad self check-in"
 }
 ```
 
@@ -214,7 +214,7 @@ For the second and later nights of the same stay, use `sameAsDay` instead of rep
 the options:
 
 ```json
-"lodging": { "city": "Cannonville, UT", "nights": [8, 9], "status": "booked", "sameAsDay": 8 }
+"lodging": { "city": "Washington, UT", "nights": [4, 5, 6, 7], "status": "booked", "sameAsDay": 4 }
 ```
 
 ## Search engines
