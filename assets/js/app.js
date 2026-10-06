@@ -544,8 +544,13 @@ function initMap() {
     zoom: 6,
   });
 
-  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  /* OSM's tile policy requires a Referer from browsers and answers without one
+     with an "Access blocked" image — served as a 200, so Leaflet thinks it
+     loaded. The page is no-referrer on purpose; this lets the tiles alone send
+     the bare origin. The URL is the one hostname the policy permits. */
+  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
     maxZoom: 18,
+    referrerPolicy: 'strict-origin-when-cross-origin',
     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
   }).addTo(map);
 
