@@ -466,7 +466,7 @@
         "Sunset is 6:46 PM and the park shuts at 5:00, so there is no sunset from inside it. If you want one, US-163 north of the park is free and open all night — Forrest Gump Point is twenty-five minutes up the road — but it puts you into Kayenta near 8:00 PM on unlit roads with open-range livestock.",
         "THE HOST WARNS GPS WILL NOT FIND THE HOUSE and there may be no cell signal. Print the written directions before you leave Colorado. The coordinates are N 36°42.784, W 110°14.931.",
         "Mesa Verde's Wetherill Mesa road usually closes by mid-October, but Chapin Mesa — the part you want — stays open.",
-        "Book the Cliff Palace tour at recreation.gov ($5/person). It fills fast even in October.",
+        "Book the Cliff Palace tour at recreation.gov ($8 per person, ages 3 and up). It fills fast even in October.",
         "Park entry at Mesa Verde is covered by America the Beautiful / Senior Pass. Monument Valley is a Navajo Tribal Park and is NOT covered — check the posted rate at navajonationparks.org before you go, it has changed recently."
       ],
       "momNotes": [
@@ -1318,7 +1318,7 @@
         {
           "time": "3:40 PM",
           "title": "Arrive Cannonville — check in",
-          "detail": "115 S Kodachrome Rd. Check-in from 3:00 PM, keypad entry. Two nights.",
+          "detail": "115 S Kodachrome Rd. Check-in from 3:00 PM, keypad entry. One night.",
           "dwell": "1 hr 20 min"
         },
         {
@@ -1574,7 +1574,7 @@
         {
           "time": "5:45 PM",
           "title": "Dinner in Torrey",
-          "detail": "Torrey has restaurants but no grocery store — the nearest is Loa, twenty minutes away. Sunset is 6:36.",
+          "detail": "The Rim Rock Restaurant, booked ahead — on a Tuesday this late in October it is close to the only kitchen open, and Torrey has no grocery store. Sunset is 6:36.",
           "kind": "meal",
           "dwell": "1 hr 30 min"
         }
@@ -2335,22 +2335,22 @@
       "notes": "MOVE FIRST: held for Oct 22, needs to become Oct 21 — and this one is through Moab Lodging Vacation Rentals rather than Airbnb, so its cancellation terms are the strictest of the three. Confirm this date can move before touching Cannonville or Torrey. $348.07, 3368 E La Camino Dr — three bedrooms, two baths, four miles south-east of town. Check in from 4:00 PM Wed Oct 21, out by 10:00 AM Thu Oct 22. Keypad entry, which is what makes the 7:20 PM arrival from Arches workable."
     },
     {
-      "id": "box-canyon-falls",
-      "what": "Box Cañon Falls, Ouray (Oct 13)",
-      "category": "Activity",
-      "status": "needed",
-      "urgency": "before-trip",
-      "url": "https://www.visitouray.com/box-canyon-falls",
-      "notes": "No reservation — pay at the gate, about $30 for the group. Ring 970-325-7080 to confirm October hours; the park runs 9:00–5:00 from Oct 15 and slightly longer before that."
-    },
-    {
       "id": "mesa-verde-tour",
       "what": "Mesa Verde Cliff Palace ranger tour (Oct 14)",
       "category": "Activity",
       "status": "needed",
       "urgency": "soon",
       "url": "https://recreation.gov",
-      "notes": "$5/person, recreation.gov. Reduced October schedule and it fills fast. Book a mid-morning slot — you are on site 8:35–11:35 on the drive out to Monument Valley."
+      "notes": "$8 per person, ages 3 and up — five tickets with the three-year-old, the newborn is free. recreation.gov releases each day's tickets 14 days ahead at 8:00 AM MT, so Oct 14 went on sale Sept 30; after that only cancellations come back, up to two hours before a tour. Tours run 9:00–3:00 on the half hour, 50 people each — take a mid-morning slot, you are on site 8:50–11:35."
+    },
+    {
+      "id": "dinner-torrey",
+      "what": "Dinner reservation for six, Torrey — Tue Oct 20",
+      "category": "Other",
+      "status": "needed",
+      "urgency": "soon",
+      "url": "https://therimrock.net/",
+      "notes": "The Rim Rock Restaurant, 2523 E Hwy 24, on the way in from Capitol Reef — ring 435-425-3388; reservations recommended. Open nightly 5–9 until the last weekend of October. Tuesday is the problem night: Hunt & Gather is shut Tuesdays and most of Torrey closes for the season around now, and Torrey has no grocery store to fall back on."
     },
     {
       "id": "glenwood-caverns",
@@ -2359,16 +2359,7 @@
       "status": "needed",
       "urgency": "soon",
       "url": "https://glenwoodcaverns.com",
-      "notes": "Mom's 1st choice for the final day. Now falls on a Thursday rather than a Friday — the park is open year-round but its days of operation vary in the off-season and the late-October 2026 calendar is not published yet, so ring 800-530-1635 before counting on it."
-    },
-    {
-      "id": "parks-pass",
-      "what": "America the Beautiful pass ($80/yr) or Senior Pass",
-      "category": "Pass",
-      "status": "booked",
-      "urgency": "before-trip",
-      "url": "https://nps.gov/planyourvisit/passes.htm",
-      "notes": "Mom has a Senior Pass (free lifetime, 62+) — circled it on five separate pages. Covers Arches, Canyonlands, Capitol Reef, Bryce, Zion, Mesa Verde entry. Does NOT cover Monument Valley ($20/vehicle), Snow Canyon ($10/vehicle), Goblin Valley (~$25/vehicle), or Dead Horse Point."
+      "notes": "Mom's 1st choice for the final day. Open Thu Oct 22, 10:00 AM–5:00 PM — and closed the 20th and 21st, so the Thursday is the day it works. Book the cave tour and gondola together; October hours are reduced."
     },
     {
       "id": "sunday-lunch",
@@ -2378,15 +2369,6 @@
       "urgency": "soon",
       "url": "https://redemptionsg.com/",
       "notes": "Worship 10:00 AM at Redemption Lutheran, 348 N Bluff St. Reach out well ahead — Sunday mornings are working time for a pastor."
-    },
-    {
-      "id": "state-park-fees",
-      "what": "Utah state park entry fees — pay at each gate",
-      "category": "Pass",
-      "status": "needed",
-      "urgency": "before-trip",
-      "url": "https://stateparks.utah.gov/resources/passes/",
-      "notes": "Snow Canyon $10, Goblin Valley ~$25, Dead Horse Point ~$20, plus Goosenecks ~$5 and Kodachrome ~$10 if you take those options. Roughly $55–70 total. A non-resident annual pass runs about $175, so it is NOT worth buying for this route. None of these are covered by the America the Beautiful pass."
     },
     {
       "id": "best-friends",
