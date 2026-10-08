@@ -245,6 +245,31 @@ python3 -m http.server 8000
 
 Then open http://localhost:8000.
 
+## Offline
+
+Byway 12, Capitol Reef, Kayenta, Black Canyon and the San Juans have no signal, so
+[`sw.js`](sw.js), a small service worker, keeps a copy of the site on each phone. **Open
+the site once with signal before leaving** — after that it opens with none.
+
+That first visit stores the page, styles, script, `itinerary.json`, the icons, Leaflet,
+and every photo listed under `views` in the itinerary. After that:
+
+- **Page, styles, script and itinerary** try the network first and fall back to the
+  stored copy, so edits still arrive whenever there is signal. A request that hangs on
+  one bar gets four seconds before the stored copy is shown instead.
+- **Photos and Leaflet** come from the stored copy and are never re-checked.
+- **Map tiles** are never stored: OpenStreetMap's tile policy forbids downloading them
+  in bulk. Offline, the map is pins and the route line on a blank background, and the
+  Map tab says so.
+- **The Bookings sheet** is always fetched live; offline the tab shows the committed
+  snapshot, as it already did when the sheet was unreachable.
+
+**To bust the cache, bump `VERSION` at the top of `sw.js`.** The next visit with signal
+fetches everything fresh and deletes the old copy. Edits to the itinerary, page, styles
+or script don't need it — they arrive on their own. A replaced photo at the same path
+does need it; so does a new view photo, or it is only stored once someone opens the
+Views tab with signal.
+
 ## Map and daily routes
 
 Each day card ends with a **Today's route** block: the chain of stops spelled out, plus a

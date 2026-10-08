@@ -25,6 +25,13 @@ const fmtDay = (iso) => `${dow(iso)}, ${fmtDate(iso)}`;
 
 let DATA, map;
 
+/* Much of the route has no signal. The service worker keeps the copy from the
+   last visit that had one, so the day plan still opens out there. Registered
+   after load so its downloads don't compete with the page's own. */
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', () => navigator.serviceWorker.register('sw.js'));
+}
+
 fetch('data/itinerary.json')
   .then((r) => {
     if (!r.ok) throw new Error(`HTTP ${r.status}`);
@@ -554,6 +561,14 @@ function initMap() {
     referrerPolicy: 'strict-origin-when-cross-origin',
     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
   }).addTo(map);
+
+  /* Tiles are never stored offline — OSM's tile policy forbids downloading
+     them in bulk — so without signal the map is pins on a blank background.
+     Say so, rather than let it look broken. */
+  const offlineNote = () => ($('#map-offline').hidden = navigator.onLine);
+  offlineNote();
+  window.addEventListener('online', offlineNote);
+  window.addEventListener('offline', offlineNote);
 
   const line = [];
   const bounds = [];
