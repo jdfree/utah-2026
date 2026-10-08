@@ -563,7 +563,7 @@ function initMap() {
   }).addTo(map);
 
   /* Tiles are never stored offline — OSM's tile policy forbids downloading
-     them in bulk — so without signal the map is pins on a blank background.
+     them in bulk — so without signal the background is blank or patchy.
      Say so, rather than let it look broken. */
   const offlineNote = () => ($('#map-offline').hidden = navigator.onLine);
   offlineNote();

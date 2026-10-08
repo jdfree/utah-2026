@@ -259,8 +259,8 @@ and every photo listed under `views` in the itinerary. After that:
   one bar gets four seconds before the stored copy is shown instead.
 - **Photos and Leaflet** come from the stored copy and are never re-checked.
 - **Map tiles** are never stored: OpenStreetMap's tile policy forbids downloading them
-  in bulk. Offline, the map is pins and the route line on a blank background, and the
-  Map tab says so.
+  in bulk. Offline, the pins and route line still draw, but the background is blank or
+  patchy — only whatever tiles the browser happens to still have — and the Map tab says so.
 - **The Bookings sheet** is always fetched live; offline the tab shows the committed
   snapshot, as it already did when the sheet was unreachable.
 
