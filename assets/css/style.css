@@ -256,6 +256,20 @@ p.muted .ext { opacity: .8; }
   text-transform: none;
 }
 
+/* Forecast for that place and hour — a pill like the dwell tag, in sky blue */
+.wx {
+  display: inline-block;
+  margin-left: 8px;
+  padding: 1px 8px;
+  border-radius: 999px;
+  background: #e8f0f5;
+  color: #3d5a6c;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: .04em;
+  text-transform: none;
+}
+
 /* Drive legs and meals are the connective tissue between stops: same timeline,
    deliberately quieter, so the eye still lands on the attractions. */
 .item.leg, .item.meal { padding: 10px 0 10px 12px; border-left: 2px solid #ece5da; }

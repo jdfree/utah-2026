@@ -104,7 +104,22 @@ function renderItinerary() {
   $('#view-itinerary').innerHTML =
     `<p class="muted">Click any day to expand it. Attraction names with a ${OUTLINK} open the
      official page for that place — the park service, the state park, or whoever runs it — which
-     is where hours, closures and fees are current.</p>` + DATA.days.map(dayCard).join('');
+     is where hours, closures and fees are current.</p>${forecastNote()}` + DATA.days.map(dayCard).join('');
+}
+
+/* A forecast more than about a week out is barely better than the seasonal
+   average, so say which days that is rather than letting a number look sure. */
+function forecastNote() {
+  const asOf = DATA.trip.forecastAsOf;
+  if (!asOf) return '';
+  const ahead = (iso) => (new Date(`${iso}T12:00:00`) - new Date(`${asOf}T12:00:00`)) / 864e5;
+  const far = DATA.days.filter((d) => ahead(d.date) > 7).map((d) => d.day);
+  const tail = far.length === DATA.days.length ? 'Every day is more than a week out, so treat it all as a rough guide.'
+    : far.length ? `Day${far.length > 1 ? 's' : ''} ${far[0]}${far.length > 1 ? `–${far[far.length - 1]}` : ''} ${
+        far.length > 1 ? 'are' : 'is'} more than a week out — those numbers will move.`
+    : '';
+  return `<p class="muted">Weather beside each time is the forecast from ${esc(fmtDay(asOf))}, for
+    where you will be at that hour. ${tail}</p>`;
 }
 
 function dayCard(d) {
@@ -152,7 +167,7 @@ function itemRow(i) {
   return `
 <div class="item${i.optional ? ' optional' : ''}">
   ${rating}
-  <p class="when">${esc(i.time)}${dwellTag(i)}${
+  <p class="when">${esc(i.time)}${dwellTag(i)}${wxTag(i)}${
     i.optional ? '<span class="opttag">Optional — decide as a group</span>' : ''}</p>
   <h4>${guideLink(i)}${i.mom ? `<span class="momtag">Mom: ${esc(i.mom)}</span>` : ''}</h4>
   <p>${esc(i.detail)}</p>
@@ -167,11 +182,21 @@ function dwellTag(i) {
     ? `<span class="dwell" title="How long to spend here">${esc(i.dwell)} here</span>` : '';
 }
 
+/* Forecast for where you will be. A drive's is for the far end, at the time you
+   get there — the weather you step out into, not the weather you leave. */
+function wxTag(i, arriving = false) {
+  const w = i.wx;
+  if (!w) return '';
+  const wet = w.pop ? `, ${w.pop}% chance of ${w.temp <= 40 ? 'rain or snow' : 'rain'}` : '';
+  return `<span class="wx" title="Forecast for this place and time">${
+    arriving ? 'on arrival ' : ''}${w.temp}°F · ${esc(w.cond)}${wet}</span>`;
+}
+
 function driveRow(i) {
   const legs = [i.dist, i.dur].filter((s) => s && s !== '—').map(esc).join(' · ');
   return `
 <div class="item leg${i.optional ? ' optional' : ''}">
-  <p class="when">${esc(i.time)}</p>
+  <p class="when">${esc(i.time)}${wxTag(i, true)}</p>
   <h4>${CAR}${guideLink(i)}<span class="legmeta">${legs}</span></h4>
   <p>${esc(i.detail)}</p>
   ${i.flag ? `<p class="legflag">${esc(i.flag)}</p>` : ''}
@@ -181,7 +206,7 @@ function driveRow(i) {
 function mealRow(i) {
   return `
 <div class="item meal">
-  <p class="when">${esc(i.time)}${dwellTag(i)}</p>
+  <p class="when">${esc(i.time)}${dwellTag(i)}${wxTag(i)}</p>
   <h4>${FORK}${guideLink(i)}</h4>
   <p>${esc(i.detail)}</p>
 </div>`;

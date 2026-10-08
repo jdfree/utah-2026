@@ -140,6 +140,25 @@ repeating the price. State parks, the Navajo Nation and the City of Page do not 
 federal passes, so say so on those. Prices change — take them from the operator's own
 fee page, not a travel blog.
 
+### Weather
+
+Each item's `wx` is the forecast for where you will be at that time — temperature,
+conditions, and a chance of rain when it is 30% or more. A drive's is for the far end, at
+the time you arrive. It comes from Open-Meteo, which corrects for each spot's elevation,
+so the Bryce rim reads colder than the house below it.
+
+**It is a snapshot — refresh it as departure gets closer:**
+
+```bash
+python3 tools/weather.py
+```
+
+That rewrites every `wx`, stamps `trip.forecastAsOf`, and prints the whole trip as a table.
+The page tells readers which days are still more than a week out. If you add or remove a
+drive, the script will stop and say so: it walks each day's `stops` in order, one drive per
+stop, and Day 5 (Zion shuttle) and Day 10 (back to Balanced Rock for dinner) have their
+drive destinations spelled out in `DRIVE_TO` at the top of the script.
+
 ### Packing
 
 `packing` is a list of `{ group, items }`. Add a group by adding an object; the count in
