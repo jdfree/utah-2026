@@ -131,6 +131,15 @@ python3 -c "import json;d=json.load(open('data/itinerary.json'));[print(i['guide
   | sort -u | xargs -P4 -I{} curl -sS -o /dev/null -w '%{http_code} {}\n' -L --max-time 20 -A 'Mozilla/5.0' {}
 ```
 
+### Costs
+
+An attraction may carry a `fee` — what it costs to get in, and whether Mom's Senior Pass
+covers it. It renders as a **Cost** line under the description. Put it on the first stop
+where you would pay; later stops inside the same park say "Same Zion pass" rather than
+repeating the price. State parks, the Navajo Nation and the City of Page do not take
+federal passes, so say so on those. Prices change — take them from the operator's own
+fee page, not a travel blog.
+
 ### Packing
 
 `packing` is a list of `{ group, items }`. Add a group by adding an object; the count in

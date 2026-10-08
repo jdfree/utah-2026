@@ -270,6 +270,10 @@ p.muted .ext { opacity: .8; }
   color: var(--rust);
   font-variant-numeric: tabular-nums;
 }
+/* What it costs to get in, and whether Mom's Senior Pass covers it */
+.item .fee { margin-top: 6px; font-size: 13px; color: var(--ink-soft); }
+.item .fee b { color: var(--sage); margin-right: 4px; }
+
 .legflag { margin-top: 6px !important; color: #8a5a2b !important; font-size: 13px !important; }
 
 .stars { float: right; font-size: 12px; color: var(--ink-soft); margin-left: 12px; white-space: nowrap; }

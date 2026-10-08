@@ -149,6 +149,7 @@ function itemRow(i) {
     i.optional ? '<span class="opttag">Optional — decide as a group</span>' : ''}</p>
   <h4>${guideLink(i)}${i.mom ? `<span class="momtag">Mom: ${esc(i.mom)}</span>` : ''}</h4>
   <p>${esc(i.detail)}</p>
+  ${i.fee ? `<p class="fee"><b>Cost</b> ${esc(i.fee)}</p>` : ''}
 </div>`;
 }
 
