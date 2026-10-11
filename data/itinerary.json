@@ -10,7 +10,7 @@
     "milesStated": "~2,175 driving miles",
     "bookingsSheet": "https://docs.google.com/spreadsheets/d/1N2r62ysrne-hRmPgi4nLXrrivAYXYYo6BxRDGzwjusM/edit",
     "bookingsStatusCsv": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQOmsZgWKqTLTGSf-BDju2c32E_ggpEEOnshW78n6pqnsOU0ACctaO_txCwbYMWJDAkEEDtxmyhCP4l/pub?gid=1542015551&single=true&output=csv",
-    "forecastAsOf": "2026-10-08"
+    "forecastAsOf": "2026-10-11"
   },
   "days": [
     {
@@ -46,7 +46,7 @@
           "title": "Depart Fort Collins",
           "detail": "Load the car the night before. Long day, but it ends with a national park in it rather than just mileage.",
           "wx": {
-            "temp": 63,
+            "temp": 53,
             "cond": "clear"
           }
         },
@@ -55,7 +55,7 @@
           "title": "Drive to Fairplay",
           "detail": "I-25 south, around Denver on C-470, then US-285 over Kenosha Pass (10,001 ft) into South Park — a treeless basin the size of a county.",
           "wx": {
-            "temp": 47,
+            "temp": 42,
             "cond": "clear"
           },
           "kind": "drive",
@@ -67,7 +67,7 @@
           "title": "Fairplay — first real break",
           "detail": "A 19th-century mining town at 9,950 ft. Gas, coffee and a proper stretch before the next stretch of mountains.",
           "wx": {
-            "temp": 47,
+            "temp": 42,
             "cond": "clear"
           },
           "dwell": "30 min"
@@ -77,7 +77,7 @@
           "title": "Drive to Gunnison over Monarch Pass",
           "detail": "US-285 over Trout Creek Pass, down the Arkansas headwaters past Salida, then US-50 crosses the Continental Divide at Monarch Pass (11,312 ft).",
           "wx": {
-            "temp": 62,
+            "temp": 55,
             "cond": "clear"
           },
           "kind": "drive",
@@ -89,7 +89,7 @@
           "title": "Lunch in Gunnison",
           "detail": "A college town on the Gunnison River and the last substantial place to eat before the canyon. Fuel up here too.",
           "wx": {
-            "temp": 62,
+            "temp": 55,
             "cond": "clear"
           },
           "kind": "meal",
@@ -100,8 +100,8 @@
           "title": "Drive to Black Canyon — South Rim",
           "detail": "US-50 west through the Curecanti reservoirs, then CO-347 climbs six miles to the rim. Directly on the way now that you sleep in Montrose.",
           "wx": {
-            "temp": 69,
-            "cond": "clear"
+            "temp": 66,
+            "cond": "mostly clear"
           },
           "kind": "drive",
           "dist": "69 mi",
@@ -112,8 +112,8 @@
           "title": "Black Canyon of the Gunnison — South Rim",
           "detail": "A gorge so narrow and so deep that parts of the floor get half an hour of sunlight a day. Drive the South Rim Road and stop at Gunnison Point, Chasm View, Painted Wall (the tallest cliff in Colorado at 2,250 ft) and Sunset View. All short paved walks from the car park.",
           "wx": {
-            "temp": 69,
-            "cond": "clear"
+            "temp": 66,
+            "cond": "mostly clear"
           },
           "fee": "$30 per vehicle, good for 7 days. Mom's Senior Pass covers the whole car.",
           "dwell": "1 hr 45 min",
@@ -127,8 +127,8 @@
           "title": "Drive to Montrose",
           "detail": "Back down CO-347 and a few miles west. Twenty miles — the shortest end-of-day drive on the whole trip.",
           "wx": {
-            "temp": 73,
-            "cond": "clear"
+            "temp": 66,
+            "cond": "cloudy"
           },
           "kind": "drive",
           "dist": "20 mi",
@@ -139,8 +139,8 @@
           "title": "Arrive Montrose — check in",
           "detail": "1700 American Way. Check-in from 3:00 PM, so you are well inside it. Two bedrooms, one bath, a grill in the yard. The host asks for shoes off at the door.",
           "wx": {
-            "temp": 73,
-            "cond": "clear"
+            "temp": 66,
+            "cond": "cloudy"
           },
           "dwell": "1 hr 5 min"
         },
@@ -149,8 +149,8 @@
           "title": "Dinner in Montrose",
           "detail": "A real town with real supermarkets — the last easy shopping until St George. Stock the cooler tonight.",
           "wx": {
-            "temp": 66,
-            "cond": "clear"
+            "temp": 63,
+            "cond": "mostly clear"
           },
           "kind": "meal",
           "dwell": "1 hr 30 min"
@@ -236,9 +236,9 @@
           "title": "Check out of Montrose",
           "detail": "Check-out is 11:00, so there is no rush, but the Million Dollar Highway is better early with the light behind you.",
           "wx": {
-            "temp": 56,
+            "temp": 52,
             "cond": "cloudy",
-            "pop": 32
+            "pop": 36
           },
           "dwell": "—"
         },
@@ -247,9 +247,8 @@
           "title": "Drive south to Ouray",
           "detail": "US-550 down the Uncompahgre valley. The San Juans build in the windscreen the whole way and Ouray appears suddenly, wedged into its box canyon.",
           "wx": {
-            "temp": 53,
-            "cond": "mostly clear",
-            "pop": 33
+            "temp": 47,
+            "cond": "heavy rain"
           },
           "kind": "drive",
           "dist": "36 mi",
@@ -260,9 +259,8 @@
           "title": "Drive the Million Dollar Highway south",
           "detail": "US-550 out of Ouray on a shelf blasted into the wall of the Uncompahgre Gorge — no guardrail, a sheer drop off the passenger side, and Bear Creek Falls dropping under the road at mile 2.",
           "wx": {
-            "temp": 36,
-            "cond": "mostly clear",
-            "pop": 40
+            "temp": 34,
+            "cond": "heavy snow"
           },
           "kind": "drive",
           "dist": "13 mi",
@@ -277,9 +275,8 @@
           "title": "Red Mountain Pass and the Ironton overlooks",
           "detail": "Turn around at the pass (11,018 ft). The Red Mountain mining district on the way up is rust-orange rock with wooden headframes still standing in the trees. Silverton beyond it is another 45 minutes each way and the good part ends here.",
           "wx": {
-            "temp": 36,
-            "cond": "mostly clear",
-            "pop": 40
+            "temp": 34,
+            "cond": "heavy snow"
           },
           "fee": "Free.",
           "dwell": "45 min",
@@ -291,9 +288,8 @@
           "title": "Drive back down to Ouray",
           "detail": "The same shelf road northbound, which is the better direction for the gorge — the drop is now on the driver’s side and the town appears below you.",
           "wx": {
-            "temp": 60,
-            "cond": "mostly clear",
-            "pop": 33
+            "temp": 53,
+            "cond": "light rain"
           },
           "kind": "drive",
           "dist": "13 mi",
@@ -304,9 +300,8 @@
           "title": "Box Cañon Falls, Ouray",
           "detail": "A 285-foot waterfall roaring inside a limestone slot barely wider than your shoulders, reached by a steel walkway bolted to the canyon wall. About ten minutes of walking. Roughly $8 adult, $7 senior, $6 for ages 4–17.",
           "wx": {
-            "temp": 60,
-            "cond": "mostly clear",
-            "pop": 33
+            "temp": 53,
+            "cond": "light rain"
           },
           "fee": "Paid at the gate: $8 ages 18–61, $7 ages 62–74, $6 ages 4–17, free for 3 and under and 75+. No park pass applies.",
           "dwell": "45 min",
@@ -319,9 +314,9 @@
           "title": "Drive to Telluride",
           "detail": "North to Ridgway, then west and south up the San Miguel valley. Gentler than the morning — no cliff edges — and the aspens should still be turning.",
           "wx": {
-            "temp": 53,
-            "cond": "partly cloudy",
-            "pop": 39
+            "temp": 46,
+            "cond": "clear",
+            "pop": 66
           },
           "kind": "drive",
           "dist": "50 mi",
@@ -332,9 +327,9 @@
           "title": "Lunch in Telluride",
           "detail": "The main street runs straight at a wall of mountains with Bridal Veil Falls at the end of it. You are parked for the afternoon.",
           "wx": {
-            "temp": 53,
-            "cond": "partly cloudy",
-            "pop": 39
+            "temp": 46,
+            "cond": "clear",
+            "pop": 66
           },
           "kind": "meal",
           "dwell": "1 hr"
@@ -344,9 +339,8 @@
           "title": "Telluride and the free gondola",
           "detail": "A free gondola climbs 1,750 ft over the ridge to Mountain Village and back, running 6:30 AM to midnight through Oct 25. Fifteen minutes each way and a stroller rolls straight on.",
           "wx": {
-            "temp": 55,
-            "cond": "mostly clear",
-            "pop": 41
+            "temp": 45,
+            "cond": "light drizzle"
           },
           "fee": "Free.",
           "dwell": "1 hr 15 min",
@@ -359,8 +353,9 @@
           "title": "Drive to Dolores",
           "detail": "CO-145 south over Lizard Head Pass, then down the Dolores River. The house is on the county grid south-west of town, twenty minutes closer to Mesa Verde than Dolores itself.",
           "wx": {
-            "temp": 57,
-            "cond": "drizzle"
+            "temp": 52,
+            "cond": "partly cloudy",
+            "pop": 86
           },
           "kind": "drive",
           "dist": "70 mi",
@@ -371,8 +366,9 @@
           "title": "Arrive Dolores — check in",
           "detail": "27660 Road P. Check-in from 4:00 PM. The hosts live on site and will meet you.",
           "wx": {
-            "temp": 57,
-            "cond": "drizzle"
+            "temp": 52,
+            "cond": "partly cloudy",
+            "pop": 86
           },
           "dwell": "1 hr 5 min"
         },
@@ -382,7 +378,7 @@
           "detail": "A small town on the river with a couple of good options. Cortez is fifteen minutes south if you want more choice.",
           "wx": {
             "temp": 49,
-            "cond": "drizzle"
+            "cond": "light drizzle"
           },
           "kind": "meal",
           "dwell": "1 hr 30 min"
@@ -468,8 +464,7 @@
           "detail": "Breakfast at the suite, away by 7:50. Today has one long transit leg in the middle of it.",
           "wx": {
             "temp": 40,
-            "cond": "cloudy",
-            "pop": 44
+            "cond": "drizzle"
           }
         },
         {
@@ -477,9 +472,8 @@
           "title": "Drive to Mesa Verde — Chapin Mesa",
           "detail": "County roads to US-160, then the long climb up the mesa. Being out on Road P rather than in Dolores town saves twenty minutes of this.",
           "wx": {
-            "temp": 41,
-            "cond": "cloudy",
-            "pop": 38
+            "temp": 42,
+            "cond": "drizzle"
           },
           "kind": "drive",
           "dist": "32 mi",
@@ -490,9 +484,8 @@
           "title": "Mesa Verde National Park — Chapin Mesa",
           "detail": "Start at the museum, then the Mesa Top Loop, then the Cliff Palace overlook. Ranger-led cliff dwelling tours are ticketed and sell out — book ahead or view from the rim, which is still remarkable.",
           "wx": {
-            "temp": 41,
-            "cond": "cloudy",
-            "pop": 38
+            "temp": 42,
+            "cond": "drizzle"
           },
           "fee": "$30 per vehicle (the higher rate runs to Oct 22), good for 7 days. Mom's Senior Pass covers the whole car. The Cliff Palace tour is separate: $8 per person aged 3 and up, on recreation.gov.",
           "dwell": "2 hr 45 min",
@@ -505,8 +498,8 @@
           "title": "Drive down off the mesa to Cortez",
           "detail": "The 20-mile park road again in reverse, then ten minutes west.",
           "wx": {
-            "temp": 51,
-            "cond": "partly cloudy"
+            "temp": 52,
+            "cond": "clear"
           },
           "kind": "drive",
           "dist": "31 mi",
@@ -517,8 +510,8 @@
           "title": "Lunch in Cortez",
           "detail": "Back down at the highway. The last proper town for a long while — do the desert shopping here, and fuel up, because services thin out badly once you turn south.",
           "wx": {
-            "temp": 51,
-            "cond": "partly cloudy"
+            "temp": 52,
+            "cond": "clear"
           },
           "kind": "meal",
           "dwell": "45 min"
@@ -528,7 +521,7 @@
           "title": "Drive to Goosenecks",
           "detail": "US-160 west then US-163 south, crossing into Utah. Long, empty, beautiful. Skipping Goosenecks makes this a straight run to Monument Valley: 125 mi, 2 hr 15 min.",
           "wx": {
-            "temp": 59,
+            "temp": 60,
             "cond": "clear"
           },
           "kind": "drive",
@@ -540,7 +533,7 @@
           "title": "Goosenecks State Park",
           "detail": "A thousand-foot overlook onto the San Juan River folded back on itself five times. Twenty minutes at the rail is enough, and there are no guardrails to speak of — hold onto the three-year-old.",
           "wx": {
-            "temp": 59,
+            "temp": 60,
             "cond": "clear"
           },
           "fee": "$5 per vehicle — a Utah state park, so the Senior Pass does not count.",
@@ -555,7 +548,7 @@
           "title": "Drive to the Monument Valley overlook",
           "detail": "UT-261 south to US-163. The Mittens come into view about ten minutes out and it is worth the whole drive.",
           "wx": {
-            "temp": 59,
+            "temp": 57,
             "cond": "clear"
           },
           "kind": "drive",
@@ -567,7 +560,7 @@
           "title": "Wildcat Trail and the Mittens overlook",
           "detail": "The overlook behind the visitor center gives you the postcard — East Mitten, West Mitten and Merrick Butte — for the price of walking to the rim. Sign in at the visitor center if anyone wants to start the 3.2-mile Wildcat loop; there is not time to finish it today.",
           "wx": {
-            "temp": 59,
+            "temp": 57,
             "cond": "clear"
           },
           "fee": "About $10 per person — the Navajo Nation's own page shows both $8 and $10, so bring cash for $10. The extra $15 per vehicle is for the 17-mile loop, which you are not driving. No federal pass is accepted.",
@@ -581,7 +574,7 @@
           "title": "Drive to Kayenta",
           "detail": "South on US-163 with the monuments in the mirror, then west on US-160 into town. Be out through the park gate by 5:00 — that is when it closes.",
           "wx": {
-            "temp": 58,
+            "temp": 56,
             "cond": "clear"
           },
           "kind": "drive",
@@ -593,7 +586,7 @@
           "title": "Navajo Code Talker Exhibit, Kayenta",
           "detail": "A genuine museum of Navajo Code Talker history — uniforms, radios, letters — housed, improbably, inside the Burger King on US-160 as you come into town. Free, twenty minutes, and the best short history stop of the trip. Worth ringing ahead; it has kept irregular hours.",
           "wx": {
-            "temp": 58,
+            "temp": 56,
             "cond": "clear"
           },
           "fee": "Free.",
@@ -605,7 +598,7 @@
           "title": "Arrive Kayenta — check in",
           "detail": "126 Arrowhead Drive. Lockbox entry. Check-in is from 3:00 PM, so arriving now is fine.",
           "wx": {
-            "temp": 58,
+            "temp": 56,
             "cond": "clear"
           },
           "dwell": "30 min"
@@ -615,7 +608,7 @@
           "title": "Dinner in Kayenta",
           "detail": "Amigo Cafe is the local institution — Navajo and Mexican, and it closes earlier than you expect. Blue Coffee Pot is the other one. Kayenta also has the last full supermarket before Page.",
           "wx": {
-            "temp": 58,
+            "temp": 56,
             "cond": "clear"
           },
           "kind": "meal",
@@ -722,7 +715,7 @@
           "title": "Breakfast at the house and load the car",
           "detail": "Sunrise is 7:28. You have a kitchen, and the next food is ninety miles away in Page.",
           "wx": {
-            "temp": 49,
+            "temp": 47,
             "cond": "clear"
           },
           "kind": "meal",
@@ -760,7 +753,7 @@
           "title": "Horseshoe Bend, Page AZ",
           "detail": "The famous meander of the Colorado River — not Lake Powell, which is behind the dam. A 1.5-mile round trip over open sand with no shade, $10 per vehicle, and four miles back south of the dam. Worth it, but it is the piece to drop if the morning is running late.",
           "wx": {
-            "temp": 56,
+            "temp": 55,
             "cond": "clear"
           },
           "fee": "Parking $10 per vehicle, paid to the City of Page. Federal passes are not accepted.",
@@ -801,7 +794,7 @@
           "title": "Drive to Kanab",
           "detail": "US-89 north over the Utah line, along the top of the lake past Big Water and Lone Rock, then up through the Vermilion Cliffs.",
           "wx": {
-            "temp": 58,
+            "temp": 61,
             "cond": "clear"
           },
           "kind": "drive",
@@ -813,7 +806,7 @@
           "title": "Toadstool Hoodoos",
           "detail": "Mushroom-shaped rocks balancing on thin stems, a flat 1.5-mile round trip from an unmarked US-89 pull-off. Free and almost empty.",
           "wx": {
-            "temp": 60,
+            "temp": 62,
             "cond": "clear"
           },
           "fee": "Free.",
@@ -828,7 +821,7 @@
           "title": "Lunch in Kanab",
           "detail": "A proper town with real choice. Shop here too: you have a kitchen for the next four days.",
           "wx": {
-            "temp": 58,
+            "temp": 61,
             "cond": "clear"
           },
           "kind": "meal",
@@ -839,7 +832,7 @@
           "title": "Best Friends Animal Sanctuary, Kanab",
           "detail": "The largest no-kill sanctuary in the country, in a red-rock canyon north of town. Free but must be booked ahead. Adds about 1 hr 30 min.",
           "wx": {
-            "temp": 60,
+            "temp": 63,
             "cond": "clear"
           },
           "fee": "Free, but the tour has to be booked ahead.",
@@ -854,7 +847,7 @@
           "title": "Drive to the Canyon Overlook trailhead",
           "detail": "US-89 north to Mt Carmel Junction, then UT-9 west through the east entrance. The trailhead is immediately at the far end of the Zion–Mount Carmel tunnel, so it is directly on your way in.",
           "wx": {
-            "temp": 61,
+            "temp": 66,
             "cond": "clear"
           },
           "kind": "drive",
@@ -866,7 +859,7 @@
           "title": "Canyon Overlook Trail (1 mi RT, moderate)",
           "detail": "Done today rather than tomorrow, because you drive past the door. A short hike to a magnificent panorama over lower Zion Canyon. Some exposure on one side but well maintained. Parking is very limited — if the pullouts are full, carry on and try again tomorrow morning.",
           "wx": {
-            "temp": 61,
+            "temp": 66,
             "cond": "clear"
           },
           "fee": "Zion entry $35 per vehicle, good for 7 days — it covers today, tomorrow and Kolob on Day 6. Mom's Senior Pass covers the whole car.",
@@ -880,7 +873,7 @@
           "title": "Drive down to the Zion Visitor Center",
           "detail": "Back through the tunnel and down the switchbacks into the canyon.",
           "wx": {
-            "temp": 67,
+            "temp": 72,
             "cond": "clear"
           },
           "kind": "drive",
@@ -892,7 +885,7 @@
           "title": "Pa'rus Trail",
           "detail": "A 1.7-mile paved, flat trail along the Virgin River from the visitor center — the only trail in Zion open to strollers and bicycles. A gentle first look at the canyon walls.",
           "wx": {
-            "temp": 67,
+            "temp": 72,
             "cond": "clear"
           },
           "fee": "Same Zion pass.",
@@ -906,7 +899,7 @@
           "title": "Drive to the Casitas",
           "detail": "UT-9 west out of the canyon, then I-15 south to Washington. The last stretch is easy interstate after a very long day.",
           "wx": {
-            "temp": 70,
+            "temp": 76,
             "cond": "clear"
           },
           "kind": "drive",
@@ -918,7 +911,7 @@
           "title": "Arrive the Casitas — check in",
           "detail": "1902 E Respite Lane. Check-in from 4:00 PM. Four nights here, so unpack properly — this is the only time on the trip you do.",
           "wx": {
-            "temp": 70,
+            "temp": 76,
             "cond": "clear"
           },
           "dwell": "45 min"
@@ -928,7 +921,7 @@
           "title": "Dinner in Washington",
           "detail": "A proper town with real choice. Shop here too: you have a kitchen for the next four days.",
           "wx": {
-            "temp": 70,
+            "temp": 76,
             "cond": "clear"
           },
           "kind": "meal",
@@ -1044,7 +1037,7 @@
           "title": "Drive to the Zion Visitor Center",
           "detail": "UT-9 east from Washington. A later start than the old plan, because Canyon Overlook is already done.",
           "wx": {
-            "temp": 59,
+            "temp": 61,
             "cond": "clear"
           },
           "kind": "drive",
@@ -1056,7 +1049,7 @@
           "title": "Park at the Visitor Center and pick up the shuttle",
           "detail": "The shuttle runs Oct 16 (the Sept 13 – Oct 24 schedule, 7:00 AM to 6:00 PM, every 5–10 minutes), which means private vehicles are not allowed up the Scenic Drive. Strollers must be folded on board. The lot fills mid-morning — if it is full, drop back into Springdale, park there and take the free town shuttle to the pedestrian entrance.",
           "wx": {
-            "temp": 59,
+            "temp": 61,
             "cond": "clear"
           },
           "fee": "Same Zion pass as yesterday. The shuttle is free.",
@@ -1067,7 +1060,7 @@
           "title": "Shuttle to Zion Lodge — stop 5",
           "detail": "Roughly halfway up the canyon. The narration is genuinely good.",
           "wx": {
-            "temp": 60,
+            "temp": 62,
             "cond": "clear"
           },
           "kind": "drive",
@@ -1079,7 +1072,7 @@
           "title": "Lower Emerald Pools",
           "detail": "1.2 miles, paved and flat: a wide trail to a pool beneath a dripping overhang that showers mist on everyone below. The reliable option and the one to build the day around.",
           "wx": {
-            "temp": 60,
+            "temp": 62,
             "cond": "clear"
           },
           "dwell": "1 hr 30 min",
@@ -1092,7 +1085,7 @@
           "title": "The Zion Lodge lawn",
           "detail": "Shade, grass and somewhere to put a baby down before lunch. The only patch of it in the canyon.",
           "wx": {
-            "temp": 63,
+            "temp": 65,
             "cond": "clear"
           },
           "dwell": "45 min"
@@ -1102,7 +1095,7 @@
           "title": "Lunch at the Zion Lodge café",
           "detail": "Right at shuttle stop 5. The only food inside the canyon — anywhere else means riding back out.",
           "wx": {
-            "temp": 66,
+            "temp": 67,
             "cond": "clear"
           },
           "kind": "meal",
@@ -1113,7 +1106,7 @@
           "title": "Shuttle to Weeping Rock — stop 7",
           "detail": "Two stops up the canyon.",
           "wx": {
-            "temp": 63,
+            "temp": 67,
             "cond": "clear"
           },
           "kind": "drive",
@@ -1125,7 +1118,7 @@
           "title": "Weeping Rock — check status first",
           "detail": "0.4 miles, very easy: a spring seeps through the canyon wall into a hanging garden with a gentle waterfall. The area took a large rockfall in 2019 and the trails above remain on long-term closure; the short trail has reopened and closed repeatedly since. Check the morning of — if it is shut, ride on to the Temple of Sinawava.",
           "wx": {
-            "temp": 63,
+            "temp": 67,
             "cond": "clear"
           },
           "dwell": "1 hr",
@@ -1138,8 +1131,8 @@
           "title": "Shuttle to the Temple of Sinawava — last stop",
           "detail": "The end of the line, past Big Bend and the Court of the Patriarchs.",
           "wx": {
-            "temp": 66,
-            "cond": "partly cloudy"
+            "temp": 70,
+            "cond": "clear"
           },
           "kind": "drive",
           "dist": "—",
@@ -1150,8 +1143,8 @@
           "title": "Riverside Walk and the Temple of Sinawava",
           "detail": "The version of the Scenic Drive you actually get in October, narrated, with no parking to fight over. The Riverside Walk is 2.2 miles paved and stroller-friendly if there is energy left.",
           "wx": {
-            "temp": 66,
-            "cond": "partly cloudy"
+            "temp": 70,
+            "cond": "clear"
           },
           "dwell": "1 hr 45 min",
           "gp": 5,
@@ -1164,7 +1157,7 @@
           "detail": "The full run back down the canyon. Allow the full 40 minutes — it stops everywhere.",
           "wx": {
             "temp": 70,
-            "cond": "cloudy"
+            "cond": "clear"
           },
           "kind": "drive",
           "dist": "—",
@@ -1175,8 +1168,8 @@
           "title": "Drive back to the Casitas",
           "detail": "UT-9 west and I-15 south. The pool is heated year-round if anyone still has legs.",
           "wx": {
-            "temp": 73,
-            "cond": "partly cloudy"
+            "temp": 75,
+            "cond": "clear"
           },
           "kind": "drive",
           "dist": "37 mi",
@@ -1187,8 +1180,8 @@
           "title": "Dinner in Washington",
           "detail": "Back at the house by 5:45. Cook, or take your pick in town.",
           "wx": {
-            "temp": 73,
-            "cond": "partly cloudy"
+            "temp": 75,
+            "cond": "clear"
           },
           "kind": "meal",
           "dwell": "1 hr 30 min"
@@ -1264,8 +1257,8 @@
           "title": "Drive to Kolob Canyons",
           "detail": "I-15 north to exit 40. Kolob has its own entrance off the interstate — it is not connected to Zion Canyon by road. No packing up this morning; you are here three more nights.",
           "wx": {
-            "temp": 48,
-            "cond": "rain showers"
+            "temp": 53,
+            "cond": "clear"
           },
           "kind": "drive",
           "dist": "30 mi",
@@ -1276,8 +1269,8 @@
           "title": "Kolob Canyons — Zion's other half",
           "detail": "A five-mile scenic drive into blood-red finger canyons that most Zion visitors never see. Your Zion pass covers it. Almost no crowds, and the payoff-per-minute is the best in the park. The visitor centre at the entrance closes 12:00–1:00 for lunch, so use the restrooms on the way in.",
           "wx": {
-            "temp": 48,
-            "cond": "rain showers"
+            "temp": 53,
+            "cond": "clear"
           },
           "fee": "Same Zion pass — still inside its 7 days.",
           "dwell": "1 hr 30 min",
@@ -1290,8 +1283,8 @@
           "title": "Picnic lunch at the Kolob Canyons Viewpoint",
           "detail": "Tables at the end of the drive looking straight into the canyons. Make it at the house before you leave — there is no food at Kolob at all.",
           "wx": {
-            "temp": 50,
-            "cond": "rain showers"
+            "temp": 60,
+            "cond": "clear"
           },
           "kind": "meal",
           "dwell": "45 min"
@@ -1301,8 +1294,8 @@
           "title": "Drive to Snow Canyon",
           "detail": "I-15 south past St George, then up and over into the Red Cliffs.",
           "wx": {
-            "temp": 58,
-            "cond": "heavy drizzle"
+            "temp": 72,
+            "cond": "clear"
           },
           "kind": "drive",
           "dist": "46 mi",
@@ -1313,8 +1306,8 @@
           "title": "Snow Canyon State Park",
           "detail": "Petrified sand dunes the kids can scramble on, black lava tubes, and Jenny's Canyon — a 0.5-mile round trip into a slot barely wider than your shoulders. Ten degrees warmer than Zion and far less busy.",
           "wx": {
-            "temp": 58,
-            "cond": "heavy drizzle"
+            "temp": 72,
+            "cond": "clear"
           },
           "fee": "$20 per vehicle for non-Utah residents — a Utah state park, so the Senior Pass does not count.",
           "dwell": "2 hr 45 min",
@@ -1327,8 +1320,8 @@
           "title": "Drive back to the Casitas",
           "detail": "Twenty-five minutes east. No check-in, no unpacking.",
           "wx": {
-            "temp": 63,
-            "cond": "drizzle"
+            "temp": 76,
+            "cond": "clear"
           },
           "kind": "drive",
           "dist": "19 mi",
@@ -1339,8 +1332,8 @@
           "title": "The pool and the hot tub",
           "detail": "Both heated year-round and five minutes on foot. Towels are provided.",
           "wx": {
-            "temp": 63,
-            "cond": "drizzle"
+            "temp": 76,
+            "cond": "clear"
           },
           "dwell": "1 hr 30 min"
         },
@@ -1349,8 +1342,8 @@
           "title": "Dinner in Washington",
           "detail": "Cook, or walk out. Sunset is 6:50.",
           "wx": {
-            "temp": 63,
-            "cond": "drizzle"
+            "temp": 75,
+            "cond": "clear"
           },
           "kind": "meal",
           "dwell": "1 hr 30 min"
@@ -1430,7 +1423,7 @@
           "title": "Drive to Redemption Lutheran Church",
           "detail": "Ten minutes down I-15. The shortest drive to anything on the whole trip.",
           "wx": {
-            "temp": 61,
+            "temp": 65,
             "cond": "clear"
           },
           "kind": "drive",
@@ -1442,7 +1435,7 @@
           "title": "Worship at Redemption Lutheran Church",
           "detail": "An old friend is the pastor here. Arrive a few minutes early to say hello before the service rather than after.",
           "wx": {
-            "temp": 61,
+            "temp": 65,
             "cond": "clear"
           },
           "dwell": "1 hr 15 min",
@@ -1454,7 +1447,7 @@
           "title": "Lunch with the Raasch family",
           "detail": "The reason today exists. Give it the whole middle of the day and do not schedule against it.",
           "wx": {
-            "temp": 66,
+            "temp": 70,
             "cond": "clear"
           },
           "kind": "meal",
@@ -1467,8 +1460,8 @@
           "title": "Drive back to the house",
           "detail": "Ten minutes.",
           "wx": {
-            "temp": 71,
-            "cond": "mostly clear"
+            "temp": 75,
+            "cond": "clear"
           },
           "kind": "drive",
           "dist": "8 mi",
@@ -1479,8 +1472,8 @@
           "title": "The pool, the hot tub, and nothing",
           "detail": "The one genuinely unstructured block on the calendar. Laundry, naps, a heated pool five minutes away. Days 8 to 12 are relentless and this afternoon is what makes them survivable.",
           "wx": {
-            "temp": 71,
-            "cond": "mostly clear"
+            "temp": 75,
+            "cond": "clear"
           },
           "dwell": "4 hr 20 min",
           "gp": 5,
@@ -1491,7 +1484,7 @@
           "title": "Pioneer Park, St. George",
           "detail": "Only if anyone still has energy — the point of today is that nobody has to. Red sandstone boulders, slots and arches to scramble through, fifteen minutes away and free.",
           "wx": {
-            "temp": 72,
+            "temp": 76,
             "cond": "clear"
           },
           "fee": "Free.",
@@ -1506,7 +1499,7 @@
           "title": "Dinner — last warm night of the trip",
           "detail": "About 70°F today. From tomorrow you are at 8,000 ft and it will not be warm again.",
           "wx": {
-            "temp": 68,
+            "temp": 76,
             "cond": "clear"
           },
           "kind": "meal",
@@ -1592,7 +1585,7 @@
           "title": "Check out of the Casitas",
           "detail": "Check-out is 11:00, so this is unhurried. Pack the warm layers where you can reach them — you gain 6,000 feet today.",
           "wx": {
-            "temp": 59,
+            "temp": 66,
             "cond": "clear"
           },
           "dwell": "15 min"
@@ -1602,7 +1595,7 @@
           "title": "Drive to Cedar Breaks",
           "detail": "I-15 north to Cedar City, then UT-14 climbs hard to 10,000 ft — 6,000 feet of gain in seventy miles.",
           "wx": {
-            "temp": 44,
+            "temp": 48,
             "cond": "clear"
           },
           "kind": "drive",
@@ -1614,7 +1607,7 @@
           "title": "Cedar Breaks National Monument",
           "detail": "A half-mile-deep amphitheatre of orange and white rock at 10,350 ft — like Bryce but emptier and a thousand feet higher. Genuinely cold in late October and the rim road can close on early snow; check nps.gov/cebr before committing to the climb.",
           "wx": {
-            "temp": 44,
+            "temp": 48,
             "cond": "clear"
           },
           "fee": "$25 per vehicle. Mom's Senior Pass covers the whole car.",
@@ -1629,7 +1622,7 @@
           "title": "Drive to Panguitch",
           "detail": "Down off the plateau on UT-143 and UT-89. Steep grades and cattle on the road.",
           "wx": {
-            "temp": 54,
+            "temp": 62,
             "cond": "clear"
           },
           "kind": "drive",
@@ -1641,7 +1634,7 @@
           "title": "Lunch in Panguitch",
           "detail": "A 19th-century brick main street and the last real town before Bryce. Also the last reasonably priced petrol — and the last supermarket before Torrey, which has none at all.",
           "wx": {
-            "temp": 54,
+            "temp": 62,
             "cond": "clear"
           },
           "kind": "meal",
@@ -1652,7 +1645,7 @@
           "title": "Drive to Red Canyon",
           "detail": "UT-12 east. The highway runs through two arches cut in the red rock — you drive straight through them.",
           "wx": {
-            "temp": 54,
+            "temp": 61,
             "cond": "clear"
           },
           "kind": "drive",
@@ -1664,7 +1657,7 @@
           "title": "Red Canyon (Dixie NF)",
           "detail": "Bryce-orange hoodoos right beside the highway, with a visitor center and a flat paved path. Free, uncrowded, and a good warm-up for tomorrow.",
           "wx": {
-            "temp": 54,
+            "temp": 61,
             "cond": "clear"
           },
           "fee": "Free.",
@@ -1678,7 +1671,7 @@
           "title": "Drive to Mossy Cave",
           "detail": "UT-12 east then a short run down UT-63.",
           "wx": {
-            "temp": 57,
+            "temp": 62,
             "cond": "clear"
           },
           "kind": "drive",
@@ -1690,7 +1683,7 @@
           "title": "Mossy Cave Trail",
           "detail": "A 0.8-mile round trip to a small waterfall and a dripping mossy grotto — inside Bryce Canyon but outside the main amphitheatre, with its own trailhead and no shuttle. The waterfall is the bit she will remember.",
           "wx": {
-            "temp": 57,
+            "temp": 62,
             "cond": "clear"
           },
           "fee": "Part of Bryce Canyon, but there is no booth on this side — and the Senior Pass covers Bryce regardless.",
@@ -1704,7 +1697,7 @@
           "title": "Drive to Cannonville",
           "detail": "Nine miles south on UT-12 through Tropic. The house is across the road from the LDS church, two blocks south of the Sinclair.",
           "wx": {
-            "temp": 61,
+            "temp": 67,
             "cond": "clear"
           },
           "kind": "drive",
@@ -1716,7 +1709,7 @@
           "title": "Arrive Cannonville — check in",
           "detail": "115 S Kodachrome Rd. Check-in from 3:00 PM, keypad entry. One night.",
           "wx": {
-            "temp": 61,
+            "temp": 67,
             "cond": "clear"
           },
           "dwell": "1 hr 20 min"
@@ -1726,7 +1719,7 @@
           "title": "Dinner",
           "detail": "Cannonville has no restaurants. Either cook — you have a kitchen and shopped in Panguitch — or drive five minutes to Tropic.",
           "wx": {
-            "temp": 61,
+            "temp": 66,
             "cond": "clear"
           },
           "kind": "meal",
@@ -1737,7 +1730,7 @@
           "title": "Drive to Sunset Point",
           "detail": "Half an hour up UT-12 and UT-63 to the rim. Cannonville is a real town, not a park-gate strip, and this is what that costs.",
           "wx": {
-            "temp": 49,
+            "temp": 52,
             "cond": "clear"
           },
           "kind": "drive",
@@ -1749,7 +1742,7 @@
           "title": "Sunset Point for the sunset",
           "detail": "Sunset is 6:44. The hoodoos light from the side. Bring every layer you own — it drops below freezing fast once the sun is off the rim.",
           "wx": {
-            "temp": 49,
+            "temp": 52,
             "cond": "clear"
           },
           "fee": "Bryce entry $35 per vehicle, good for 7 days — it covers tomorrow's sunrise too. Mom's Senior Pass covers the whole car.",
@@ -1763,7 +1756,7 @@
           "title": "Drive back to Cannonville",
           "detail": "Half an hour down UT-12 in the dark. Deer on the road.",
           "wx": {
-            "temp": 56,
+            "temp": 58,
             "cond": "clear"
           },
           "kind": "drive",
@@ -1869,7 +1862,7 @@
           "title": "Load the car and check out",
           "detail": "Everything packed last night. Keypad entry means there is no handover, and you are not coming back to the house — the road to Kodachrome runs on past it.",
           "wx": {
-            "temp": 46,
+            "temp": 49,
             "cond": "clear"
           },
           "dwell": "15 min"
@@ -1879,7 +1872,7 @@
           "title": "Drive up to Sunrise Point",
           "detail": "Half an hour up UT-12 and UT-63 in the dark and the cold. Start the car early and scrape it.",
           "wx": {
-            "temp": 37,
+            "temp": 41,
             "cond": "clear"
           },
           "kind": "drive",
@@ -1891,7 +1884,7 @@
           "title": "Sunrise at Sunrise Point",
           "detail": "Sunrise is 7:47 and the hoodoos catch it first. The single best thirty minutes of the trip, and the reason for the early alarm. Expect low-20s at the rim.",
           "wx": {
-            "temp": 37,
+            "temp": 41,
             "cond": "clear"
           },
           "fee": "Same Bryce pass as last night.",
@@ -1905,7 +1898,7 @@
           "title": "Breakfast at the rim",
           "detail": "Brought from the house — flasks, pastries, and a thermos of something hot. Nothing in the park opens this early.",
           "wx": {
-            "temp": 39,
+            "temp": 43,
             "cond": "clear"
           },
           "kind": "meal",
@@ -1916,7 +1909,7 @@
           "title": "Rim Trail toward Sunset Point (easy, flat)",
           "detail": "Paved and along the edge the whole way. Walk out as far as the light and the legs want, then turn round — the car stays at Sunrise Point. This is the only walking Bryce gets, so take it slowly.",
           "wx": {
-            "temp": 41,
+            "temp": 45,
             "cond": "clear"
           },
           "dwell": "30 min",
@@ -1929,7 +1922,7 @@
           "title": "Drive to Kodachrome Basin",
           "detail": "Back down off the plateau, through Cannonville, and up Kodachrome Road past the house you slept in.",
           "wx": {
-            "temp": 52,
+            "temp": 57,
             "cond": "clear"
           },
           "kind": "drive",
@@ -1941,7 +1934,7 @@
           "title": "Kodachrome Basin State Park",
           "detail": "Sixty-seven sandstone chimneys standing free on the desert floor — nothing else in Utah looks like it. Named by a National Geographic expedition in 1948. The Grand Parade loop is flat and easy.",
           "wx": {
-            "temp": 52,
+            "temp": 57,
             "cond": "clear"
           },
           "fee": "$10 per vehicle — a Utah state park, so the Senior Pass does not count.",
@@ -1955,8 +1948,8 @@
           "title": "Drive Scenic Byway 12 to Boulder",
           "detail": "The famous stretch: Escalante, then the Hogback — a mile of two-lane road on a knife-edge with the ground falling away on both sides. Slow down and enjoy it.",
           "wx": {
-            "temp": 55,
-            "cond": "clear"
+            "temp": 62,
+            "cond": "mostly clear"
           },
           "kind": "drive",
           "dist": "70 mi",
@@ -1970,8 +1963,8 @@
           "title": "Lunch in Boulder",
           "detail": "Burr Trail Grill, which serves lunch and is open Monday to Wednesday. Hell’s Backbone Grill is the famous one but it is dinner-only and shut on Tuesdays, so it is not an option today. Boulder had mail delivered by mule until 1940.",
           "wx": {
-            "temp": 55,
-            "cond": "clear"
+            "temp": 62,
+            "cond": "mostly clear"
           },
           "kind": "meal",
           "dwell": "1 hr"
@@ -1981,7 +1974,7 @@
           "title": "Anasazi State Park Museum, Boulder",
           "detail": "An excavated Ancestral Puebloan village with a full-size replica dwelling you can walk into. Small, indoors, and a good pause in the middle of a long drive.",
           "wx": {
-            "temp": 56,
+            "temp": 63,
             "cond": "clear"
           },
           "fee": "Free for now — admission is waived while the exhibits are renovated (normally $8 a person, $20 a family). The gallery, gift shop and archaeological site are open.",
@@ -1995,8 +1988,8 @@
           "title": "Drive to Capitol Reef",
           "detail": "Over Boulder Mountain at 9,600 ft, through aspen already turned, then down to the Fremont River.",
           "wx": {
-            "temp": 61,
-            "cond": "clear"
+            "temp": 71,
+            "cond": "partly cloudy"
           },
           "kind": "drive",
           "dist": "47 mi",
@@ -2007,8 +2000,8 @@
           "title": "Gifford Homestead — the pie",
           "detail": "The homestead sells small fruit pies baked that morning. They sell out. Buy them before you walk anywhere else in Fruita, and buy more than you think you need.",
           "wx": {
-            "temp": 61,
-            "cond": "clear"
+            "temp": 71,
+            "cond": "partly cloudy"
           },
           "fee": "Free to visit; you pay only for the pie.",
           "dwell": "45 min",
@@ -2022,8 +2015,8 @@
           "title": "Capitol Reef — Fruita district",
           "detail": "A green Mormon orchard settlement wedged between red cliffs, with a one-room schoolhouse and deer everywhere at dusk. Utterly unlike anywhere else on the trip.",
           "wx": {
-            "temp": 61,
-            "cond": "clear"
+            "temp": 70,
+            "cond": "partly cloudy"
           },
           "fee": "$20 per vehicle. Mom's Senior Pass covers the whole car.",
           "dwell": "45 min",
@@ -2036,7 +2029,7 @@
           "title": "Drive to Torrey",
           "detail": "Fifteen minutes west on UT-24 into town.",
           "wx": {
-            "temp": 56,
+            "temp": 61,
             "cond": "clear"
           },
           "kind": "drive",
@@ -2048,7 +2041,7 @@
           "title": "Arrive Torrey — check in",
           "detail": "125 East Main Street, right on the main road through town. Check-in from 3:00 PM.",
           "wx": {
-            "temp": 56,
+            "temp": 61,
             "cond": "clear"
           },
           "dwell": "20 min"
@@ -2058,7 +2051,7 @@
           "title": "Dinner in Torrey",
           "detail": "The Rim Rock Restaurant, booked ahead — on a Tuesday this late in October it is close to the only kitchen open, and Torrey has no grocery store. Sunset is 6:36.",
           "wx": {
-            "temp": 54,
+            "temp": 59,
             "cond": "clear"
           },
           "kind": "meal",
@@ -2178,7 +2171,7 @@
           "title": "Drive to Goblin Valley",
           "detail": "UT-24 east across the San Rafael Swell — empty, strange country the whole way.",
           "wx": {
-            "temp": 55,
+            "temp": 54,
             "cond": "clear"
           },
           "kind": "drive",
@@ -2190,7 +2183,7 @@
           "title": "Goblin Valley State Park",
           "detail": "A valley floor covered in thousands of squat mushroom-shaped hoodoos, and the rarest thing in any park: you are allowed to leave the trail and let children loose to climb on them. This is the best ninety minutes of the trip for a three-year-old.",
           "wx": {
-            "temp": 55,
+            "temp": 54,
             "cond": "clear"
           },
           "fee": "$20 per vehicle — a Utah state park, so the Senior Pass does not count.",
@@ -2204,7 +2197,7 @@
           "title": "Little Wild Horse Canyon",
           "detail": "A genuine slot canyon fifteen minutes from Goblin Valley, narrow enough to touch both walls. The full loop is eight miles, but the good part starts immediately and an hour in and out is worthwhile. Realistically it costs 2 hr 30 min with the drive — which comes straight out of the Arches afternoon. Never enter if there is any chance of rain.",
           "wx": {
-            "temp": 59,
+            "temp": 57,
             "cond": "clear"
           },
           "fee": "Free — BLM land.",
@@ -2219,7 +2212,7 @@
           "title": "Drive to Green River",
           "detail": "North out of Goblin Valley to I-70.",
           "wx": {
-            "temp": 63,
+            "temp": 62,
             "cond": "clear"
           },
           "kind": "drive",
@@ -2231,7 +2224,7 @@
           "title": "Lunch in Green River",
           "detail": "A highway town on the river, and the only real food between Goblin Valley and Moab. Fuel up here.",
           "wx": {
-            "temp": 63,
+            "temp": 62,
             "cond": "clear"
           },
           "kind": "meal",
@@ -2242,7 +2235,7 @@
           "title": "Canyonlands NP — Island in the Sky",
           "detail": "Mesa Arch framing the canyon, and Grand View Point looking two thousand feet down into the Green River gorge. Genuinely world-class — and it is an hour and a quarter out from Green River plus two hours there plus an hour back to Arches. That is the whole Arches afternoon. This is the fork in the road: take Canyonlands instead of Arches, not as well as it.",
           "wx": {
-            "temp": 65,
+            "temp": 64,
             "cond": "clear"
           },
           "fee": "$30 per vehicle, card only at the booth. Mom's Senior Pass covers the whole car.",
@@ -2257,7 +2250,7 @@
           "title": "Dead Horse Point State Park",
           "detail": "A 2,000-foot overlook onto a gooseneck of the Colorado, on the same spur road out to Canyonlands. Only worth it if you have already chosen that road — on its own it is a 1 hr 40 min detour for a single view.",
           "wx": {
-            "temp": 60,
+            "temp": 62,
             "cond": "clear"
           },
           "fee": "$20 per vehicle — a Utah state park, so the Senior Pass does not count.",
@@ -2272,7 +2265,7 @@
           "title": "Drive to Arches — Park Avenue",
           "detail": "I-70 east then US-191 south. The park entrance is five miles north of Moab and Park Avenue is the first stop inside it.",
           "wx": {
-            "temp": 65,
+            "temp": 67,
             "cond": "clear"
           },
           "kind": "drive",
@@ -2284,7 +2277,7 @@
           "title": "Arches — Park Avenue and Courthouse Towers",
           "detail": "Start at the bottom of the park and work up. Park Avenue is a canyon of vertical sandstone slabs standing in rows like buildings; the overlook takes five minutes and the trail down into it is a flat mile if you want it.",
           "wx": {
-            "temp": 65,
+            "temp": 67,
             "cond": "clear"
           },
           "fee": "$30 per vehicle, no timed-entry reservation in 2026. Mom's Senior Pass covers the whole car.",
@@ -2295,7 +2288,7 @@
           "title": "Drive up to Balanced Rock",
           "detail": "The park road climbs past the Petrified Dunes with the La Sal Mountains behind them.",
           "wx": {
-            "temp": 66,
+            "temp": 68,
             "cond": "clear"
           },
           "kind": "drive",
@@ -2307,7 +2300,7 @@
           "title": "Balanced Rock and the Windows section",
           "detail": "A 3,600-ton boulder on a slender pedestal, then the Windows: North and South Window and Turret Arch, all reached by short flat gravel paths from one car park. The highest density of arches in the park and the easiest walking — this is the heart of the visit.",
           "wx": {
-            "temp": 66,
+            "temp": 68,
             "cond": "clear"
           },
           "dwell": "2 hr",
@@ -2320,7 +2313,7 @@
           "title": "Drive to the Delicate Arch viewpoint",
           "detail": "Ten minutes north, then a short spur east.",
           "wx": {
-            "temp": 67,
+            "temp": 70,
             "cond": "clear"
           },
           "kind": "drive",
@@ -2332,7 +2325,7 @@
           "title": "Delicate Arch viewpoint",
           "detail": "The famous one. The hike to stand under it is 3 miles round trip up open slickrock with no shade and a sheer drop at the end — not with a three-year-old and a newborn. The lower viewpoint is a flat 100 yards from the car park and shows you the arch across the canyon.",
           "wx": {
-            "temp": 67,
+            "temp": 70,
             "cond": "clear"
           },
           "dwell": "45 min"
@@ -2342,7 +2335,7 @@
           "title": "Drive back to Balanced Rock",
           "detail": "Ten minutes back down the park road.",
           "wx": {
-            "temp": 64,
+            "temp": 67,
             "cond": "clear"
           },
           "kind": "drive",
@@ -2354,7 +2347,7 @@
           "title": "Picnic dinner at the Balanced Rock picnic area",
           "detail": "There are tables here with the rock right above you. Eating in the park rather than driving back to Moab is what buys you the golden hour — pick the food up in Green River at lunch and carry it. No water at these tables, so bring your own.",
           "wx": {
-            "temp": 64,
+            "temp": 67,
             "cond": "clear"
           },
           "kind": "meal",
@@ -2365,7 +2358,7 @@
           "title": "Golden hour at the Windows",
           "detail": "Sunset is 6:30. The last half hour of light on the Windows is the best light in the park, and by then almost everyone else has driven out to dinner. Five minutes back down the road from the picnic area.",
           "wx": {
-            "temp": 64,
+            "temp": 67,
             "cond": "clear"
           },
           "dwell": "30 min"
@@ -2375,7 +2368,7 @@
           "title": "Drive to the Moab town home",
           "detail": "Out of Arches in the dark and four miles south-east of town. Google puts it at thirty-five minutes.",
           "wx": {
-            "temp": 62,
+            "temp": 67,
             "cond": "clear"
           },
           "kind": "drive",
@@ -2387,7 +2380,7 @@
           "title": "Arrive at the Moab town home",
           "detail": "3368 E La Camino Dr. Keypad entry, so a 7:20 arrival after the longest day of the trip is fine — the host sends the code before you travel.",
           "wx": {
-            "temp": 62,
+            "temp": 67,
             "cond": "clear"
           },
           "dwell": "—"
@@ -2495,7 +2488,7 @@
           "title": "Depart Moab",
           "detail": "Check-out is 10:00 AM, the earliest of the trip, but you are leaving well before it. Pack the car the night before.",
           "wx": {
-            "temp": 58,
+            "temp": 62,
             "cond": "clear"
           }
         },
@@ -2504,7 +2497,7 @@
           "title": "Leave Moab on UT-128 instead of US-191",
           "detail": "The river road: fifty miles along the Colorado under red cliffs, rejoining I-70 near Cisco. Adds about 45 minutes to a day that is already long, and it is the prettiest road on the trip.",
           "wx": {
-            "temp": 58,
+            "temp": 62,
             "cond": "clear"
           },
           "dwell": "45 min",
@@ -2518,8 +2511,8 @@
           "title": "Drive to Glenwood Springs",
           "detail": "US-191 north to I-70, then east through Grand Junction and up Glenwood Canyon — the canyon stretch is genuinely spectacular from the interstate.",
           "wx": {
-            "temp": 60,
-            "cond": "cloudy"
+            "temp": 62,
+            "cond": "clear"
           },
           "kind": "drive",
           "dist": "206 mi",
@@ -2530,8 +2523,8 @@
           "title": "Lunch in Glenwood Springs",
           "detail": "Downtown, five minutes from the caverns tram. Sit down properly — there is a lot of car left.",
           "wx": {
-            "temp": 60,
-            "cond": "cloudy"
+            "temp": 62,
+            "cond": "clear"
           },
           "kind": "meal",
           "dwell": "1 hr"
@@ -2541,8 +2534,8 @@
           "title": "Glenwood Caverns Adventure Park",
           "detail": "A gondola up the canyon wall to cave tours, a viewing platform over the town and an alpine coaster. The cave tour is the part worth booking. The one stop of the day, so it gets the whole afternoon — buy tram tickets ahead, October hours are reduced.",
           "wx": {
-            "temp": 64,
-            "cond": "partly cloudy"
+            "temp": 66,
+            "cond": "clear"
           },
           "fee": "Gondola & Caves $52.99 a person online, $57.99 at the gate — one cave tour included, King's Row or Fairy, and $10 more for both. Ages 0–2 free, so five tickets. Seniors 65+ get a discount at the window, in person only. No park pass applies.",
           "dwell": "3 hr",
@@ -2557,7 +2550,7 @@
           "detail": "I-70 east over Vail Pass. Weather can turn on this stretch in late October — check CDOT before you leave Glenwood.",
           "wx": {
             "temp": 51,
-            "cond": "clear"
+            "cond": "partly cloudy"
           },
           "kind": "drive",
           "dist": "91 mi",
@@ -2569,7 +2562,7 @@
           "detail": "Two hours from home, which is exactly the right place to stop. Feeding everyone here means the last leg is quiet and dark and nobody is desperate.",
           "wx": {
             "temp": 51,
-            "cond": "clear"
+            "cond": "partly cloudy"
           },
           "kind": "meal",
           "dwell": "1 hr"
@@ -2579,8 +2572,8 @@
           "title": "Drive home to Fort Collins",
           "detail": "I-70 east through the Eisenhower Tunnel, then north. Mostly downhill and mostly asleep.",
           "wx": {
-            "temp": 64,
-            "cond": "clear"
+            "temp": 63,
+            "cond": "light drizzle"
           },
           "kind": "drive",
           "dist": "128 mi",
@@ -2591,8 +2584,8 @@
           "title": "Home in Fort Collins",
           "detail": "Twelve days, five national parks, five state parks, and about 2,100 miles.",
           "wx": {
-            "temp": 64,
-            "cond": "clear"
+            "temp": 63,
+            "cond": "light drizzle"
           },
           "dwell": "—"
         }
