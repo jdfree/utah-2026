@@ -1050,7 +1050,7 @@
         {
           "time": "8:50 AM",
           "title": "Park at the Visitor Center and pick up the shuttle",
-          "detail": "Why the shuttle: from March to late November the Zion Canyon Scenic Drive — the six-mile dead-end road up the canyon floor, where every stop today begins — is closed to private cars. Its trailheads have only a handful of parking spaces between them, and before the shuttle began in 2000 the canyon jammed solid. The only cars allowed up are overnight Zion Lodge guests'. So the car stays here, and the free shuttle does the driving: no ticket, no reservation, a bus every 5 to 10 minutes from 7:00 AM. For this group it is the easy way anyway — no parking hunt at each stop, and everyone watches the walls go by instead of the road. Strollers ride on the bus's front bike rack and you load them yourself; no eating on board, capped water only.",
+          "detail": "Why the shuttle: from March to late November the Zion Canyon Scenic Drive — the six-mile dead-end road up the canyon floor, where every stop today begins — is closed to private cars. Its trailheads have only a handful of parking spaces between them, and before the shuttle began in 2000 the canyon jammed solid. The only cars allowed up are overnight Zion Lodge guests'. So the car stays here, and the free shuttle does the driving: no ticket, no reservation, a bus every 5 to 10 minutes from 7:00 AM. For this group it is the easy way anyway — no parking hunt at each stop, and everyone watches the walls go by instead of the road. No eating on board — capped water only — so lunch waits for a stop.",
           "wx": {
             "temp": 56,
             "cond": "clear"
@@ -1095,8 +1095,8 @@
         },
         {
           "time": "12:00 PM",
-          "title": "Lunch at Zion Lodge",
-          "detail": "The Red Rock Grill in the Lodge serves lunch 11:30 to 4:00 and takes same-day reservations at 435-772-7760 — ring from the house in the morning; for six with a stroller it is worth it. The Castle Dome Café beside it is a counter that runs seasonally and may already be shut for the year. This is the only food in the canyon, so a packed lunch on the lawn is the other good answer — just not on the bus.",
+          "title": "Packed lunch on the Lodge lawn",
+          "detail": "Out of the packs, on the grass where the morning already ends — no reservation, no queue, and no riding anywhere to eat. The Lodge has restrooms. Carry your rubbish out with you.",
           "wx": {
             "temp": 66,
             "cond": "clear"
@@ -1144,7 +1144,7 @@
         {
           "time": "2:30 PM",
           "title": "Riverside Walk and the Temple of Sinawava",
-          "detail": "The Riverside Walk follows the Virgin River upstream to where the Narrows begin — 2.2 miles round trip, paved, flat and fine for a stroller. Turn back whenever the toddler does; the best of it is the first half-mile. The Narrows themselves mean wading in a cold river and are not for today.",
+          "detail": "The Riverside Walk follows the Virgin River upstream to where the Narrows begin — 2.2 miles round trip, paved and flat. Turn back whenever the toddler does; the best of it is the first half-mile. The Narrows themselves mean wading in a cold river and are not for today.",
           "wx": {
             "temp": 70,
             "cond": "clear"
@@ -1194,8 +1194,7 @@
         "Parking decides the morning. The Visitor Center lot usually fills between 8 and 9 AM, so arriving at 8:50 is likely too late. Leave Washington by 7:00 to be sure of a space — the first bus goes at 7:00.",
         "If the lot is full, do not circle. Drive back into Springdale, park (about $25 for the day in the zones nearest the park; pay at the kiosk) and ride the free Springdale shuttle — it starts at 8:00 AM and runs every 10 to 15 minutes — to Zion Canyon Village, then walk across the footbridge. Expect to lose 20 to 30 minutes, not the day.",
         "The Scenic Drive is closed to private cars until late November, which is why the whole day runs on the shuttle and the car sits at the Visitor Center from arrival until 4:55.",
-        "Strollers go on the front bike rack and you load them yourself. No food on the buses — capped water only.",
-        "Ring the Red Rock Grill (435-772-7760) in the morning to book lunch for six."
+        "Make lunch the night before — the morning leaves at 7:00 — and carry it in the packs. No food on the buses, capped water only."
       ],
       "momNotes": [
         {
@@ -3051,7 +3050,6 @@
       "group": "The three-year-old",
       "items": [
         "Carrier for when she runs out of steam, which will happen at the furthest point from the car.",
-        "Stroller for the paved stretches: the Pa'rus Trail, the Bryce Rim Trail, and the short gravel paths at the Arches Windows.",
         "Sand toys for Goblin Valley.",
         "Downloaded shows and audiobooks. There is no signal for most of the driving."
       ]
